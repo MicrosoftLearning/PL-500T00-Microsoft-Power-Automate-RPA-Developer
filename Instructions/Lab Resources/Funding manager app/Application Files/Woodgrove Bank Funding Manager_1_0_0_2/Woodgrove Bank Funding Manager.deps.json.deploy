@@ -1,0 +1,28 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Woodgrove Bank Funding Manager/1.0.0": {
+        "runtime": {
+          "Woodgrove Bank Funding Manager.dll": {}
+        },
+        "resources": {
+          "aa-ER/Woodgrove Bank Funding Manager.resources.dll": {
+            "locale": "aa-ER"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Woodgrove Bank Funding Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
