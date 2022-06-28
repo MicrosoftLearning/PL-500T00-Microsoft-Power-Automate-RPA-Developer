@@ -18,7 +18,7 @@ desktop flows.
 ## Task \#1: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -214,7 +214,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 ## Task \#1: Setup Machine connection
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -258,7 +258,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 ## Task \#2: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -285,7 +285,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 10. Select **Text**.
 
-11. Enter Work. You should now have three input parameters. Click + New
+11. Enter **Work**. You should now have three input parameters. Click + New
     step.
 
 > <img src="./media/image32.png" style="width:4.39266in;height:3.05422in"
@@ -519,7 +519,7 @@ base64(body('HTTP'))
 52. **DO NOT** navigate away from this page.
 
 53. Start a new browser instance and navigate to
-    <https://make.powerapps.com/> and make sure you are in the correct
+    <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
 
 54. Select **Apps** and launch the **Loan Manager** application.
@@ -582,7 +582,7 @@ base64(body('HTTP'))
 ## Task \#1: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -642,7 +642,7 @@ base64(body('HTTP'))
     **RequestedAmount** from the dynamic content pane.
 
 21. Click on the **InspectionJobNumber** field and select
-    **InspectionJobNumber** from the dynamic content pane.
+    **InspectionJobIS** from the dynamic content pane.
 
 22. Type **Yes** for BorrowerApproved.
 
@@ -770,7 +770,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 
 55. Enter **JG7165** for LoanNumber, paste the id you copied in the
     previous exercise for LoanDrawID, enter **80000** for
-    RequestedAmount, enter 123 for InspectionJobID, enter **50** for
+    RequestedAmount, enter **123** for InspectionJobID, enter **50** for
     RiskScrore, and click **Run flow**.
 
 > <img src="./media/image85.png" style="width:2.07216in;height:3.62886in"
@@ -825,7 +825,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 ## Task \#2: Create flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -944,7 +944,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 
 33. Type **Loan number not found** for Subject.
 
-34. Type **Loan \#** Body and select Subject from the dynamic content
+34. Type **Loan \#** Body and select **Subject** from the dynamic content
     pane.
 
 > <img src="./media/image105.png" style="width:5.8399in;height:3.47836in"

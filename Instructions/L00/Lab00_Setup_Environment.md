@@ -76,7 +76,7 @@ that you will do the majority of your lab work in.
 ## Exercise 3 - Install Power Automate on your device
 
 1.  Follow the instructions to install Power Automate -
-    <https://docs.microsoft.com/en-us/power-automate/desktop-flows/install>
+    <https://go.microsoft.com/fwlink/?linkid=2102613>
 
 2.  Check Install the Power Automate for desktop to build desktop flows
     (if unchecked) and take the default options for the rest. If you
@@ -89,11 +89,15 @@ that you will do the majority of your lab work in.
 
 4.  From the environment list pick your Dev environment
 
-5.  Follow the instructions to add the Edge extension
+5.  Navigate to https://microsoftedge.microsoft.com/addons/search/power%20automate and select Microsoft Power Automate.
 
-6.  Launch the app
+6.  Click **Get it**.
 
-7.  Click Go Premium to start a trial and follow the prompts to activate
+7.  Click **Add extensdion**.
+
+8.  Launch the app
+
+9.  Click Go Premium to start a trial and follow the prompts to activate
     the trial.
 
 ## Exercise 4 - Azure account setup
@@ -145,11 +149,13 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 ## Exercise 5 – Copy Lab Resources
 
-1.  Copy the lab resources folder to **C:\Labs**
+1.  Create a folder name Labs in the **C:** if you don't already have that folder.
 
-2.  Browse to **C:\Labs\Resources\Funding manager app** and double click
+2.  Copy the lab resources folder to **C:\Labs**
+
+3.  Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **setup** file.
 
-3.  Click **Install**.
+4.  Run the **Woodgrove Bank Funding Manager.exe** application.
 
-4.  The app should install and launch. Close the application.
+5.  The app should launch. Close the application.
