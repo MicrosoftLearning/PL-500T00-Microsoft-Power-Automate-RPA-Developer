@@ -232,7 +232,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 5.  Select Direct to machine for Connect and select your desktop. If you
     don’t see your desktop here, go to desktop flow machine settings and
-    make sure you have the correct environment selected.
+    make sure you have the Dev environment selected.
 
 > <img src="./media/image26.png" style="width:4.31809in;height:3.27103in"
 > alt="set the connections for the desktop flow" />

@@ -18,7 +18,7 @@ API.
 ## Task \#1: Create a new solution
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct dev environment.
+    the Dev environment.
 
 2.  Select **Solutions** and click **+ New solution**. We are creating a
     new solution to keep the custom connector separate from the flow
