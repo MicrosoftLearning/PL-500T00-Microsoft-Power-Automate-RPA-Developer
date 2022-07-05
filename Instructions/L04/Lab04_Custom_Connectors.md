@@ -18,7 +18,7 @@ API.
 ## Task \#1: Create a new solution
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct dev environment.
+    the Dev environment.
 
 2.  Select **Solutions** and click **+ New solution**. We are creating a
     new solution to keep the custom connector separate from the flow
@@ -87,7 +87,7 @@ API.
 11. Save the file on your machine.
 
 12. Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct dev environment.
+    the Dev environment.
 
 13. Expand **Dataverse** and select **Custom Connectors**.
 
@@ -103,7 +103,7 @@ API.
 15. Click **Import**.
 
 16. Select the **swagger.json** file you saved to your machine and click
-    Open.
+    **Open**.
 
 17. Click **Continue**.
 
@@ -124,7 +124,7 @@ API.
 > <img src="./media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
 
-21. Review definitions tab and see the operation imported.
+21. Select the definitions tab and see the operation imported.
 
 22. Turn on **Swagger editor**.
 
@@ -176,7 +176,7 @@ API.
 ## Task \#1: Use custom connector in flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct dev environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 

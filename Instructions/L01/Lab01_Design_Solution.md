@@ -224,7 +224,7 @@ application, so the recording goes smoothly.
 > <img src="./media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
 
-3.  Enter your name for username, julieenter pass@word1 for password and
+1.  Enter your name for username, pass@word1 for password and
     click **Login**.
 
 > <img src="./media/image17.png" style="width:4.98676in;height:1.79651in"
@@ -478,7 +478,7 @@ the solution.
 ## Task 1: Import solution
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and click **Import solution**.
 
@@ -598,7 +598,7 @@ the solution.
 ## Task 4: Run loan manager app
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Apps** and click to launch the **Loan Manager**
     application.

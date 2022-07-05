@@ -56,7 +56,7 @@ Create a new desktop flow in the **Construction Funding** solution and
 record the steps using the **Woodgrove Funding Manager** application.
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you have the
-    correct environment selected.
+    Dev environment selected.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -108,19 +108,19 @@ record the steps using the **Woodgrove Funding Manager** application.
 15. Remember, you will provide the values below once you start
     recording.
 
-Username: your username.
+    Username: your username.
 
-Password: pass@word1
+    Password: pass@word1
 
-Account number: MC3747
+    Account number: MC3747
 
-Amount: 100000
+    Amount: 100000
 
-Inspection job \#: 123
+    Inspection job \#: 123
 
-Risk score: 30
+    Risk score: 30
 
-**<u>DO NOT</u>** click the **OK** button on the Draw Confirmation
+    **<u>DO NOT</u>** click the **OK** button on the Draw Confirmation
 screen.
 
 16. Click **Record**.
@@ -356,9 +356,7 @@ input variables you just defined.
 > <img src="./media/image23.png" style="width:6.06608in;height:3.51651in"
 > alt="summary view of work just completed" />
 
-27. Go to the **Actions** pane and expand the **Conditionals** group.
-
-28. Click **Save** and wait for the flow to be saved.
+1.  Click **Save** and wait for the flow to be saved.
 
 ## Task \#5: Change to populate output variables
 
@@ -449,12 +447,12 @@ Risk score: 90
 > <img src="./media/image30.png" style="width:4.80332in;height:1.82998in"
 > alt="drag the action as described" />
 
-5.  Click the Add UI element and select the Denied message in the app
+1.  Click the UI element dropdown and then click Add UI element.
 
-6.  Hold the ctrl key and Click on the **UI element** dropdown and
+2.  Hold the ctrl key and Click on the **UI element** dropdown and
     select **Draw denied contact bank**.
 
-7.  Click **Save**.
+3.  Click **Save**.
 
 > <img src="./media/image31.png" style="width:4.12327in;height:2.01035in"
 > alt="save the item" />
@@ -551,7 +549,7 @@ Risk score: 90
 
 6.  Close the app if it is running still.
 
-7.  Click **Run**. Do not interact with your computer until the run
+7.  Click **Run**. Do not interact with the VM until the run
     completes.
 
 > <img src="./media/image42.png" style="width:5.88468in;height:0.96863in"
@@ -573,7 +571,7 @@ Risk score: 90
 > <img src="./media/image45.png" style="width:5.59207in;height:4.03609in"
 > alt="update the default value" />
 
-11. Click **Run** again. Do not interact with your computer until the
+11. Click **Run** again. Do not interact with the VM until the
     run completes.
 
 12. The flow should run successfully. Review the output variables and
@@ -636,7 +634,7 @@ Create a new desktop flow in the **Construction Funding** solution and
 record the steps using the **Inspection** web app.
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you have the
-    correct environment selected.
+    Dev environment selected.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
@@ -654,7 +652,7 @@ record the steps using the **Inspection** web app.
     **Launch new Microsoft Edge** action.
 
 7.  Provide
-    <https://fabrikaminspectionstest.azurewebsites.net/RequestInspection>
+    <https://fabrikaminspectionstest.azurewebsites.net>
     for Initial URL and click **Save**.
 
 > <img src="./media/image52.png" style="width:4.44174in;height:3.12023in"
@@ -877,14 +875,7 @@ variables you just defined.
 > <img src="./media/image66.png" style="width:3.59154in;height:5.1763in"
 > alt="review the results" />
 
-30. Click **+** add argument and select **Output**.
-
-31. Enter **JobNumber** for Variable name, **JobNumber** for External
-    name, **Job number** for Description, and click **Create**.
-
-32. Click **Continue**.
-
-33. Click **Save** and wait for the flow to be saved.
+30.  Click **Save** and wait for the flow to be saved.
 
 ## Task \#5: Add loop condition and wait control
 
@@ -1075,14 +1066,18 @@ return JSON.stringify(sitephotolist);
 
 ## Task \#7: Close browser and test
 
-1.  Close the browser.
+1.  Drag **Close web browser** action and drop it below the Run JavaScript action.
 
-2.  Click **Run** and wait for the run to complete. The flow will loop
+2.  Select **Browser** for We browser intance and click **Save**.
+
+3.  Click **Run** and wait for the run to complete. The flow will loop
     through the loop condition multiple times, until the status changes
     to completed.
 
-3.  Go to the Variables pane and make sure the **SitePhotos** variable
+4.  Go to the Variables pane and make sure the **SitePhotos** variable
     has the expected value.
 
 > <img src="./media/image82.png" style="width:4.00688in;height:1.87298in"
 > alt="review results" />
+
+5. Save the flow.

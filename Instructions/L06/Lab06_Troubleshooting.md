@@ -151,7 +151,7 @@ In this exercise, you will monitor desktop flows.
 > <img src="./media/image19.png" style="width:5.34411in;height:1.61408in"
 > alt="add the breakpoint" />
 
-7.  Edit the property address and change the default value to 456 Main.
+7.  Edit the property address and change the default value to **456 Main Street**.
 
 8.  Click **Run**.
 
@@ -240,7 +240,7 @@ In this exercise, you will monitor desktop flows.
 
 ## Task \#3: Test 
 
-1.  Click **Run**.
+1.  Remove the breakpoint and Click **Run**.
 
 2.  The flow will switch to the subflow if error occurs.
 

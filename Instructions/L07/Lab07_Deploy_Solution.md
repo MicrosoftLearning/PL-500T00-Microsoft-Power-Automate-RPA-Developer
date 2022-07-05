@@ -27,7 +27,7 @@ In this exercise, you will configure the Virtual Machine
 
 ## Task \#1: Configure VM
 
-1.  Go to your Azure portal and open the **Funding** virtual machine
+1.  Go to your Azure portal <https://portal.azure.com/> and open the **Funding** virtual machine
     (VM).
 
 > <img src="./media/image1.png" style="width:4.5in;height:0.89in"
@@ -77,48 +77,50 @@ In this exercise, you will configure the Virtual Machine
 > <img src="./media/image6.png" style="width:4.40817in;height:1.98166in"
 > alt="select as described" />
 
-15. Click **+ New machine group**.
+15. Select the Machine group tab 
 
-16. Enter **Funding** for Machine group name and click **Create**.
+16. Click **+ New machine group**.
 
-17. Click on the Funding machine you created.
+17. Enter **Funding** for Machine group name and click **Create**.
 
-18. Click **Add machine**.
+18. Click on the Funding machine you created.
 
-19. Click **Add machine** again.
+19. Click **Add machine**.
 
-20. Click **Got it**.
+20. Click **Add machine** again.
 
-21. You should now see the **Joined machine group** with one machine.
+21. Click **Got it**.
+
+22. You should now see the **Joined machine group** with one machine.
 
 > <img src="./media/image7.png" style="width:5.59998in;height:2.76529in"
 > alt="review the results of the prior steps" />
 
-22. Go to your **Local** computer and copy the **Labs** folder located
+23. Go to your **Local** computer and copy the **Labs** folder located
     in your C:\\ drive.
 
 > <img src="./media/image8.png" style="width:4in;height:0.74in"
 > alt="image of file explorer" />
 
-23. Go back to the **Remote desktop** and open file explorer.
+24. Go back to the **Remote desktop** and open file explorer.
 
-24. Browse to C:\\ and paste the **Labs** folder you copied. This folder
+25. Browse to C:\\ and paste the **Labs** folder you copied. This folder
     must be in the same location on both computers.
 
 > <img src="./media/image9.png" style="width:4in;height:1.83in"
 > alt="image of file explorer" />
 
-25. Browse to **C:\Labs\Resources\Funding manager app** and double click
+26. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **setup** file.
 
 > <img src="./media/image10.png" style="width:5.82796in;height:1.83307in"
 > alt="image of file explorer" />
 
-26. Click **Install**.
+27. Click **Install**.
 
-27. The app should install and launch. Close the application.
+28. The app should install and launch. Close the application.
 
-28. Launch Microsoft Edge.
+29. Launch Microsoft Edge.
 
 29. Click **Settings** and select **Extensions**.
 
@@ -136,9 +138,9 @@ In this exercise, you will configure the Virtual Machine
 > <img src="./media/image13.png" style="width:5.67248in;height:1.65993in"
 > alt="select as described" />
 
-32. Click **Turn on**.
+32. Click **Get it**.
 
-33. Click **Turn on extension**.
+33. Click **Add extension**.
 
 # Exercise \#2: Key Vault
 
@@ -153,7 +155,9 @@ In this exercise, will create a Key Vault.
 > <img src="./media/image14.png" style="width:5.67163in;height:1.18583in"
 > alt="select as described" />
 
-3.  Select Resource providers.
+3.  Open the subscription.
+
+4. Select Resource providers.
 
 4.  Search for **Microsoft.PowerPlatform** and select it.
 
@@ -588,7 +592,7 @@ Funding solutions and test the flows.
     Replace **\[SubscriptionID\]** with subscription id you copied and
     replace **\[FL\]** with your initials.
 
-> /subscriptions/**\[SubscriptionID\]**/resourceGroups/Funding/providers/Microsoft.KeyVault/vaults/Funding**\[FL\]/**secrets/FundingPassword
+> /subscriptions/**\[SubscriptionID\]**/resourceGroups/Funding/providers/Microsoft.KeyVault/vaults/Funding[FL]/secrets/FundingPassword
 
 38. Click **Import** and wait for the import to complete.
 
@@ -596,7 +600,7 @@ Funding solutions and test the flows.
 > alt="select as described" />
 
 39. Import should succeed. Note: If it takes more than five minutes to
-    import check History to see if it failed. If you didn’t have the
+    import, check History to see if it failed. If you didn’t have the
     correct Key Vault information this can occur.
 
 > <img src="./media/image57.png" style="width:5.18967in;height:1.57983in"

@@ -40,7 +40,7 @@ the funding request form.
 > alt="review the document" />
 
 4.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct dev environment.
+    the Dev environment.
 
 5.  Expand **AI Builder** and select **Models**.
 
@@ -318,13 +318,13 @@ the funding request form.
 ## Task \#1: Use AI Builder
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the correct environment.
+    the Dev environment.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
-3.  Click Add Existing -\> AI Model
+3.  Click **Add Existing | AI Model**
 
-4.  Select your Document Processing model and click Add.
+4.  Select your Document Processing model and click **Add**.
 
 5.  Select **Cloud flows**, select **Process Construction Funding
     Request** flow and click **Edit**.
@@ -438,8 +438,7 @@ triggerOutputs()?\['body/attachments'\]?\[0\]\['id'\]
 
 36. Enter **Work items** for Name and select **String** for Type.
 
-37. Rename the step var **work items** and click **+** Insert a new
-    step.
+37. Rename the step var **work items** and click **+** and select **Add an action**.
 
 > <img src="./media/image50.png" style="width:4.67138in;height:2.37681in"
 > alt="select and complete as described" />
