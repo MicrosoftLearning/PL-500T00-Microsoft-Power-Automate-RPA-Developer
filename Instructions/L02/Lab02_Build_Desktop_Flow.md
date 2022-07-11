@@ -27,7 +27,9 @@ inspection website and the other to automate the funding Windows app.
 In preparation for recording practice using the app to help eliminate
 accidental steps from being recorded.
 
-1.  Launch the **Woodgrove Bank Funding Manager** application.
+1.  Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app.
+
+<img src="./media/image1-1.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
 2.  Enter your username for Username, **pass@word1** as Password, and
     click **Login**.

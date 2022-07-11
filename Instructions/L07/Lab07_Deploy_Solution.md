@@ -110,17 +110,13 @@ In this exercise, you will configure the Virtual Machine
 > <img src="./media/image9.png" style="width:4in;height:1.83in"
 > alt="image of file explorer" />
 
-26. Browse to **C:\Labs\Resources\Funding manager app** and double click
-    on the **setup** file.
+26. Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app.
 
-> <img src="./media/image10.png" style="width:5.82796in;height:1.83307in"
-> alt="image of file explorer" />
+<img src="./media/image10.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
-27. Click **Install**.
+27. The app should install and launch. Close the application.
 
-28. The app should install and launch. Close the application.
-
-29. Launch Microsoft Edge.
+28. Launch Microsoft Edge.
 
 29. Click **Settings** and select **Extensions**.
 
