@@ -154,8 +154,33 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 2.  Copy the lab resources folder to **C:\Labs**
 
 3.  Browse to **C:\Labs\Resources\Funding manager app** and double click
-    on the **setup** file.
+    on the **Woodgrove Bank Funding Manager.exe** file.
 
-4.  Run the **Woodgrove Bank Funding Manager.exe** application.
+4.  Click in the **More info** link.
 
-5.  The app should launch. Close the application.
+<img src="./media/image4.png" alt="Screenshot showing the Microsoft defender SmartScreen dialog" />
+
+5. Click **Run anayway**.
+
+6. Click **Yes** on the download .NET popup.
+
+<img src="./media/image5.png" alt="Screenshot showing the download .NET dialog" />
+
+7. Seklect **Download x64** of Windows desktop version.
+
+<img src="./media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
+
+8. Double click on the downloaded .exe file.
+
+9. Click **Install** and wait for the installation to complete.
+
+<img src="./media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
+
+10. Click **Close** after the installtion completed.
+
+11. Browse to **C:\Labs\Resources\Funding manager app** and double click
+    on the **Woodgrove Bank Funding Manager.exe** file again.
+
+<img src="./media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
+
+12.  The app should launch. Close the application.
