@@ -120,12 +120,12 @@ After the account setup completes, setup the following Virtual Machine.
 
 4.  Click **Create** Virtual Machine.
 
-<img src="./L00/media/image1.png" style="width:5.17644in;height:1.88518in"
+<img src="../L00/media/image1.png" style="width:5.17644in;height:1.88518in"
 alt="Screenshot showing Virtual Machine Azure resource with red rectangle around the create button" />
 
 5.  Click Create new resource group.
 
-<img src="./L00/media/image2.png" style="width:6.5in;height:1.61667in"
+<img src="../L00/media/image2.png" style="width:6.5in;height:1.61667in"
 alt="Screenshot showing the create resource dialog with a red rectangle around the create resource group button" />
 
 6.  Enter **Funding** for Name and click **OK**.
@@ -142,7 +142,7 @@ alt="Screenshot showing the create resource dialog with a red rectangle around t
 
 12. Click **Review and create**.
 
-<img src="./L00/media/image3.png" style="width:5.04419in;height:4.23637in"
+<img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
 alt="Screenshot showing the create new virtual machine resource dialog" />
 
 13. Click **Create**
@@ -158,29 +158,29 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 4.  Click in the **More info** link.
 
-<img src="./L00/media/image4.png" alt="Screenshot showing the Microsoft defender SmartScreen dialog" />
+<img src="../L00/media/image4.png" alt="Screenshot showing the Microsoft defender SmartScreen dialog" />
 
 5. Click **Run anayway**.
 
 6. Click **Yes** on the download .NET popup.
 
-<img src="./L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
+<img src="../L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
 
 7. Seklect **Download x64** of Windows desktop version.
 
-<img src="./L00/media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
+<img src="../L00/media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
 
 8. Double click on the downloaded .exe file.
 
 9. Click **Install** and wait for the installation to complete.
 
-<img src="./L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
+<img src="../L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
 
 10. Click **Close** after the installtion completed.
 
 11. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file again.
 
-<img src="./L00/media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
+<img src="../L00/media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
 12.  The app should launch. Close the application.
