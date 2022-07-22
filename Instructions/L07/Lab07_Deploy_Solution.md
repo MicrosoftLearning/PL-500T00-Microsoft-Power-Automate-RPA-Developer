@@ -30,24 +30,24 @@ In this exercise, you will configure the Virtual Machine
 1.  Go to your Azure portal <https://portal.azure.com/> and open the **Funding** virtual machine
     (VM).
 
-> <img src="./media/image1.png" style="width:4.5in;height:0.89in"
+> <img src="../L07/media/image1.png" style="width:4.5in;height:0.89in"
 > alt="select the vm described" />
 
 2.  Copy the **Public IP address**.
 
-> <img src="./media/image2.png" style="width:5.15905in;height:1.42677in"
+> <img src="../L07/media/image2.png" style="width:5.15905in;height:1.42677in"
 > alt="copy the key" />
 
 3.  Launch remote desktop connection.
 
 4.  Paste the VM IP address you copied and click **Connect**.
 
-> <img src="./media/image3.png" style="width:3.61908in;height:2.28907in"
+> <img src="../L07/media/image3.png" style="width:3.61908in;height:2.28907in"
 > alt="connect with remote desktop" />
 
 5.  Click **More choices**.
 
-> <img src="./media/image4.png" style="width:3.39625in;height:3.11259in"
+> <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
 > alt="select as described" />
 
 6.  Select **Use a different account**, enter **Funding** for Username,
@@ -58,7 +58,7 @@ In this exercise, you will configure the Virtual Machine
 
 8.  Double click to install the Setup.Microsoft.PowerAutomate.
 
-> <img src="./media/image5.png" style="width:4.53068in;height:1.58314in"
+> <img src="../L07/media/image5.png" style="width:4.53068in;height:1.58314in"
 > alt="select as described" />
 
 9.  Click **Next**.
@@ -74,7 +74,7 @@ In this exercise, you will configure the Virtual Machine
 
 14. Click **Change**.
 
-> <img src="./media/image6.png" style="width:4.40817in;height:1.98166in"
+> <img src="../L07/media/image6.png" style="width:4.40817in;height:1.98166in"
 > alt="select as described" />
 
 15. Select the Machine group tab 
@@ -93,13 +93,13 @@ In this exercise, you will configure the Virtual Machine
 
 22. You should now see the **Joined machine group** with one machine.
 
-> <img src="./media/image7.png" style="width:5.59998in;height:2.76529in"
+> <img src="../L07/media/image7.png" style="width:5.59998in;height:2.76529in"
 > alt="review the results of the prior steps" />
 
 23. Go to your **Local** computer and copy the **Labs** folder located
     in your C:\\ drive.
 
-> <img src="./media/image8.png" style="width:4in;height:0.74in"
+> <img src="../L07/media/image8.png" style="width:4in;height:0.74in"
 > alt="image of file explorer" />
 
 24. Go back to the **Remote desktop** and open file explorer.
@@ -107,12 +107,12 @@ In this exercise, you will configure the Virtual Machine
 25. Browse to C:\\ and paste the **Labs** folder you copied. This folder
     must be in the same location on both computers.
 
-> <img src="./media/image9.png" style="width:4in;height:1.83in"
+> <img src="../L07/media/image9.png" style="width:4in;height:1.83in"
 > alt="image of file explorer" />
 
 26. Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app.
 
-<img src="./media/image10.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
+<img src="../L07/media/image10.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
 27. The app should install and launch. Close the application.
 
@@ -120,18 +120,18 @@ In this exercise, you will configure the Virtual Machine
 
 29. Click **Settings** and select **Extensions**.
 
-> <img src="./media/image11.png" style="width:3.50508in;height:3.30129in"
+> <img src="../L07/media/image11.png" style="width:3.50508in;height:3.30129in"
 > alt="menu in Microsoft Edge" />
 
 30. Click Open Microsoft Edge Add-ons website.
 
-> <img src="./media/image12.png" style="width:3.35143in;height:3.07289in"
+> <img src="../L07/media/image12.png" style="width:3.35143in;height:3.07289in"
 > alt="select as described" />
 
 31. Search for Power Automate extensions and click to open **Microsoft
     Power Automate**.
 
-> <img src="./media/image13.png" style="width:5.67248in;height:1.65993in"
+> <img src="../L07/media/image13.png" style="width:5.67248in;height:1.65993in"
 > alt="select as described" />
 
 32. Click **Get it**.
@@ -148,7 +148,7 @@ In this exercise, will create a Key Vault.
 
 2.  Click **Subscriptions**.
 
-> <img src="./media/image14.png" style="width:5.67163in;height:1.18583in"
+> <img src="../L07/media/image14.png" style="width:5.67163in;height:1.18583in"
 > alt="select as described" />
 
 3.  Open the subscription.
@@ -159,7 +159,7 @@ In this exercise, will create a Key Vault.
 
 5.  Click **Register**.
 
-> <img src="./media/image15.png" style="width:5.56346in;height:1.23692in"
+> <img src="../L07/media/image15.png" style="width:5.56346in;height:1.23692in"
 > alt="select as described" />
 
 6.  Click **Home**.
@@ -169,7 +169,7 @@ In this exercise, will create a Key Vault.
 8.  Search for key vault and **Key Vault**. **DO NOT** select Azure Key
     Vault
 
-> <img src="./media/image16.png" style="width:5.11699in;height:1.43396in"
+> <img src="../L07/media/image16.png" style="width:5.11699in;height:1.43396in"
 > alt="select as described" />
 
 9.  Click **Create**.
@@ -178,7 +178,7 @@ In this exercise, will create a Key Vault.
     with your initials) for Key vault name and click **Review +
     create**.
 
-> <img src="./media/image17.png" style="width:5.10334in;height:4.00471in"
+> <img src="../L07/media/image17.png" style="width:5.10334in;height:4.00471in"
 > alt="review the results of the prior steps" />
 
 11. Click **Review + create** again.
@@ -187,40 +187,40 @@ In this exercise, will create a Key Vault.
 
 13. Click **Go to resource**.
 
-> <img src="./media/image18.png" style="width:5.71619in;height:2.12403in"
+> <img src="../L07/media/image18.png" style="width:5.71619in;height:2.12403in"
 > alt="select as described" />
 
 14. Select **Secrets** and click **Generate/Import**.
 
-> <img src="./media/image19.png" style="width:5.52461in;height:2.85556in"
+> <img src="../L07/media/image19.png" style="width:5.52461in;height:2.85556in"
 > alt="select as described" />
 
 15. Enter **FundingPassword** for Name, enter **pass@word1** for Value,
     and click **Create**.
 
-> <img src="./media/image20.png" style="width:5.27637in;height:2.66863in"
+> <img src="../L07/media/image20.png" style="width:5.27637in;height:2.66863in"
 > alt="select and complete as described" />
 
 16. Select **Access policies** and click **+ Add Access Policy**.
 
-> <img src="./media/image21.png" style="width:6.17868in;height:1.72026in"
+> <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
 > alt="select as described" />
 
 17. Click on the Secret permission dropdown and select **Get**.
 
-> <img src="./media/image22.png" style="width:5.46908in;height:1.45433in"
+> <img src="../L07/media/image22.png" style="width:5.46908in;height:1.45433in"
 > alt="select as described" />
 
 18. Click on the **None selected** link.
 
-> <img src="./media/image23.png" style="width:5.47366in;height:1.70526in"
+> <img src="../L07/media/image23.png" style="width:5.47366in;height:1.70526in"
 > alt="select as described" />
 
 19. Search for dataverse, select the **Dataverse** with the
     **00000007-0000-0000-c000-000000000000** identity, and click
     **Select**,
 
-> <img src="./media/image24.png" style="width:5.19505in;height:1.9648in"
+> <img src="../L07/media/image24.png" style="width:5.19505in;height:1.9648in"
 > alt="select as described" />
 
 20. Click **Add**.
@@ -230,27 +230,27 @@ In this exercise, will create a Key Vault.
 22. Select **Access Control,** click **+ Add**, and select **Add role
     assignment**.
 
-> <img src="./media/image25.png" style="width:5.48472in;height:1.646in"
+> <img src="../L07/media/image25.png" style="width:5.48472in;height:1.646in"
 > alt="select as described" />
 
 23. Select **Reader** and click **Next**.
 
-> <img src="./media/image26.png" style="width:5.57618in;height:1.81881in"
+> <img src="../L07/media/image26.png" style="width:5.57618in;height:1.81881in"
 > alt="select as described" />
 
 24. Click **+ Select members**.
 
-> <img src="./media/image27.png" style="width:5.57645in;height:2.30803in"
+> <img src="../L07/media/image27.png" style="width:5.57645in;height:2.30803in"
 > alt="select as described" />
 
 25. Select your user and click **Select**
 
-> <img src="./media/image28.png" style="width:3.32512in;height:3.4509in"
+> <img src="../L07/media/image28.png" style="width:3.32512in;height:3.4509in"
 > alt="select as described" />
 
 26. Click Review + assign.
 
-> <img src="./media/image29.png" style="width:4.61019in;height:1.0096in"
+> <img src="../L07/media/image29.png" style="width:4.61019in;height:1.0096in"
 > alt="select as described" />
 
 27. Click **Review + assign** again.
@@ -269,14 +269,14 @@ flows.
 
 3.  Click **+ New** and select **More \| Environment variable**.
 
-> <img src="./media/image30.png" style="width:5.72361in;height:2.94313in"
+> <img src="../L07/media/image30.png" style="width:5.72361in;height:2.94313in"
 > alt="select as described" />
 
 4.  Enter **Funding Run Mode** for Display name, select **Text** for
     Data type, enter **Unattended** for Default value, go to the
     **Current value** section, and click **+ New value**.
 
-> <img src="./media/image31.png" style="width:2.46452in;height:5.25708in"
+> <img src="../L07/media/image31.png" style="width:2.46452in;height:5.25708in"
 > alt="select as described" />
 
 5.  Enter **Attended** and click **Save**.
@@ -284,14 +284,14 @@ flows.
 6.  Select environment variables and click to open variable you just
     created.
 
-> <img src="./media/image32.png" style="width:5.54655in;height:2.03848in"
+> <img src="../L07/media/image32.png" style="width:5.54655in;height:2.03848in"
 > alt="select as described" />
 
 7.  Click on the **…** button of the **Current value** and select
     **Remove from this solution**. We are removing the value from the
     solution, so it won’t move to test/production.
 
-> <img src="./media/image33.png" style="width:3.04496in;height:2.52732in"
+> <img src="../L07/media/image33.png" style="width:3.04496in;height:2.52732in"
 > alt="select as described" />
 
 8.  Close the edit pane.
@@ -303,7 +303,7 @@ flows.
     Vault** for Secret Store, and click **+ New Azure Key Vault secret
     reference**.
 
-> <img src="./media/image34.png" style="width:2.16142in;height:3.82184in"
+> <img src="../L07/media/image34.png" style="width:2.16142in;height:3.82184in"
 > alt="select as described" />
 
 11. DO NOT navigate away from this page. Start a new browser window or
@@ -314,13 +314,13 @@ flows.
 
 13. Copy the **Subscription ID**.
 
-> <img src="./media/image35.png" style="width:6.07932in;height:1.51333in"
+> <img src="../L07/media/image35.png" style="width:6.07932in;height:1.51333in"
 > alt="select as described" />
 
 14. Go back to the environment variable and paste it in the **Azure
     subscription Id** field.
 
-> <img src="./media/image36.png" style="width:2.76248in;height:3.01628in"
+> <img src="../L07/media/image36.png" style="width:2.76248in;height:3.01628in"
 > alt="paste as described" />
 
 15. Enter **Funding** for Resource group name, **FundingFL (FL will be
@@ -328,7 +328,7 @@ flows.
     Secret name, and click **Save**. These values must match what you
     used or you will see an error at the top of the panel.
 
-> <img src="./media/image37.png" style="width:2.74909in;height:4.36789in"
+> <img src="../L07/media/image37.png" style="width:2.74909in;height:4.36789in"
 > alt="select as described and review results of the prior steps" />
 
 16. Click **Save** again.
@@ -339,7 +339,7 @@ flows.
 18. Click on the **…** button of the current value and select **Remove
     from this solution**.
 
-> <img src="./media/image38.png" style="width:3.46832in;height:2.12473in"
+> <img src="../L07/media/image38.png" style="width:3.46832in;height:2.12473in"
 > alt="select as described" />
 
 19. Close **Edit** pane.
@@ -353,7 +353,7 @@ flows.
 22. Click on the **Run Mode** dropdown and select **Enter custom
     value**.
 
-> <img src="./media/image39.png" style="width:5.14783in;height:2.7123in"
+> <img src="../L07/media/image39.png" style="width:5.14783in;height:2.7123in"
 > alt="select as described" />
 
 23. Select the **Funding Run Mode** environment variable from the
@@ -374,7 +374,7 @@ flows.
 28. Click on the **Run Mode** dropdown and select **Enter custom
     value**.
 
-> <img src="./media/image40.png" style="width:4.95877in;height:2.55824in"
+> <img src="../L07/media/image40.png" style="width:4.95877in;height:2.55824in"
 > alt="select as described" />
 
 29. Select the **Funding Run Mode** environment variable from the
@@ -385,21 +385,21 @@ flows.
 
 31. Select **Perform an unbound action**.
 
-> <img src="./media/image41.png" style="width:4.73702in;height:2.53891in"
+> <img src="../L07/media/image41.png" style="width:4.73702in;height:2.53891in"
 > alt="select as described" />
 
 32. Select **RetrieveEnvironmentVariableSecretValue** for Action name,
     enter rc\_**FundingPassword** for EnvironmentVariableName, click on
     the **…** Menu button, and select **Settings**.
 
-> <img src="./media/image42.png" style="width:5.16566in;height:1.56956in"
+> <img src="../L07/media/image42.png" style="width:5.16566in;height:1.56956in"
 > alt="select as described" />
 
 33. Turn on **Secure Outputs** and click **Done**. This ensures the
     value is not visible when someone views the run details after
     execution.
 
-> <img src="./media/image43.png" style="width:4.51597in;height:2.93498in"
+> <img src="../L07/media/image43.png" style="width:4.51597in;height:2.93498in"
 > alt="select as described" />
 
 34. Expand the **Run a flow built with Power Automate for desktop** step
@@ -409,7 +409,7 @@ flows.
     **RetrieveEnvironmentVariableSecretValueResponse** from the dynamic
     content pane.
 
-> <img src="./media/image44.png" style="width:5.06403in;height:3.03463in"
+> <img src="../L07/media/image44.png" style="width:5.06403in;height:3.03463in"
 > alt="select as described" />
 
 36. Click on the **…** Menu button and select **Settings**.
@@ -431,7 +431,7 @@ Construction Funding solutions.
 2.  Select Solutions, select the **Builder Risk Service** solution and
     click **Export solution**.
 
-> <img src="./media/image45.png" style="width:5.64801in;height:2.49031in"
+> <img src="../L07/media/image45.png" style="width:5.64801in;height:2.49031in"
 > alt="select as described" />
 
 3.  Click **Publish** and wait for the publishing to complete.
@@ -440,7 +440,7 @@ Construction Funding solutions.
 
 5.  Select **Managed** and click **Export**.
 
-> <img src="./media/image46.png" style="width:2.67828in;height:3.59729in"
+> <img src="../L07/media/image46.png" style="width:2.67828in;height:3.59729in"
 > alt="select as described" />
 
 6.  Wait for the export to complete and click **Download**.
@@ -460,7 +460,7 @@ Construction Funding solutions.
 
 13. Click to open the **Construction Funding** solution.
 
-> <img src="./media/image47.png" style="width:5.34335in;height:2.82772in"
+> <img src="../L07/media/image47.png" style="width:5.34335in;height:2.82772in"
 > alt="select as described" />
 
 14. Select Cloud flows, select the **Process Construction Funding
@@ -468,7 +468,7 @@ Construction Funding solutions.
     we can use the same shared email for testing, in a real solution you
     would use separate mailboxes for dev/test/production.
 
-> <img src="./media/image48.png" style="width:6.12099in;height:2.26987in"
+> <img src="../L07/media/image48.png" style="width:6.12099in;height:2.26987in"
 > alt="select as described" />
 
 # Exercise \#5: Import Solution
@@ -505,7 +505,7 @@ Funding solutions and test the flows.
 12. Click on the drop down for the **Builder Risk Service** connection
     and select **+ New connection**.
 
-> <img src="./media/image49.png" style="width:5.07772in;height:3.64737in"
+> <img src="../L07/media/image49.png" style="width:5.07772in;height:3.64737in"
 > alt="select as described" />
 
 13. DO NOT navigate away from this page. Start a new browser window or
@@ -516,7 +516,7 @@ Funding solutions and test the flows.
 
 15. Copy the **API Key**.
 
-> <img src="./media/image50.png" style="width:4in;height:2.36in"
+> <img src="../L07/media/image50.png" style="width:4in;height:2.36in"
 > alt="select as described" />
 
 16. Go back to the Builder Risk Service connection, paste the API Key
@@ -526,7 +526,7 @@ Funding solutions and test the flows.
 
 18. Click **Refresh**.
 
-> <img src="./media/image51.png" style="width:3.69745in;height:1.84352in"
+> <img src="../L07/media/image51.png" style="width:3.69745in;height:1.84352in"
 > alt="select as described" />
 
 19. Click on the **Office 365** connection dropdown and select **+ New
@@ -546,7 +546,7 @@ Funding solutions and test the flows.
 25. Enter **Funding** for Domain and username, enter **relecloud@word1**
     for Password, and click **Create**.
 
-> <img src="./media/image52.png" style="width:2.75in;height:2.98in"
+> <img src="../L07/media/image52.png" style="width:2.75in;height:2.98in"
 > alt="select as described" />
 
 26. Close the connections browser tab or window.
@@ -566,7 +566,7 @@ Funding solutions and test the flows.
 
 33. Click Next.
 
-> <img src="./media/image53.png" style="width:4.24517in;height:2.47826in"
+> <img src="../L07/media/image53.png" style="width:4.24517in;height:2.47826in"
 > alt="select as described" />
 
 34. DO NOT navigate away from this page. Start a new browser window or
@@ -574,14 +574,14 @@ Funding solutions and test the flows.
 
 35. Click to open the Key Vault.
 
-> <img src="./media/image54.png" style="width:5.96955in;height:1.75005in"
+> <img src="../L07/media/image54.png" style="width:5.96955in;height:1.75005in"
 > alt="select as described" />
 
 36. Copy the **Subscription ID**. For this lab you will use the same
     subscription you used for the Dev. Usually, you would create a
     different subscription for Dev, Test, and Production.
 
-> <img src="./media/image55.png" style="width:6.03344in;height:1.72108in"
+> <img src="../L07/media/image55.png" style="width:6.03344in;height:1.72108in"
 > alt="select as described" />
 
 37. Paste the text below in the Funding Password field and click Import.
@@ -592,21 +592,21 @@ Funding solutions and test the flows.
 
 38. Click **Import** and wait for the import to complete.
 
-> <img src="./media/image56.png" style="width:4.7211in;height:2.86757in"
+> <img src="../L07/media/image56.png" style="width:4.7211in;height:2.86757in"
 > alt="select as described" />
 
 39. Import should succeed. Note: If it takes more than five minutes to
     import, check History to see if it failed. If you didn’t have the
     correct Key Vault information this can occur.
 
-> <img src="./media/image57.png" style="width:5.18967in;height:1.57983in"
+> <img src="../L07/media/image57.png" style="width:5.18967in;height:1.57983in"
 > alt="select as described" />
 
 40. Click to open the **Construction Funding** solution.
 
 41. Select Cloud flows and open the **Create Test Data** flow.
 
-> <img src="./media/image58.png" style="width:5.58397in;height:2.55693in"
+> <img src="../L07/media/image58.png" style="width:5.58397in;height:2.55693in"
 > alt="select as described" />
 
 42. Click **Run**.
@@ -623,7 +623,7 @@ Funding solutions and test the flows.
     sign out and not disconnect as unattended flows won’t run when you
     are signed in.
 
-> <img src="./media/image59.png" style="width:6.02215in;height:2.50923in"
+> <img src="../L07/media/image59.png" style="width:6.02215in;height:2.50923in"
 > alt="select as described" />
 
 2.  Go to the resources folder of the lab and open the Test folder.
@@ -631,7 +631,7 @@ Funding solutions and test the flows.
 3.  You will attach the **Attachment AI Test** file when you send the
     email.
 
-> <img src="./media/image60.png" style="width:5.52944in;height:1.00782in"
+> <img src="../L07/media/image60.png" style="width:5.52944in;height:1.00782in"
 > alt="select the file for testing" />
 
 4.  Send an email to <Funding@yourdomain.onmicrosoft.com> make sure the
@@ -659,5 +659,5 @@ Funding solutions and test the flows.
 12. Flow test should succeed, and you should get an email with Subject
     Funding Approved.
 
-> <img src="./media/image61.png" style="width:5.96545in;height:4.0184in"
+> <img src="../L07/media/image61.png" style="width:5.96545in;height:4.0184in"
 > alt="review the results of the prior steps" />

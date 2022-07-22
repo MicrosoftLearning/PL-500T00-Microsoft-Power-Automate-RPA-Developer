@@ -29,7 +29,7 @@ accidental steps from being recorded.
 
 1.  Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app.
 
-<img src="./media/image1-1.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
+<img src="../L02/media/image1-1.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
 2.  Enter your username for Username, **pass@word1** as Password, and
     click **Login**.
@@ -42,7 +42,7 @@ accidental steps from being recorded.
     for Risk Score, check the Borrower Approved Draw checkbox, and click
     **Draw Funds**.
 
-> <img src="./media/image1.png" style="width:5.07273in;height:2.75283in"
+> <img src="../L02/media/image1.png" style="width:5.07273in;height:2.75283in"
 > alt="enter details as described" />
 
 6.  Click **OK**.
@@ -64,7 +64,7 @@ record the steps using the **Woodgrove Funding Manager** application.
 
 3.  Click **+ New** and select **Automation \| Desktop flow**.
 
-> <img src="./media/image2.png" style="width:5.06463in;height:1.77966in"
+> <img src="../L02/media/image2.png" style="width:5.06463in;height:1.77966in"
 > alt="select new desktop flow" />
 
 4.  Enter **Woodgrove Funding Manager Draw** for Flow name and click
@@ -75,25 +75,25 @@ record the steps using the **Woodgrove Funding Manager** application.
 6.  Go to the **Actions** pane, expand the **System** group, and double
     click on the **Run application** action.
 
-> <img src="./media/image3.png" style="width:5.27202in;height:2.56842in"
+> <img src="../L02/media/image3.png" style="width:5.27202in;height:2.56842in"
 > alt="select run from the actions available" />
 
 7.  Click on the **Select file** button of the Application path.
 
-> <img src="./media/image4.png" style="width:5.52726in;height:2.56888in"
+> <img src="../L02/media/image4.png" style="width:5.52726in;height:2.56888in"
 > alt="select file" />
 
 8.  Select the **Woodgrove Bank Funding Manager.exe** file located in
     the lab resources folder and click **Open**.
 
-> <img src="./media/image5.png" style="width:6.5in;height:1.07014in"
+> <img src="../L02/media/image5.png" style="width:6.5in;height:1.07014in"
 > alt="select the exe file" />
 
 9.  Click **Save**.
 
 10. Click **Run**.
 
-> <img src="./media/image6.png" style="width:4.87837in;height:1.68795in"
+> <img src="../L02/media/image6.png" style="width:4.87837in;height:1.68795in"
 > alt="run the application" />
 
 11. The application should start, and the flow should complete.
@@ -127,7 +127,7 @@ screen.
 
 16. Click **Record**.
 
-> <img src="./media/image7.png" style="width:2.80162in;height:1.71967in"
+> <img src="../L02/media/image7.png" style="width:2.80162in;height:1.71967in"
 > alt="click record" />
 
 17. The recording should start.
@@ -139,7 +139,7 @@ screen.
 20. On the confirmation screen of the Windows app right click on the
     **Amount** value and select **Get text(“”).**
 
-> <img src="./media/image8.png" style="width:3.44569in;height:1.78496in"
+> <img src="../L02/media/image8.png" style="width:3.44569in;height:1.78496in"
 > alt="right click on the item " />
 
 21. Right click on the **Funds transfer number** value and select **Get
@@ -154,7 +154,7 @@ screen.
 
 25. The steps you recorded should look like the image below.
 
-> <img src="./media/image9.png" style="width:4.912in;height:4.53311in"
+> <img src="../L02/media/image9.png" style="width:4.912in;height:4.53311in"
 > alt="summary of steps" />
 
 26. Close the **Woodgrove Funding Manager** application.
@@ -162,7 +162,7 @@ screen.
 27. If Run Application is no longer your first step, Drag the **Run
     application** action from the bottom to the top of the steps.
 
-> <img src="./media/image10.png" style="width:5.93901in;height:1.98792in"
+> <img src="../L02/media/image10.png" style="width:5.93901in;height:1.98792in"
 > alt="reorder to match the description if needed" />
 
 28. Click **Run**. Do not interact with your computer until the run
@@ -171,7 +171,7 @@ screen.
 29. Your flow variable should now look like the image below but might
     have different values.
 
-> <img src="./media/image11.png" style="width:2.9046in;height:3.94251in"
+> <img src="../L02/media/image11.png" style="width:2.9046in;height:3.94251in"
 > alt="review flow variables" />
 
 30. Click **Save** and wait for the flow to be saved.
@@ -187,7 +187,7 @@ will be used to return data to that flow.
 
 1.  Go to the **Variables** pane and click **+** Add.
 
-> <img src="./media/image12.png" style="width:3.54359in;height:2.54873in"
+> <img src="../L02/media/image12.png" style="width:3.54359in;height:2.54873in"
 > alt="select add " />
 
 2.  Select **Input**.
@@ -196,12 +196,12 @@ will be used to return data to that flow.
     **Username** for External name, **Username** for Description, mark
     the variable as sensitive, and click **Create**.
 
-> <img src="./media/image13.png" style="width:3.36991in;height:2.90124in"
+> <img src="../L02/media/image13.png" style="width:3.36991in;height:2.90124in"
 > alt="enter details as described" />
 
 4.  Click **+** add and select **Input** again.
 
-> <img src="./media/image14.png" style="width:3.02023in;height:1.65625in"
+> <img src="../L02/media/image14.png" style="width:3.02023in;height:1.65625in"
 > alt="add another input" />
 
 5.  Enter **Password** for Variable name, **pass@word1** for Default
@@ -240,19 +240,19 @@ will be used to return data to that flow.
 
 16. You should now have 7 input arguments.
 
-> <img src="./media/image15.png" style="width:3.19711in;height:3.25539in"
+> <img src="../L02/media/image15.png" style="width:3.19711in;height:3.25539in"
 > alt="summary of input variables" />
 
 17. Click **+** add and select **Output**.
 
-> <img src="./media/image16.png" style="width:3.73322in;height:1.52395in"
+> <img src="../L02/media/image16.png" style="width:3.73322in;height:1.52395in"
 > alt="add output variable" />
 
 18. Enter **FundedAmount** for Variable name, **FundedAmount** for
     External name, **Funded amount** for Description, and click
     **Create**.
 
-> <img src="./media/image17.png" style="width:5.13447in;height:3.00156in"
+> <img src="../L02/media/image17.png" style="width:5.13447in;height:3.00156in"
 > alt="enter details as described" />
 
 19. Click **+** add argument and select **Output**.
@@ -284,31 +284,31 @@ input variables you just defined.
 
 1.  Go to the populate username action and double click on it.
 
-> <img src="./media/image18.png" style="width:5.95679in;height:1.68712in"
+> <img src="../L02/media/image18.png" style="width:5.95679in;height:1.68712in"
 > alt="select the item described" />
 
 2.  Remove the current value and click on the **{x}** select variable
     button.
 
-> <img src="./media/image19.png" style="width:6.06587in;height:2.10324in"
+> <img src="../L02/media/image19.png" style="width:6.06587in;height:2.10324in"
 > alt="click on the variable button as shown" />
 
 3.  Select **Username** for variable and click **Select**.
 
-> <img src="./media/image20.png" style="width:4.50272in;height:3.31692in"
+> <img src="../L02/media/image20.png" style="width:4.50272in;height:3.31692in"
 > alt="select user name variable" />
 
 4.  Click **Save**.
 
 5.  Go to the populate password action and double click on it.
 
-> <img src="./media/image21.png" style="width:6.5in;height:0.67569in"
+> <img src="../L02/media/image21.png" style="width:6.5in;height:0.67569in"
 > alt="select the item shown" />
 
 6.  Click on then encryption button and select **Input as text,**
     **variable or expression**.
 
-> <img src="./media/image22.png" style="width:5.52204in;height:1.86219in"
+> <img src="../L02/media/image22.png" style="width:5.52204in;height:1.86219in"
 > alt="enter details as described" />
 
 7.  Click on the **{x}** select variable button.
@@ -355,7 +355,7 @@ input variables you just defined.
 
 26. The actions you changed should now look like the image below.
 
-> <img src="./media/image23.png" style="width:6.06608in;height:3.51651in"
+> <img src="../L02/media/image23.png" style="width:6.06608in;height:3.51651in"
 > alt="summary view of work just completed" />
 
 1.  Click **Save** and wait for the flow to be saved.
@@ -368,18 +368,18 @@ output variables you just defined.
 1.  In your steps, locate the **Get details of a UI element in window**
     action for the amount and double click on it.
 
-> <img src="./media/image24.png" style="width:6.5in;height:1.67708in"
+> <img src="../L02/media/image24.png" style="width:6.5in;height:1.67708in"
 > alt="select item described" />
 
 2.  Expand the **Variables produced section** and click on the **{x}**
     select variable button.
 
-> <img src="./media/image25.png" style="width:5.41265in;height:2.15245in"
+> <img src="../L02/media/image25.png" style="width:5.41265in;height:2.15245in"
 > alt="select variable button" />
 
 3.  Select **FundedAmount**.
 
-> <img src="./media/image26.png" style="width:4.45021in;height:2.2024in"
+> <img src="../L02/media/image26.png" style="width:4.45021in;height:2.2024in"
 > alt="select funded amount" />
 
 4.  Click **Save**.
@@ -387,7 +387,7 @@ output variables you just defined.
 5.  Locate the **Get details of a UI element in window** action for the
     transfer number and double click on it.
 
-> <img src="./media/image27.png" style="width:6.5in;height:1.67708in"
+> <img src="../L02/media/image27.png" style="width:6.5in;height:1.67708in"
 > alt="locate the item described" />
 
 6.  Expand the **Variables produced section** and click on the **{x}**
@@ -400,7 +400,7 @@ output variables you just defined.
 9.  Locate the **Get details of a UI element in window** action for the
     sequence number and double click on it.
 
-> <img src="./media/image28.png" style="width:6.5in;height:1.67708in"
+> <img src="../L02/media/image28.png" style="width:6.5in;height:1.67708in"
 > alt="select the item described" />
 
 10. Expand the **Variables produced section** and click on the **{x}**
@@ -412,7 +412,7 @@ output variables you just defined.
 
 13. You should now have three output variables populated.
 
-> <img src="./media/image29.png" style="width:5.3063in;height:1.90029in"
+> <img src="../L02/media/image29.png" style="width:5.3063in;height:1.90029in"
 > alt="summary of work recently completed" />
 
 14. Click Save and wait for the flow to be saved.
@@ -446,7 +446,7 @@ Risk score: 90
 4.  Drag **If window contains** action and drop it above the Get details
     of the UI element in window of the amount.
 
-> <img src="./media/image30.png" style="width:4.80332in;height:1.82998in"
+> <img src="../L02/media/image30.png" style="width:4.80332in;height:1.82998in"
 > alt="drag the action as described" />
 
 1.  Click the UI element dropdown and then click Add UI element.
@@ -456,13 +456,13 @@ Risk score: 90
 
 3.  Click **Save**.
 
-> <img src="./media/image31.png" style="width:4.12327in;height:2.01035in"
+> <img src="../L02/media/image31.png" style="width:4.12327in;height:2.01035in"
 > alt="save the item" />
 
 8.  Click on the **…** More actions button of the Get details of a UI
     element in window action for the amount.
 
-> <img src="./media/image32.png" style="width:6.5in;height:1.75903in"
+> <img src="../L02/media/image32.png" style="width:6.5in;height:1.75903in"
 > alt="select more actions" />
 
 9.  Select **Copy**.
@@ -470,31 +470,31 @@ Risk score: 90
 10. Right click on the Get details of a UI element in window action for
     the amount and select **Paste**.
 
-> <img src="./media/image33.png" style="width:6.5in;height:1.81319in"
+> <img src="../L02/media/image33.png" style="width:6.5in;height:1.81319in"
 > alt="complete the copy paste" />
 
 11. You should now have two the Get details of a UI element in window
     action for amount.
 
-> <img src="./media/image34.png" style="width:5.83045in;height:2.18829in"
+> <img src="../L02/media/image34.png" style="width:5.83045in;height:2.18829in"
 > alt="summary of work just completed" />
 
 12. Drag the first Get details of a UI element in window action for
     amount and drop it inside the **If window** contains.
 
-> <img src="./media/image35.png" style="width:6.5in;height:1.76319in"
+> <img src="../L02/media/image35.png" style="width:6.5in;height:1.76319in"
 > alt="drag the item as described" />
 
 13. Double click on the Get details of a UI element in window action for
     amount inside the If.
 
-> <img src="./media/image36.png" style="width:5.01042in;height:2.1977in"
+> <img src="../L02/media/image36.png" style="width:5.01042in;height:2.1977in"
 > alt="open the item as described" />
 
 14. Click on the **UI element** dropdown and select **Draw denied
     contact back** and click **Select**.
 
-> <img src="./media/image37.png" style="width:5.30107in;height:3.24153in"
+> <img src="../L02/media/image37.png" style="width:5.30107in;height:3.24153in"
 > alt="from the dropdown select the item as described" />
 
 15. Expand the **Variables produced** and click on the **{x}** select
@@ -507,7 +507,7 @@ Risk score: 90
 18. Drag another If window contains action and drop it below the **End**
     if.
 
-> <img src="./media/image38.png" style="width:6.42037in;height:2.2485in"
+> <img src="../L02/media/image38.png" style="width:6.42037in;height:2.2485in"
 > alt="drag item as described" />
 
 19. Click on the **Check if window** dropdown and select **Doesn’t
@@ -521,18 +521,18 @@ Risk score: 90
 22. Move all three Get details of a UI element in window actions outside
     of the If and drag them to the inside of the second if condition.
 
-> <img src="./media/image39.png" style="width:6.5in;height:2.13056in"
+> <img src="../L02/media/image39.png" style="width:6.5in;height:2.13056in"
 > alt="move the items as described" />
 
 23. Expand the **Variables** action group and drag **Set variable**
     action to the second If window contains.
 
-> <img src="./media/image40.png" style="width:5.16571in;height:2.4355in"
+> <img src="../L02/media/image40.png" style="width:5.16571in;height:2.4355in"
 > alt="drag the item as described" />
 
 24. Click **{x}** select variable select **FundingStatus**.
 
-> <img src="./media/image41.png" style="width:5.33676in;height:3.19677in"
+> <img src="../L02/media/image41.png" style="width:5.33676in;height:3.19677in"
 > alt="select the variable as described" />
 
 25. Type **Approved** for Value and click **Save**.
@@ -554,23 +554,23 @@ Risk score: 90
 7.  Click **Run**. Do not interact with the VM until the run
     completes.
 
-> <img src="./media/image42.png" style="width:5.88468in;height:0.96863in"
+> <img src="../L02/media/image42.png" style="width:5.88468in;height:0.96863in"
 > alt="run the flow" />
 
 8.  The flow should run successfully. Review the output variables and
     make sure the **FundingStatus** is set to **Approved**.
 
-> <img src="./media/image43.png" style="width:3.81202in;height:2.12473in"
+> <img src="../L02/media/image43.png" style="width:3.81202in;height:2.12473in"
 > alt="review the output" />
 
 9.  Locate the **RiskScore** variable and double click on it.
 
-> <img src="./media/image44.png" style="width:3.43707in;height:1.6248in"
+> <img src="../L02/media/image44.png" style="width:3.43707in;height:1.6248in"
 > alt="locate risk score" />
 
 10. Change the **Default value** to **85** and click **Update**.
 
-> <img src="./media/image45.png" style="width:5.59207in;height:4.03609in"
+> <img src="../L02/media/image45.png" style="width:5.59207in;height:4.03609in"
 > alt="update the default value" />
 
 11. Click **Run** again. Do not interact with the VM until the
@@ -580,7 +580,7 @@ Risk score: 90
     make sure the **FundingStatus** is set to **Draw denied contact
     bank**.
 
-> <img src="./media/image46.png" style="width:3.90576in;height:2.33304in"
+> <img src="../L02/media/image46.png" style="width:3.90576in;height:2.33304in"
 > alt="review the output" />
 
 13. Locate the **RiskScore** variable and double click on it.
@@ -606,12 +606,12 @@ accidental steps from being recorded.
     for Property Address, enter **Test work item** for Work to Inspect,
     and then click **Request Inspection**.
 
-> <img src="./media/image47.png" style="width:5.64749in;height:3.10129in"
+> <img src="../L02/media/image47.png" style="width:5.64749in;height:3.10129in"
 > alt="enter details as described" />
 
 4.  Copy the **Job Number** and keep it in your clipboard.
 
-> <img src="./media/image48.png" style="width:6.33254in;height:2.06224in"
+> <img src="../L02/media/image48.png" style="width:6.33254in;height:2.06224in"
 > alt="review the output and save it" />
 
 5.  Go to the **Inspection Results** page.
@@ -619,12 +619,12 @@ accidental steps from being recorded.
 6.  Enter your name for Inspection Account \#, paste the Job number you
     copied, and click **Check Inspection**.
 
-> <img src="./media/image49.png" style="width:5.83733in;height:2.11977in"
+> <img src="../L02/media/image49.png" style="width:5.83733in;height:2.11977in"
 > alt="enter details as described" />
 
 7.  The Job Status should show **In progress**.
 
-> <img src="./media/image50.png" style="width:5.89193in;height:2.86728in"
+> <img src="../L02/media/image50.png" style="width:5.89193in;height:2.86728in"
 > alt="review the output" />
 
 8.  Go to the **Request** **Inspection** page and repeat the steps until
@@ -642,7 +642,7 @@ record the steps using the **Inspection** web app.
 
 3.  Click + New and select Automation
 
-> <img src="./media/image51.png" style="width:5.97206in;height:1.96134in"
+> <img src="../L02/media/image51.png" style="width:5.97206in;height:1.96134in"
 > alt="new desktop flow" />
 
 4.  Enter **Perform Site Inspection** for Flow name and click **Launch
@@ -657,7 +657,7 @@ record the steps using the **Inspection** web app.
     <https://fabrikaminspectionstest.azurewebsites.net>
     for Initial URL and click **Save**.
 
-> <img src="./media/image52.png" style="width:4.44174in;height:3.12023in"
+> <img src="../L02/media/image52.png" style="width:4.44174in;height:3.12023in"
 > alt="enter details as described" />
 
 8.  DO NOT start recording yet.
@@ -666,7 +666,7 @@ record the steps using the **Inspection** web app.
 
 10. Click **Run**.
 
-> <img src="./media/image53.png" style="width:5.72935in;height:1.46261in"
+> <img src="../L02/media/image53.png" style="width:5.72935in;height:1.46261in"
 > alt="run the flow" />
 
 11. Microsoft Edge should load and navigate to the URL you provided.
@@ -707,7 +707,7 @@ record the steps using the **Inspection** web app.
 11) Right click on the **Job number** and select **Extract element value
     \| Text: (Inprogress”)**
 
-> <img src="./media/image54.png" style="width:5.18299in;height:2.19114in"
+> <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
 > alt="enter details as described" />
 
 12) Go back to the recorder and click **Finish**.
@@ -719,7 +719,7 @@ record the steps using the **Inspection** web app.
 17. After you finish recording, your recorder actions should look like
     the image below.
 
-> <img src="./media/image55.png" style="width:5.98908in;height:4.19748in"
+> <img src="../L02/media/image55.png" style="width:5.98908in;height:4.19748in"
 > alt="summary of completed work" />
 
 ## Task \#3: Add Input and output variables
@@ -774,13 +774,13 @@ variables you just defined.
 1.  Go to the Populate text field on web page for the account number and
     double click on it.
 
-> <img src="./media/image56.png" style="width:5.98738in;height:1.38554in"
+> <img src="../L02/media/image56.png" style="width:5.98738in;height:1.38554in"
 > alt="select the item as noted" />
 
 2.  Clear the Text value and click on the **{x}** select variable
     button.
 
-> <img src="./media/image57.png" style="width:4.67237in;height:1.9979in"
+> <img src="../L02/media/image57.png" style="width:4.67237in;height:1.9979in"
 > alt="clear the value and select variable button" />
 
 3.  Select **InspectionAccountNumber** and click **Select**.
@@ -790,7 +790,7 @@ variables you just defined.
 5.  Go to the Populate text field on web page for the property address
     and double click on it.
 
-> <img src="./media/image58.png" style="width:5.90547in;height:1.73442in"
+> <img src="../L02/media/image58.png" style="width:5.90547in;height:1.73442in"
 > alt="select item as noted" />
 
 6.  Clear the Text value and click on the **{x}** select variable
@@ -803,7 +803,7 @@ variables you just defined.
 9.  Go to the Populate text field on web page for the work to inspect
     and double click on it.
 
-> <img src="./media/image59.png" style="width:5.83347in;height:1.6171in"
+> <img src="../L02/media/image59.png" style="width:5.83347in;height:1.6171in"
 > alt="select item as noted" />
 
 10. Clear the Text value and click on the **{x}** select variable
@@ -816,19 +816,19 @@ variables you just defined.
 13. Go to the first Get details of element on web page and double click
     on it.
 
-> <img src="./media/image60.png" style="width:5.81023in;height:1.17074in"
+> <img src="../L02/media/image60.png" style="width:5.81023in;height:1.17074in"
 > alt="select item as noted" />
 
 14. Click on the variable name, change it to **%JobNumber%**, and click
     **Save**. You are typing in this field.
 
-> <img src="./media/image61.png" style="width:5.37837in;height:2.89326in"
+> <img src="../L02/media/image61.png" style="width:5.37837in;height:2.89326in"
 > alt="enter details as described" />
 
 15. Go to the Populate text field on web page for the second account
     number and double click on it.
 
-> <img src="./media/image62.png" style="width:6.5in;height:0.86319in"
+> <img src="../L02/media/image62.png" style="width:6.5in;height:0.86319in"
 > alt="select the item as described" />
 
 16. Clear the Text value and click on the **{x}** select variable
@@ -841,7 +841,7 @@ variables you just defined.
 19. Go to the last Populate text field on web page and double click on
     it.
 
-> <img src="./media/image63.png" style="width:5.77456in;height:1.52446in"
+> <img src="../L02/media/image63.png" style="width:5.77456in;height:1.52446in"
 > alt="select the item as described" />
 
 20. Clear the Text value and click on the **{x}** select variable
@@ -854,7 +854,7 @@ variables you just defined.
 23. Go to the last Get details of element on web page and double click
     on it.
 
-> <img src="./media/image64.png" style="width:6.09705in;height:0.87938in"
+> <img src="../L02/media/image64.png" style="width:6.09705in;height:0.87938in"
 > alt="select the item as described" />
 
 24. Click on the **{x}** select variable button.
@@ -867,14 +867,14 @@ variables you just defined.
     flow, then drag the Launch new Microsoft Edge action and drop it
     before all the recorded actions.
 
-> <img src="./media/image65.png" style="width:5.60109in;height:1.68691in"
+> <img src="../L02/media/image65.png" style="width:5.60109in;height:1.68691in"
 > alt="order items as described" />
 
 28. Click **Run** and wait for the run to complete.
 
 29. After the run completes, the variables should like the image below.
 
-> <img src="./media/image66.png" style="width:3.59154in;height:5.1763in"
+> <img src="../L02/media/image66.png" style="width:3.59154in;height:5.1763in"
 > alt="review the results" />
 
 30.  Click **Save** and wait for the flow to be saved.
@@ -889,12 +889,12 @@ before checking again.
     before Populate text field on a web page for the second
     InspectionAccountNumber action.
 
-> <img src="./media/image67.png" style="width:5.99844in;height:3.26774in"
+> <img src="../L02/media/image67.png" style="width:5.99844in;height:3.26774in"
 > alt="drag the item as described" />
 
 2.  Click on the **{x}** select variable button of the First operand.
 
-> <img src="./media/image68.png" style="width:4.90264in;height:2.94488in"
+> <img src="../L02/media/image68.png" style="width:4.90264in;height:2.94488in"
 > alt="select variable as noted" />
 
 3.  Select **InspectionStatus** and click **Select**.
@@ -902,19 +902,19 @@ before checking again.
 4.  Select **Not equal to (\<\>)** for Operation, enter **Completed**
     for the Second operand, and click **Save**.
 
-> <img src="./media/image69.png" style="width:5.16706in;height:2.25678in"
+> <img src="../L02/media/image69.png" style="width:5.16706in;height:2.25678in"
 > alt="enter details as described" />
 
 5.  Select the four actions after the loop and move them inside the loop
     by drag and drop.
 
-> <img src="./media/image70.png" style="width:5.00698in;height:2.23817in"
+> <img src="../L02/media/image70.png" style="width:5.00698in;height:2.23817in"
 > alt="move the items as described" />
 
 6.  Expand the **Flow control** group, drag **Wait** action and drop it
     before the **End** loop.
 
-> <img src="./media/image71.png" style="width:5.65362in;height:3.11009in"
+> <img src="../L02/media/image71.png" style="width:5.65362in;height:3.11009in"
 > alt="drag the item as described" />
 
 7.  Enter **10** seconds and click **Save**.
@@ -922,7 +922,7 @@ before checking again.
 8.  Click **Run** and wait for the flow to complete. The flow should go
     through the loop until the inspection status changes to Completed.
 
-> <img src="./media/image72.png" style="width:5.6958in;height:2.59293in"
+> <img src="../L02/media/image72.png" style="width:5.6958in;height:2.59293in"
 > alt="review the results" />
 
 9.  Do not close the browser.
@@ -941,26 +941,26 @@ to populate the output variable.
 2.  Expand the **Web data extraction** subgroup and double click on the
     **Extract data from web page** action.
 
-> <img src="./media/image73.png" style="width:3.59218in;height:1.47968in"
+> <img src="../L02/media/image73.png" style="width:3.59218in;height:1.47968in"
 > alt="select the item described" />
 
 3.  Go back to the web page, right click on the image, and select
     **Extract entire HTML table**.
 
-> <img src="./media/image74.png" style="width:5.43084in;height:2.53903in"
+> <img src="../L02/media/image74.png" style="width:5.43084in;height:2.53903in"
 > alt="follow the steps" />
 
 4.  Notice you only get Value \#1, currently, extract is not able to
     extract both columns of the table because column 2 is an img tag.
 
-> <img src="./media/image75.png" style="width:3.66091in;height:3.46429in"
+> <img src="../L02/media/image75.png" style="width:3.66091in;height:3.46429in"
 > alt="review the results" />
 
 5.  Click **Cancel**.
 
 6.  Click **Cancel** again.
 
-> <img src="./media/image76.png" style="width:5.0459in;height:3.06298in"
+> <img src="../L02/media/image76.png" style="width:5.0459in;height:3.06298in"
 > alt="select cancel" />
 
 7.  Go to the web page and open the DevTools via the **F12** key. We are
@@ -968,7 +968,7 @@ to populate the output variable.
 
 8.  Select the **Console** tab and click **Clear console**.
 
-> <img src="./media/image77.png" style="width:5.79761in;height:1.36301in"
+> <img src="../L02/media/image77.png" style="width:5.79761in;height:1.36301in"
 > alt="enter details as described" />
 
 9.  Paste the script below and enter.
@@ -999,7 +999,7 @@ console.log(JSON.stringify(sitephotolist))
 
 10. Review the information you are trying to extract.
 
-> <img src="./media/image78.png" style="width:4.99913in;height:1.07139in"
+> <img src="../L02/media/image78.png" style="width:4.99913in;height:1.07139in"
 > alt="review results" />
 
 11. Close the DevTools.
@@ -1010,7 +1010,7 @@ console.log(JSON.stringify(sitephotolist))
     function on a web page and get the returned result** action and drop
     it after the **End** loop.
 
-> <img src="./media/image79.png" style="width:4.60304in;height:2.46037in"
+> <img src="../L02/media/image79.png" style="width:4.60304in;height:2.46037in"
 > alt="drag item as described" />
 
 14. Select **Browser** for Web browser instance, paste the script below
@@ -1049,7 +1049,7 @@ return JSON.stringify(sitephotolist);
 
 }
 
-> <img src="./media/image80.png" style="width:3.84062in;height:2.70721in"
+> <img src="../L02/media/image80.png" style="width:3.84062in;height:2.70721in"
 > alt="review the results of the script you added" />
 
 15. Select **SitePhotos**.
@@ -1059,7 +1059,7 @@ return JSON.stringify(sitephotolist);
 17. Expand the **Browser automation** group, drag **Close web browser**
     action, and drop it to the bottom of the recorded actions.
 
-> <img src="./media/image81.png" style="width:5.37213in;height:2.48691in"
+> <img src="../L02/media/image81.png" style="width:5.37213in;height:2.48691in"
 > alt="drag the item as described" />
 
 18. Select **Browser** for web browser instance and click **Save**.
@@ -1079,7 +1079,7 @@ return JSON.stringify(sitephotolist);
 4.  Go to the Variables pane and make sure the **SitePhotos** variable
     has the expected value.
 
-> <img src="./media/image82.png" style="width:4.00688in;height:1.87298in"
+> <img src="../L02/media/image82.png" style="width:4.00688in;height:1.87298in"
 > alt="review results" />
 
 5. Save the flow.
