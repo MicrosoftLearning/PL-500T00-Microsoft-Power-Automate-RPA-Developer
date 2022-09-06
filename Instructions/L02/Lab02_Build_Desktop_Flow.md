@@ -710,7 +710,7 @@ record the steps using the **Inspection** web app.
 > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
 > alt="enter details as described" />
 
-12) Go back to the recorder and click **Finish**.
+12) Go back to the recorder and click **Done**.
 
 <!-- -->
 
