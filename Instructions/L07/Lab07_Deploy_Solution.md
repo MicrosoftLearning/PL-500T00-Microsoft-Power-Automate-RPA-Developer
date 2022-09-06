@@ -227,7 +227,7 @@ In this exercise, will create a Key Vault.
 
 21. Click **Save**.
 
-22. Select **Access Control,** click **+ Add**, and select **Add role
+22. Select **Access Control (IAM),** click **+ Add**, and select **Add role
     assignment**.
 
 > <img src="../L07/media/image25.png" style="width:5.48472in;height:1.646in"
