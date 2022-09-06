@@ -124,7 +124,7 @@ API.
 > <img src="../L04/media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
 
-21. Select the definitions tab and see the operation imported.
+21. Select the definition drop-down and see the operation imported.
 
 22. Turn on **Swagger editor**.
 
