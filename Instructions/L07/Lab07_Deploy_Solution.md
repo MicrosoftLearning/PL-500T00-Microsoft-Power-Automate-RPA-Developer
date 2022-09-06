@@ -324,8 +324,8 @@ flows.
 > alt="paste as described" />
 
 15. Enter **Funding** for Resource group name, **FundingFL (FL will be
-    your initials)** for Azure Key Vault name, **FundingPassword** for
-    Secret name, and click **Save**. These values must match what you
+    your initials)** for Azure Key Vault name, and **FundingPassword** for
+    Secret name. These values must match what you
     used or you will see an error at the top of the panel.
 
 > <img src="../L07/media/image37.png" style="width:2.74909in;height:4.36789in"
