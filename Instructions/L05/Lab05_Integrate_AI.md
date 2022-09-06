@@ -495,7 +495,7 @@ string(replace(,'$',''))
 > <img src="../L05/media/image57.png" style="width:5.63131in;height:1.77061in"
 > alt="select and complete as described" />
 
-50. Click on the **Requested Amount** value and copy. Use
+50. Click on the **Amount Requested** value and copy. Use
     **\[CONTROL\] + \[C\]** to copy.
 
 51. Expand the **Calculate Risk Score** step.
