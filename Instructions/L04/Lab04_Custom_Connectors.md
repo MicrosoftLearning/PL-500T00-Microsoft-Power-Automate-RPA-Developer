@@ -139,7 +139,7 @@ API.
 
 ## Task \#4: Test connector
 
-1.  Select the **Test** tab and click **+ New connection**.
+1.  Select the **Test** drop-down and click **+ New connection**.
 
 > <img src="../L04/media/image14.png" style="width:5.34118in;height:2.00351in"
 > alt="select new connection" />
