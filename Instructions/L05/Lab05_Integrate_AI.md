@@ -278,7 +278,7 @@ the funding request form.
 
 ## Task \#4: Test and publish the model
 
-1.  The model should automatically open after the training completes.
+1.  The model should automatically open after the training completes or click **Go to models**.
 
 2.  Click **Quick test**.
 
