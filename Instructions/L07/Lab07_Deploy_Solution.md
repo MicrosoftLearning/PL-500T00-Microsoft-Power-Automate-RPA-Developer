@@ -45,7 +45,7 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image3.png" style="width:3.61908in;height:2.28907in"
 > alt="connect with remote desktop" />
 
-5.  Click **More choices**.
+5.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
 
 > <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
 > alt="select as described" />
