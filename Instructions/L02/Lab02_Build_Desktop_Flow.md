@@ -718,6 +718,8 @@ record the steps using the **Inspection** web app.
 
 17. After you finish recording, your recorder actions should look like
     the image below.
+    
+18. Click **Save** and wait for the flow to be saved.
 
 > <img src="../L02/media/image55.png" style="width:5.98908in;height:4.19748in"
 > alt="summary of completed work" />
