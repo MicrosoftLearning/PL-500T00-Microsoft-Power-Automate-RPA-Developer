@@ -414,7 +414,7 @@ triggerOutputs()?\['body/attachments'\]?\[0\]\['id'\]
 30. Click on the **+** Insert a new step button below the **Get email
     attachment** step and select **Add an action**.
 
-31. Select **Extract information from forms**.
+31. Select **Extract information from documents**.
 
 > <img src="../L05/media/image47.png" style="width:4.45924in;height:2.29632in"
 > alt="select extract information from form aciton" />
