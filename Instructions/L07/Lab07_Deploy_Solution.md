@@ -389,7 +389,7 @@ flows.
 > alt="select as described" />
 
 32. Select **RetrieveEnvironmentVariableSecretValue** for Action name,
-    enter rc\_**FundingPassword** for EnvironmentVariableName, click on
+    enter **rc_FundingPassword** for EnvironmentVariableName, click on
     the **…** Menu button, and select **Settings**.
 
 > <img src="../L07/media/image42.png" style="width:5.16566in;height:1.56956in"
