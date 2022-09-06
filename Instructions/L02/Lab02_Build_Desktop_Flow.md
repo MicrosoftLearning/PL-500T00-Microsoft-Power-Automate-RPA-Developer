@@ -975,19 +975,19 @@ to populate the output variable.
 
 var table = document.getElementById("sitephotostable");
 
-var sitephotolist = { images:\[\] }
+var sitephotolist = { images:[] }
 
-for (var i = 0; i \< table.rows.length; i++) {
+for (var i = 0; i < table.rows.length; i++) {
 
-row = table.rows\[i\];
+row = table.rows[i];
 
-namecol = row.cells\[0\];
+namecol = row.cells[0];
 
-imgcol = row.cells\[1\];
+imgcol = row.cells[1];
 
 var imgtags = imgcol.getElementsByTagName('img');
 
-var imgsource = imgtags\[0\]\['src'\];
+var imgsource = imgtags[0]['src'];
 
 console.log(imgsource)
 
