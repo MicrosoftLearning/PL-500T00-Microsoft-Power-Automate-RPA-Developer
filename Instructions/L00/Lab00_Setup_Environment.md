@@ -34,7 +34,7 @@ that you will do the majority of your lab work in.
 ### Task 1 – Create Development environment
 
 1.  Access <https://powerapps.microsoft.com/en-us/developerplan> and
-    select Existing User add an environment, log in with your Microsoft
+    select Existing user? Add a dev environment, log in with your Microsoft
     365 credentials if prompted again.
 
 2.  Your **Dev** environment should now show in the list of
