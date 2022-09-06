@@ -24,7 +24,7 @@ create individual environments for configuration during the course.
 
 -   Enter the password provided by the Authorized Lab Hoster.
 
--   Select **Yes** to stay signed in.
+-   Select **Yes** to stay signed in and complete the sign up process by clicking **Get Started**.
 
 ## Exercise 2 - Create your environments
 
