@@ -1015,7 +1015,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image113.png" style="width:5.33934in;height:2.4278in"
 > alt="rename the flow and select add new step" />
 
-53. Select **Run child flow**.
+53. Select **Run a child flow**.
 
 54. Select **CF Manage Woodgrove Funding Process** for Child flow.
 
