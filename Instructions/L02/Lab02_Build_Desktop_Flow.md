@@ -206,7 +206,7 @@ will be used to return data to that flow.
 
 5.  Enter **Password** for Variable name, **pass@word1** for Default
     value, **Password** for External name, **Password** for Description,
-    mark the variable as sensitive, and click **Create**.
+    mark the variable as sensitive, and click **Save**.
 
 6.  Click **+** add argument and select **Input**.
 
