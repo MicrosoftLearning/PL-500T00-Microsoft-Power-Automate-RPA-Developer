@@ -734,7 +734,7 @@ will be used to return data to that flow.
 
 2.  Enter **InspectionAccountNumber** for Variable name, **Jane Doe**
     for Default value, **InspectionAccountNumber** for External name,
-    **Inspection account number** for Description, and click **Create**.
+    **Inspection account number** for Description, and click **Save**.
 
 3.  Click **+** add argument and select **Input** again.
 
