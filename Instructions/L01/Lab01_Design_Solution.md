@@ -259,7 +259,7 @@ application, so the recording goes smoothly.
 
 11. Go to the recorder and click **Finish**.
 
-12. Click **View Recording**.
+12. Click **Got it** and return to Power Automate web portal to select View Recording.
 
 > <img src="../L01/media/image21.png" style="width:3.1742in;height:2.07355in"
 > alt="select view recording" />
