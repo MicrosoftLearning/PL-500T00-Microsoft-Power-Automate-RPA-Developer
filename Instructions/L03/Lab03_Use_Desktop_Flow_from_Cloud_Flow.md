@@ -898,7 +898,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image99.png" style="width:4.91145in;height:2.31195in"
 > alt="select run a child flow action" />
 
-21. Select **CF Lookup** for Child flow.
+21. Select **CF Lookup Loan** for Child flow.
 
 22. Click on the **LoanNumber** field, go to the dynamic content pane,
     and select **Subject**.
