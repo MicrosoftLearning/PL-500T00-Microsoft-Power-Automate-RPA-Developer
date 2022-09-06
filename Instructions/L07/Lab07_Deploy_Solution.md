@@ -63,7 +63,7 @@ In this exercise, you will configure the Virtual Machine
 
 9.  Click **Next**.
 
-10. Read the terms of use and click **Install**.
+10. Read the terms of use and check By selecting 'Install', you agree to Microsoft's terms of use and click **Install**.
 
 11. Click **Launch app**.
 
