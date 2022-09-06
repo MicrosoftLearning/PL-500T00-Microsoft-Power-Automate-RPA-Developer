@@ -91,7 +91,7 @@ that you will do the majority of your lab work in.
 
 5.  Navigate to https://microsoftedge.microsoft.com/addons/search/power%20automate and select Microsoft Power Automate.
 
-6.  Click **Get it**.
+6.  Click **Get**.
 
 7.  Click **Add extensdion**.
 
