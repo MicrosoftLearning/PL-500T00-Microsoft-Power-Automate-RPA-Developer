@@ -568,7 +568,7 @@ Risk score: 90
 > <img src="../L02/media/image44.png" style="width:3.43707in;height:1.6248in"
 > alt="locate risk score" />
 
-10. Change the **Default value** to **85** and click **Update**.
+10. Change the **Default value** to **85** and click **Save**.
 
 > <img src="../L02/media/image45.png" style="width:5.59207in;height:4.03609in"
 > alt="update the default value" />
