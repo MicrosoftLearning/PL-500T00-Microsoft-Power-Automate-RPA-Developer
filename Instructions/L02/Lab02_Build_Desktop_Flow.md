@@ -212,7 +212,7 @@ will be used to return data to that flow.
 
 7.  Enter **LoanNumber** for Variable name, **MC3747** for Default
     value, **LoanNumber** for External name, **Loan number** for
-    Description, and click **Create**.
+    Description, and click **Save**.
 
 8.  Click **+** add argument and select **Input**.
 
