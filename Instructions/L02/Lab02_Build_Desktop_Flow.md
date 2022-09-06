@@ -265,7 +265,7 @@ will be used to return data to that flow.
 
 22. Enter **FundSequenceNumber** for Variable name,
     **FundSequenceNumber** for External name, **Fund sequence number**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 23. Click **+** add argument and select **Output**.
 
