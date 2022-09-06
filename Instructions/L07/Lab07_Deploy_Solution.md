@@ -584,9 +584,9 @@ Funding solutions and test the flows.
 > <img src="../L07/media/image55.png" style="width:6.03344in;height:1.72108in"
 > alt="select as described" />
 
-37. Paste the text below in the Funding Password field and click Import.
-    Replace **\[SubscriptionID\]** with subscription id you copied and
-    replace **\[FL\]** with your initials.
+37. Paste the text below in the Funding Password field.
+    Replace **[SubscriptionID]** with subscription id you copied and
+    replace **[FL]** with your initials.
 
 > /subscriptions/**\[SubscriptionID\]**/resourceGroups/Funding/providers/Microsoft.KeyVault/vaults/Funding[FL]/secrets/FundingPassword
 
