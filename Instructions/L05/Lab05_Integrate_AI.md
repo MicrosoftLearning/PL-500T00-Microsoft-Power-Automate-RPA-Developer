@@ -381,7 +381,7 @@ the funding request form.
 
 21. Select **Terminate**.
 
-22. Select **Success** for Status.
+22. Select **Succeeded** for Status.
 
 23. Click **+** insert a new step and select **Add an action**.
 
