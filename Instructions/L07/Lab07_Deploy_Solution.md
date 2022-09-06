@@ -164,7 +164,7 @@ In this exercise, will create a Key Vault.
 
 6.  Click **Home**.
 
-7.  Click **+ Create a new resource**.
+7.  Click **+ Create a resource**.
 
 8.  Search for key vault and **Key Vault**. **DO NOT** select Azure Key
     Vault
