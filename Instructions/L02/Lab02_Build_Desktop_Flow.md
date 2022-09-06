@@ -740,7 +740,7 @@ will be used to return data to that flow.
 
 4.  Enter **PropertyAddress** for Variable name, **123 Main Street** for
     Default value, **PropertyAddress** for External name, **Property
-    address** for Description, and click **Create**.
+    address** for Description, and click **Save**.
 
 5.  Click **+** add argument and select **Input** one more time.
 
