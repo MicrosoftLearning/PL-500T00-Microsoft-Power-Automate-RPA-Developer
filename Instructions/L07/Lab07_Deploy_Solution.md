@@ -53,7 +53,7 @@ In this exercise, you will configure the Virtual Machine
 6.  Select **Use a different account**, enter **Funding** for Username,
     **relecloud@word1** for Password, and click **OK**.
 
-7.  Start **Edge** browser and download the **Power Automate installer**
+7.  Start **Edge** browser and complete setup and download the **Power Automate installer**
     <https://go.microsoft.com/fwlink/?linkid=2102613>
 
 8.  Double click to install the Setup.Microsoft.PowerAutomate.
