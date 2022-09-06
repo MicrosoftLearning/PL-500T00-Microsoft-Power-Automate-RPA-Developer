@@ -218,7 +218,7 @@ will be used to return data to that flow.
 
 9.  Enter **RequestedAmount** for Variable name, **100000** for Default
     value, **RequestedAmount** for External name, **Requested amount**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 10. Click **+** add argument and select **Input**.
 
