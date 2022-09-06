@@ -899,7 +899,7 @@ before checking again.
 
 3.  Select **InspectionStatus** and click **Select**.
 
-4.  Select **Not equal to (\<\>)** for Operation, enter **Completed**
+4.  Select **Not equal to (<\>)** for Operation, enter **Completed**
     for the Second operand, and click **Save**.
 
 > <img src="../L02/media/image69.png" style="width:5.16706in;height:2.25678in"
