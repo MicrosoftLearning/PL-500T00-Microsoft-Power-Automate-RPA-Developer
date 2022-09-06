@@ -271,7 +271,7 @@ will be used to return data to that flow.
 
 24. Enter **FundingStatus** for Variable name, **FundingStatus** for
     External name, **Funding status** for Description, and click
-    **Create**.
+    **Save**.
 
 25. You should now have **11** total arguments 7 inputs and 4 outputs.
 
