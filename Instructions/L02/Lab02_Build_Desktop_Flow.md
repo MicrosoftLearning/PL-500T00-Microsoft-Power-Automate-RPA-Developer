@@ -1068,7 +1068,7 @@ return JSON.stringify(sitephotolist);
 
 ## Task \#7: Close browser and test
 
-1.  Drag **Close web browser** action and drop it below the Run JavaScript action.
+1.  Close the Fabrikam Inspection website.
 
 2.  Select **Browser** for We browser intance and click **Save**.
 
