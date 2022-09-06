@@ -259,7 +259,7 @@ will be used to return data to that flow.
 
 20. Enter **FundTransferNumber** for Variable name,
     **FundTransferNumber** for External name, **Fund transfer number**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 21. Click **+** add argument and select **Output**.
 
