@@ -762,7 +762,7 @@ will be used to return data to that flow.
 11. Click **+** add argument and select **Output** again.
 
 12. Enter **JobNumber** for Variable name, **JobNumber** for External
-    name, **Job Number** for Description, and click **Create**.
+    name, **Job Number** for Description, and click **Save**.
 
 13. You should now have three input and three output variables.
 
