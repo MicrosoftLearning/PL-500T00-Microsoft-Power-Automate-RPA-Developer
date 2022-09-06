@@ -79,7 +79,7 @@ that you will do the majority of your lab work in.
     <https://go.microsoft.com/fwlink/?linkid=2102613>
 
 2.  Check Install the Power Automate for desktop to build desktop flows
-    (if unchecked) and take the default options for the rest. If you
+    (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
     receive a warning about a duplicate install, go ahead and accept the
     install. Note: If you are completing the labs in an environment
     OTHER than through a hosted learning environment, check with your
