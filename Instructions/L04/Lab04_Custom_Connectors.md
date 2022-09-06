@@ -263,7 +263,7 @@ API.
 22. Select **Loan Draws** for Table name, click on the **Row ID** field
     and select **Loan Draw** from the dynamic content pane.
 
-23. Click on the **Risk Score** field and select **score** from the
+23. Expand Show advanced options and Click on the **Risk Score** field and select **score** from the
     dynamic content pane.
 
 24. Select **Risk Scored** for Status reason.
