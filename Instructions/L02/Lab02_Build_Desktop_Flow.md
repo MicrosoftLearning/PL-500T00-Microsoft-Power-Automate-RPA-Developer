@@ -150,7 +150,7 @@ screen.
 
 23. Click **OK**.
 
-24. Go to the recorder and click **Finish**.
+24. Go to the recorder and click **Done**.
 
 25. The steps you recorded should look like the image below.
 
