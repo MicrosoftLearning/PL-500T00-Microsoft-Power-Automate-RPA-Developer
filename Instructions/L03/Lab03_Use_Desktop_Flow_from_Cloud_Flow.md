@@ -230,7 +230,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image25.png" style="width:3.44203in;height:3.81323in"
 > alt="select new connection" />
 
-5.  Select Direct to machine for Connect and select your desktop. If you
+5.  Select Directly to machine for Connect and select your desktop. If you
     don’t see your desktop here, go to desktop flow machine settings and
     make sure you have the Dev environment selected.
 
