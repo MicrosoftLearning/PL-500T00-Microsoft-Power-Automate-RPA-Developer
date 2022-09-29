@@ -15,7 +15,7 @@ create individual environments for configuration during the course.
 -   Copy your **Microsoft 365 credentials** from the Authorized Lab
     Hoster.
 
--   Navigate to \<powerapps.microsoft.com\> and click **Start free.**
+-   Navigate to <https://powerapps.microsoft.com> and click **Start free.**
 
 -   Enter the email address from your Microsoft 365 credentials.
 
