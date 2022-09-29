@@ -360,13 +360,13 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 },
 
-"required": \[
+"required": [
 
 "name",
 
 "url"
 
-\]
+]
 
 }
 
