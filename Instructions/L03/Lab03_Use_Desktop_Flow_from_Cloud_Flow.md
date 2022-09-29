@@ -995,7 +995,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 
 46. Click **+ New step.**
 
-47. Select **Run child flow**.
+47. Select **Run a child flow**.
 
 48. Select **CF Manage Inspection Process** for Child flow.
 
