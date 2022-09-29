@@ -219,7 +219,7 @@ application, so the recording goes smoothly.
 1.  Minimize or close all but Power Automate desktop.
 
 2.  Go to the Start menu and launch the Woodgrove Bank Funding Manager
-    application.
+    application. If not displayed, go to the lab resources folder (C:\Labs\Resources\Funding manager app) and launch from there.
 
 > <img src="../L01/media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
