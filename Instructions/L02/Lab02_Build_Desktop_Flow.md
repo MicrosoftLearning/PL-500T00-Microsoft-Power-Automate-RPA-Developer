@@ -1071,16 +1071,16 @@ return JSON.stringify(sitephotolist);
 
 1.  Close the Fabrikam Inspection website.
 
-2.  Select **Browser** for We browser intance and click **Save**.
-
-3.  Click **Run** and wait for the run to complete. The flow will loop
+2.  Click **Run** and wait for the run to complete. The flow will loop
     through the loop condition multiple times, until the status changes
     to completed.
 
-4.  Go to the Variables pane and make sure the **SitePhotos** variable
+3.  Go to the Variables pane and make sure the **SitePhotos** variable
     has the expected value.
 
 > <img src="../L02/media/image82.png" style="width:4.00688in;height:1.87298in"
 > alt="review results" />
 
-5. Save the flow.
+
+4. Save the flow.
+
