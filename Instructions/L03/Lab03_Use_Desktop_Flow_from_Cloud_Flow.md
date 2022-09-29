@@ -594,7 +594,7 @@ base64(body('HTTP'))
 > <img src="../L03/media/image67.png" style="width:6.13357in;height:2.52354in"
 > alt="name your new flow" />
 
-5.  Click **+ Add an input**.
+5.  Expand the trigger and click **+ Add an input**.
 
 > <img src="../L03/media/image68.png" style="width:5.75666in;height:1.44347in"
 > alt="select add input" />
