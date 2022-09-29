@@ -642,7 +642,7 @@ base64(body('HTTP'))
     **RequestedAmount** from the dynamic content pane.
 
 21. Click on the **InspectionJobNumber** field and select
-    **InspectionJobIS** from the dynamic content pane.
+    **InspectionJobID** from the dynamic content pane.
 
 22. Type **Yes** for BorrowerApproved.
 
