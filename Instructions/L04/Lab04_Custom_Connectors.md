@@ -296,7 +296,7 @@ API.
 
 1.  Click **Test**.
 
-2.  Select **Manually** and click **Save & Test**.
+2.  Select **Manually** and click **Test**.
 
 3.  Send an email to <Funding@yourdomain.onmicrosoft.com> make sure the
     subject of the email is **PS7765**.
