@@ -194,7 +194,7 @@ will be used to return data to that flow.
 
 3.  Enter **Username** for Variable name, **user1** for Default value,
     **Username** for External name, **Username** for Description, mark
-    the variable as sensitive, and click **Create**.
+    the variable as sensitive, and click **Save**.
 
 > <img src="../L02/media/image13.png" style="width:3.36991in;height:2.90124in"
 > alt="enter details as described" />
