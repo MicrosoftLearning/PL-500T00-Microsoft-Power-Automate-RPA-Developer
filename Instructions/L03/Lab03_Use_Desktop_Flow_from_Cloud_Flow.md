@@ -33,7 +33,7 @@ desktop flows.
 > <img src="../L03/media/image2.png" style="width:6.5in;height:2.73333in"
 > alt="Name the flow and select manual trigger" />
 
-5.  Expand the trigger.
+5.  Expand the trigger by clicking on Manually trigger a flow.
 
 6.  Select **+ Add an input**.
 
