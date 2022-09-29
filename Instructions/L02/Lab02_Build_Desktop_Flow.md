@@ -236,7 +236,7 @@ will be used to return data to that flow.
 
 15. Enter **RiskScore** for Variable name, **30** for Default value,
     **RiskScore** for External name, **Risk score** for Description, and
-    click **Create**.
+    click **Save**.
 
 16. You should now have 7 input arguments.
 
