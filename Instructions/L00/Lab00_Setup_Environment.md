@@ -116,7 +116,7 @@ using in the labs
 
 After the account setup completes, setup the following Virtual Machine.
 
-3.  Click + Create a resource.
+3.  Navigate to <https://portal.azure.com>. Click + Create a resource.
 
 4.  Click **Create** Virtual Machine.
 
