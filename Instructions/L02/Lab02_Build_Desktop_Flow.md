@@ -451,8 +451,7 @@ Risk score: 90
 
 1.  Click the UI element dropdown and then click Add UI element.
 
-2.  Hold the ctrl key and Click on the **UI element** dropdown and
-    select **Draw denied contact bank**.
+2.  Hold the ctrl key and Click on the text **Draw denied contact bank**.
 
 3.  Click **Save**.
 
