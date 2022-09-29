@@ -250,7 +250,7 @@ will be used to return data to that flow.
 
 18. Enter **FundedAmount** for Variable name, **FundedAmount** for
     External name, **Funded amount** for Description, and click
-    **Create**.
+    **Save**.
 
 > <img src="../L02/media/image17.png" style="width:5.13447in;height:3.00156in"
 > alt="enter details as described" />
