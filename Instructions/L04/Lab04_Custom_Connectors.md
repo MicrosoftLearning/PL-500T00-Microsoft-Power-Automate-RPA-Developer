@@ -94,8 +94,8 @@ API.
 > <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
 > alt="expand connector list" />
 
-14. Click on the **…** more actions button of **the Builder Risk**
-    Service custom connector and select **Update from OpenAPI file**.
+14. Click on the **…** more actions button of the **Builder Risk
+    Service** custom connector and select **Update from OpenAPI file**.
 
 > <img src="../L04/media/image9.png" style="width:5.71908in;height:1.82937in"
 > alt="locate and update the OpenAPI file" />
