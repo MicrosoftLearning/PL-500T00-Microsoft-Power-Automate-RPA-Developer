@@ -65,7 +65,7 @@ you can improve the process by automating some of the process.
 
 ## Task 2: Review the draw request form
 
-1.  Go to the lab resources file and open the Draw1-MC3737.pdf file.
+1.  Go to the lab resources folder and open the Draw1-MC3747.pdf file.
 
 2.  Review the form.
 
@@ -74,7 +74,7 @@ you can improve the process by automating some of the process.
 
 ## Task 3: Review the loan tracking Excel file
 
-1.  Go to the lab resources file and open the LoanTracking-MC3737.xlsx
+1.  Go to the lab resources folder and open the LoanTracking-MC3747.xlsx
     file.
 
 2.  Review the loan tracking file.
@@ -219,7 +219,7 @@ application, so the recording goes smoothly.
 1.  Minimize or close all but Power Automate desktop.
 
 2.  Go to the Start menu and launch the Woodgrove Bank Funding Manager
-    application.
+    application. If not displayed, go to the lab resources folder (C:\Labs\Resources\Funding manager app) and launch from there.
 
 > <img src="../L01/media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
@@ -259,7 +259,7 @@ application, so the recording goes smoothly.
 
 11. Go to the recorder and click **Finish**.
 
-12. Click **View Recording**.
+12. Click **Got it** and return to Power Automate web portal to select View Recording.
 
 > <img src="../L01/media/image21.png" style="width:3.1742in;height:2.07355in"
 > alt="select view recording" />
@@ -471,7 +471,7 @@ alt="process diagram" />
 # Exercise \# 6 – Import starting solution
 
 In this exercise, you will import a solution into your dev environment,
-review the components in the solution, run a cloud a flow that will add
+review the components in the solution, run a cloud flow that will add
 test data to your environment, and run the loan manager app included in
 the solution.
 

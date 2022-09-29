@@ -15,7 +15,7 @@ create individual environments for configuration during the course.
 -   Copy your **Microsoft 365 credentials** from the Authorized Lab
     Hoster.
 
--   Navigate to \<powerapps.microsoft.com\> and click **Start free.**
+-   Navigate to <https://powerapps.microsoft.com> and click **Start free.**
 
 -   Enter the email address from your Microsoft 365 credentials.
 
@@ -24,7 +24,7 @@ create individual environments for configuration during the course.
 
 -   Enter the password provided by the Authorized Lab Hoster.
 
--   Select **Yes** to stay signed in.
+-   Select **Yes** to stay signed in and complete the sign up process by clicking **Get Started**.
 
 ## Exercise 2 - Create your environments
 
@@ -34,7 +34,7 @@ that you will do the majority of your lab work in.
 ### Task 1 – Create Development environment
 
 1.  Access <https://powerapps.microsoft.com/en-us/developerplan> and
-    select Existing User add an environment, log in with your Microsoft
+    select Existing user? Add a dev environment, log in with your Microsoft
     365 credentials if prompted again.
 
 2.  Your **Dev** environment should now show in the list of
@@ -76,10 +76,10 @@ that you will do the majority of your lab work in.
 ## Exercise 3 - Install Power Automate on your device
 
 1.  Follow the instructions to install Power Automate -
-    <https://go.microsoft.com/fwlink/?linkid=2102613>
+    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open downloaded file to start install.
 
 2.  Check Install the Power Automate for desktop to build desktop flows
-    (if unchecked) and take the default options for the rest. If you
+    (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
     receive a warning about a duplicate install, go ahead and accept the
     install. Note: If you are completing the labs in an environment
     OTHER than through a hosted learning environment, check with your
@@ -91,9 +91,9 @@ that you will do the majority of your lab work in.
 
 5.  Navigate to https://microsoftedge.microsoft.com/addons/search/power%20automate and select Microsoft Power Automate.
 
-6.  Click **Get it**.
+6.  Click **Get**.
 
-7.  Click **Add extensdion**.
+7.  Click **Add extension**.
 
 8.  Launch the app
 
@@ -116,7 +116,7 @@ using in the labs
 
 After the account setup completes, setup the following Virtual Machine.
 
-3.  Click + Create a resource.
+3.  Navigate to <https://portal.azure.com>. Click + Create a resource.
 
 4.  Click **Create** Virtual Machine.
 
@@ -140,7 +140,7 @@ alt="Screenshot showing the create resource dialog with a red rectangle around t
 
 11. Confirm Password.
 
-12. Click **Review and create**.
+12. Place check in box for Licensing and Click **Review and create**.
 
 <img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
 alt="Screenshot showing the create new virtual machine resource dialog" />
@@ -151,7 +151,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 1.  Create a folder name Labs in the **C:** if you don't already have that folder.
 
-2.  Copy the lab resources folder to **C:\Labs**
+2.  Copy the lab resources folder to **C:\Labs** if it doesn't already exist.
 
 3.  Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file.
@@ -166,7 +166,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 <img src="../L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
 
-7. Seklect **Download x64** of Windows desktop version.
+7. Select **Download x64** of Windows desktop version.
 
 <img src="../L00/media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
 
@@ -176,7 +176,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 <img src="../L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
 
-10. Click **Close** after the installtion completed.
+10. Click **Close** after the installation completed.
 
 11. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file again.

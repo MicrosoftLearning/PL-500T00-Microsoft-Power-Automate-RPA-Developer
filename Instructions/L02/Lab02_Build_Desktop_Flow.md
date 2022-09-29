@@ -150,7 +150,7 @@ screen.
 
 23. Click **OK**.
 
-24. Go to the recorder and click **Finish**.
+24. Go to the recorder and click **Done**.
 
 25. The steps you recorded should look like the image below.
 
@@ -194,7 +194,7 @@ will be used to return data to that flow.
 
 3.  Enter **Username** for Variable name, **user1** for Default value,
     **Username** for External name, **Username** for Description, mark
-    the variable as sensitive, and click **Create**.
+    the variable as sensitive, and click **Save**.
 
 > <img src="../L02/media/image13.png" style="width:3.36991in;height:2.90124in"
 > alt="enter details as described" />
@@ -206,37 +206,37 @@ will be used to return data to that flow.
 
 5.  Enter **Password** for Variable name, **pass@word1** for Default
     value, **Password** for External name, **Password** for Description,
-    mark the variable as sensitive, and click **Create**.
+    mark the variable as sensitive, and click **Save**.
 
 6.  Click **+** add argument and select **Input**.
 
 7.  Enter **LoanNumber** for Variable name, **MC3747** for Default
     value, **LoanNumber** for External name, **Loan number** for
-    Description, and click **Create**.
+    Description, and click **Save**.
 
 8.  Click **+** add argument and select **Input**.
 
 9.  Enter **RequestedAmount** for Variable name, **100000** for Default
     value, **RequestedAmount** for External name, **Requested amount**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 10. Click **+** add argument and select **Input**.
 
 11. Enter **InspectionJobNumber** for Variable name, **123** for Default
     value, **InspectionJobNumber** for External name, **Inspection job
-    number** for Description, and click **Create**.
+    number** for Description, and click **Save**.
 
 12. Click **+** add argument and select **Input**.
 
 13. Enter **BorrowerApproved** for Variable name, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 14. Click **+** add argument and select **Input**.
 
 15. Enter **RiskScore** for Variable name, **30** for Default value,
     **RiskScore** for External name, **Risk score** for Description, and
-    click **Create**.
+    click **Save**.
 
 16. You should now have 7 input arguments.
 
@@ -250,7 +250,7 @@ will be used to return data to that flow.
 
 18. Enter **FundedAmount** for Variable name, **FundedAmount** for
     External name, **Funded amount** for Description, and click
-    **Create**.
+    **Save**.
 
 > <img src="../L02/media/image17.png" style="width:5.13447in;height:3.00156in"
 > alt="enter details as described" />
@@ -259,19 +259,19 @@ will be used to return data to that flow.
 
 20. Enter **FundTransferNumber** for Variable name,
     **FundTransferNumber** for External name, **Fund transfer number**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 21. Click **+** add argument and select **Output**.
 
 22. Enter **FundSequenceNumber** for Variable name,
     **FundSequenceNumber** for External name, **Fund sequence number**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 23. Click **+** add argument and select **Output**.
 
 24. Enter **FundingStatus** for Variable name, **FundingStatus** for
     External name, **Funding status** for Description, and click
-    **Create**.
+    **Save**.
 
 25. You should now have **11** total arguments 7 inputs and 4 outputs.
 
@@ -451,8 +451,7 @@ Risk score: 90
 
 1.  Click the UI element dropdown and then click Add UI element.
 
-2.  Hold the ctrl key and Click on the **UI element** dropdown and
-    select **Draw denied contact bank**.
+2.  Hold the ctrl key and Click on the text **Draw denied contact bank**.
 
 3.  Click **Save**.
 
@@ -568,7 +567,7 @@ Risk score: 90
 > <img src="../L02/media/image44.png" style="width:3.43707in;height:1.6248in"
 > alt="locate risk score" />
 
-10. Change the **Default value** to **85** and click **Update**.
+10. Change the **Default value** to **85** and click **Save**.
 
 > <img src="../L02/media/image45.png" style="width:5.59207in;height:4.03609in"
 > alt="update the default value" />
@@ -585,7 +584,7 @@ Risk score: 90
 
 13. Locate the **RiskScore** variable and double click on it.
 
-14. Change the **Default value** to **65** and click **Update**.
+14. Change the **Default value** to **65** and click **Save**.
 
 15. Click **Save** and wait for the flow to be saved.
 
@@ -640,7 +639,7 @@ record the steps using the **Inspection** web app.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
-3.  Click + New and select Automation
+3.  Click + New and select Automation - Desktop flow.
 
 > <img src="../L02/media/image51.png" style="width:5.97206in;height:1.96134in"
 > alt="new desktop flow" />
@@ -704,13 +703,13 @@ record the steps using the **Inspection** web app.
 
 10) Click on the **Check Inspection** button.
 
-11) Right click on the **Job number** and select **Extract element value
+11) Right click on the **Job status** and select **Extract element value
     \| Text: (Inprogress”)**
 
 > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
 > alt="enter details as described" />
 
-12) Go back to the recorder and click **Finish**.
+12) Go back to the recorder and click **Done**.
 
 <!-- -->
 
@@ -718,6 +717,8 @@ record the steps using the **Inspection** web app.
 
 17. After you finish recording, your recorder actions should look like
     the image below.
+    
+18. Click **Save** and wait for the flow to be saved.
 
 > <img src="../L02/media/image55.png" style="width:5.98908in;height:4.19748in"
 > alt="summary of completed work" />
@@ -734,35 +735,35 @@ will be used to return data to that flow.
 
 2.  Enter **InspectionAccountNumber** for Variable name, **Jane Doe**
     for Default value, **InspectionAccountNumber** for External name,
-    **Inspection account number** for Description, and click **Create**.
+    **Inspection account number** for Description, and click **Save**.
 
 3.  Click **+** add argument and select **Input** again.
 
 4.  Enter **PropertyAddress** for Variable name, **123 Main Street** for
     Default value, **PropertyAddress** for External name, **Property
-    address** for Description, and click **Create**.
+    address** for Description, and click **Save**.
 
 5.  Click **+** add argument and select **Input** one more time.
 
 6.  Enter **WorkToInspect** for Variable name, **Test work item** for
     Default value, **WorkToInspect** for External name, **Work to
-    inspect** for Description, and click **Create**.
+    inspect** for Description, and click **Save**.
 
 7.  Click **+** add argument and select **Output**.
 
 8.  Enter **InspectionStatus** for Variable name, **InspectionStatus**
     for External name, **Inspection status** for Description, and click
-    **Create**.
+    **Save**.
 
 9.  Click **+** add argument and select **Output** again.
 
 10. Enter **SitePhotos** for Variable name, **SitePhotos** for External
-    name, **Site photos** for Description, and click **Create**.
+    name, **Site photos** for Description, and click **Save**.
 
 11. Click **+** add argument and select **Output** again.
 
 12. Enter **JobNumber** for Variable name, **JobNumber** for External
-    name, **Job Number** for Description, and click **Create**.
+    name, **Job Number** for Description, and click **Save**.
 
 13. You should now have three input and three output variables.
 
@@ -857,11 +858,11 @@ variables you just defined.
 > <img src="../L02/media/image64.png" style="width:6.09705in;height:0.87938in"
 > alt="select the item as described" />
 
-24. Click on the **{x}** select variable button.
+24. Click on variable and then click on the **{x}** select variable button.
 
 25. Select **InspectionStatus**.
 
-26. Click **Save**.
+26. Click **Save** and close the Fabrikam Inspection website.
 
 27. If your Launch new Microsoft Edge is not the first action in the
     flow, then drag the Launch new Microsoft Edge action and drop it
@@ -899,7 +900,7 @@ before checking again.
 
 3.  Select **InspectionStatus** and click **Select**.
 
-4.  Select **Not equal to (\<\>)** for Operation, enter **Completed**
+4.  Select **Not equal to (<\>)** for Operation, enter **Completed**
     for the Second operand, and click **Save**.
 
 > <img src="../L02/media/image69.png" style="width:5.16706in;height:2.25678in"
@@ -975,19 +976,19 @@ to populate the output variable.
 
 var table = document.getElementById("sitephotostable");
 
-var sitephotolist = { images:\[\] }
+var sitephotolist = { images:[] }
 
-for (var i = 0; i \< table.rows.length; i++) {
+for (var i = 0; i < table.rows.length; i++) {
 
-row = table.rows\[i\];
+row = table.rows[i];
 
-namecol = row.cells\[0\];
+namecol = row.cells[0];
 
-imgcol = row.cells\[1\];
+imgcol = row.cells[1];
 
 var imgtags = imgcol.getElementsByTagName('img');
 
-var imgsource = imgtags\[0\]\['src'\];
+var imgsource = imgtags[0]['src'];
 
 console.log(imgsource)
 
@@ -1023,19 +1024,19 @@ function ExecuteScript()
 
 var table = document.getElementById("sitephotostable");
 
-var sitephotolist = { images:\[\] }
+var sitephotolist = { images:[] }
 
-for (var i = 0; i \< table.rows.length; i++) {
+for (var i = 0; i < table.rows.length; i++) {
 
-row = table.rows\[i\];
+row = table.rows[i];
 
-namecol = row.cells\[0\];
+namecol = row.cells[0];
 
-imgcol = row.cells\[1\];
+imgcol = row.cells[1];
 
 var imgtags = imgcol.getElementsByTagName('img');
 
-var imgsource = imgtags\[0\]\['src'\];
+var imgsource = imgtags[0]['src'];
 
 console.log(imgsource)
 
@@ -1068,7 +1069,7 @@ return JSON.stringify(sitephotolist);
 
 ## Task \#7: Close browser and test
 
-1.  Drag **Close web browser** action and drop it below the Run JavaScript action.
+1.  Close the Fabrikam Inspection website.
 
 2.  Click **Run** and wait for the run to complete. The flow will loop
     through the loop condition multiple times, until the status changes
@@ -1080,4 +1081,6 @@ return JSON.stringify(sitephotolist);
 > <img src="../L02/media/image82.png" style="width:4.00688in;height:1.87298in"
 > alt="review results" />
 
+
 4. Save the flow.
+
