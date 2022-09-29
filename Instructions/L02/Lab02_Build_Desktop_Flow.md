@@ -753,7 +753,7 @@ will be used to return data to that flow.
 
 8.  Enter **InspectionStatus** for Variable name, **InspectionStatus**
     for External name, **Inspection status** for Description, and click
-    **Create**.
+    **Save**.
 
 9.  Click **+** add argument and select **Output** again.
 
