@@ -166,7 +166,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 <img src="../L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
 
-7. Seklect **Download x64** of Windows desktop version.
+7. Select **Download x64** of Windows desktop version.
 
 <img src="../L00/media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
 
