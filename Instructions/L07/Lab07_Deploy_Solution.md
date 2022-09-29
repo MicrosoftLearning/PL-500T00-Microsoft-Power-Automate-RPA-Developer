@@ -134,7 +134,7 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image13.png" style="width:5.67248in;height:1.65993in"
 > alt="select as described" />
 
-32. Click **Get it**.
+32. Click **Get**.
 
 33. Click **Add extension**.
 
