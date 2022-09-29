@@ -862,7 +862,7 @@ variables you just defined.
 
 25. Select **InspectionStatus**.
 
-26. Click **Save**.
+26. Click **Save** and close the Fabrikam Inspection website.
 
 27. If your Launch new Microsoft Edge is not the first action in the
     flow, then drag the Launch new Microsoft Edge action and drop it
