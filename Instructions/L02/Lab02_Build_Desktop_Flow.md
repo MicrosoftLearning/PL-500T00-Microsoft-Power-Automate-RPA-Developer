@@ -858,7 +858,7 @@ variables you just defined.
 > <img src="../L02/media/image64.png" style="width:6.09705in;height:0.87938in"
 > alt="select the item as described" />
 
-24. Click on the **{x}** select variable button.
+24. Click on variable and then click on the **{x}** select variable button.
 
 25. Select **InspectionStatus**.
 
