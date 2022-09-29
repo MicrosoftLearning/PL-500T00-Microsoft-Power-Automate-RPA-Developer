@@ -747,7 +747,7 @@ will be used to return data to that flow.
 
 6.  Enter **WorkToInspect** for Variable name, **Test work item** for
     Default value, **WorkToInspect** for External name, **Work to
-    inspect** for Description, and click **Create**.
+    inspect** for Description, and click **Save**.
 
 7.  Click **+** add argument and select **Output**.
 
