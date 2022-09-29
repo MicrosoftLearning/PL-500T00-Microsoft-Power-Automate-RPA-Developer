@@ -230,7 +230,7 @@ will be used to return data to that flow.
 
 13. Enter **BorrowerApproved** for Variable name, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
-    for Description, and click **Create**.
+    for Description, and click **Save**.
 
 14. Click **+** add argument and select **Input**.
 
