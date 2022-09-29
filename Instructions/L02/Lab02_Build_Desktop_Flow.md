@@ -639,7 +639,7 @@ record the steps using the **Inspection** web app.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
-3.  Click + New and select Automation
+3.  Click + New and select Automation - Desktop flow.
 
 > <img src="../L02/media/image51.png" style="width:5.97206in;height:1.96134in"
 > alt="new desktop flow" />
