@@ -224,7 +224,7 @@ will be used to return data to that flow.
 
 11. Enter **InspectionJobNumber** for Variable name, **123** for Default
     value, **InspectionJobNumber** for External name, **Inspection job
-    number** for Description, and click **Create**.
+    number** for Description, and click **Save**.
 
 12. Click **+** add argument and select **Input**.
 
