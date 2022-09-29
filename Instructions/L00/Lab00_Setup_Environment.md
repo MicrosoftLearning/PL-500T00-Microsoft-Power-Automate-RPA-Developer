@@ -76,7 +76,7 @@ that you will do the majority of your lab work in.
 ## Exercise 3 - Install Power Automate on your device
 
 1.  Follow the instructions to install Power Automate -
-    <https://go.microsoft.com/fwlink/?linkid=2102613>
+    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open downloaded file to start install.
 
 2.  Check Install the Power Automate for desktop to build desktop flows
     (if unchecked) and take the default options for the rest. If you
