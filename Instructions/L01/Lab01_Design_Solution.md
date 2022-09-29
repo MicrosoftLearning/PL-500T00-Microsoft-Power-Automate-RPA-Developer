@@ -74,7 +74,7 @@ you can improve the process by automating some of the process.
 
 ## Task 3: Review the loan tracking Excel file
 
-1.  Go to the lab resources file and open the LoanTracking-MC3737.xlsx
+1.  Go to the lab resources folder and open the LoanTracking-MC3747.xlsx
     file.
 
 2.  Review the loan tracking file.
