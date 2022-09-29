@@ -543,7 +543,7 @@ string(replace(,'$',''))
 6.  Wait for the flow run to complete.
 
 7.  Flow test should succeed, and you should get an email with Subject
-    Funding Approved.
+    Draw Approved.
 
 8.  Expand the **Extract Information from documents** step and review the
     **Outputs**.
