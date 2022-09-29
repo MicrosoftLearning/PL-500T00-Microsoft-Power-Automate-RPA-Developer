@@ -758,7 +758,7 @@ will be used to return data to that flow.
 9.  Click **+** add argument and select **Output** again.
 
 10. Enter **SitePhotos** for Variable name, **SitePhotos** for External
-    name, **Site photos** for Description, and click **Create**.
+    name, **Site photos** for Description, and click **Save**.
 
 11. Click **+** add argument and select **Output** again.
 
