@@ -429,7 +429,7 @@ triggerOutputs()?\['body/attachments'\]?\[0\]\['id'\]
 > alt="select as described" />
 
 34. Click on the **+** Insert a new step button below the **Extract
-    information from forms** step and select **Add an action**.
+    information from documents** step and select **Add an action**.
 
 35. Select **Initialize variable**.
 
