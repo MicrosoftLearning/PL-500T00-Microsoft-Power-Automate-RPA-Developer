@@ -703,7 +703,7 @@ record the steps using the **Inspection** web app.
 
 10) Click on the **Check Inspection** button.
 
-11) Right click on the **Job number** and select **Extract element value
+11) Right click on the **Job status** and select **Extract element value
     \| Text: (Inprogress”)**
 
 > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
