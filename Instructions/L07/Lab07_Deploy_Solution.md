@@ -110,7 +110,7 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image9.png" style="width:4in;height:1.83in"
 > alt="image of file explorer" />
 
-26. Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app.
+26. Browse to **C:\Labs\Resources\Funding manager app** and launch the **Woodgrove Bank Funding Manager.exe** app. If prompted, download .NET and install. Then try to launch Woodgrove Bank Funding Manager.exe again.
 
 <img src="../L07/media/image10.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
