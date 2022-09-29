@@ -181,7 +181,7 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image17.png" style="width:5.10334in;height:4.00471in"
 > alt="review the results of the prior steps" />
 
-11. Click **Review + create** again.
+11. Click **Create** again.
 
 12. Wait for the deployment to complete.
 
