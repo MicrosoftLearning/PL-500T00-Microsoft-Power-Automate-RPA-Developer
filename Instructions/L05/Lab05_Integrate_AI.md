@@ -469,7 +469,7 @@ triggerOutputs()?\['body/attachments'\]?\[0\]\['id'\]
 
 43. Expand the **Create new loan draw** row step.
 
-44. Click on the **Amount Requested** field, go to the dynamic content
+44. Click on the **Amount Requested** field (remove current value if populated), go to the dynamic content
     pane, and select the **Expression** tab.
 
 45. Paste the expression below.
