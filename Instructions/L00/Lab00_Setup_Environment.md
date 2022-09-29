@@ -176,7 +176,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 <img src="../L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
 
-10. Click **Close** after the installtion completed.
+10. Click **Close** after the installation completed.
 
 11. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file again.
