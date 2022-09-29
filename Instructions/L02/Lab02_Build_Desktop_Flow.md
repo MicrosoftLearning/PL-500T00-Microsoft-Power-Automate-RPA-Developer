@@ -584,7 +584,7 @@ Risk score: 90
 
 13. Locate the **RiskScore** variable and double click on it.
 
-14. Change the **Default value** to **65** and click **Update**.
+14. Change the **Default value** to **65** and click **Save**.
 
 15. Click **Save** and wait for the flow to be saved.
 
