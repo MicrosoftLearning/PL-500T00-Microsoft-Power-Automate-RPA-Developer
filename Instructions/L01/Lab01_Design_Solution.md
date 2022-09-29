@@ -65,7 +65,7 @@ you can improve the process by automating some of the process.
 
 ## Task 2: Review the draw request form
 
-1.  Go to the lab resources file and open the Draw1-MC3737.pdf file.
+1.  Go to the lab resources folder and open the Draw1-MC3747.pdf file.
 
 2.  Review the form.
 
