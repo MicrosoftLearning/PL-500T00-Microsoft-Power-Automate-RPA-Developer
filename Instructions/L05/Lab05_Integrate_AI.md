@@ -545,7 +545,7 @@ string(replace(,'$',''))
 7.  Flow test should succeed, and you should get an email with Subject
     Funding Approved.
 
-8.  Expand the **Extract Information from forms** step and review the
+8.  Expand the **Extract Information from documents** step and review the
     **Outputs**.
 
 > <img src="../L05/media/image62.png" style="width:3.68729in;height:4.88898in"
