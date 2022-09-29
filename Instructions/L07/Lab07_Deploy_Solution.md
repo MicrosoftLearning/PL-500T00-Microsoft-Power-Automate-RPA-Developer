@@ -50,8 +50,8 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
 > alt="select as described" />
 
-6.  Select **Use a different account**, enter **Funding** for Username,
-    **relecloud@word1** for Password, and click **OK**.
+6.  Select **Use a different account** if needed, enter **Funding** for Username,
+    **relecloud@word1** for Password, and click **OK**. If prompted, click Yes to connect anyway and complete setup.
 
 7.  Start **Edge** browser and complete setup and download the **Power Automate installer**
     <https://go.microsoft.com/fwlink/?linkid=2102613>
