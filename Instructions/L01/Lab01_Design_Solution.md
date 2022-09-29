@@ -471,7 +471,7 @@ alt="process diagram" />
 # Exercise \# 6 – Import starting solution
 
 In this exercise, you will import a solution into your dev environment,
-review the components in the solution, run a cloud a flow that will add
+review the components in the solution, run a cloud flow that will add
 test data to your environment, and run the loan manager app included in
 the solution.
 
