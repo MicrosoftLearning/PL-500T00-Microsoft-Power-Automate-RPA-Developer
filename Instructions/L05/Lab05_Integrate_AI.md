@@ -401,7 +401,7 @@ the funding request form.
 
 27. Paste the expression below and click **OK**.
 
-triggerOutputs()?\['body/attachments'\]?\[0\]\['id'\]
+triggerOutputs()?['body/attachments']?[0]['id']
 
 > <img src="../L05/media/image46.png" style="width:5.19345in;height:1.95698in"
 > alt="paste the expression" />
