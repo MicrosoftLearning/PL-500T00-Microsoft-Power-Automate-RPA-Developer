@@ -509,7 +509,7 @@ base64(body('HTTP'))
 
 49. Click **Run**.
 
-50. Select **Manually** and click **Test** again.
+50. If prompted, select **Manually** and click **Test** again.
 
 51. Click **Continue**.
 
