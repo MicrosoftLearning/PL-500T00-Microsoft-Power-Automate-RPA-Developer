@@ -93,7 +93,7 @@ that you will do the majority of your lab work in.
 
 6.  Click **Get**.
 
-7.  Click **Add extensdion**.
+7.  Click **Add extension**.
 
 8.  Launch the app
 
