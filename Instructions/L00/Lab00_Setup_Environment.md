@@ -151,7 +151,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 1.  Create a folder name Labs in the **C:** if you don't already have that folder.
 
-2.  Copy the lab resources folder to **C:\Labs**
+2.  Copy the lab resources folder to **C:\Labs** if it doesn't already exist.
 
 3.  Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file.
