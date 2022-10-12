@@ -89,15 +89,7 @@ that you will do the majority of your lab work in.
 
 4.  From the environment list pick your Dev environment
 
-5.  Navigate to https://microsoftedge.microsoft.com/addons/search/power%20automate and select Microsoft Power Automate.
-
-6.  Click **Get**.
-
-7.  Click **Add extension**.
-
-8.  Launch the app
-
-9.  Click Go Premium to start a trial and follow the prompts to activate
+5.  Click Go Premium to start a trial and follow the prompts to activate
     the trial.
 
 ## Exercise 4 - Azure account setup
