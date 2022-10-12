@@ -41,8 +41,8 @@ that you will do the majority of your lab work in.
     Environments. This typically is named **MOD Administrator’s
     Environment**. For the rest of this course when it says Dev
     environment it will be this environment.
+> Note: It might take a couple of minutes for the new environment to be provisioned and become available in the list of the environments. You can see the progress of the environment creation in the [Power Platform admin center](https://admin.powerplatform.com). You can proceed with the rest of this lab while the environment is provisioned, it must be finished before you start the next lab.
 
-3.  Your environment may take a few minutes to provision.
 
 ### Task 2 – Create Test environment
 
