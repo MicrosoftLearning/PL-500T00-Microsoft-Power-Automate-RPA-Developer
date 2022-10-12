@@ -166,21 +166,17 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 <img src="../L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
 
-7. Select **Download x64** of Windows desktop version.
+7. Select open file on the downloaded .exe file in the browser downloaded file list.
 
-<img src="../L00/media/image6.png" alt="Screenshot showing the download .NET  for Windows desktop" />
-
-8. Double click on the downloaded .exe file.
-
-9. Click **Install** and wait for the installation to complete.
+8. Click **Install** and wait for the installation to complete.
 
 <img src="../L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
 
-10. Click **Close** after the installation completed.
+9. Click **Close** after the installation completed.
 
-11. Browse to **C:\Labs\Resources\Funding manager app** and double click
+10. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file again.
 
 <img src="../L00/media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
-12.  The app should launch. Close the application.
+11.  The app should launch. Close the application.
