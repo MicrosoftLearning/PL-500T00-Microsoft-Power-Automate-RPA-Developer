@@ -161,7 +161,7 @@ process data and review the analytics.
 > alt="process data to review" />
 
 4.  Go to the Variants by frequency chart and select the second bar.
-    This is the frequencies for the approved draw path.
+    This is the frequency for the approved draw path.
 
 > <img src="../L01/media/image11.png" style="width:4.75935in;height:3.50951in"
 > alt="review frequencies" />
