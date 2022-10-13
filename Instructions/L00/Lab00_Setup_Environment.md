@@ -90,7 +90,7 @@ that you will do the majority of your lab work in.
 4.  From the environment list pick your Dev environment
 
 5.  Click Go Premium to start a trial and follow the prompts to activate
-    the trial.
+    the trial. If thee Start Trial button is not visible no action is required and you can proceed to Exercise 4.
 
 ## Exercise 4 - Azure account setup
 
