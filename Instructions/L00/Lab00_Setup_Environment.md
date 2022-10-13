@@ -148,27 +148,21 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 3.  Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file.
 
-4.  Click in the **More info** link.
-
-<img src="../L00/media/image4.png" alt="Screenshot showing the Microsoft defender SmartScreen dialog" />
-
-5. Click **Run anayway**.
-
-6. Click **Yes** on the download .NET popup.
+5. Click **Yes** on the download .NET popup.
 
 <img src="../L00/media/image5.png" alt="Screenshot showing the download .NET dialog" />
 
-7. Select open file on the downloaded .exe file in the browser downloaded file list.
+6. Select open file on the downloaded .exe file in the browser downloaded file list.
 
-8. Click **Install** and wait for the installation to complete.
+7. Click **Install** and wait for the installation to complete.
 
 <img src="../L00/media/image7.png" alt="Screenshot showing the .NET Windows desktop runtime installation wizard" />
 
-9. Click **Close** after the installation completed.
+8. Click **Close** after the installation completed.
 
-10. Browse to **C:\Labs\Resources\Funding manager app** and double click
+9. Browse to **C:\Labs\Resources\Funding manager app** and double click
     on the **Woodgrove Bank Funding Manager.exe** file again.
 
 <img src="../L00/media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
-11.  The app should launch. Close the application.
+10.  The app should launch. Close the application.
