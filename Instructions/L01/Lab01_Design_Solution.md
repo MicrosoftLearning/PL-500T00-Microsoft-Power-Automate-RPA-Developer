@@ -405,8 +405,7 @@ an app and what should use an API.
 
 ## Task 1: Review and make notes of what should use an app and what should be a connector
 
-The following is the original scenario with our notes from discovery
-added.
+A discovery process has been completed by the project team. The following is the original scenario with our notes from the discovery added
 
 Woodgrove Bank does construction loans to builders to build homes.
 Woodgrove does not give all the loan money to the builders on initial
@@ -418,19 +417,19 @@ Woodgrove is too busy to manage the process, so they hired Relecloud to
 manage it. Each month builders email forms requesting funds to
 Relecloud. After review, Relecloud requests Fabrikam Inspections via
 their website to do an onsite inspection to verify the work stated was
-actually done. During discovery we learned that Fabrikam has no plans to
-offer an API.
+actually done. *During discovery we learned that Fabrikam has no plans to
+offer an API*.
 
 Once the inspection is completed, Relecloud does a risk check using a
 website A Datum has that confirm that the builder hasn’t become high
-risk. During discovery we learned A Datum has a RESTful API for the risk
-check.
+risk. *During discovery we learned A Datum has a RESTful API for the risk
+check*.
 
 After these checks, Relecloud uses a Windows form app provided by
 Woodgrove to request funding. Someone from Relecloud checks the app each
 day for any completed requests and then they notify of funding
-completed. During discovery we learned that Woodgrove plans to modernize
-the app in the future.
+completed. *During discovery we learned that Woodgrove plans to modernize
+the app in the future*.
 
 Today Relecloud does each process step manually. You have been asked if
 you can improve the process by automating some of the process.
