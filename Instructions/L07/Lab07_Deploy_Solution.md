@@ -83,7 +83,7 @@ In this exercise, you will configure the Virtual Machine
 
 17. Enter **Funding** for Machine group name and click **Create**.
 
-18. Click on the Funding machine you created.
+18. Click on the **Funding** machine group you created.
 
 19. Click **Add machine**.
 
