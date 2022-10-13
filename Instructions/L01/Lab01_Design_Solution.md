@@ -166,7 +166,7 @@ process data and review the analytics.
 > <img src="../L01/media/image11.png" style="width:4.75935in;height:3.50951in"
 > alt="review frequencies" />
 
-5.  Select the last bar. This is the frequencies for the denied draw.
+5.  Select the last bar. This is the frequency for the denied draw.
 
 > <img src="../L01/media/image12.png" style="width:6.09172in;height:4.48874in"
 > alt="additional data to review" />
