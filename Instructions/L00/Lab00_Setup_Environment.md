@@ -132,12 +132,14 @@ alt="Screenshot showing the create resource dialog with a red rectangle around t
 
 11. Confirm Password.
 
-12. Place check in box for Licensing and Click **Review and create**.
+12. Place check in box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under *Licensing*.
+
+13. Click **Review and create**.
 
 <img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
 alt="Screenshot showing the create new virtual machine resource dialog" />
 
-13. Click **Create**
+14. Click **Create**
 
 ## Exercise 5 – Copy Lab Resources
 
