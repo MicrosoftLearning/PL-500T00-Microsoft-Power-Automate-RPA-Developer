@@ -447,7 +447,7 @@ alt="process diagram" />
 
 ## Task 2 – Review design notes
 
--   A shared mailbox will be used so not dependent on individual users
+-   A shared mailbox will be used to not be dependent on individual users
 
 -   Dataverse tables will be used instead of Excel worksheets to track
     the process. There will be a Loan, Loan Draw and Inspection Photo
