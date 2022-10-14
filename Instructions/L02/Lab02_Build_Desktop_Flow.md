@@ -974,6 +974,7 @@ to populate the output variable.
 
 9.  Paste the script below and enter.
 
+```js
 var table = document.getElementById("sitephotostable");
 
 var sitephotolist = { images:[] }
@@ -997,6 +998,7 @@ sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
 }
 
 console.log(JSON.stringify(sitephotolist))
+```
 
 10. Review the information you are trying to extract.
 
