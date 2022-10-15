@@ -672,7 +672,7 @@ record the steps using the **Inspection** web app.
 
 12. DO NOT close this Browser session.
 
-13. Go back to the desktop flow and click **Record**.
+13. Go back to the desktop flow and click **Recorder**.
 
 14. The recorder pane should come to view.
 
