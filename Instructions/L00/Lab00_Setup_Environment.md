@@ -143,7 +143,7 @@ alt="Screenshot showing the create new virtual machine resource dialog" />
 
 ## Exercise 5 – Copy Lab Resources
 
-1.  Create a folder name Labs in the **C:** if you don't already have that folder.
+1.  Create a folder **Labs** on the **C:** drive if you don't already have that folder.
 
 2.  Copy the lab resources folder to **C:\Labs** if it doesn't already exist.
 
