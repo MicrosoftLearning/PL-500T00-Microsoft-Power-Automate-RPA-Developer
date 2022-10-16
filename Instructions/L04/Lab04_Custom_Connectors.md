@@ -33,19 +33,17 @@ API.
 
 ## Task \#2: Create custom connector
 
-1.  Click to open the **Builder Risk Service** solution you created.
-
-2.  Click **+ New** and select **Automation \| Custom connector**.
+1.  Click **+ New** and select **Automation \| Custom connector**.
 
 > <img src="../L04/media/image2.png" style="width:5.55718in;height:1.4546in"
 > alt="add a new custom connector" />
 
-3.  Enter **Builder Risk Service** for name.
+2.  Enter **Builder Risk Service** for name.
 
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
 
-4.  Enter **Builder risk service** for Description, enter
+3.  Enter **Builder risk service** for Description, enter
     **adatumbuilderrisktest.azurewebsites.net** for Host, and click
     **Create connector**.
 
