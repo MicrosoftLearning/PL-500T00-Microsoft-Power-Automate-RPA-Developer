@@ -225,7 +225,7 @@ In this exercise, will create a Key Vault.
 
 20. Click **Add**.
 
-21. Click **Save**.
+21. **Access Policies** should now show one Application and one user entry.
 
 22. Select **Access Control (IAM),** click **+ Add**, and select **Add role
     assignment**.
