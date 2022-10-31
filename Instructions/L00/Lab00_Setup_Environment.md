@@ -80,17 +80,14 @@ that you will do the majority of your lab work in.
 
 2.  Check Install the Power Automate for desktop to build desktop flows
     (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
-    receive a warning about a duplicate install, go ahead and accept the
-    install. Note: If you are completing the labs in an environment
-    OTHER than through a hosted learning environment, check with your
-    admin to determine the best course of action for this step.
-
+    receive a warning about a duplicate install, go ahead and accept the install. 
+>Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step.
 3.  Launch the app and login with your Microsoft 365 credentials
 
 4.  From the environment list pick your Dev environment
 
 5.  Click Go Premium to start a trial and follow the prompts to activate
-    the trial. If thee Start Trial button is not visible no action is required and you can proceed to Exercise 4.
+    the trial. If the Start Trial button is not visible no action is required and you can proceed to Exercise 4.
 
 ## Exercise 4 - Azure account setup
 
