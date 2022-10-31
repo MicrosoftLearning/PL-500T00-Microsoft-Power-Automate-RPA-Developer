@@ -143,7 +143,7 @@ API.
 > <img src="../L04/media/image14.png" style="width:5.34118in;height:2.00351in"
 > alt="select new connection" />
 
-2.  Paste your **API Key** and click **Create**.
+2.  Paste your **API Key** and click **Create connection**.
 
 3.  Select **Custom Connectors** and click **Edit**.
 
