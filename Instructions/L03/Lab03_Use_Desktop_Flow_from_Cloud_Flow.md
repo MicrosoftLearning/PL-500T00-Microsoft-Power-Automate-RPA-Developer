@@ -330,6 +330,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
     New step**. Typically, you would generate this from a sample of the
     data expected.
 
+```json
 {
 
 "type": "object",
