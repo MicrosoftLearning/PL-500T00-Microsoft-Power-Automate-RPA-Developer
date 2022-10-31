@@ -201,7 +201,7 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image20.png" style="width:5.27637in;height:2.66863in"
 > alt="select and complete as described" />
 
-16. Select **Access policies** and click **+ Add Access Policy**.
+16. Select **Access policies** and click **+ Create**.
 
 > <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
 > alt="select as described" />
