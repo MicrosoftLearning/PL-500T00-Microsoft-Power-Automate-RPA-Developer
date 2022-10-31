@@ -63,7 +63,7 @@ desktop flows.
 > <img src="../L03/media/image7.png" style="width:5.68822in;height:2.47158in"
 > alt="enter details listed" />
 
-12. Add single quotes ‘ before and after LoanNumber
+12. Add single quotes (‘) before and after LoanNumber
 
 13. Click **+ New step**.
 
