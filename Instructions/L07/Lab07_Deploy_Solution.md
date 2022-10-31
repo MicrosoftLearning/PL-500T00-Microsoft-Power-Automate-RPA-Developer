@@ -206,7 +206,7 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
 > alt="select as described" />
 
-17. Click on the Secret permission dropdown and select **Get**.
+17. On the **Secret permissions** tab, select **Get**, then click **Next**.
 
 > <img src="../L07/media/image22.png" style="width:5.46908in;height:1.45433in"
 > alt="select as described" />
