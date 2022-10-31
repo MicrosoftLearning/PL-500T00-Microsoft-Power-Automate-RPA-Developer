@@ -223,7 +223,7 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image24.png" style="width:5.19505in;height:1.9648in"
 > alt="select as described" />
 
-20. Click **Add**.
+20. Click **Create**.
 
 21. Click **Save**.
 
