@@ -433,7 +433,7 @@ Username: your username.
 
 Password: pass@word1
 
-Account number: MC3747
+Loan number: MC3747
 
 Amount: 100000
 
