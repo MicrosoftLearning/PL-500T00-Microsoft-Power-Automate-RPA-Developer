@@ -330,6 +330,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
     New step**. Typically, you would generate this from a sample of the
     data expected.
 
+```json
 {
 
 "type": "object",
@@ -375,6 +376,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 }
 
 }
+```
 
 > <img src="../L03/media/image38.png" style="width:5.06349in;height:3.28424in"
 > alt="select new step" />
