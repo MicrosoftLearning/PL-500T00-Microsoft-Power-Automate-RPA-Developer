@@ -572,8 +572,8 @@ the solution.
 
 ## Task 3: Run flow
 
-1.  Select **Cloud flows** and click to open the **Create Test Data**
-    cloud flow again.
+1.  Select **Cloud flows** and click Details to open the **Create Test Data**
+    cloud flow.
 
 > <img src="../L01/media/image48.png" style="width:6.2357in;height:1.79942in"
 > alt="select the flow to run" />
