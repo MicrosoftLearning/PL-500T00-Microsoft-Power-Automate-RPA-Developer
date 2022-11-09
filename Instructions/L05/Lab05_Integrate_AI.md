@@ -109,7 +109,7 @@ the funding request form.
 > alt="review the resulting screen" />
 
 24. You will now add the table details. Click the chevron button on the
-    **+ Add** button and select **Single page table**.
+    **+ Add** button and select **Table**.
 
 > <img src="../L05/media/image10.png" style="width:5.47537in;height:2.27614in"
 > alt="select as described" />
