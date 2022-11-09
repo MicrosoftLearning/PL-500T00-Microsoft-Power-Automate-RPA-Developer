@@ -185,7 +185,7 @@ use to replace the hard coded values recorded. The input variables will
 be used to pass data from the calling cloud flow. The output variables
 will be used to return data to that flow.
 
-1.  On the **Variables** pane, select **+** and select **Input** to add a new input variable.
+1.  On the **Variables** pane, select the plus button **(+)** and select **Input** to add a new input variable.
 
 > <img src="../L02/media/image12.png" style="width:3.54359in;height:2.54873in"
 > alt="select add " />
@@ -207,7 +207,7 @@ will be used to return data to that flow.
 > <img src="../L02/media/image13.png"
 > alt="enter details as described" />
 
-3.  Select **+** and select **Input** again.
+3.  Select **(+)** and select **Input** again.
 
 > <img src="../L02/media/image14.png" style="width:3.02023in;height:1.65625in"
 > alt="add another input" />
@@ -216,31 +216,31 @@ will be used to return data to that flow.
     value, **Password** for External name, **Password** for Description,
     mark the variable as sensitive, and click **Save**.
 
-5.  Select **+** and select **Input** again.
+5.  Select **(+)** and select **Input** again.
 
 6.  Enter **LoanNumber** for Variable name, **MC3747** for Default
     value, **LoanNumber** for External name, **Loan number** for
     Description, and click **Save**.
 
-7.  Select **+** and select **Input** again.
+7.  Select **(+)** and select **Input** again.
 
 8.  Enter **RequestedAmount** for Variable name, **100000** for Default
     value, **RequestedAmount** for External name, **Requested amount**
     for Description, and click **Save**.
 
-9.  Select **+** and select **Input** again.
+9.  Select **(+)** and select **Input** again.
 
 10. Enter **InspectionJobNumber** for Variable name, **123** for Default
     value, **InspectionJobNumber** for External name, **Inspection job
     number** for Description, and click **Save**.
 
-11. Select **+** and select **Input** again.
+11. Select **(+)** and select **Input** again.
 
 12. Enter **BorrowerApproved** for Variable name, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
     for Description, and click **Save**.
 
-13. Select **+** and select **Input** again.
+13. Select **(+)** and select **Input** again.
 
 14. Enter **RiskScore** for Variable name, **30** for Default value,
     **RiskScore** for External name, **Risk score** for Description, and
@@ -251,7 +251,7 @@ will be used to return data to that flow.
 > <img src="../L02/media/image15.png" style="width:3.19711in;height:3.25539in"
 > alt="summary of input variables" />
 
-16. Select **+** and select **Output**.
+16. Select **(+)** and select **Output**.
 
 > <img src="../L02/media/image16.png" style="width:3.73322in;height:1.52395in"
 > alt="add output variable" />
@@ -263,19 +263,19 @@ will be used to return data to that flow.
 > <img src="../L02/media/image17.png"
 > alt="enter details as described" />
 
-18. Select **+** and select **Output**.
+18. Select **(+)** and select **Output**.
 
 19. Enter **FundTransferNumber** for Variable name,
     **FundTransferNumber** for External name, **Fund transfer number**
     for Description, and click **Save**.
 
-20. Select **+** and select **Output**.
+20. Select **(+)** and select **Output**.
 
 21. Enter **FundSequenceNumber** for Variable name,
     **FundSequenceNumber** for External name, **Fund sequence number**
     for Description, and click **Save**.
 
-22. Select **+** and select **Output**.
+22. Select **(+)** and select **Output**.
 
 23. Enter **FundingStatus** for Variable name, **FundingStatus** for
     External name, **Funding status** for Description, and click
