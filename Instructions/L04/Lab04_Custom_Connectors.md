@@ -121,7 +121,7 @@ API.
 > <img src="../L04/media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
 
-21. Select the definition drop-down and see the operation imported.
+21. Select **Definition** from the breadcrumb navigation bar at the top of the screen and see the operation imported.
 
 22. Turn on **Swagger editor**.
 
@@ -136,7 +136,7 @@ API.
 
 ## Task \#4: Test connector
 
-1.  Select the **Test** drop-down and click **+ New connection**.
+1.  Select **Test** from the breadcrumb navigation bar at the top of the screen and click **+ New connection**.
 
 > <img src="../L04/media/image14.png" style="width:5.34118in;height:2.00351in"
 > alt="select new connection" />
