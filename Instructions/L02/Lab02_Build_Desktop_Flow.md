@@ -193,9 +193,13 @@ will be used to return data to that flow.
 2.  Configure the variable as follows:
 
     Variable name: Username
+    
     Data type: Text
+    
     Default value: **Your Username**
+    
     External name: Username
+    
     Description: Username.
     
     Mark the variable as sensitive, and click **Save**.
