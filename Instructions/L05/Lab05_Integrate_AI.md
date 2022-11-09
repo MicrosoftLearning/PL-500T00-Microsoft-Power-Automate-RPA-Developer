@@ -166,7 +166,7 @@ the funding request form.
 
 6.  Click **Upload 5 documents** and wait for the files to be loaded.
 
-7.  Click **Close**.
+7.  Click **Done**.
 
 > <img src="../L05/media/image18.png" style="width:4.78016in;height:3.50392in"
 > alt="confirm the selection" />
