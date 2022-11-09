@@ -31,7 +31,7 @@ accidental steps from being recorded.
 
 <img src="../L02/media/image1-1.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
-2.  Enter your username for Username, **pass@word1** as Password, and
+2.  Enter your username for Username, <pass@word1> as Password, and
     click **Login**.
 
 3.  Enter **MC3747** for Loan number and click **Lookup**.
@@ -112,9 +112,9 @@ record the steps using the **Woodgrove Funding Manager** application.
 
     Username: your username.
 
-    Password: pass@word1
+    Password: <pass@word1>
 
-    Account number: MC3747
+    Loan number: MC3747
 
     Amount: 100000
 
@@ -185,97 +185,94 @@ use to replace the hard coded values recorded. The input variables will
 be used to pass data from the calling cloud flow. The output variables
 will be used to return data to that flow.
 
-1.  Go to the **Variables** pane and click **+** Add.
+1.  On the **Variables** pane, select **+** and select **Input** to add a new input variable.
 
 > <img src="../L02/media/image12.png" style="width:3.54359in;height:2.54873in"
 > alt="select add " />
 
-2.  Select **Input**.
-
-3.  Enter **Username** for Variable name, **user1** for Default value,
-    **Username** for External name, **Username** for Description, mark
+2.  **Username** for External name, **Username** for Description, mark
     the variable as sensitive, and click **Save**.
 
 > <img src="../L02/media/image13.png"
 > alt="enter details as described" />
 
-4.  Click **+** add and select **Input** again.
+3.  Select **+** and select **Input** again.
 
 > <img src="../L02/media/image14.png" style="width:3.02023in;height:1.65625in"
 > alt="add another input" />
 
-5.  Enter **Password** for Variable name, **pass@word1** for Default
+4.  Enter **Password** for Variable name, <pass@word1> for Default
     value, **Password** for External name, **Password** for Description,
     mark the variable as sensitive, and click **Save**.
 
-6.  Click **+** add argument and select **Input**.
+5.  Select **+** and select **Input** again.
 
-7.  Enter **LoanNumber** for Variable name, **MC3747** for Default
+6.  Enter **LoanNumber** for Variable name, **MC3747** for Default
     value, **LoanNumber** for External name, **Loan number** for
     Description, and click **Save**.
 
-8.  Click **+** add argument and select **Input**.
+7.  Select **+** and select **Input** again.
 
-9.  Enter **RequestedAmount** for Variable name, **100000** for Default
+8.  Enter **RequestedAmount** for Variable name, **100000** for Default
     value, **RequestedAmount** for External name, **Requested amount**
     for Description, and click **Save**.
 
-10. Click **+** add argument and select **Input**.
+9.  Select **+** and select **Input** again.
 
-11. Enter **InspectionJobNumber** for Variable name, **123** for Default
+10. Enter **InspectionJobNumber** for Variable name, **123** for Default
     value, **InspectionJobNumber** for External name, **Inspection job
     number** for Description, and click **Save**.
 
-12. Click **+** add argument and select **Input**.
+11. Select **+** and select **Input** again.
 
-13. Enter **BorrowerApproved** for Variable name, **Yes** for Default
+12. Enter **BorrowerApproved** for Variable name, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
     for Description, and click **Save**.
 
-14. Click **+** add argument and select **Input**.
+13. Select **+** and select **Input** again.
 
-15. Enter **RiskScore** for Variable name, **30** for Default value,
+14. Enter **RiskScore** for Variable name, **30** for Default value,
     **RiskScore** for External name, **Risk score** for Description, and
     click **Save**.
 
-16. You should now have 7 input arguments.
+15. You should now have 7 input arguments. They're displayed in alphabetical order.
 
 > <img src="../L02/media/image15.png" style="width:3.19711in;height:3.25539in"
 > alt="summary of input variables" />
 
-17. Click **+** add and select **Output**.
+16. Select **+** and select **Output**.
 
 > <img src="../L02/media/image16.png" style="width:3.73322in;height:1.52395in"
 > alt="add output variable" />
 
-18. Enter **FundedAmount** for Variable name, **FundedAmount** for
+17. Enter **FundedAmount** for Variable name, **FundedAmount** for
     External name, **Funded amount** for Description, and click
     **Save**.
 
 > <img src="../L02/media/image17.png"
 > alt="enter details as described" />
 
-19. Click **+** add argument and select **Output**.
+18. Select **+** and select **Output**.
 
-20. Enter **FundTransferNumber** for Variable name,
+19. Enter **FundTransferNumber** for Variable name,
     **FundTransferNumber** for External name, **Fund transfer number**
     for Description, and click **Save**.
 
-21. Click **+** add argument and select **Output**.
+20. Select **+** and select **Output**.
 
-22. Enter **FundSequenceNumber** for Variable name,
+21. Enter **FundSequenceNumber** for Variable name,
     **FundSequenceNumber** for External name, **Fund sequence number**
     for Description, and click **Save**.
 
-23. Click **+** add argument and select **Output**.
+22. Select **+** and select **Output**.
 
-24. Enter **FundingStatus** for Variable name, **FundingStatus** for
+23. Enter **FundingStatus** for Variable name, **FundingStatus** for
     External name, **Funding status** for Description, and click
     **Save**.
 
-25. You should now have **11** total arguments 7 inputs and 4 outputs.
+24. You should now have **11** total arguments 7 inputs and 4 outputs.
 
-26. Click **Save** and wait for the flow to be saved.
+25. Click **Save** and wait for the flow to be saved.
 
 ## Task \#4: Change flow to use input variables 
 
@@ -431,7 +428,7 @@ output variable indicating that the funding was denied.
 
 Username: your username.
 
-Password: pass@word1
+Password: <pass@word1>
 
 Loan number: MC3747
 
