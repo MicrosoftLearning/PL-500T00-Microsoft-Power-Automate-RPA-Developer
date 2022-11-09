@@ -332,49 +332,27 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 ```json
 {
-
-"type": "object",
-
-"properties": {
-
-"images": {
-
-"type": "array",
-
-"items": {
-
-"type": "object",
-
-"properties": {
-
-"name": {
-
-"type": "string"
-
-},
-
-"url": {
-
-"type": "string"
-
-}
-
-},
-
-"required": [
-
-"name",
-
-"url"
-
-]
-
-}
-
-}
-
-}
-
+   "type":"object",
+   "properties":{
+      "images":{
+         "type":"array",
+         "items":{
+            "type":"object",
+            "properties":{
+               "name":{
+                  "type":"string"
+               },
+               "url":{
+                  "type":"string"
+               }
+            },
+            "required":[
+               "name",
+               "url"
+            ]
+         }
+      }
+   }
 }
 ```
 
