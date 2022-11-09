@@ -190,8 +190,15 @@ will be used to return data to that flow.
 > <img src="../L02/media/image12.png" style="width:3.54359in;height:2.54873in"
 > alt="select add " />
 
-2.  **Username** for External name, **Username** for Description, mark
-    the variable as sensitive, and click **Save**.
+2.  Configure the variable as follows:
+
+    Variable name: Username
+    Data type: Text
+    Default value: **Your Username**
+    External name: Username
+    Description: Username.
+    
+    Mark the variable as sensitive, and click **Save**.
 
 > <img src="../L02/media/image13.png"
 > alt="enter details as described" />
