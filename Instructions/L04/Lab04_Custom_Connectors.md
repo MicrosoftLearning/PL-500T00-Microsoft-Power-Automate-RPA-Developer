@@ -33,19 +33,17 @@ API.
 
 ## Task \#2: Create custom connector
 
-1.  Click to open the **Builder Risk Service** solution you created.
-
-2.  Click **+ New** and select **Automation \| Custom connector**.
+1.  Click **+ New** and select **Automation \| Custom connector**.
 
 > <img src="../L04/media/image2.png" style="width:5.55718in;height:1.4546in"
 > alt="add a new custom connector" />
 
-3.  Enter **Builder Risk Service** for name.
+2.  Enter **Builder Risk Service** for name.
 
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
 
-4.  Enter **Builder risk service** for Description, enter
+3.  Enter **Builder risk service** for Description, enter
     **adatumbuilderrisktest.azurewebsites.net** for Host, and click
     **Create connector**.
 
@@ -118,12 +116,13 @@ API.
 19. Select the logo you downloaded and click **Open**.
 
 20. Enter **Builder risk service** for Description, enter
-    **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** drop-down.
+
+    **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** from the breadcrumb navigation bar at the top of the screen.
 
 > <img src="../L04/media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
 
-21. Select the **Definition** tab and see the operation imported.
+21. Select **Definition** from the breadcrumb navigation bar at the top of the screen and see the operation imported.
 
 22. Turn on **Swagger editor**.
 
@@ -138,7 +137,7 @@ API.
 
 ## Task \#4: Test connector
 
-1.  Select the **Test** drop-down and click **+ New connection**.
+1.  Select **Test** from the breadcrumb navigation bar at the top of the screen and click **+ New connection**.
 
 > <img src="../L04/media/image14.png" style="width:5.34118in;height:2.00351in"
 > alt="select new connection" />
