@@ -218,9 +218,7 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image23.png" style="width:5.47366in;height:1.70526in"
 > alt="select as described" />
 
-19. Search for dataverse, select the **Dataverse** with the
-    **00000007-0000-0000-c000-000000000000** identity, and click
-    **Select**,
+19. On the **Application (optional)** tab, select **Next**
 
 > <img src="../L07/media/image24.png" style="width:5.19505in;height:1.9648in"
 > alt="select as described" />
