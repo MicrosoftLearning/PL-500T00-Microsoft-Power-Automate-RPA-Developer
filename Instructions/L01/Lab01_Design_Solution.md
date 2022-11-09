@@ -224,13 +224,13 @@ application, so the recording goes smoothly.
 > <img src="../L01/media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
 
-1.  Enter your name for username, pass@word1 for password and
+1.  Enter your name for username, <pass@word1> for password and
     click **Login**.
 
 > <img src="../L01/media/image17.png" style="width:4.98676in;height:1.79651in"
 > alt="Follow login prompts" />
 
-4.  Enter **JG7165** for Loan number and click **Lookup**.
+4.  Enter <JG7165> for Loan number and click **Lookup**.
 
 5.  Click **Draw Funds**.
 
@@ -572,8 +572,8 @@ the solution.
 
 ## Task 3: Run flow
 
-1.  Select **Cloud flows** and click to open the **Create Test Data**
-    cloud flow again.
+1.  Select **Cloud flows** and click Details to open the **Create Test Data**
+    cloud flow.
 
 > <img src="../L01/media/image48.png" style="width:6.2357in;height:1.79942in"
 > alt="select the flow to run" />

@@ -350,7 +350,7 @@ flows.
 21. Expand the **Run a flow built with Power Automate for desktop**
     step.
 
-22. Click on the **Run Mode** dropdown and select **Unattended**.
+22. Click on the **Run Mode** dropdown and select **Custom Value**.
 
 > <img src="../L07/media/image39.png" style="width:5.14783in;height:2.7123in"
 > alt="select as described" />
@@ -370,7 +370,7 @@ flows.
 27. Expand the **Run a flow built with Power Automate for desktop**
     step.
 
-28. Click on the **Run Mode** dropdown and select **Unattended**.
+28. Click on the **Run Mode** dropdown and select **Enter custom value**.
 
 > <img src="../L07/media/image40.png" style="width:4.95877in;height:2.55824in"
 > alt="select as described" />
