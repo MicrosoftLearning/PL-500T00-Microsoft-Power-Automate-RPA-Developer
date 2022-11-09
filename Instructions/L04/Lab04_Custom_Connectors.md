@@ -116,7 +116,7 @@ API.
 19. Select the logo you downloaded and click **Open**.
 
 20. Enter **Builder risk service** for Description, enter
-    **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** drop-down.
+    **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** from the breadcrumb navigation bar at the top of the screen.
 
 > <img src="../L04/media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
