@@ -31,7 +31,7 @@ accidental steps from being recorded.
 
 <img src="../L02/media/image1-1.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
-2.  Enter your username for Username, <pass@word1> as Password, and
+2.  Enter your username for Username, **pass@word1** as Password, and
     click **Login**.
 
 3.  Enter **MC3747** for Loan number and click **Lookup**.
@@ -112,7 +112,7 @@ record the steps using the **Woodgrove Funding Manager** application.
 
     Username: your username.
 
-    Password: <pass@word1>
+    Password: **pass@word1**
 
     Loan number: MC3747
 
@@ -201,7 +201,7 @@ will be used to return data to that flow.
 > <img src="../L02/media/image14.png" style="width:3.02023in;height:1.65625in"
 > alt="add another input" />
 
-4.  Enter **Password** for Variable name, <pass@word1> for Default
+4.  Enter **Password** for Variable name, **pass@word1** for Default
     value, **Password** for External name, **Password** for Description,
     mark the variable as sensitive, and click **Save**.
 
@@ -428,7 +428,7 @@ output variable indicating that the funding was denied.
 
 Username: your username.
 
-Password: <pass@word1>
+Password: **pass@word1**
 
 Loan number: MC3747
 
