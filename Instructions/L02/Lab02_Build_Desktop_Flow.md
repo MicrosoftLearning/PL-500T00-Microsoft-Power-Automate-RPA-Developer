@@ -196,7 +196,7 @@ will be used to return data to that flow.
     **Username** for External name, **Username** for Description, mark
     the variable as sensitive, and click **Save**.
 
-> <img src="../L02/media/image13.png" style="width:3.36991in;height:2.90124in"
+> <img src="../L02/media/image13.png"
 > alt="enter details as described" />
 
 4.  Click **+** add and select **Input** again.
@@ -252,7 +252,7 @@ will be used to return data to that flow.
     External name, **Funded amount** for Description, and click
     **Save**.
 
-> <img src="../L02/media/image17.png" style="width:5.13447in;height:3.00156in"
+> <img src="../L02/media/image17.png"
 > alt="enter details as described" />
 
 19. Click **+** add argument and select **Output**.
@@ -433,7 +433,7 @@ Username: your username.
 
 Password: pass@word1
 
-Account number: MC3747
+Loan number: MC3747
 
 Amount: 100000
 
