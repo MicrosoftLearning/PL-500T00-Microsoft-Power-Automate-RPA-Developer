@@ -738,8 +738,7 @@ use to replace the hard coded values recorded. The input variables will
 be used to pass data from the calling cloud flow. The output variables
 will be used to return data to that flow.
 
-1.  Go to the **Variable** pane, click **+** add argument and select
-    **Input**.
+1.  Open the **Variables** pane, click **(+)** and select **Input**.
 
 2.  Enter **InspectionAccountNumber** for Variable name, **Jane Doe**
     for Default value, **InspectionAccountNumber** for External name,
