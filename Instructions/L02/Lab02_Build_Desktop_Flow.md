@@ -731,7 +731,7 @@ record the steps using the **Inspection** web app.
 > <img src="../L02/media/image55.png" style="width:5.98908in;height:4.19748in"
 > alt="summary of completed work" />
 
-## Task \#3: Add Input and output variables
+## Task \#3: Add input and output variables
 
 In this task, you will define the input and output variables that you'll
 use to replace the hard coded values recorded. The input variables will
