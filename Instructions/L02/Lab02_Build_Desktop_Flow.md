@@ -690,38 +690,38 @@ record the steps using the **Inspection** web app.
     recording. When you start recording you will repeat the steps you
     went through during the practice as outlined below.
 
-<!-- -->
-
-1)  Go to the **Request Inspection** page.
-
-2)  Enter your name for Inspection Account \#
-
-3)  Enter **123 Main Street** for Property Address.
-
-4)  Enter **Test work item** for Work to Inspect.
-
-5)  Click on the **Request Inspection** button.
-
-6)  Right click on the **Job Number** and select **Extract element value
-    \| Text: (“*your job number here*”)**. Remember the Job number.
-
-7)  Navigate to the Inspection Results page.
-
-8)  Provide your name again.
-
-9)  Enter the **Job number**.
-
-10) Click on the **Check Inspection** button.
-
-11) Right click on the **Job status** and select **Extract element value
-    \| Text: (Inprogress”)**
-
-> <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
-> alt="enter details as described" />
-
-12) Go back to the recorder and click **Done**.
-
-<!-- -->
+    <!-- -->
+    
+    i.  Go to the **Request Inspection** page.
+    
+    ii.  Enter your name for Inspection Account \#
+    
+    iii.  Enter **123 Main Street** for Property Address.
+    
+    iv.  Enter **Test work item** for Work to Inspect.
+    
+    v.  Click on the **Request Inspection** button.
+    
+    vi.  Right click on the **Job Number** and select **Extract element value
+        \| Text: (“*your job number here*”)**. Remember the Job number.
+    
+    vii.  Navigate to the Inspection Results page.
+    
+    viii.  Provide your name again.
+    
+    ix.  Enter the **Job number**.
+    
+    x. Click on the **Check Inspection** button.
+    
+    xi. Right click on the **Job status** and select **Extract element value
+        \| Text: (Inprogress”)**
+    
+    > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in"
+    > alt="enter details as described" />
+    
+    xii. Go back to the recorder and click **Done**.
+    
+    <!-- -->
 
 16. Click **Record** and perform the steps.
 
