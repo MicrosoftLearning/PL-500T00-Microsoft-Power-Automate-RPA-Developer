@@ -1,5 +1,7 @@
 ---
-title: Lab 4 – Custom Connectors
+lab:
+    title: 'Lab 4 - Custom Connectors'
+    module: 'Module 4 - Custom Connectors'
 ---
 
 # Scenario

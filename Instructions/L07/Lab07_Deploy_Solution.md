@@ -1,5 +1,7 @@
 ---
-title: Lab 7 – Deploy Solution
+lab:
+    title: 'Lab 7 - Deploy Solution'
+    module: 'Module 7 - Unattended Flows'
 ---
 
 # Scenario

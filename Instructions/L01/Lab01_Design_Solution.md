@@ -1,5 +1,7 @@
 ---
-title: Lab 1 – Design Solution
+lab:
+    title: 'Lab 1 – Design Solution'
+    module: 'Module 1 - Process Advisor & Importing Solution'
 ---
 
 # Scenario

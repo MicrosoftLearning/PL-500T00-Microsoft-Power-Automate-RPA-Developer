@@ -1,5 +1,7 @@
 ---
-title: Lab 3 - Use Desktop Flow from Cloud Flow
+lab:
+    title: 'Lab 3 - Use Desktop Flow from Cloud Flow'
+    module: 'Module 3 - Use Desktop Flow from Cloud Flow'
 ---
 
 # Scenario

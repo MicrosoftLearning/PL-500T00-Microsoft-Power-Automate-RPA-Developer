@@ -1,3 +1,9 @@
+---
+lab:
+    title: 'Lab 0 - Setup and environment preparation'
+    module: 'Module 0 - Setup'
+---
+
 # Setup my lab environment
 
 Attention to MCTs: Please make sure you are familiar with
