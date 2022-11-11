@@ -1,5 +1,7 @@
 ---
-title: Lab 6 – Monitor and Debug Flows
+lab:
+    title: 'Lab 6 - Monitor and Debug Flows'
+    module: 'Module 6 - Monitor and Debug Flows'
 ---
 
 # Scenario
