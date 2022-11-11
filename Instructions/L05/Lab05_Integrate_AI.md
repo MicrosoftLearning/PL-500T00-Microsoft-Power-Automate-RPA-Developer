@@ -1,5 +1,7 @@
 ---
-title: Lab 5 - Integrate AI
+lab:
+    title: 'Lab 5 - Integrate AI'
+    module: 'Module 5 - Integrate AI'
 ---
 
 # Scenario
