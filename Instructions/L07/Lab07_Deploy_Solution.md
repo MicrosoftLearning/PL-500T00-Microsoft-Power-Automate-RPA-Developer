@@ -4,12 +4,14 @@ lab:
     module: 'Module 7 - Unattended Flows'
 ---
 
-# Scenario
+# Unattended Flows
 
-In this lab, you will deploy the solution to run unattended in a new
-test environment.
+## Scenario
 
-# High-level lab Objectives
+In this lab, you will deploy the solution to run unattended flows in a 
+new test environment.
+
+## High-level lab Objectives
 
 -   Configure VM for unattended execution
 
