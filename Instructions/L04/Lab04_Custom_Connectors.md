@@ -4,7 +4,9 @@ lab:
     module: 'Module 4 - Custom Connectors'
 ---
 
-# Scenario
+# Custom Connectors
+
+## Scenario
 
 In this lab, you will build a custom connector for A Datum’s Risk Score
 API.
