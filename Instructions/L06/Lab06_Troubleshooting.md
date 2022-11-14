@@ -4,11 +4,13 @@ lab:
     module: 'Module 6 - Troubleshooting'
 ---
 
-# Scenario
+# Troubleshooting
+
+## Scenario
 
 In this lab, you will learn how to monitor and debug desktop flows.
 
-# High-level lab objectives
+## High-level lab objectives
 
 -   Monitor desktop flows
 

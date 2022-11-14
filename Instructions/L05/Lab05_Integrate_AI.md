@@ -4,14 +4,16 @@ lab:
     module: 'Module 5 - Integrate AI'
 ---
 
-# Scenario
+# Integrate AI
 
-In this lab, you will be using AI Builder to process the construction
+## Scenario
+
+In this lab, you will be using the AI Builder to process the construction
 funding request form document that was emailed to the funding shared
 mailbox to extract essential information. The extracted information will
 be stored in Dataverse for use in the funding process.
 
-# High-level lab steps
+## High-level lab steps
 
 -   Use sample request forms to train an AI Builder model
 

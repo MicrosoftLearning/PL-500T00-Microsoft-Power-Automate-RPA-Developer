@@ -4,12 +4,14 @@ lab:
     module: 'Module 3 - Use Desktop Flow from Cloud Flow'
 ---
 
-# Scenario
+# Using Desktop Flows from Cloud Flows
 
-In this lab, you will build the cloud flows and integrate with the
+## Scenario
+
+In this lab, you will build cloud flows which integrate with the
 desktop flows.
 
-# High-level lab objectives
+## High-level lab objectives
 
 -   Use child flows to create a more maintainable cloud flow
 

@@ -4,17 +4,19 @@ lab:
     module: 'Module 1 - Process Advisor & Importing Solution'
 ---
 
-# Scenario
+# Process Advisor & Importing Solution
+
+## Scenario
 
 In this lab, you will be working to design the automation of a
 Construction Loan Funding process that is currently manually tracked by
 Relecloud staff.
 
-# High-level lab objectives
+## High-level lab objectives
 
--   Discover current process
+-   Discover the current process
 
--   Use Process Advisor to visualize and analyze the current process.
+-   Use Process Advisor to visualize and analyze the current process
 
 -   Evaluate automation options
 
