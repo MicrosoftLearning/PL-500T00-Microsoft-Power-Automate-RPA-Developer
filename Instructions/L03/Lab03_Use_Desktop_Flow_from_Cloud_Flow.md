@@ -8,7 +8,7 @@ lab:
 
 ## Scenario
 
-In this lab, you will build the cloud flows and integrate with the
+In this lab, you will build cloud flows which integrate with the
 desktop flows.
 
 # High-level lab objectives
