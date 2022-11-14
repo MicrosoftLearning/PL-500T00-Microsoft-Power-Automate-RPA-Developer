@@ -4,7 +4,7 @@ lab:
     module: 'Module 0 - Setup'
 ---
 
-# Setup my lab environment
+# Setup the lab environment
 
 Attention to MCTs: Please make sure you are familiar with
 the TrainerPrepGuide for this course, especially the teaching tips and
