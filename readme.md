@@ -3,6 +3,7 @@
 
 - **Are you a MCT?** - Have a look at our [GitHub User Guide for MCTs](https://microsoftlearning.github.io/MCT-User-Guide/)
 - **Need to manually build the lab instructions?** - Instructions are available in the [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) repository
+- **Do you need a refresher on which labs go with which course presentation?** - Check out the [GitHub Page](https://microsoftlearning.github.io/PL-500T00-Microsoft-Power-Automate-RPA-Developer/)
 
 ## What are we doing?
 
