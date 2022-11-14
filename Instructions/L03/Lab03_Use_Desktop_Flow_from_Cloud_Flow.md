@@ -11,7 +11,7 @@ lab:
 In this lab, you will build cloud flows which integrate with the
 desktop flows.
 
-# High-level lab objectives
+## High-level lab objectives
 
 -   Use child flows to create a more maintainable cloud flow
 
