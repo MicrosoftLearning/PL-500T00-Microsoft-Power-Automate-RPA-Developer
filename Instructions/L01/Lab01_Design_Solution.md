@@ -12,7 +12,7 @@ In this lab, you will be working to design the automation of a
 Construction Loan Funding process that is currently manually tracked by
 Relecloud staff.
 
-# High-level lab objectives
+## High-level lab objectives
 
 -   Discover the current process
 
