@@ -4,10 +4,12 @@ lab:
     module: 'Module 2 - Desktop Flows'
 ---
 
-# Scenario
+# Building Desktop Flows
+
+## Scenario
 
 In this lab, you will be creating two desktop flows. One to automate the
-inspection website and the other to automate the funding Windows app.
+funding Windows app and the other to automate the inspection website.
 
 # High-level lab objectives
 
