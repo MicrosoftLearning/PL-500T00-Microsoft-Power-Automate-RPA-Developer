@@ -11,7 +11,7 @@ lab:
 In this lab, you will build a custom connector for A Datum’s Risk Score
 API.
 
-# High-level lab objectives
+## High-level lab objectives
 
 -   Build a custom connector
 
