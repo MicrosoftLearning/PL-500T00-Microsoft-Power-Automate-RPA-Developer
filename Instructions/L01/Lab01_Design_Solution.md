@@ -96,7 +96,7 @@ process data and review the analytics.
 1.  Navigate to <https://make.powerautomate.com> and make sure you are
     in the dev environment you created.
 
-2.  Select **Process advisor** and click **+ Start here**.
+2.  Select **Process advisor** from the left-hand navigation pane and click **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
@@ -121,6 +121,9 @@ process data and review the analytics.
 
 > <img src="../L01/media/image4.png" style="width:4.59253in;height:3.74206in"
 > alt="select the file location and then sign in" />
+
+> Note: You may need to configure your pop-up blocker to allow this site
+to create pop-up windows. 
 
 8.  Provide your credentials and sign in.
 
@@ -228,13 +231,13 @@ application, so the recording goes smoothly.
 > <img src="../L01/media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
 
-1.  Enter your name for username, <pass@word1> for password and
+1.  Enter your name for username, **pass@word1** for password and
     click **Login**.
 
 > <img src="../L01/media/image17.png" style="width:4.98676in;height:1.79651in"
 > alt="Follow login prompts" />
 
-4.  Enter <JG7165> for Loan number and click **Lookup**.
+4.  Enter **JG7165** for Loan number and click **Lookup**.
 
 5.  Click **Draw Funds**.
 
