@@ -171,7 +171,7 @@ API.
 > <img src="../L04/media/image17.png" style="width:4.53297in;height:2.69073in"
 > alt="review results" />
 
-8.  Click **Update connector** and wait for the update to complete.
+8.  Click **Close** to return to the list of Custom connectors.
 
 # Exercise \#2: Modify cloud flow to use connector
 
