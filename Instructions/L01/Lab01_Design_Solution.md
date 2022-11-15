@@ -253,8 +253,8 @@ application, so the recording goes smoothly.
 
 7.  Click **OK**.
 
-8.  Repeat steps **4 to 7** few more times or until you feel comfortable
-    with the funding application.
+8.  Repeat steps **4 to 7** a few more times or until you feel comfortable
+    with using the funding application.
 
 9.  You are now ready to record. Go to the recorder and click
     **Record**.
