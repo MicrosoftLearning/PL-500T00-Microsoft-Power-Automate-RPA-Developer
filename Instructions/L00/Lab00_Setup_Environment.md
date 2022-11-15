@@ -30,7 +30,11 @@ create individual environments for configuration during the course.
 
 -   Enter the password provided by the Authorized Lab Hoster.
 
--   Select **Yes** to stay signed in and complete the sign up process by clicking **Get Started**.
+-   Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by clicking **Get Started**.
+
+-   On the **Contact information** panel, enter 0123456789 as Phone number and click **Submit**.
+
+-   Follow the Welcome prompts, click **Next**, **Next** & **Let's go**.
 
 ## Exercise 2 - Create your environments
 
@@ -39,20 +43,23 @@ that you will do the majority of your lab work in.
 
 ### Task 1 – Create Development environment
 
-1.  Access <https://powerapps.microsoft.com/en-us/developerplan> and
+1.  Open a new tab and access <https://powerapps.microsoft.com/en-us/developerplan> and
     select *Existing user? Add a dev environment*, log in with your Microsoft
     365 credentials if prompted again.
+    
+2.  Click **Accept**.
 
-2.  Your **Dev** environment should now show in the list of
+3.  Your **Dev** environment should now show in the list of
     Environments. This typically is named **MOD Administrator’s
     Environment**. For the rest of this course when it says Dev
     environment it will be this environment.
-> Note: It might take a couple of minutes for the new environment to be provisioned and become available in the list of the environments. You can see the progress of the environment creation in the [Power Platform admin center](https://admin.powerplatform.com). You can proceed with the rest of this lab while the environment is provisioned, it must be finished before you start the next lab.
+    
+    > Note: It might take a couple of minutes for the new environment to be provisioned and become available in the list of the environments. You can see the progress of the environment creation in the [Power Platform admin center](https://admin.powerplatform.com). You can proceed with the rest of this lab while the environment is provisioned, it must be finished before you start the next lab.
 
 
 ### Task 2 – Create Test environment
 
-1.  Access [https://admin.Powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/) and
+1.  Open a new tab and access [https://admin.Powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/) and
     log in with your Microsoft 365 credentials if prompted again.
 
 2.  Select **Environments** and click **+ New**.
@@ -71,29 +78,34 @@ that you will do the majority of your lab work in.
 8.  Your **Test** environment should now show in the list of
     Environments.
 
-9.  Your environment may take a few minutes to provision. Refresh the
-    page if needed. When your environment is prepared, select
+    > Note: Your environment may take a few minutes to provision. Refresh the
+    Environments list if needed. When your environment shows as 'Ready', select
     your **Test** environment by clicking on the ellipses next to its
     name to expand the drop-down menu and select **Settings.**
 
-10. Explore the different areas in **Settings** that you are interested
+9.  Explore the different areas in **Settings** that you may be interested
     in but do not make any changes yet.
 
 ## Exercise 3 - Install Power Automate on your device
 
 1.  Follow the instructions to install Power Automate -
-    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open downloaded file to start install.
+    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open the downloaded file to start install.
 
 2.  Check Install the Power Automate for desktop to build desktop flows
     (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
-    receive a warning about a duplicate install, go ahead and accept the install. 
->Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step.
+    receive a warning about a duplicate install, go ahead and accept the install.
+    
+    > Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step.
 
-3.  Launch the app and login with your Microsoft 365 credentials
+3.  Click **Launch app** and login with your Microsoft 365 credentials.
 
-4.  From the environment list pick your Dev environment
+4.  Click **Get started**.
 
-5.  Click Go Premium to start a trial and follow the prompts to activate
+5.  From the Environments list, select your **Dev** environment.
+
+6.  Back on the Web browser, you should see the Microsoft Power Automate browser extension has been installed. Click **Turn on extension**.
+
+6.  Click **Go Premium** to start a trial and follow the prompts to activate
     the trial. If the Start Trial button is not visible no action is required and you can proceed to Exercise 4.
 
 ## Exercise 4 - Azure account setup
