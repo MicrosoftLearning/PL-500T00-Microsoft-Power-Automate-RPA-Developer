@@ -32,9 +32,9 @@ create individual environments for configuration during the course.
 
 -   Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by clicking **Get Started**.
 
--   On the **Contact information** panel, enter 0123456789 as Phone number and click **Submit**.
+-   PowerApps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and click **Submit**.
 
--   Follow the Welcome prompts, click **Next**, **Next** & **Let's go**.
+-   Following the Welcome prompts, click **Next**, **Next** & **Let's go**.
 
 ## Exercise 2 - Create your environments
 
@@ -54,12 +54,12 @@ that you will do the majority of your lab work in.
     Environment**. For the rest of this course when it says Dev
     environment it will be this environment.
     
-    > Note: It might take a couple of minutes for the new environment to be provisioned and become available in the list of the environments. You can see the progress of the environment creation in the [Power Platform admin center](https://admin.powerplatform.com). You can proceed with the rest of this lab while the environment is provisioned, it must be finished before you start the next lab.
+    > Note: It might take a couple of minutes for the new environment to be provisioned and become available in the list of the environments. You can see the progress of the environment creation in the [Power Platform admin center](https://admin.powerplatform.microsoft.com). You can proceed with the rest of this lab while the environment is provisioned, it must be finished before you start the next lab.
 
 
 ### Task 2 – Create Test environment
 
-1.  Open a new tab and access [https://admin.Powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/) and
+1.  Open a new tab and access [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/) and
     log in with your Microsoft 365 credentials if prompted again.
 
 2.  Select **Environments** and click **+ New**.

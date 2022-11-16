@@ -772,7 +772,7 @@ will be used to return data to that flow.
 11. Click **(+)** and select **Output** one more time.
 
 12. Enter **JobNumber** for Variable name, **JobNumber** for External
-    name, **Job Number** for Description, and click **Save**.
+    name, **Job number** for Description, and click **Save**.
 
 13. You should now have three input and three output variables.
 
@@ -981,33 +981,33 @@ to populate the output variable.
 > <img src="../L02/media/image77.png" style="width:5.79761in;height:1.36301in"
 > alt="enter details as described" />
 
-9.  Paste the script below and enter.
+9.  Paste the script below and press enter.
 
-```js
-var table = document.getElementById("sitephotostable");
-
-var sitephotolist = { images:[] }
-
-for (var i = 0; i < table.rows.length; i++) {
-
-row = table.rows[i];
-
-namecol = row.cells[0];
-
-imgcol = row.cells[1];
-
-var imgtags = imgcol.getElementsByTagName('img');
-
-var imgsource = imgtags[0]['src'];
-
-console.log(imgsource)
-
-sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
-
-}
-
-console.log(JSON.stringify(sitephotolist))
-```
+    ```js
+    var table = document.getElementById("sitephotostable");
+    
+    var sitephotolist = { images:[] }
+    
+    for (var i = 0; i < table.rows.length; i++) {
+    
+    row = table.rows[i];
+    
+    namecol = row.cells[0];
+    
+    imgcol = row.cells[1];
+    
+    var imgtags = imgcol.getElementsByTagName('img');
+    
+    var imgsource = imgtags[0]['src'];
+    
+    console.log(imgsource)
+    
+    sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
+    
+    }
+    
+    console.log(JSON.stringify(sitephotolist))
+    ```
 
 10. Review the information you are trying to extract.
 
@@ -1025,7 +1025,7 @@ console.log(JSON.stringify(sitephotolist))
 > <img src="../L02/media/image79.png" style="width:4.60304in;height:2.46037in"
 > alt="drag item as described" />
 
-14. Select **Browser** for Web browser instance, paste the script below
+14. Select **%Browser%** for Web browser instance, paste the script below
     in the JavaScript function field, expand the **Variables produced**
     section, click on the **{x}** select variable button.
 
@@ -1074,9 +1074,9 @@ return JSON.stringify(sitephotolist);
 > <img src="../L02/media/image81.png" style="width:5.37213in;height:2.48691in"
 > alt="drag the item as described" />
 
-18. Select **Browser** for web browser instance and click **Save**.
+18. Select **%Browser%** for web browser instance and click **Save**.
 
-19. Click **Save** and wait for the flow to be saved
+19. Click **Save** and wait for the flow to be saved.
 
 ## Task \#7: Close browser and test
 
@@ -1093,5 +1093,5 @@ return JSON.stringify(sitephotolist);
 > alt="review results" />
 
 
-4. Save the flow.
+4. Click **Save** and wait for the flow to be saved.
 
