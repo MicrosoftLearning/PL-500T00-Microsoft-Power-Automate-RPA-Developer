@@ -214,7 +214,7 @@ analyze it.
 > <img src="../L01/media/image15.png" style="width:4.90703in;height:3.16493in"
 > alt="choose add a recording" />
 
-5.  Power Automate desktop should launch.
+5.  Power Automate desktop should launch. The browser may prompt "This site is trying to open Power Automate Designer", **Click Open**.
 
 6.  Do not start recording yet.
 
