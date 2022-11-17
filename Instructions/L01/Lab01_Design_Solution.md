@@ -6,6 +6,8 @@ lab:
 
 # Process Advisor & Importing Solution
 
+**⏱️ The estimated time to complete this lab is 2 hours 30 minutes.**
+
 ## Scenario
 
 In this lab, you will be working to design the automation of a
@@ -101,7 +103,7 @@ process data and review the analytics.
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Load Funding - Data** for Process name, select **Data**, and
+3.  Enter **Loan Funding - Data** for Process name, select **Data**, and
     click **Create**.
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
@@ -203,7 +205,7 @@ analyze it.
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="start process advisor" />
 
-3.  Enter **Load Funding - Recording** for Process name, select
+3.  Enter **Loan Funding - Recording** for Process name, select
     **Recordings**, and click **Create**.
 
 > <img src="../L01/media/image14.png" style="width:5.6828in;height:3.78611in"
