@@ -6,6 +6,8 @@ lab:
 
 # Setup the lab environment
 
+**⏱️ The estimated time to complete this lab is 30 minutes.**
+
 Attention to MCTs: Please make sure you are familiar with
 the TrainerPrepGuide for this course, especially the teaching tips and
 recommendations.
