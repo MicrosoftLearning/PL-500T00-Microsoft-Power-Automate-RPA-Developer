@@ -6,40 +6,52 @@ lab:
 
 # Setup the lab environment
 
+**⏱️ The estimated time to complete this lab is 30 minutes.**
+
 Attention to MCTs: Please make sure you are familiar with
 the TrainerPrepGuide for this course, especially the teaching tips and
 recommendations.
 
-## Scenario
 
-In this Module 0 lab, you will acquire a Power Platform trial tenant,
-access the Power Platform admin center. In the admin center, we will
-create individual environments for configuration during the course.
+## Introduction
+
+Let's get started. In this first lab, you will acquire a Power Platform 
+trial tenant and access the Power Platform admin center. In the admin 
+center, you will create the environments for use during the course.
+
+You will also see the Power Automate Desktop application and install .NET 
+and Browser extension pre-requisities which are required for the remainder 
+of the course.
+
 
 ## Exercise 1 - Acquire your Power Platform trial tenant
 
--   Copy your **Microsoft 365 credentials** from the Authorized Lab
+1.  Copy your **Microsoft 365 credentials** from the Authorized Lab
     Hoster.
 
--   Navigate to <https://powerapps.microsoft.com> and click **Start free.**
+2.  Navigate to <https://powerapps.microsoft.com> and click **Start free.**
 
--   Enter the email address from your Microsoft 365 credentials.
+3.  Enter the email address from your Microsoft 365 credentials.
 
--   You see a prompt that you have an existing account with Microsoft.
+4.  You see a prompt that you have an existing account with Microsoft.
     Select **Sign in.**
 
--   Enter the password provided by the Authorized Lab Hoster.
+5.  Enter the password provided by the Authorized Lab Hoster.
 
--   Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by clicking **Get Started**.
+6.  Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by clicking **Get Started**.
 
--   PowerApps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and click **Submit**.
+7.  To confirm the details, click **Get started** again.
 
--   Following the Welcome prompts, click **Next**, **Next** & **Let's go**.
+8.  PowerApps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and click **Submit**.
+
+9.  Following the Welcome prompts, click **Next**, **Next** and **Let's go**.
+
 
 ## Exercise 2 - Create your environments
 
 In this exercise, you will create your Development and Test environments
 that you will do the majority of your lab work in.
+
 
 ### Task 1 – Create Development environment
 
