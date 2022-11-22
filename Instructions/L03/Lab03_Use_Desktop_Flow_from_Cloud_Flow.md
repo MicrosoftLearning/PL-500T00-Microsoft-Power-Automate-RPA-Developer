@@ -129,7 +129,7 @@ empty(outputs('List_rows')?\['body/value'\])
 
 29. Enter **LoanID** for title.
 
-30. Click on the value field, and empty space.
+30. Click on the value field, add an empty space.
 
 > <img src="../L03/media/image15.png" style="width:5.56097in;height:1.82746in"
 > alt="place your curser in the empty space as described" />
