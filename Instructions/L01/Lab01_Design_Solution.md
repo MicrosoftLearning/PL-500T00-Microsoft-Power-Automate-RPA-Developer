@@ -140,7 +140,7 @@ process data and review the analytics.
 
 11. Click **Next**.
 
-> <img src="../L01/media/image7.png" style="width:5.67645in;height:2.49194in"
+> <img src="../L01/media/image7.png" style="width:976px"
 > alt="Click Next" />
 
 12. Map the mandatory fields. For each **Event Level Attribute** drop-down, select as follows: 
