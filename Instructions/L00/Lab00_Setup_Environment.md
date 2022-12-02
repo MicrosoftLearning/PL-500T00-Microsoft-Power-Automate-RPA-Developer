@@ -29,12 +29,12 @@ of the course.
 1.  Copy your **Microsoft 365 credentials** from the Authorized Lab
     Hoster.
 
-2.  Navigate to <https://powerapps.microsoft.com> and click **Start free.**
+2.  Navigate to <https://powerapps.microsoft.com> and click **Start free**.
 
 3.  Enter the email address from your Microsoft 365 credentials.
 
 4.  You see a prompt that you have an existing account with Microsoft.
-    Select **Sign in.**
+    Select **Sign in**.
 
 5.  Enter the password provided by the Authorized Lab Hoster.
 
@@ -56,7 +56,7 @@ that you will do the majority of your lab work in.
 ### Task 1 – Create Development environment
 
 1.  Open a new tab and access <https://powerapps.microsoft.com/en-us/developerplan> and
-    select *Existing user? Add a dev environment*, log in with your Microsoft
+    select **Existing user? Add a dev environment**, log in with your Microsoft
     365 credentials if prompted again.
     
 2.  Click **Accept**.
@@ -85,7 +85,7 @@ that you will do the majority of your lab work in.
 
 6.  Leave all other selections as default and click **Next**.
 
-7.  On the next tab, leave all selections to default and click **Save**
+7.  On the next tab, leave all selections to default and click **Save**.
 
 8.  Your **Test** environment should now show in the list of
     Environments.
@@ -93,32 +93,32 @@ that you will do the majority of your lab work in.
     > Note: Your environment may take a few minutes to provision. Refresh the
     Environments list if needed. When your environment shows as 'Ready', select
     your **Test** environment by clicking on the ellipses next to its
-    name to expand the drop-down menu and select **Settings.**
+    name to expand the drop-down menu and select **Settings**. 
 
 9.  Explore the different areas in **Settings** that you may be interested
-    in but do not make any changes yet.
+    in but do not make any changes yet. 
 
 ## Exercise 3 - Install Power Automate on your device
 
 1.  Follow the instructions to install Power Automate -
-    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open the downloaded file to start install.
+    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open the downloaded file to start install. 
 
 2.  Check Install the Power Automate for desktop to build desktop flows
     (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
-    receive a warning about a duplicate install, go ahead and accept the install.
+    receive a warning about a duplicate install, go ahead and accept the install. 
     
-    > Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step.
+    > Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step. 
 
-3.  Click **Launch app** and login with your Microsoft 365 credentials.
+3.  Click **Launch app** and login with your Microsoft 365 credentials. 
 
-4.  Click **Get started**.
+4.  Click **Get started**. 
 
-5.  From the Environments list, select your **Dev** environment.
+5.  From the Environments list, select your **Dev** environment. 
 
-6.  Back on the Web browser, you should see the Microsoft Power Automate browser extension has been installed. Click **Turn on extension**.
+6.  Back on the Web browser, you should see the Microsoft Power Automate browser extension has been installed. Click **Turn on extension**. 
 
 6.  Click **Go Premium** to start a trial and follow the prompts to activate
-    the trial. If the Start Trial button is not visible no action is required and you can proceed to Exercise 4.
+    the trial. If the Start Trial button is not visible no action is required and you can proceed to Exercise 4. 
 
 ## Exercise 4 - Azure account setup
 
