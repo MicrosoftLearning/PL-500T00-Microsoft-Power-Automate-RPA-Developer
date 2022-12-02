@@ -143,11 +143,11 @@ process data and review the analytics.
 > <img src="../L01/media/image7.png" style="width:5.67645in;height:2.49194in"
 > alt="Click Next" />
 
-12. Map the mandatory fields. For each **Event level attribute** drop-down, select as follows: 
+12. Map the mandatory fields. For each **Event Level Attribute** drop-down, select as follows: 
 
-    ActivityName: **Activity**
-    CaseId: **Case ID**
-    StartTimestamp: **Event Start**
+    - ActivityName: **Activity** 
+    - CaseId: **Case ID** 
+    - StartTimestamp: **Event Start** 
 
     <img src="../L01/media/image56.png" alt="Map your data">
 
