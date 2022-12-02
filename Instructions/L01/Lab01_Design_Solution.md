@@ -133,7 +133,7 @@ process data and review the analytics.
 > <img src="../L01/media/image5.png" style="width:5.56189in;height:2.38519in"
 > alt="confirm credentials and select next" />
 
-10. Select **ConstructionFunding** for data and click **Next**.
+10. Select the **ConstructionFunding** item and click **Next**.
 
 > <img src="../L01/media/image6.png" style="width:6.02368in;height:2.3715in"
 > alt="select the data and choose next" />
