@@ -91,19 +91,19 @@ you can improve the process by automating some of the process.
 # Exercise \# 2 – Use Process Advisor with Data
 
 In this exercise, you will create a process advisor from existing
-process data and review the analytics.
+process data and review the analytics. 
 
 ## Task 1: Create process advisor
 
 1.  Navigate to <https://make.powerautomate.com> and make sure you are
-    in the dev environment you created.
+    in the **Dev** environment you created.
 
 2.  Select **Process advisor** from the left-hand navigation pane and click **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Loan Funding - Data** for Process name, select **Data**, and
+3.  Enter **Loan Funding - Data** for Process name, select **Data (preview)**, and
     click **Create**.
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
@@ -124,8 +124,7 @@ process data and review the analytics.
 > <img src="../L01/media/image4.png" style="width:4.59253in;height:3.74206in"
 > alt="select the file location and then sign in" />
 
-> Note: You may need to configure your pop-up blocker to allow this site
-to create pop-up windows. 
+    > Note: You may need to configure your pop-up blocker to allow this site to create pop-up windows. 
 
 8.  Provide your credentials and sign in.
 
@@ -139,14 +138,24 @@ to create pop-up windows.
 > <img src="../L01/media/image6.png" style="width:6.02368in;height:2.3715in"
 > alt="select the data and choose next" />
 
-11. Click **Save and analyze**.
+11. Click **Next**.
 
-> <img src="../L01/media/image7.png" style="width:5.67645in;height:2.49194in"
-> alt="select save and analyze" />
+> <img src="../L01/media/image7.png" style="width:976px"
+> alt="Click Next" />
 
-12. Wait for the analyzing to complete.
+12. Map the mandatory fields. For each **Event Level Attribute** drop-down, select as follows: 
 
-13. Do not navigate away from this page.
+    - ActivityName: **Activity** 
+    - CaseId: **Case ID** 
+    - StartTimestamp: **Event Start** 
+
+> <img src="../L01/media/image56.png" alt="Map your data">
+
+13. Click **Save and analyze**. 
+
+14. Wait for the analyzing to complete. 
+
+15. Do not navigate away from this page. 
 
 ## Task 2: Review analytics
 
@@ -162,14 +171,14 @@ to create pop-up windows.
 > <img src="../L01/media/image9.png" style="width:5.62985in;height:4.01007in"
 > alt="drill into mapping for review" />
 
-3.  Go to the Variants by frequency chart and select bar with the
+3.  Go to the **Paths > Frequency** chart and select the bar with the
     highest frequencies. This is the most common path the process takes;
-    in our case this is the approved draw path.
+    in our case this is the **Draw Approved** path.
 
 > <img src="../L01/media/image10.png" style="width:5.26922in;height:3.95698in"
 > alt="process data to review" />
 
-4.  Go to the Variants by frequency chart and select the second bar.
+4.  Go to the **Paths > Frequency** chart and select the second bar.
     This is the frequency for the approved draw path.
 
 > <img src="../L01/media/image11.png" style="width:4.75935in;height:3.50951in"
@@ -180,14 +189,14 @@ to create pop-up windows.
 > <img src="../L01/media/image12.png" style="width:6.09172in;height:4.48874in"
 > alt="additional data to review" />
 
-6.  Select the Time Analysis tab. This tab shows information includes
+6.  Switch the **Overview** drop-down to **Time Analysis**. This page shows information including
     how much time is spent on each activity, on each variant, and more.
 
 > <img src="../L01/media/image13.png" style="width:6.271in;height:3.99039in"
 > alt="review time analysis data" />
 
-7.  The charts allow drilling down on a specific data point and
-    filtering.
+> Note: These Power BI charts allow drilling down on a specific data point and filtering. 
+
 
 # Exercise \# 3 – Use Process Advisor with Recording
 
