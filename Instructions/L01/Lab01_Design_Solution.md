@@ -91,19 +91,19 @@ you can improve the process by automating some of the process.
 # Exercise \# 2 – Use Process Advisor with Data
 
 In this exercise, you will create a process advisor from existing
-process data and review the analytics.
+process data and review the analytics. 
 
 ## Task 1: Create process advisor
 
 1.  Navigate to <https://make.powerautomate.com> and make sure you are
-    in the dev environment you created.
+    in the **Dev** environment you created.
 
 2.  Select **Process advisor** from the left-hand navigation pane and click **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Loan Funding - Data** for Process name, select **Data**, and
+3.  Enter **Loan Funding - Data** for Process name, select **Data (preview)**, and
     click **Create**.
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
@@ -124,8 +124,7 @@ process data and review the analytics.
 > <img src="../L01/media/image4.png" style="width:4.59253in;height:3.74206in"
 > alt="select the file location and then sign in" />
 
-> Note: You may need to configure your pop-up blocker to allow this site
-to create pop-up windows. 
+    > Note: You may need to configure your pop-up blocker to allow this site to create pop-up windows. 
 
 8.  Provide your credentials and sign in.
 
@@ -139,14 +138,16 @@ to create pop-up windows.
 > <img src="../L01/media/image6.png" style="width:6.02368in;height:2.3715in"
 > alt="select the data and choose next" />
 
-11. Click **Save and analyze**.
+11. Click **Next**.
 
 > <img src="../L01/media/image7.png" style="width:5.67645in;height:2.49194in"
-> alt="select save and analyze" />
+> alt="Click Next" />
 
-12. Wait for the analyzing to complete.
+12. 
 
-13. Do not navigate away from this page.
+13. Wait for the analyzing to complete.
+
+14. Do not navigate away from this page.
 
 ## Task 2: Review analytics
 
