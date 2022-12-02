@@ -149,7 +149,7 @@ process data and review the analytics.
     - CaseId: **Case ID** 
     - StartTimestamp: **Event Start** 
 
-    <img src="../L01/media/image56.png" alt="Map your data">
+> <img src="../L01/media/image56.png" alt="Map your data">
 
 13. Click **Save and analyze**. 
 
