@@ -143,11 +143,19 @@ process data and review the analytics.
 > <img src="../L01/media/image7.png" style="width:5.67645in;height:2.49194in"
 > alt="Click Next" />
 
-12. 
+12. Map the mandatory fields. For each **Event level attribute** drop-down, select as follows: 
 
-13. Wait for the analyzing to complete.
+    ActivityName: **Activity**
+    CaseId: **Case ID**
+    StartTimestamp: **Event Start**
 
-14. Do not navigate away from this page.
+    <img src="../L01/media/image56.png" alt="Map your data">
+
+13. Click **Save and analyze**. 
+
+14. Wait for the analyzing to complete. 
+
+15. Do not navigate away from this page. 
 
 ## Task 2: Review analytics
 
