@@ -101,9 +101,12 @@ that you will do the majority of your lab work in.
 
 ## Exercise 3 - Power Automate Software 
 
+In this excercise, you will be updating and installing Power Automate Desktop and accompanying applications.
+
+
 ### Task 1 - Updating Power Automate Desktop 
 
-Power Automate Desktop is installed on Windows 11 by default but it may need to be updated to the latest version. 
+Power Automate Desktop is installed by default on Windows 11, but it may first need to be updated to the latest version before it can be used. 
 
 1.  Open the **Microsoft Store** and select **Library** from the left-hand navigation. 
 
@@ -121,25 +124,30 @@ Optional: Click **Start tour** and go through the welcome prompts to get a feel 
 
 5.  From the Environments list, select your Dev environment. 
 
-### Task 2 - Installing the Power Automate Machine-Runtime App
 
-To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be installed.
+### Task 2 - Installing the Power Automate Machine-Runtime App 
+
+To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be installed. 
 
 6.  In Power Automate Desktop, click **⚙️ Settings**, under Machine settings click **Open machine settings**. 
 
 7.  Click **Install app**. 
 
-8.  Check the box to accept Microsoft's terms of use. Click **Install**. Power Automate Desktop will restart during the installation of the machine-runtime app. 
+8.  Check the box to accept Microsoft's terms of use. Click **Install**. System Administrator privileges are required for the install. Click **Yes** on the User Account Control dialogue box. 
+  
+Power Automate Desktop will restart during the installation of the machine-runtime app. 
 
-9.  Follow the steps to enable the bundled browser extension. 
+9.  Follow the steps to enable the bundled browser extension. Click **Turn on extension**. 
 
 10.  Click **Launch app**. 
+
+11.  Under Machine settings, choose your Dev environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
 
 
 ## Exercise 4 - Azure account setup
 
 In this exercise, you will create your Azure account that you will be
-using in the labs
+using in the labs.
 
 1.  Get a new Azure Pass (valid for 30-days) from the instructor or
     other source.
