@@ -141,7 +141,7 @@ Power Automate Desktop will restart during the installation of the machine-runti
 
 10.  Click **Launch app**. 
 
-11.  Under Machine settings, choose your Dev environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+11.  Under Machine settings, select your Dev environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
 
 
 ## Exercise 4 - Azure account setup
