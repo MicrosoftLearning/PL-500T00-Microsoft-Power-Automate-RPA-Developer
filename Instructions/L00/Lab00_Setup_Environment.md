@@ -98,27 +98,38 @@ that you will do the majority of your lab work in.
 9.  Explore the different areas in **Settings** that you may be interested
     in but do not make any changes yet. 
 
-## Exercise 3 - Install Power Automate on your device
+## Exercise 3 - Updating Power Automate 
 
-1.  Follow the instructions to install Power Automate -
-    <https://go.microsoft.com/fwlink/?linkid=2102613>. Open the downloaded file to start install. 
+Power Automate Desktop is included in Windows 11 by default but it may need to be updated to the latest version. 
 
-2.  Check Install the Power Automate for desktop to build desktop flows
-    (if unchecked) and take the default options for the rest. Check "By selecting 'Install', you agree to Microsoft's terms of use". If you
-    receive a warning about a duplicate install, go ahead and accept the install. 
-    
-    > Note: If you are completing the labs in an environment OTHER than through a hosted learning environment, check with your admin to determine the best course of action for this step. 
+1.  Open the **Microsoft Store** and select **Library** from the left-hand navigation. 
 
-3.  Click **Launch app** and login with your Microsoft 365 credentials. 
+2.  Search for Power Automate and click **Update**. 
 
-4.  Click **Get started**. 
+https://www.microsoft.com/store/productId/9NFTCH6J7FHV
 
-5.  From the Environments list, select your **Dev** environment. 
+3.  When the update is finished, click **Open**. 
 
-6.  Back on the Web browser, you should see the Microsoft Power Automate browser extension has been installed. Click **Turn on extension**. 
+Note: Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
 
-6.  Click **Go Premium** to start a trial and follow the prompts to activate
-    the trial. If the Start Trial button is not visible no action is required and you can proceed to Exercise 4. 
+4.  When Power Automate opens, login using your Microsoft 365 Credentials. Click **Next** and **Get started**. 
+
+Optional: Click **Start tour** and go through the welcome prompts to get a feel for the application. 
+
+5.  From the Environments list, select your Dev environment. 
+
+6.  Click **Settings**, under Machine settings click **Open machine settings**. 
+
+7.  To run attended and unattended flows across cloud and desktop environments, the machine-runtime app needs to be installed. 
+
+8.  Click **Install app**. 
+
+9.  Check the box to accept Microsoft's terms of use. Click **Install**. Power Automate Desktop will restart during the installation of the machine-runtime app. 
+
+10.  Follow the steps to enable the bundled browser extension. 
+
+11.  Click **Launch app**. 
+
 
 ## Exercise 4 - Azure account setup
 
