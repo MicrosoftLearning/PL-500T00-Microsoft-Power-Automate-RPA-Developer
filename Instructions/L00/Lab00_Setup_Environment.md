@@ -122,7 +122,7 @@ https://www.microsoft.com/store/productId/9NFTCH6J7FHV
 
     > Optional: Click **Start tour** and go through the welcome prompts to get a feel for the application. 
 
-5.  From the Environments list, select your Dev environment. 
+5.  From the **Environments** list, select your **Dev** environment. 
 
 
 ### Task 2 - Installing the Power Automate Machine-Runtime App 
