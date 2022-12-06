@@ -116,9 +116,9 @@ https://www.microsoft.com/store/productId/9NFTCH6J7FHV
 
 3.  When the update is finished, click **Open**. 
 
-Note: Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
+> [!Note] Note: Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
 
-4.  When Power Automate Desktop opens, login using your Microsoft 365 Credentials. Click **Next** and **Get started**. 
+4.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Click **Next** and **Get started**. 
 
 Optional: Click **Start tour** and go through the welcome prompts to get a feel for the application. 
 
