@@ -120,7 +120,7 @@ https://www.microsoft.com/store/productId/9NFTCH6J7FHV
 
 4.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Click **Next** and **Get started**. 
 
-Optional: Click **Start tour** and go through the welcome prompts to get a feel for the application. 
+    > Optional: Click **Start tour** and go through the welcome prompts to get a feel for the application. 
 
 5.  From the Environments list, select your Dev environment. 
 
