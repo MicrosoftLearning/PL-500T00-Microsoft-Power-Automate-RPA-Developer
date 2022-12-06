@@ -135,13 +135,15 @@ To run attended and unattended flows across cloud and desktop environments, the 
 
 8.  Check the box to accept Microsoft's terms of use. Click **Install**. System Administrator privileges are required for the install. Click **Yes** on the User Account Control dialogue box. 
   
-Power Automate Desktop will restart during the installation of the machine-runtime app. 
+    > Power Automate Desktop will restart during the installation of the machine-runtime app. 
 
-9.  Follow the steps to enable the bundled browser extension. Click **Turn on extension**. 
+9.  Following the steps to enable the bundled browser extension, click **Microsoft Edge**. Click **Turn on extension**. Minimize the browser. 
 
 10.  Click **Launch app**. 
 
-11.  Under Machine settings, select your Dev environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+11.  On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+
+12.  Once it's connected, you can close the **Power Automate machine runtime** window, notice the app will remain running in the system tray. 
 
 
 ## Exercise 4 - Azure account setup
