@@ -69,12 +69,12 @@ record the steps using the **Woodgrove Funding Manager** application.
 3.  Click **+ New** and select **Automation \| Desktop flow**.
 
     > <img src="../L02/media/image2.png" style="width:5.06463in;height:1.77966in"
-    > alt="select new desktop flow" />
+    > alt="Select +New, Automation - Desktop flow" />
 
 4.  Enter **Woodgrove Funding Manager Draw** for Flow name and click
     **Launch app**.
 
-5.  Desktop flow should launch.
+5.  Power Automate Desktop should launch.
 
 6.  Go to the **Actions** pane, expand the **System** group, and double
     click on the **Run application** action.
