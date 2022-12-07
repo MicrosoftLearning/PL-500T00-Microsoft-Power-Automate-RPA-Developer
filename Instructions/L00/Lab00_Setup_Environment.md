@@ -112,8 +112,6 @@ Power Automate Desktop is installed by default on Windows 11, but it may first n
 
 2.  Search for Power Automate and click **Update**. 
 
-https://www.microsoft.com/store/productId/9NFTCH6J7FHV
-
 3.  When the update is finished, click **Open**. 
 
     > Note: Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
