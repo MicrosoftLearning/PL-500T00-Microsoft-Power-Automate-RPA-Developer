@@ -714,10 +714,10 @@ record the steps using the **Inspection** web app.
     
     x. Click on the **Check Inspection** button.
     
-    xi. Right click on the **Job status** and select **Extract element value | Text: ('In progress')**
+    xi. Right click on the **Job status** and select **Extract element value | Text: ('In progress')**.
     
-        > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in" 
-        > alt="enter details as described" />
+    > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in  
+    > alt="enter details as described" />
     
     xii. Go back to the recorder and click **Done**.
     
