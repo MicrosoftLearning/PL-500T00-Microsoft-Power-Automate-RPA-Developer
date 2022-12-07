@@ -659,7 +659,7 @@ record the steps using the **Inspection** web app.
 4.  Enter **Perform Site Inspection** for Flow name and click **Launch
     app**.
 
-5.  Desktop flow should launch.
+5.  Power Automate Desktop flow designer should launch. You may need to click **Open** on the browser to permit the action.
 
 6.  Expand the **Browser automation** group and double click on the
     **Launch new Microsoft Edge** action.
