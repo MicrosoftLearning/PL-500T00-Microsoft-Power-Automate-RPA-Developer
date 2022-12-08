@@ -67,6 +67,8 @@ desktop flows.
 > <img src="../L03/media/image7.png" style="width:5.68822in;height:2.47158in"
 > alt="enter details listed" />
 
+> [!alert] If you do not see the **Dynamic Content & Expression** pop-up, increase your browser width or zoom out slightly to reveal it (Ctrl + -).
+
 12. Add single quotes (') before and after LoanNumber
 
 13. Click **+ New step**.

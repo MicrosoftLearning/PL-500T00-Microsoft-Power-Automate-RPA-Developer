@@ -277,10 +277,10 @@ application, so the recording goes smoothly.
 
 11. Go to the recorder and click **Finish**.
 
-12. Click **Got it** and return to Power Automate web portal to select View Recording.
+12. Click **Got it** and return to Power Automate web portal to click **View recording**.
 
 > <img src="../L01/media/image21.png" style="width:3.1742in;height:2.07355in"
-> alt="select view recording" />
+> alt="click View recording" />
 
 13. The recording should look like the image below. You can delete and
     record again if you are not happy with recoding.
