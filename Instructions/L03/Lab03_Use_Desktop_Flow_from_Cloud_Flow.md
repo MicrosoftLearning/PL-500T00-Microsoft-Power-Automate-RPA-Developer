@@ -326,7 +326,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 18. Click **+ New step**.
 
-19. Select **Parse JSON**.
+19. Search the connectors and actions for **Parse JSON**. Select the **Parse JSON** action which is part of the **Data Operation** connector.
 
 > <img src="../L03/media/image36.png" style="width:3.44863in;height:2.05186in"
 > alt="select parse JSON" />
@@ -370,7 +370,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image38.png" style="width:5.06349in;height:3.28424in"
 > alt="select new step" />
 
-22. Select HTTP.
+22. Select the **HTTP** action. 
 
 > <img src="../L03/media/image39.png" style="width:5.25816in;height:3.17753in"
 > alt="select HTTP action" />
@@ -389,7 +389,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image41.png" style="width:5.80506in;height:2.67368in"
 > alt="select add an action from the apply to each image step" />
 
-26. Select **Add a new row** Microsoft Dataverse.
+26. Select the **Add a new row** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L03/media/image42.png" style="width:5.35704in;height:2.78884in"
 > alt="search for and select Add a new row action" />
@@ -400,8 +400,8 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image43.png" style="width:6.20226in;height:2.29272in"
 > alt="choose Inspection Photo and enter the details" />
 
-28. Rename the Add a new row step **Add inspection photo** and click
-    Show advanced options.
+28. Rename the "Add a new row" step to **Add inspection photo** and click
+    **Show advanced options**.
 
 > <img src="../L03/media/image44.png" style="width:5.85125in;height:1.88382in"
 > alt="rename the step" />
@@ -416,9 +416,9 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 30. Click on the **Photo** field, go to the dynamic content pane, and
     select the **Expression** tab.
 
-31. Paste the expression below and click OK.
+31. Paste the expression below and click **OK**.
 
-base64(body('HTTP'))
+    ```base64(body('HTTP'))```
 
 > <img src="../L03/media/image46.png" style="width:6.00811in;height:1.5874in"
 > alt="enter details shown" />
@@ -428,7 +428,7 @@ base64(body('HTTP'))
 > <img src="../L03/media/image47.png" style="width:5.7087in;height:2.91412in"
 > alt="select add new step" />
 
-33. Select **Update a row** Microsoft Dataverse.
+33. Select the **Update a row** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L03/media/image48.png" style="width:5.05116in;height:2.89525in"
 > alt="search for an select Update a row Microsoft Dataverse" />
@@ -461,7 +461,7 @@ base64(body('HTTP'))
 
 39. Rename the step **Update loan draw** and click **+ New step**.
 
-40. Select **Respond to PowerApp or flow**.
+40. Select the **Respond to PowerApp or flow** action from the **PowerApps** connector.
 
 > <img src="../L03/media/image53.png" style="width:5.86513in;height:3.07293in"
 > alt="search for and select Respond to PowerApp or flow" />
@@ -488,7 +488,7 @@ base64(body('HTTP'))
 
 47. Click **Save** to save the flow.
 
-48. Click on the back button.
+48. Click on the **back** arrow.
 
 > <img src="../L03/media/image56.png" style="width:4.10365in;height:0.8124in"
 > alt="select back button" />
@@ -518,9 +518,9 @@ base64(body('HTTP'))
 > <img src="../L03/media/image59.png" style="width:5.56642in;height:1.639in"
 > alt="launch the loan manager app" />
 
-56. Click to open the first loan.
+56. Open the first loan record.
 
-57. Click **Related** and select Loan Draws.
+57. Click **Related** and select **Loan Draws**.
 
 > <img src="../L03/media/image60.png" style="width:4.4884in;height:2.15515in"
 > alt="drill into record details as described" />
@@ -532,41 +532,41 @@ base64(body('HTTP'))
 
 59. Enter **Test Draw** for Name and click **Save**.
 
-60. Click on the Test Draw row to open.
+60. Click on the **Test Draw** row to open the record.
 
-61. Go to the URL and copy the **id**. Keep this id in a notepad, you
+61. Go to the URL and copy the **id** GUID. Paste this id into Notepad, you
     will need it in future steps.
 
 > <img src="../L03/media/image62.png" style="width:6.5in;height:0.82083in"
 > alt="get the url id as described" />
 
-62. Go back to the cloud flow and enter **123 main street** for
+62. Go back to the Cloud Flow and enter **123 Main Street** for
     PropertyAddress, paste the id you copied in the LoanDrawID field,
-    type **Test work item** for Work, and click **Run flow**.
+    type **Test work item** for Work, and click **Run flow**. 
 
 > <img src="../L03/media/image63.png" style="width:2.37356in;height:3.89538in"
 > alt="follow the steps to run the flow" />
 
-63. Wait for the flow run to complete.
+63. **Wait** for the flow run to complete. 
 
-64. Close the run flow pane.
+64. **Close** the run flow pane. 
 
-65. Go to the flow run history and click refresh until the flow run
-    succeeds.
+65. Go to the **28-day run history** and click **refresh** until the flow run
+    shows as **Succeeded**.
 
 > <img src="../L03/media/image64.png" style="width:5.59704in;height:1.36637in"
-> alt="wait for the succeeded message" />
+> alt="Wait for the succeeded message" />
 
 66. Go back to the **Loan Manager** application, click **Related** and
     select **Inspection Photos**.
 
 > <img src="../L03/media/image65.png" style="width:5.39586in;height:2.24312in"
-> alt="select the related photos" />
+> alt="Select the related photos" />
 
 67. You should see the inspection photos created by the flow.
 
 > <img src="../L03/media/image66.png" style="width:5.71998in;height:2.80927in"
-> alt="review what was created" />
+> alt="Review the photos created by the flow" />
 
 
 # Exercise \#3: Funding Child flow
@@ -616,10 +616,10 @@ base64(body('HTTP'))
 > <img src="../L03/media/image69.png" style="width:4.83137in;height:4.59187in"
 > alt="review the steps and select new step" />
 
-17. Select **Run a flow built with Power Automate for desktop**.
+17. Select the **Run a flow built with Power Automate for desktop** action.
 
 > <img src="../L03/media/image70.png" style="width:5.2805in;height:2.87714in"
-> alt="search for and use Run a flow built with Power Automate for desktop" />
+> alt="Search for and select the Run a flow built with Power Automate for desktop action" />
 
 18. Select **Woodgrove Funding Manager Draw** for Desktop flow and
     select **Attended** for Run Mode.
@@ -665,7 +665,7 @@ base64(body('HTTP'))
 > <img src="../L03/media/image74.png" style="width:4.7968in;height:2.20469in"
 > alt="add an action to the yes side" />
 
-30. Select **Update a row** Microsoft Dataverse.
+30. Select the **Update a row** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L03/media/image75.png" style="width:4.81699in;height:2.50514in"
 > alt="select update a row for Dataverse" />
@@ -679,11 +679,11 @@ base64(body('HTTP'))
 32. Click **Show advanced options**.
 
 33. Click on the **Amount Funded** field and go to the dynamic content
-    pane and select the Expression tab.
+    pane and select the **Expression** tab.
 
 34. Paste the expression below and click OK.
 
-replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/FundedAmount'\], '$','')
+    ```replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/FundedAmount'\], '$','')```
 
 > <img src="../L03/media/image77.png" style="width:5.96296in;height:2.46099in"
 > alt="paste the expression" />
@@ -711,14 +711,14 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image79.png" style="width:5.80575in;height:2.44698in"
 > alt="set status reason" />
 
-41. Rename the step Update for approved.
+41. Rename the step **Update for approved**.
 
 42. Go to the **If no** branch and click **Add an action**.
 
 > <img src="../L03/media/image80.png" style="width:6.5in;height:1.09097in"
 > alt="add an action on the no branch" />
 
-43. Select **Update a row** Microsoft Dataverse.
+43. Select the **Update a row** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L03/media/image75.png" style="width:4.81699in;height:2.50514in"
 > alt="select update a row" />
@@ -737,7 +737,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image82.png" style="width:4.48788in;height:2.20462in"
 > alt="set status reason" />
 
-47. Select **Respond to PowerApps or flow**.
+47. Select the **Respond to PowerApps or flow** action from the **PowerApps** connector.
 
 > <img src="../L03/media/image83.png" style="width:4.7742in;height:2.57735in"
 > alt="select respond to PowerApp or flow action" />
@@ -768,7 +768,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image85.png" style="width:2.07216in;height:3.62886in"
 > alt="run the flow with the provided details" />
 
-56. Wait for the flow run to complete, the flow run should succeed.
+56. **Wait** for the flow run to complete, the flow run should succeed.
 
 
 # Exercise \#4: Build Overall Process Flow

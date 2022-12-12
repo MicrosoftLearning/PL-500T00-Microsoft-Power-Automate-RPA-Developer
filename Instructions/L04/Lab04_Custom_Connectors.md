@@ -42,7 +42,7 @@ API.
 > <img src="../L04/media/image2.png" style="width:5.55718in;height:1.4546in"
 > alt="add a new custom connector" />
 
-2.  Enter **Builder Risk Service** for name.
+2.  Enter **Builder Risk Service** for Connector Name.
 
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
@@ -91,10 +91,10 @@ API.
 12. Navigate to <https://make.powerapps.com/> and make sure you are in
     the Dev environment.
 
-13. Expand **Dataverse** and select **Custom Connectors**.
+13. Expand **Data** and select **Custom Connectors**.
 
 > <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
-> alt="expand connector list" />
+> alt="Expand to the custom connector list" />
 
 14. Click on the **…** more actions button of the **Builder Risk
     Service** custom connector and select **Update from OpenAPI file**.
@@ -128,14 +128,14 @@ API.
 
 21. Select **Definition** from the breadcrumb navigation bar at the top of the screen and see the operation imported.
 
-22. Turn on **Swagger editor**.
+22. Turn on **Swagger Editor**.
 
 > <img src="../L04/media/image13.png" style="width:6.09335in;height:2.71987in"
 > alt="toggle swagger editor" />
 
-23. Show swagger editor and then turn off the **Swager editor**
+23. Have a look at the Swagger Editor and then turn off the **Swagger Editor**.
 
-24. Select Update connector and wait for the connector to be updated.
+24. Select **Update connector** and wait for the connector to be updated.
 
 25. Do not navigate away from this page.
 
@@ -148,22 +148,15 @@ API.
 
 2.  Paste your **API Key** and click **Create connection**.
 
-3.  Select **Custom Connectors** and click **Edit**.
+5.  Click the **Refresh connections** button, on the right. The connection you just created should be the **Selected connection**.
 
-> <img src="../L04/media/image15.png" style="width:4.91639in;height:1.53532in"
-> alt="edit the selected item" />
-
-4.  Select the **Test** tab again.
-
-5.  Make sure the connection you created is selected as connection.
-
-6.  Enter **Contoso** for builderName, **7165 Brock Lane Renton, WA
-    61795 U.S**. for propertyAddress, **JG7165** for loanNumber,
+6.  Under CalcRiskScore, enter **Contoso** for builderName, **7165 Brock Lane Renton, WA
+    61795 U.S.** for propertyAddress, **JG7165** for loanNumber,
     **645000** for loanAmount, **500000** for creditAvailable,
     **100000** for drawAmount, and click **Test operation**.
 
 > <img src="../L04/media/image16.png" style="width:4.27346in;height:3.70458in"
-> alt="enter details as described" />
+> alt="Enter details as described" />
 
 7.  The test should run successfully, and you should receive a score and
     a reason.
@@ -172,6 +165,7 @@ API.
 > alt="review results" />
 
 8.  Click **Close** to return to the list of Custom connectors.
+
 
 # Exercise \#2: Modify cloud flow to use connector
 
