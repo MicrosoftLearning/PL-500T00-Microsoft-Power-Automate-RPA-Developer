@@ -42,7 +42,7 @@ API.
 > <img src="../L04/media/image2.png" style="width:5.55718in;height:1.4546in"
 > alt="add a new custom connector" />
 
-2.  Enter **Builder Risk Service** for name.
+2.  Enter **Builder Risk Service** for Connector Name.
 
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
@@ -91,10 +91,10 @@ API.
 12. Navigate to <https://make.powerapps.com/> and make sure you are in
     the Dev environment.
 
-13. Expand **Dataverse** and select **Custom Connectors**.
+13. Expand **Data** and select **Custom Connectors**.
 
 > <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
-> alt="expand connector list" />
+> alt="Expand to the custom connector list" />
 
 14. Click on the **…** more actions button of the **Builder Risk
     Service** custom connector and select **Update from OpenAPI file**.
