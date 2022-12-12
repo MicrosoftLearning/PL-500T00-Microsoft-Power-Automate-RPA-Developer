@@ -302,37 +302,42 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image33.png" style="width:4.30704in;height:2.56398in"
 > alt="search for and select Run a flow built with Power Automate for desktop" />
 
-13. Select **Perform Site Inspection** for Desktop flow and select
+13. Configure the Connection reference to connect **Directly to machine**, using the Lab PC credentials from the Resources tab and click **Create**.
+
+> <img src="../L03/media/image121.png"
+> alt="Configure the Connection reference" />
+
+14. Select **Perform Site Inspection** for Desktop flow and select
     **Attended** for Run Mode.
 
-14. Click on the **WorkToInspect** field and select **Work** from the
+15. Click on the **WorkToInspect** field and select **Work** from the
     dynamic content pane.
 
 > <img src="../L03/media/image34.png" style="width:5.17569in;height:2.50711in"
 > alt="select work from the dynamic content pane" />
 
-15. Click on the **PropertyAddress** and select **PropertyAddress** from
+16. Click on the **PropertyAddress** and select **PropertyAddress** from
     the dynamic content pane.
 
-16. Enter your name for Inspection account number.
+17. Enter your name for Inspection account number.
 
 > <img src="../L03/media/image35.png" style="width:4.72773in;height:2.51887in"
 > alt="enter text as described" />
 
-17. Click **+ New step**.
+18. Click **+ New step**.
 
-18. Select **Parse JSON**.
+19. Select **Parse JSON**.
 
 > <img src="../L03/media/image36.png" style="width:3.44863in;height:2.05186in"
 > alt="select parse JSON" />
 
-19. Click on the **Content** field and select **SitePhotos** from
+20. Click on the **Content** field and select **SitePhotos** from
     dynamic content pane.
 
 > <img src="../L03/media/image37.png" style="width:5.74142in;height:2.33276in"
 > alt="select SitePhotos from dynamic content pane" />
 
-20. Paste the JSON schema below in the **Schema** field and click **+
+21. Paste the JSON schema below in the **Schema** field and click **+
     New step**. Typically, you would generate this from a sample of the
     data expected.
 
@@ -365,203 +370,204 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image38.png" style="width:5.06349in;height:3.28424in"
 > alt="select new step" />
 
-21. Select HTTP.
+22. Select HTTP.
 
 > <img src="../L03/media/image39.png" style="width:5.25816in;height:3.17753in"
 > alt="select HTTP action" />
 
-22. Select **GET** for Method, click on the **URI** field, and select
+23. Select **GET** for Method, click on the **URI** field, and select
     **url** from the dynamic content pane.
 
 > <img src="../L03/media/image40.png" style="width:5.56881in;height:2.5131in"
 > alt="select Get method" />
 
-23. Apply to each will be added automatically for you. Rename the Apply
+24. Apply to each will be added automatically for you. Rename the Apply
     to each step **Apply to each image**.
 
-24. Click **Add an action**.
+25. Click **Add an action**.
 
 > <img src="../L03/media/image41.png" style="width:5.80506in;height:2.67368in"
 > alt="select add an action from the apply to each image step" />
 
-25. Select **Add a new row** Microsoft Dataverse.
+26. Select **Add a new row** Microsoft Dataverse.
 
 > <img src="../L03/media/image42.png" style="width:5.35704in;height:2.78884in"
 > alt="search for and select Add a new row action" />
 
-26. Select **Inspection Photos** for Table name, click on the **Name**
+27. Select **Inspection Photos** for Table name, click on the **Name**
     field, and select **name** from the dynamic content pane.
 
 > <img src="../L03/media/image43.png" style="width:6.20226in;height:2.29272in"
 > alt="choose Inspection Photo and enter the details" />
 
-27. Rename the Add a new row step **Add inspection photo** and click
+28. Rename the Add a new row step **Add inspection photo** and click
     Show advanced options.
 
 > <img src="../L03/media/image44.png" style="width:5.85125in;height:1.88382in"
 > alt="rename the step" />
 
-28. Enter **rc_loandraws()** for Loan Draw, place your cursor inside the
+29. Enter **rc_loandraws()** for Loan Draw, place your cursor inside the
     single parentheses, and select **LoanDrawID** from the dynamic
     content pane.
 
 > <img src="../L03/media/image45.png" style="width:6.04811in;height:1.99924in"
 > alt="enter details shown" />
 
-29. Click on the **Photo** field, go to the dynamic content pane, and
+30. Click on the **Photo** field, go to the dynamic content pane, and
     select the **Expression** tab.
 
-30. Paste the expression below and click OK.
+31. Paste the expression below and click OK.
 
 base64(body('HTTP'))
 
 > <img src="../L03/media/image46.png" style="width:6.00811in;height:1.5874in"
 > alt="enter details shown" />
 
-31. Click **+ New step**.
+32. Click **+ New step**.
 
 > <img src="../L03/media/image47.png" style="width:5.7087in;height:2.91412in"
 > alt="select add new step" />
 
-32. Select **Update a row** Microsoft Dataverse.
+33. Select **Update a row** Microsoft Dataverse.
 
 > <img src="../L03/media/image48.png" style="width:5.05116in;height:2.89525in"
 > alt="search for an select Update a row Microsoft Dataverse" />
 
-33. Select **Loan Draws** for Table name, click on the **Row ID** field
+34. Select **Loan Draws** for Table name, click on the **Row ID** field
     and select **LoanDrawID** from the dynamic content pane.
 
-34. Click **Show advanced options**.
+35. Click **Show advanced options**.
 
 > <img src="../L03/media/image49.png" style="width:5.78311in;height:2.20018in"
 > alt="show advanced options" />
 
-35. Click on the **Inspected On** field, go to the dynamic content pane,
+36. Click on the **Inspected On** field, go to the dynamic content pane,
     select the **Expression** tab, type **utcNow()** and click **OK**.
 
 > <img src="../L03/media/image50.png" style="width:6.07711in;height:2.19711in"
 > alt="add time to the field" />
 
-36. Click on the **Inspection Job** field and select **JobNumber** from
+37. Click on the **Inspection Job** field and select **JobNumber** from
     the dynamic content pane.
 
 > <img src="../L03/media/image51.png" style="width:5.91128in;height:2.13084in"
 > alt="add job number field" />
 
-37. Select Inspection Completed for **Status Reason** and click **Hide
+38. Select Inspection Completed for **Status Reason** and click **Hide
     advanced options**.
 
 > <img src="../L03/media/image52.png" style="width:5.58884in;height:1.90116in"
 > alt="input status reason and hide advanced options" />
 
-38. Rename the step **Update loan draw** and click **+ New step**.
+39. Rename the step **Update loan draw** and click **+ New step**.
 
-39. Select **Respond to PowerApp or flow**.
+40. Select **Respond to PowerApp or flow**.
 
 > <img src="../L03/media/image53.png" style="width:5.86513in;height:3.07293in"
 > alt="search for and select Respond to PowerApp or flow" />
 
-40. Click **+ Add an output**.
+41. Click **+ Add an output**.
 
-41. Select **Text**.
+42. Select **Text**.
 
-42. Enter **InspectionStatus**, click on the value field and select
+43. Enter **InspectionStatus**, click on the value field and select
     **InspectionStatus** from the dynamic content pane.
 
 > <img src="../L03/media/image54.png" style="width:5.60209in;height:2.04931in"
 > alt="enter details as described" />
 
-43. Click **+ Add an output** again.
+44. Click **+ Add an output** again.
 
-44. Select **Text**.
+45. Select **Text**.
 
-45. Enter **JobNumber**, click on the value field and select
+46. Enter **JobNumber**, click on the value field and select
     **JobNumber** from the dynamic content pane.
 
 > <img src="../L03/media/image55.png" style="width:4.97512in;height:2.49606in"
 > alt="enter details as described" />
 
-46. Click **Save** to save the flow.
+47. Click **Save** to save the flow.
 
-47. Click on the back button.
+48. Click on the back button.
 
 > <img src="../L03/media/image56.png" style="width:4.10365in;height:0.8124in"
 > alt="select back button" />
 
-48. Open the flow details.
+49. Open the flow details.
 
 > <img src="../L03/media/image57.png" style="width:6.5in;height:2.44722in"
 > alt="open flow details" />
 
-49. Click **Run**.
+50. Click **Run**.
 
-50. If prompted, select **Manually** and click **Test** again.
+51. If prompted, select **Manually** and click **Test** again.
 
-51. Click **Continue**.
+52. Click **Continue**.
 
 > <img src="../L03/media/image58.png" style="width:3in;height:2.79in"
 > alt="run the flo" />
 
-52. **DO NOT** navigate away from this page.
+53. **DO NOT** navigate away from this page.
 
-53. Start a new browser instance and navigate to
+54. Start a new browser instance and navigate to
     <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
 
-54. Select **Apps** and launch the **Loan Manager** application.
+55. Select **Apps** and launch the **Loan Manager** application.
 
 > <img src="../L03/media/image59.png" style="width:5.56642in;height:1.639in"
 > alt="launch the loan manager app" />
 
-55. Click to open the first loan.
+56. Click to open the first loan.
 
-56. Click **Related** and select Loan Draws.
+57. Click **Related** and select Loan Draws.
 
 > <img src="../L03/media/image60.png" style="width:4.4884in;height:2.15515in"
 > alt="drill into record details as described" />
 
-57. Click **+ New Loan Draw**.
+58. Click **+ New Loan Draw**.
 
 > <img src="../L03/media/image61.png" style="width:4.76948in;height:1.70101in"
 > alt="add a new loan draw" />
 
-58. Enter **Test Draw** for Name and click **Save**.
+59. Enter **Test Draw** for Name and click **Save**.
 
-59. Click on the Test Draw row to open
+60. Click on the Test Draw row to open.
 
-60. Go to the URL and copy the **id**. Keep this id in a notepad, you
+61. Go to the URL and copy the **id**. Keep this id in a notepad, you
     will need it in future steps.
 
 > <img src="../L03/media/image62.png" style="width:6.5in;height:0.82083in"
 > alt="get the url id as described" />
 
-61. Go back to the cloud flow and enter **123 main street** for
+62. Go back to the cloud flow and enter **123 main street** for
     PropertyAddress, paste the id you copied in the LoanDrawID field,
     type **Test work item** for Work, and click **Run flow**.
 
 > <img src="../L03/media/image63.png" style="width:2.37356in;height:3.89538in"
 > alt="follow the steps to run the flow" />
 
-62. Wait for the flow run to complete.
+63. Wait for the flow run to complete.
 
-63. Close the run flow pane.
+64. Close the run flow pane.
 
-64. Go to the flow run history and click refresh until the flow run
+65. Go to the flow run history and click refresh until the flow run
     succeeds.
 
 > <img src="../L03/media/image64.png" style="width:5.59704in;height:1.36637in"
 > alt="wait for the succeeded message" />
 
-65. Go back to the **Loan Manager** application, click **Related** and
+66. Go back to the **Loan Manager** application, click **Related** and
     select **Inspection Photos**.
 
 > <img src="../L03/media/image65.png" style="width:5.39586in;height:2.24312in"
 > alt="select the related photos" />
 
-66. You should see the inspection photos created by the flow.
+67. You should see the inspection photos created by the flow.
 
 > <img src="../L03/media/image66.png" style="width:5.71998in;height:2.80927in"
 > alt="review what was created" />
+
 
 # Exercise \#3: Funding Child flow
 
@@ -731,7 +737,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image82.png" style="width:4.48788in;height:2.20462in"
 > alt="set status reason" />
 
-47. Select Respond to PowerApps or flow.
+47. Select **Respond to PowerApps or flow**.
 
 > <img src="../L03/media/image83.png" style="width:4.7742in;height:2.57735in"
 > alt="select respond to PowerApp or flow action" />
@@ -762,9 +768,8 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 > <img src="../L03/media/image85.png" style="width:2.07216in;height:3.62886in"
 > alt="run the flow with the provided details" />
 
-56. Wait for the flow run to complete.
+56. Wait for the flow run to complete, the flow run should succeed.
 
-57. The flow run should succeed.
 
 # Exercise \#4: Build Overall Process Flow
 
@@ -807,6 +812,7 @@ replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/Fun
 8.  Click **Confirm**.
 
 9.  Close the shared mailbox pane.
+
 
 ## Task \#2: Create flow
 
