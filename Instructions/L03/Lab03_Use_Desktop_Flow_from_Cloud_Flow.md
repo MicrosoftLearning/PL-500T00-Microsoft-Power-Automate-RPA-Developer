@@ -341,31 +341,31 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
     New step**. Typically, you would generate this from a sample of the
     data expected.
 
-```json
-{
-   "type":"object",
-   "properties":{
-      "images":{
-         "type":"array",
-         "items":{
-            "type":"object",
-            "properties":{
-               "name":{
-                  "type":"string"
-               },
-               "url":{
-                  "type":"string"
-               }
-            },
-            "required":[
-               "name",
-               "url"
-            ]
-         }
-      }
-   }
-}
-```
+    ```json
+    {
+       "type":"object",
+       "properties":{
+          "images":{
+             "type":"array",
+             "items":{
+                "type":"object",
+                "properties":{
+                   "name":{
+                      "type":"string"
+                   },
+                   "url":{
+                      "type":"string"
+                   }
+                },
+                "required":[
+                   "name",
+                   "url"
+                ]
+             }
+          }
+       }
+    }
+    ```
 
 > <img src="../L03/media/image38.png" style="width:5.06349in;height:3.28424in"
 > alt="select new step" />
