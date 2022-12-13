@@ -649,7 +649,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image72.png" style="width:5.1954in;height:4.28304in"
 > alt="review the steps" />
 
-26. Select **Condition**.
+26. Select the **Condition** action from the **Control** connector.
 
 27. Click on the first operand and select **FundingStatus** from the
     dynamic content pane.
@@ -681,7 +681,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 33. Click on the **Amount Funded** field and go to the dynamic content
     pane and select the **Expression** tab.
 
-34. Paste the expression below and click OK.
+34. Paste the expression below and click **OK**.
 
     ```replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/FundedAmount'\], '$','')```
 
@@ -768,7 +768,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image85.png" style="width:2.07216in;height:3.62886in"
 > alt="run the flow with the provided details" />
 
-56. **Wait** for the flow run to complete, the flow run should succeed.
+56. **Wait** for the flow run to complete, the flow run should succeed. Click **Done** to review the flow run history. 
 
 
 # Exercise \#4: Build Overall Process Flow
