@@ -435,10 +435,8 @@ conditional logic to the flow. This will ensure the flow does not have
 an error when certain controls are not available, and you will return an
 output variable indicating that the funding was denied.
 
-1.  Go to the **Actions** pane and expand the **UI automation** group.
-
-2.  Go back to the app and go through the steps with the following to
-    get the denied message.
+1.  Open the Woodgrove Bank Funding Manager application and go through the steps with the following parameters to
+    get the denied message. 
 
     Username: your username. 
     
@@ -452,19 +450,21 @@ output variable indicating that the funding was denied.
     
     Risk score: 90 
 
-3.  Leave the denied message and don’t click OK. 
+2.  Leave the denied message and don’t click OK. 
 
-4.  Drag **If window contains** action and drop it above the Get details
-    of the UI element in window of the amount. 
+3.  In Power Automate Desktop, go to the **Actions** pane and expand the **UI automation** group.
+
+4.  Drag the **If window contains** action and drop it above the **Get details
+    of the UI element in window** of the amount. 
 
 > <img src="../L02/media/image30.png" style="width:4.80332in;height:1.82998in"
 > alt="drag the action as described" />
 
-1.  Click the UI element dropdown and then click Add UI element. 
+5.  Click the UI element dropdown and then click Add UI element. 
 
-2.  Hold the ctrl key and Click on the text **Draw denied contact bank**. 
+6.  Hold the Ctrl key and Click on the text **Draw denied contact bank**. 
 
-3.  Click **Save**. 
+7.  Click **Save**. 
 
 > <img src="../L02/media/image31.png" style="width:4.12327in;height:2.01035in"
 > alt="save the item" />
@@ -547,22 +547,23 @@ output variable indicating that the funding was denied.
 
 25. Type **Approved** for Value and click **Save**.
 
+
 ## Task \#7: Add Close of app and Test Run
 
-1.  Drag **Terminate Process** and drop it after the last action.
+1.  In the **Actions** pane, expand the **System** group. Drag **Terminate process** and drop it after the last action.
 
-2.  Specify by Process ID.
+2.  Change **Specify process by** to **Process ID**.
 
-3.  Set Process ID to AppProcessId
+3.  For **Process ID**, type in %AppProcessId% or click the {x} and select **AppProcessId**.  
 
-4.  Click **Save**.
+4.  Click **Save** on the Terminate process step.
 
-5.  Click Save to save the flow.
+5.  Click **Save** and wait for the flow to be saved.
 
-6.  Close the app if it is running still.
+6.  **Close** the funding manager app if it is still running.
 
 7.  Click **Run**. Do not interact with the VM until the run
-    completes.
+    completes. 
 
 > <img src="../L02/media/image42.png" style="width:5.88468in;height:0.96863in"
 > alt="run the flow" />
@@ -588,18 +589,19 @@ output variable indicating that the funding was denied.
 
 12. The flow should run successfully. Review the output variables and
     make sure the **FundingStatus** is set to **Draw denied contact
-    bank**.
+    bank**. 
 
 > <img src="../L02/media/image46.png" style="width:3.90576in;height:2.33304in"
 > alt="review the output" />
 
-13. Locate the **RiskScore** variable and double click on it.
+13. Locate the **RiskScore** variable and double click on it. 
 
-14. Change the **Default value** to **65** and click **Save**.
+14. Change the **Default value** to **65** and click **Save**. 
 
-15. Click **Save** and wait for the flow to be saved.
+15. Click **Save** and wait for the flow to be saved. 
 
-16. You may close the desktop flow.
+16. You may close the desktop flow. 
+
 
 # Exercise \#2: Automate Inspection web site
 
