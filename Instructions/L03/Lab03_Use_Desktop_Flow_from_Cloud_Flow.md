@@ -862,8 +862,8 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image96.png" style="width:6.26017in;height:2.05729in"
 > alt="select automated" />
 
-14. Enter **Process Construction Funding Request** for Flow name, select
-    **When a new email arrives in a shared mailbox (V2)**, and click
+14. Enter **Process Construction Funding Request** for Flow name, select the
+    **When a new email arrives in a shared mailbox (V2)** trigger, and click
     **Create**.
 
 > <img src="../L03/media/image97.png" style="width:6.5in;height:2.65556in"
@@ -881,11 +881,11 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 17. Select **Rename**.
 
-18. Rename the trigger **When a new funding request email arrives**.
+18. Rename the trigger to **When a new funding request email arrives**.
 
 19. Click **+ New step**.
 
-20. Select **Run a child flow**.
+20. Select the **Run a Child Flow** action from the **Flows** connector.
 
 > <img src="../L03/media/image99.png" style="width:4.91145in;height:2.31195in"
 > alt="select run a child flow action" />
@@ -902,10 +902,10 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 24. Click **+ New step**.
 
-25. Select **Condition**.
+25. Select the **Condition** action from the **Control** connector.
 
 26. Click to select the first operand field, go to the dynamic content
-    pane, and select **LoanFound**.
+    pane, and select **LoanFound**. 
 
 > <img src="../L03/media/image101.png" style="width:5.05882in;height:2.24836in"
 > alt="enter details as described" />
@@ -920,18 +920,18 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image102.png" style="width:5.02245in;height:2.23864in"
 > alt="add an action on the no branch" />
 
-30. Select **Send an email from a shared mailbox (V2).**
+30. Select the **Send an email from a shared mailbox (V2)** action from the **Office 365 Outlook** connector.
 
 > <img src="../L03/media/image103.png" style="width:4.58105in;height:2.60572in"
 > alt="select send email from shared mailbox v2" />
 
-31. Click on the **Original mailbox Address** and select **To** from the
+31. Click on the **Original mailbox Address**, click **Add dynamic content** and select **To** from the
     dynamic content pane.
 
 > <img src="../L03/media/image104.png" style="width:5.09297in;height:2.76631in"
 > alt="enter details as described" />
 
-32. Click on the **To** and select **From** from the dynamic content
+32. Click on the **To** field, click **Add dynamics content** and select **From** from the dynamic content
     pane.
 
 33. Type **Loan number not found** for Subject.
@@ -950,7 +950,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image106.png" style="width:5.19633in;height:3.47199in"
 > alt="enter details as described" />
 
-37. Select **Terminate**.
+37. Select the **Terminate** action from the **Control** connector.
 
 > <img src="../L03/media/image107.png" style="width:5.64587in;height:2.8543in"
 > alt="select terminate action" />
@@ -962,7 +962,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image108.png" style="width:5.52235in;height:3.35353in"
 > alt="select new step" />
 
-40. Select **Add a new row** Microsoft Dataverse.
+40. Select the **Add a new row** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L03/media/image109.png" style="width:5.20874in;height:2.66948in"
 > alt="select add a new row" />
@@ -987,7 +987,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 46. Click **+ New step.**
 
-47. Select **Run a child flow**.
+47. Select the **Run a Child Flow** action from the **Flows** connector.
 
 48. Select **CF Manage Inspection Process** for Child flow.
 
@@ -1007,7 +1007,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image113.png" style="width:5.33934in;height:2.4278in"
 > alt="rename the flow and select add new step" />
 
-53. Select **Run a child flow**.
+53. Select the **Run a Child Flow** action from the **Flows** connector.
 
 54. Select **CF Manage Woodgrove Funding Process** for Child flow.
 
@@ -1017,21 +1017,21 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 56. Click on the **LoanDrawID** field and select **Loan Draw** from the
     dynamic content pane.
 
-57. Ener **80000** for RequestedAmount.
+57. Enter **80000** for RequestedAmount.
 
 58. Click on the **InspectionJobID** field and select **JobNumber** from
     the dynamic content pane.
 
 59. Enter **55** for **RiskScore**.
 
-60. Rename the child flow **Run funding process**.
+60. Rename the child flow **Run funding process**.  Click **Save**.
 
 61. Click **+ New step**.
 
 > <img src="../L03/media/image114.png" style="width:5.78259in;height:3.65983in"
 > alt="click new step" />
 
-62. Select **Condition**.
+62. Select the **Condition** action from the **Control** connector.
 
 63. Click on the first operand and select **FundingStatus** from the
     dynamic content pane.
@@ -1049,12 +1049,12 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image116.png" style="width:5.50156in;height:2.60736in"
 > alt="add an action on the yes branch" />
 
-67. Select **Send an email from a shared mailbox (V2).**
+67. Select the **Send an email from a shared mailbox (V2)** action from the **Office 365 Outlook** connector. 
 
-68. Click on the **Original Mailbox Address** field and select **To**
+68. Click on the **Original Mailbox Address** field, click **Add dynamic content** and select **To**
     from the dynamic content pane.
 
-69. Click on the **To** field and select **From** from the dynamic
+69. Click on the **To** field, click **Add dynamics content** and select **From** from the dynamic
     content pane.
 
 70. Enter **Draw Approved** for Subject.
@@ -1074,12 +1074,12 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image118.png" style="width:6.5in;height:2.15972in"
 > alt="add an action to the no branch" />
 
-75. Select **Send an email from a shared mailbox (V2).**
+75. Select the **Send an email from a shared mailbox (V2)** action from the **Office 365 Outlook** connector.
 
-76. Click on the **Original Mailbox Address** field and select **To**
+76. Click on the **Original Mailbox Address** field, click **Add dynamic content** and select **To**
     from the dynamic content pane.
 
-77. Click on the **To** field and select **From** from the dynamic
+77. Click on the **To** field, click **Add dynamic content** and select **From** from the dynamic
     content pane.
 
 78. Enter **Draw was not approved** for Subject.
@@ -1098,20 +1098,20 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 ## Task \#3: Test flow
 
-1.  Click **Test**.
+1.  Click **Test**. 
 
-2.  Select **Manually** and click **Test** again.
+2.  Select **Manually** and click **Test** again. 
 
 3.  Send an email with the subject **MC3747** from your email to the
     Funding shared email you created
-    (Funding@yourdomain.onmicrosoft.com).
+    (Funding@yourdomain.onmicrosoft.com). 
 
 4.  Wait for the flow to get triggered. Do not interact your computer
-    while the flow is running.
+    while the flow is running. 
 
-5.  The flow should run successfully.
+5.  The flow should run successfully. 
 
 > <img src="../L03/media/image120.png" style="width:5in;height:3.75in"
 > alt="review the tested flow" />
 
-6.  You should receive the approved email.
+6.  You should receive the approved email. 
