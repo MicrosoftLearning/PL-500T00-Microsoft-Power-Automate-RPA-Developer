@@ -88,7 +88,7 @@ record the steps using the **Woodgrove Funding Manager** application.
 > alt="select file" />
 
 8.  Select the **Woodgrove Bank Funding Manager.exe** file located in
-    the lab resources folder and click **Open**.
+    the lab folder **C:\Labs\Resources\Funding manager app** and click **Open**.
 
 > <img src="../L02/media/image5.png" style="width:6.5in;height:1.07014in"
 > alt="select the exe file" />
