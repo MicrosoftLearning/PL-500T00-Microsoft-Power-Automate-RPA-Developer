@@ -48,21 +48,21 @@ the funding request form.
 
 5.  Expand **AI Builder** and select **Models**.
 
-> <img src="../L05/media/image3.png" style="width:1.8773in;height:1.69415in"
+> <img src="../L05/media/image3.png"
 > alt="select AI Builder models" />
 
-6.  Click Start free trial.
+6.  Click **Start free trial**.
 
 7.  Click **+ Build a model**.
 
-8.  Select **Extract custom information from document**.
+8.  Select **Extract custom information from documents**.
 
 > <img src="../L05/media/image4.png" style="width:5.04074in;height:2.34098in"
 > alt="Choose document processing" />
 
 9.  Click **Get started**.
 
-10. Select **Structured and semi-structured documents** and click
+10. Select **Structured documents** and click
     **Next**.
 
 > <img src="../L05/media/image5.png" style="width:5.85245in;height:2.13777in"
@@ -87,22 +87,22 @@ the funding request form.
 > <img src="../L05/media/image8.png" style="width:3.56616in;height:2.20454in"
 > alt="enter details as described" />
 
-15. Click the chevron button on the **+ Add** button and select
+15. Select the **+ Add** button and select
     **Field** again.
 
 16. Enter **Property Address** and click **Done**.
 
-17. Click the chevron button on the **+ Add** button and select
+17. Select the **+ Add** button and select
     **Field**.
 
 18. Enter **Builder Name** and click **Done**.
 
-19. Click the chevron button on the **+ Add** button and select
+19. Select the **+ Add** button and select
     **Field**.
 
 20. Enter **Draw Amount** and click **Done**.
 
-21. Click the chevron button on the **+ Add** button and select
+21. Select the **+ Add** button and select
     **Field** one more time.
 
 22. Enter **Loan Number** and click **Done**.
@@ -326,7 +326,7 @@ the funding request form.
 
 2.  Select **Solutions** and open the **Construction Funding** solution.
 
-3.  Click **Add Existing | AI Model**
+3.  Click **Add Existing | AI Model**.
 
 4.  Select your Document Processing model and click **Add**.
 
@@ -342,7 +342,7 @@ the funding request form.
 > <img src="../L05/media/image40.png" style="width:5.82201in;height:1.78061in"
 > alt="add an action" />
 
-7.  Select **Condition**.
+7.  Select the **Condition** action from the **Control** connector.
 
 8.  Click the first operand field and select **Has Attachment** from the
     dynamic content pane.
@@ -364,7 +364,7 @@ the funding request form.
 
 13. Go to the **If no** branch and click **Add an action**.
 
-14. Select **Send an email from a shared mailbox (V2).**
+14. Select the **Send an email from a shared mailbox (V2)** action from the **Office 365 Outlook** connector.
 
 15. Click on the **Original Mailbox Address** field and select **To** in
     the dynamic content pane.
@@ -392,7 +392,7 @@ the funding request form.
 > <img src="../L05/media/image44.png" style="width:5.82458in;height:2.14564in"
 > alt="add an action to the no branch" />
 
-24. Select **Get attachment (V2).**
+24. Select the **Get attachment (V2)** action from the **Office 365 Outlook** connector.
 
 > <img src="../L05/media/image45.png" style="width:4.52188in;height:2.56477in"
 > alt="select as described" />
@@ -418,7 +418,7 @@ triggerOutputs()?['body/attachments']?[0]['id']
 30. Click on the **+** Insert a new step button below the **Get email
     attachment** step and select **Add an action**.
 
-31. Select **Extract information from documents**.
+31. Select the **Extract information from documents** action from the **AI Builder** connector.
 
 > <img src="../L05/media/image47.png" style="width:4.45924in;height:2.29632in"
 > alt="select extract information from form aciton" />
@@ -435,38 +435,38 @@ triggerOutputs()?['body/attachments']?[0]['id']
 34. Click on the **+** Insert a new step button below the **Extract
     information from documents** step and select **Add an action**.
 
-35. Select **Initialize variable**.
+35. Select the **Initialize variable** action from the **Variable** connector.
 
 > <img src="../L05/media/image49.png" style="width:5.09722in;height:2.51623in"
 > alt="select as described" />
 
 36. Enter **Work items** for Name and select **String** for Type.
 
-37. Rename the step var **work items** and click **+** and select **Add an action**.
+37. Rename the step **var work items** and click **+** and select **Add an action**.
 
 > <img src="../L05/media/image50.png" style="width:4.67138in;height:2.37681in"
 > alt="select and complete as described" />
 
-38. Select **Append to string variable**.
+38. Select the **Append to string variable** action from the **Variable** connector.
 
 > <img src="../L05/media/image51.png" style="width:5.12782in;height:2.61455in"
 > alt="select and complete as described" />
 
-39. Select **Work Items** for Name, click on the **Value** field and
+39. Select **Work items** for Name, click on the **Value** field and
     select **Budget Items Budget Category value** from the dynamic
     content pane.
 
 > <img src="../L05/media/image52.png" style="width:5.51966in;height:2.28217in"
 > alt="select and complete as described" />
 
-40. Apply to each control will be added automatically.
+40. Notice the **Apply to each** control will be added automatically.
 
 41. Rename the apply to each control **Apply to each work item**.
 
 > <img src="../L05/media/image53.png" style="width:4.35486in;height:3.74403in"
 > alt="select and complete as described" />
 
-42. Add comma and space in front of the value.
+42. Add a **comma and space** after the value.
 
 > <img src="../L05/media/image54.png" style="width:4.89526in;height:2.45193in"
 > alt="select and complete as described" />
@@ -546,8 +546,8 @@ string(replace(,'$',''))
 
 6.  Wait for the flow run to complete.
 
-7.  Flow test should succeed, and you should get an email with Subject
-    Draw Approved.
+7.  The flow test should succeed, and you should get an email with subject line
+    **Draw Approved**.
 
 8.  Expand the **Extract Information from documents** step and review the
     **Outputs**.
