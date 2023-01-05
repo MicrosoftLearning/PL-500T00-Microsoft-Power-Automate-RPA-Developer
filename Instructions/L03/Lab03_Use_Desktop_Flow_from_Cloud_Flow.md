@@ -1114,4 +1114,4 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image120.png" style="width:5in;height:3.75in"
 > alt="review the tested flow" />
 
-6.  You should receive the approved email. 
+6.  You should receive an email with the subject **Draw Approved**.
