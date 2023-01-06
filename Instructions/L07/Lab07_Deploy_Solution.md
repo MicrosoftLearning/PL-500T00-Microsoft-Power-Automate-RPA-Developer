@@ -57,16 +57,24 @@ In this exercise, you will configure the Virtual Machine.
 > <img src="../L07/media/image4b.png"
 > alt="Select My Library from the three dots menu" />
 
-8. Find **Power Automate** in the list and select **Open**. 
+8. Select the **Installed** section and find **Power Automate** in the list and select **Open**. 
 
 > <img src="../L07/media/image4c.png"
 > alt="Find Power Automate and select Open" />
 
 9. **Wait** while any updates are installed. 
 
-12. Provide your Power Platform admin login credentials and **Sign in**. 
+12. Provide your Power Platform admin login credentials and **Sign in** to Power Automate Desktop. 
 
-13. Click on the Machine environment dropdown and select your **Test
+12. Go to **Settings** and under **Machine settings** select **Open machine settings**. 
+
+15. Select the **Install app** button. 
+
+16. On the installer, check the box to agree to the terms of use then select the **Install** button. 
+
+17. Select **Launch app**. 
+
+13. On the **Machine settings** section, select the **Machine environment** dropdown and select your **Test
     environment**. 
 
 14. Click **Change**. 
@@ -74,17 +82,17 @@ In this exercise, you will configure the Virtual Machine.
 > <img src="../L07/media/image6.png" style="width:4.40817in;height:1.98166in"
 > alt="select as described" />
 
-15. Select the Machine group tab 
+15. Select the **Machine group** tab. 
 
 16. Click **+ New machine group**.
 
-17. Enter **Funding** for Machine group name and click **Create**.
+17. Enter **Funding** for Machine group name and click **Create**. 
 
-18. Click on the **Funding** machine group you created.
+18. Click on the **Funding** machine group you created. 
 
-19. Click **Add machine**.
+19. Click **Add machine**. 
 
-20. Click **Add machine** again.
+20. Click **Add machine** again. 
 
 21. Click **Got it**.
 
