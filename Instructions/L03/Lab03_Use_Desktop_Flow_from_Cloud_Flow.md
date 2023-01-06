@@ -683,7 +683,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 
 34. Paste the expression below and click **OK**.
 
-    ```replace(outputs('Run_a\_flow_built_with_Power_Automate_for_desktop')?\['body/FundedAmount'\], '$','')```
+    ```replace(outputs('Run_a_flow_built_with_Power_Automate_for_desktop')?['body/FundedAmount'], '$','')```
 
 > <img src="../L03/media/image77.png" style="width:5.96296in;height:2.46099in"
 > alt="paste the expression" />
