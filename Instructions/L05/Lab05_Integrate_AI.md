@@ -442,7 +442,7 @@ triggerOutputs()?['body/attachments']?[0]['id']
 
 36. Enter **Work items** for Name and select **String** for Type.
 
-37. Rename the step var **work items** and click **+** and select **Add an action**.
+37. Rename the step **var work items** and click **+** and select **Add an action**.
 
 > <img src="../L05/media/image50.png" style="width:4.67138in;height:2.37681in"
 > alt="select and complete as described" />
