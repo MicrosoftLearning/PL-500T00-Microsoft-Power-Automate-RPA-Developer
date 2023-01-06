@@ -27,7 +27,7 @@ new test environment.
 
 # Exercise \#1: Configure VM
 
-In this exercise, you will configure the Virtual Machine
+In this exercise, you will configure the Virtual Machine.
 
 ## Task \#1: Configure VM
 
@@ -37,46 +37,39 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image1.png" style="width:4.5in;height:0.89in"
 > alt="select the vm described" />
 
-2.  Copy the **Public IP address**.
+2.  From the **Connect** menu, select **RDP**.
 
 > <img src="../L07/media/image2.png" style="width:5.15905in;height:1.42677in"
 > alt="copy the key" />
 
-3.  Launch remote desktop connection.
+3.  Select **Download RDP File**. Select **Keep** to download the file and launch the remote desktop connection file.
 
-4.  Paste the VM IP address you copied and click **Connect**.
-
-> <img src="../L07/media/image3.png" style="width:3.61908in;height:2.28907in"
-> alt="connect with remote desktop" />
-
-5.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
+4.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
 
 > <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
-> alt="select as described" />
+> alt="select as described" /> 
 
 6.  Select **Use a different account** if needed, enter **Funding** for Username,
-    **relecloud@word1** for Password, and click **OK**. If prompted, click Yes to connect anyway and complete setup.
+    **relecloud@word1** for Password, and click **OK**. If prompted, click **Yes** to connect anyway and complete the setup.
 
-7.  Start **Edge** browser and complete setup and download the **Power Automate installer**
-    <https://go.microsoft.com/fwlink/?linkid=2102613>
+7.  On the VM, open the **Microsoft Store** app and go to **My Library** from the three dots ... menu.
 
-8.  Double click to install the Setup.Microsoft.PowerAutomate.
+> <img src="../L07/media/image4b.png"
+> alt="Select My Library from the three dots menu" />
 
-> <img src="../L07/media/image5.png" style="width:4.53068in;height:1.58314in"
-> alt="select as described" />
+8. Find **Power Automate** in the list and select **Open**. 
 
-9.  Click **Next**.
+> <img src="../L07/media/image4c.png"
+> alt="Find Power Automate and select Open" />
 
-10. Read the terms of use and check By selecting 'Install', you agree to Microsoft's terms of use and click **Install**.
+9. **Wait** while any updates are installed. 
 
-11. Click **Launch app**.
-
-12. Provide your Power Platform admin login credentials and **Sign in**.
+12. Provide your Power Platform admin login credentials and **Sign in**. 
 
 13. Click on the Machine environment dropdown and select your **Test
-    environment**.
+    environment**. 
 
-14. Click **Change**.
+14. Click **Change**. 
 
 > <img src="../L07/media/image6.png" style="width:4.40817in;height:1.98166in"
 > alt="select as described" />
