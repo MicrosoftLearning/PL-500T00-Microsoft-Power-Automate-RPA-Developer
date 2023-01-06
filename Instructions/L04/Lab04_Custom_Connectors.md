@@ -88,10 +88,10 @@ API.
 
 11. Save the file on your machine.
 
-12. Navigate to <https://make.powerapps.com/> and make sure you are in
+12. Navigate to <https://make.powerautomate.com/> and make sure you are in
     the Dev environment.
 
-13. Expand **Dataverse** and select **Custom Connectors**.
+13. Expand **Data** and select **Custom Connectors**.
 
 > <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
 > alt="Expand to the custom connector list" />
