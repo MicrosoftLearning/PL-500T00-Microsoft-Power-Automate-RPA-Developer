@@ -211,9 +211,9 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
 > alt="select as described" />
 
-17. On the **Secret permissions** tab, select **Get**, then click **Next**.
+17. On the **Permissions** tab, under the **Secret permissions** heading; select **Get**, then click **Next**.
 
-> <img src="../L07/media/image22.png" style="width:5.46908in;height:1.45433in"
+> <img src="../L07/media/image22.png"
 > alt="select as described" />
 
 18. On the **Principal** tab select the **Dataverse** with the
@@ -253,12 +253,13 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image28.png" style="width:3.32512in;height:3.4509in"
 > alt="select as described" />
 
-26. Click Review + assign.
+26. Click **Review + assign**.
 
 > <img src="../L07/media/image29.png" style="width:4.61019in;height:1.0096in"
 > alt="select as described" />
 
 27. Click **Review + assign** again.
+
 
 # Exercise \#3: Environment Variables
 
@@ -386,7 +387,7 @@ flows.
 30. Click the **+ Insert a new step** after the trigger and select **Add
     an action**.
 
-31. Select **Perform an unbound action**.
+31. Select the **Perform an unbound action** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L07/media/image41.png" style="width:4.73702in;height:2.53891in"
 > alt="select as described" />
