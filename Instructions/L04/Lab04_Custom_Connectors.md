@@ -289,22 +289,23 @@ API.
 
 31. Click **Save** and wait for the flow to be saved.
 
+
 ## Task \#2: Test the flow
 
 1.  Click **Test**.
 
 2.  Select **Manually** and click **Test**.
 
-3.  Send an email to <Funding@yourdomain.onmicrosoft.com> make sure the
-    subject of the email is **PS7765**.
+3.  Send an email to <Funding@yourdomain.onmicrosoft.com> with the Subject line
+    as **PS7765**.
 
-4.  Flow test should succeed.
+4.  The flow test should run and succeed.
 
-5.  Expand the **Calculate Risk Score** step.
+5.  On the **Run History** for the flow test, all steps should show a green tick. Expand the **Calculate Risk Score** step.
 
-6.  The output should look like the image below.
+6.  The output should look like the image below:
 
 > <img src="../L04/media/image31.png" style="width:4.53889in;height:2.07153in"
 > alt="test the flow" />
 
-7.  You should also receive an email with the subject Funding Approved.
+7.  You should receive an email with the subject **Draw Approved**.

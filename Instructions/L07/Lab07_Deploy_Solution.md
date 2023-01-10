@@ -27,7 +27,7 @@ new test environment.
 
 # Exercise \#1: Configure VM
 
-In this exercise, you will configure the Virtual Machine
+In this exercise, you will configure the Virtual Machine.
 
 ## Task \#1: Configure VM
 
@@ -37,61 +37,62 @@ In this exercise, you will configure the Virtual Machine
 > <img src="../L07/media/image1.png" style="width:4.5in;height:0.89in"
 > alt="select the vm described" />
 
-2.  Copy the **Public IP address**.
+2.  From the **Connect** menu, select **RDP**.
 
 > <img src="../L07/media/image2.png" style="width:5.15905in;height:1.42677in"
 > alt="copy the key" />
 
-3.  Launch remote desktop connection.
+3.  Select **Download RDP File**. Select **Keep** to download the file and launch the remote desktop connection file.
 
-4.  Paste the VM IP address you copied and click **Connect**.
-
-> <img src="../L07/media/image3.png" style="width:3.61908in;height:2.28907in"
-> alt="connect with remote desktop" />
-
-5.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
+4.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
 
 > <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
-> alt="select as described" />
+> alt="select as described" /> 
 
 6.  Select **Use a different account** if needed, enter **Funding** for Username,
-    **relecloud@word1** for Password, and click **OK**. If prompted, click Yes to connect anyway and complete setup.
+    **relecloud@word1** for Password, and click **OK**. If prompted, click **Yes** to connect anyway and complete the setup.
 
-7.  Start **Edge** browser and complete setup and download the **Power Automate installer**
-    <https://go.microsoft.com/fwlink/?linkid=2102613>
+7.  On the VM, open the **Microsoft Store** app and go to **My Library** from the three dots ... menu.
 
-8.  Double click to install the Setup.Microsoft.PowerAutomate.
+> <img src="../L07/media/image4b.png"
+> alt="Select My Library from the three dots menu" />
 
-> <img src="../L07/media/image5.png" style="width:4.53068in;height:1.58314in"
-> alt="select as described" />
+8. Select the **Installed** section and find **Power Automate** in the list and select **Open**. 
 
-9.  Click **Next**.
+> <img src="../L07/media/image4c.png"
+> alt="Find Power Automate and select Open" />
 
-10. Read the terms of use and check By selecting 'Install', you agree to Microsoft's terms of use and click **Install**.
+9. **Wait** while any updates are installed. 
 
-11. Click **Launch app**.
+12. Provide your Power Platform admin login credentials and **Sign in** to Power Automate Desktop. 
 
-12. Provide your Power Platform admin login credentials and **Sign in**.
+12. Go to **Settings** and under **Machine settings** select **Open machine settings**. 
 
-13. Click on the Machine environment dropdown and select your **Test
-    environment**.
+15. Select the **Install app** button. 
 
-14. Click **Change**.
+16. On the installer, check the box to agree to the terms of use then select the **Install** button. 
+
+17. Select **Launch app**. 
+
+13. On the **Machine settings** section, select the **Machine environment** dropdown and select your **Test
+    environment**. 
+
+14. Click **Change**. 
 
 > <img src="../L07/media/image6.png" style="width:4.40817in;height:1.98166in"
 > alt="select as described" />
 
-15. Select the Machine group tab 
+15. Select the **Machine group** tab. 
 
 16. Click **+ New machine group**.
 
-17. Enter **Funding** for Machine group name and click **Create**.
+17. Enter **Funding** for Machine group name and click **Create**. 
 
-18. Click on the **Funding** machine group you created.
+18. Click on the **Funding** machine group you created. 
 
-19. Click **Add machine**.
+19. Click **Add machine**. 
 
-20. Click **Add machine** again.
+20. Click **Add machine** again. 
 
 21. Click **Got it**.
 
@@ -210,9 +211,9 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
 > alt="select as described" />
 
-17. On the **Secret permissions** tab, select **Get**, then click **Next**.
+17. On the **Permissions** tab, under the **Secret permissions** heading; select **Get**, then click **Next**.
 
-> <img src="../L07/media/image22.png" style="width:5.46908in;height:1.45433in"
+> <img src="../L07/media/image22.png"
 > alt="select as described" />
 
 18. On the **Principal** tab select the **Dataverse** with the
@@ -252,12 +253,13 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image28.png" style="width:3.32512in;height:3.4509in"
 > alt="select as described" />
 
-26. Click Review + assign.
+26. Click **Review + assign**.
 
 > <img src="../L07/media/image29.png" style="width:4.61019in;height:1.0096in"
 > alt="select as described" />
 
 27. Click **Review + assign** again.
+
 
 # Exercise \#3: Environment Variables
 
@@ -385,7 +387,7 @@ flows.
 30. Click the **+ Insert a new step** after the trigger and select **Add
     an action**.
 
-31. Select **Perform an unbound action**.
+31. Select the **Perform an unbound action** action from the **Microsoft Dataverse** connector.
 
 > <img src="../L07/media/image41.png" style="width:4.73702in;height:2.53891in"
 > alt="select as described" />

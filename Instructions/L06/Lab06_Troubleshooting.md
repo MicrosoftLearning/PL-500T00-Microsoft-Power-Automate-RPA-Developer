@@ -81,7 +81,7 @@ In this exercise, you will monitor desktop flows.
 
 13. Close the **Outputs** pane.
 
-14. You may review other action.
+14. You may wish to review the other actions.
 
 ## Task \#2: Flow monitor
 
@@ -235,7 +235,7 @@ In this exercise, you will monitor desktop flows.
 
 12. Drag all the selected actions and drop them inside the error block.
 
-13. The error block should now look like the image below.
+13. The **On block error** action should now look like the image below.
 
 > <img src="../L06/media/image32.png" style="width:4.80585in;height:3.85032in"
 > alt="review the screen" />
