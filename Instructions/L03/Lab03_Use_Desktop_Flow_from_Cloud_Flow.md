@@ -911,7 +911,7 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > alt="enter details as described" />
 
 27. Select **is equal to** for the operator, click to select the second
-    operand field, and input True.
+    operand field, go to the dynamic content pane, and select the expression tab. Type **true** and click OK.
 
 28. Rename the condition **Check if loan number found**.
 
