@@ -88,7 +88,7 @@ API.
 
 11. Save the file on your machine.
 
-12. Navigate to <https://make.powerapps.com/> and make sure you are in
+12. Navigate to <https://make.powerautomate.com/> and make sure you are in
     the Dev environment.
 
 13. Expand **Data** and select **Custom Connectors**.
