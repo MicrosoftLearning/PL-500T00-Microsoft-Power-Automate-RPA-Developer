@@ -145,7 +145,7 @@ In this exercise, you will configure the Virtual Machine.
 
 # Exercise \#2: Key Vault
 
-In this exercise, will create a Key Vault.
+In this exercise, you will create a Key Vault.
 
 ## Task \#1: Create Key Vault
 
@@ -171,37 +171,36 @@ In this exercise, will create a Key Vault.
 
 7.  Click **+ Create a resource**.
 
-8.  Search for key vault and **Key Vault**. **DO NOT** select Azure Key
-    Vault
+8.  Search for **key vault** and select **Key Vault**.
 
-> <img src="../L07/media/image16.png" style="width:5.11699in;height:1.43396in"
+> <img src="../L07/media/image16.png"
 > alt="select as described" />
 
 9.  Click **Create**.
 
 10. Select Funding for Resource group, type **FundingFL** (Replace FL
-    with your initials) for Key vault name and click **Review +
+    with your initials) for Key vault name and select **Review +
     create**.
 
 > <img src="../L07/media/image17.png" style="width:5.10334in;height:4.00471in"
 > alt="review the results of the prior steps" />
 
-11. Click **Create** again.
+11. Review the values and select **Create**.
 
-12. Wait for the deployment to complete.
+12. **Wait** for the deployment to complete.
 
-13. Click **Go to resource**.
+13. Select **Go to resource**.
 
 > <img src="../L07/media/image18.png" style="width:5.71619in;height:2.12403in"
 > alt="select as described" />
 
-14. Select **Secrets** and click **Generate/Import**.
+14. Select **Secrets** and then **+ Generate/Import**.
 
 > <img src="../L07/media/image19.png" style="width:5.52461in;height:2.85556in"
 > alt="select as described" />
 
 15. Enter **FundingPassword** for Name, enter **pass@word1** for Value,
-    and click **Create**.
+    and select **Create**.
 
 > <img src="../L07/media/image20.png" style="width:5.27637in;height:2.66863in"
 > alt="select and complete as described" />
@@ -223,16 +222,16 @@ In this exercise, will create a Key Vault.
 > <img src="../L07/media/image23.png" style="width:5.47366in;height:1.70526in"
 > alt="select as described" />
 
-19. On the **Application (optional)** tab, select **Next**
+19. On the **Application (optional)** tab, select **Next**.
 
 > <img src="../L07/media/image24.png" style="width:5.19505in;height:1.9648in"
 > alt="select as described" />
 
 20. Click **Create**.
 
-21. **Access Policies** should now show one Application and one user entry.
+21. **Access policies** should now show one Application and one User entry.
 
-22. Select **Access Control (IAM),** click **+ Add**, and select **Add role
+22. Select **Access control (IAM),** click **+ Add**, and select **Add role
     assignment**.
 
 > <img src="../L07/media/image25.png" style="width:5.48472in;height:1.646in"
@@ -651,17 +650,15 @@ Funding solutions and test the flows.
 7.  Select **Cloud flows** and open the **Process Construction Funding
     Request** flow.
 
-8.  Go to the run history.
+8.  Review the **28-day run history**.
 
-9.  You should see a flow run with Status of Running. Click to open the
-    run
+9.  You should see a flow run with a Status of **Running**. Select the timestamp 
+    to open the flow run details.
 
-10. Wait for the flow to complete.
+10. Wait for the flow run to complete.
 
-11. Wait for the flow run to complete.
-
-12. Flow test should succeed, and you should get an email with Subject
-    Funding Approved.
+11. The flow run should succeed, and you should get an email back with the Subject line
+    **Draw approved**.
 
 > <img src="../L07/media/image61.png" style="width:5.96545in;height:4.0184in"
 > alt="review the results of the prior steps" />
