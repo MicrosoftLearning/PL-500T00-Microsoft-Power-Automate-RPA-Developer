@@ -177,7 +177,7 @@ alt="Screenshot showing the create resource dialog with a red rectangle around t
 
 9.  Enter `Funding` for Username.
 
-10. Enter `relecloud@word1` for Password.
+10. Create a secure password and write it down.
 
 11. Confirm the Password. 
 
