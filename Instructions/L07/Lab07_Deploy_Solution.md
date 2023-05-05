@@ -50,7 +50,7 @@ In this exercise, you will configure the Virtual Machine.
 > alt="select as described" /> 
 
 6.  Select **Use a different account** if needed, enter **Funding** for Username,
-    **relecloud@word1** for Password, and click **OK**. If prompted, click **Yes** to connect anyway and complete the setup.
+    enter the password you created in lab00, and click **OK**. If prompted, click **Yes** to connect anyway and complete the setup.
 
 7.  On the VM, open the **Microsoft Store** app and go to **My Library** from the three dots ... menu.
 
@@ -546,8 +546,7 @@ Funding solutions and test the flows.
 24. Click on the **Desktop flows** connection dropdown and select **+
     New connection**.
 
-25. Enter **Funding** for Domain and username, enter **relecloud@word1**
-    for Password, and click **Create**.
+25. Enter **Funding** for Domain and username, enter the password you created in lab00, and click **Create**.
 
 > <img src="../L07/media/image52.png" style="width:2.75in;height:2.98in"
 > alt="select as described" />
