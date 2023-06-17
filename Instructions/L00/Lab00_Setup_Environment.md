@@ -100,47 +100,29 @@ that you will do the majority of your lab work in.
 
 ## Exercise 3 - Power Automate Software 
 
-In this excercise, you will be updating and installing Power Automate Desktop and accompanying applications.
+In this excercise, you will be configure Power Automate Desktop and accompanying applications.
 
 
-### Task 1 - Updating Power Automate Desktop 
+### Task 1 - Configure Power Automate Desktop 
 
-Power Automate Desktop is installed by default on Windows 11, but it will need to be updated to the latest version before it can be used. 
+Power Automate Desktop is installed by default on Windows 11, but you will need to signin and configure the environment. 
 
-1.  Open the **Microsoft Store** and select **Library** from the left-hand navigation. 
+1.  Open  **Power Automate Desktop**. 
 
-2.  Search for Power Automate and select **Update**. 
-
-3.  When the update is finished, select **Open**. 
-
-    > **Note:** Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
-    >
-    > In some cases, the Microsoft Store itself may also need to be updated. Update **Microsoft Store** and reboot the machine. 
-
-4.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Select **Next** and **Get started**. 
+2.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Select **Next** and **Get started**. 
 
     > Optional: Select **Start tour** and go through the welcome prompts to get a feel for the application. 
 
-5.  From the **Environments** list, select your **Dev** environment. 
+3.  From the **Environments** list, select your **Dev** environment. 
 
 
-### Task 2 - Installing the Power Automate Machine-Runtime App 
+### Task 2 - Configure the Power Automate Machine-Runtime App 
 
-To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be installed. 
+To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be configured. 
 
 6.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings, select **Open machine settings**. 
 
-7.  Select **Install app**. 
-
-8.  Check the box to accept Microsoft's terms of use. Select **Install**. System Administrator privileges are required for the install. Select **Yes** on the User Account Control dialogue box. 
-  
-    > Power Automate Desktop will restart during the installation of the machine-runtime app. 
-
-9.  Following the steps to enable the bundled browser extension, select **Microsoft Edge**. Select **Turn on extension** and minimize the browser window. 
-
-10. Select **Launch app**. 
-
-11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". If you get an error stating a premium license is required, in the message select the Get Premium option and start a trial.
 
 12. Once it's connected, you can close the **Power Automate machine runtime** window. Notice the app will continue running in the system tray. 
 
