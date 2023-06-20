@@ -103,8 +103,7 @@ process data and review the analytics.
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Loan Funding - Data** for Process name, select **Data (preview)**, and
-    click **Create**.
+3.  Enter **Loan Funding - Data** for Process name, select **import data**, and click **Continue**.
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
 > alt="Select data to create the process" />
@@ -178,7 +177,7 @@ process data and review the analytics.
 > <img src="../L01/media/image10.png" style="width:5.26922in;height:3.95698in"
 > alt="process data to review" />
 
-4.  Go to the **Paths > Frequency** chart and select the second bar.
+4.  Go to the **Variants > Frequency** chart and select the second bar.
     This is the frequency for the approved draw path.
 
 > <img src="../L01/media/image11.png" style="width:4.75935in;height:3.50951in"
@@ -215,7 +214,7 @@ analyze it.
 > alt="start process advisor" />
 
 3.  Enter **Loan Funding - Recording** for Process name, select
-    **Recordings**, and click **Create**.
+    **Recordings**, and click **Continue**.
 
 > <img src="../L01/media/image14.png" style="width:5.6828in;height:3.78611in"
 > alt="select recording option" />
