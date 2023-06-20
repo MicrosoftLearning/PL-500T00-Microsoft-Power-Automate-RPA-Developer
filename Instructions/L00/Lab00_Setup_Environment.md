@@ -40,13 +40,15 @@ of the course.
 
 5.  Enter the password provided by the Authorized Lab Hoster. 
 
-6.  Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
+6.  Select **Yes** to stay signed in. 
 
-7.  To confirm the details, select **Get started** again. 
+7. If prompted to register, enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
 
-8.  PowerApps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and select **Submit**. 
+8.  To confirm the details, select **Get started** again. 
 
-9.  Following the Welcome prompts, select **Next**, **Next** and **Let's go**. 
+9.  PowerApps will load in a new tab.
+
+10. Following the Welcome prompts.
 
 
 ## Exercise 2 - Create your environments
@@ -81,20 +83,23 @@ that you will do the majority of your lab work in.
 
 4.  For **Type**, select **Trial**. 
 
-5.  Change the toggle on **Create a database for this
-    environment?** to **Yes**. 
+5.  Change the toggle on **Add a Dataverse data store?** to **Yes**. 
 
 6.  Leave all other selections as default and select **Next**. 
 
-7.  On the next tab, leave all selections to default and select **Save**. 
+7.  On the next tab, selet the **+ Select** button under Security group.
 
-8.  The **Test** environment should now show in the list of Environments. 
+8.  Select **None** and then select **Done**.
+
+9.  Select **Save**. 
+
+10.  The **Test** environment should now show in the list of Environments. 
 
     > Note: The environment may take a few minutes to provision. Refresh the
     Environments list if needed. When your environment shows as 'Ready', select
     the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
 
-9.  Explore the different areas in **Settings** that you may be interested
+11.  Explore the different areas in **Settings** that you may be interested
     in but do not make any changes yet. 
 
 
