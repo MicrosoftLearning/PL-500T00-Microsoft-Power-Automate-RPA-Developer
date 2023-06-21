@@ -104,7 +104,7 @@ record the steps using the **Woodgrove Funding Manager** application.
 
 12. Do not close the application.
 
-13. Click **Recorder**.
+13. Go to the desktop flow and click **Recorder**.
 
 14. Do not start recording yet. Close or minimize all but the funding
     manager application. You will be recording steps and modifying
@@ -165,13 +165,13 @@ record the steps using the **Woodgrove Funding Manager** application.
 27. If Run Application is no longer your first step, Drag the **Run
     application** action from the bottom to the top of the steps.
 
-> <img src="../L02/media/image10.png" style="width:5.93901in;height:1.98792in"
+> <img src="../L02/media/image10.png" style="width:7in;height:1.7in"
 > alt="reorder to match the description if needed" />
 
 28. Click **Run**. Do not interact with your computer until the run
     completes.
 
-29. Your flow variable should now look like the image below but might
+29. Your flow variables should now look like the image below but might
     have different values.
 
 > <img src="../L02/media/image11.png" style="width:2.9046in;height:3.94251in"
@@ -215,38 +215,38 @@ will be used to return data to that flow.
 > <img src="../L02/media/image14.png" style="width:3.02023in;height:1.65625in"
 > alt="add another input" />
 
-4.  Enter **Password** for Variable name, **pass@word1** for Default
+4.  Enter **Password** for Variable name, select **Text** for Data type, **pass@word1** for Default
     value, **Password** for External name, **Password** for Description,
     mark the variable as sensitive, and click **Save**.
 
 5.  Click **(+)** and select **Input** again.
 
-6.  Enter **LoanNumber** for Variable name, **MC3747** for Default
+6.  Enter **LoanNumber** for Variable name, select **Text** for Data type, **MC3747** for Default
     value, **LoanNumber** for External name, **Loan number** for
     Description, and click **Save**.
 
 7.  Click **(+)** and select **Input** again.
 
-8.  Enter **RequestedAmount** for Variable name, **100000** for Default
+8.  Enter **RequestedAmount** for Variable name, select **Text** for Data type, **100000** for Default
     value, **RequestedAmount** for External name, **Requested amount**
     for Description, and click **Save**.
 
 9.  Click **(+)** and select **Input** again.
 
-10. Enter **InspectionJobNumber** for Variable name, **123** for Default
+10. Enter **InspectionJobNumber** for Variable name, select **Text** for Data type, **123** for Default
     value, **InspectionJobNumber** for External name, **Inspection job
     number** for Description, and click **Save**.
 
 11. Click **(+)** and select **Input** again.
 
-12. Enter **BorrowerApproved** for Variable name, **Yes** for Default
+12. Enter **BorrowerApproved** for Variable name, select **Text** for Data type, **123** for Default
+    value, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
     for Description, and click **Save**.
 
 13. Click **(+)** and select **Input** again.
 
-14. Enter **RiskScore** for Variable name, **30** for Default value,
-    **RiskScore** for External name, **Risk score** for Description, and
+14. Enter **RiskScore** for Variable name, select **Text** for Data type, **30** for Default value, **RiskScore** for External name, **Risk score** for Description, and
     click **Save**.
 
 15. You should now have 7 input arguments. They're displayed in alphabetical order.
@@ -259,8 +259,7 @@ will be used to return data to that flow.
 > <img src="../L02/media/image16.png" style="width:3.73322in;height:1.52395in"
 > alt="add output variable" />
 
-17. Enter **FundedAmount** for Variable name, **FundedAmount** for
-    External name, **Funded amount** for Description, and click
+17. Enter **FundedAmount** for Variable name, select **Text** for Data type, **FundedAmount** for External name, **Funded amount** for Description, and click
     **Save**.
 
 > <img src="../L02/media/image17.png"
@@ -268,23 +267,17 @@ will be used to return data to that flow.
 
 18. Click **(+)** and select **Output** again.
 
-19. Enter **FundTransferNumber** for Variable name,
-    **FundTransferNumber** for External name, **Fund transfer number**
-    for Description, and click **Save**.
+19. Enter **FundTransferNumber** for Variable name, select **Text** for Data type, **FundTransferNumber** for External name, **Fund transfer number** for Description, and click **Save**.
 
 20. Click **(+)** and select **Output** again.
 
-21. Enter **FundSequenceNumber** for Variable name,
-    **FundSequenceNumber** for External name, **Fund sequence number**
-    for Description, and click **Save**.
+21. Enter **FundSequenceNumber** for Variable name, select **Text** for Data type, **FundSequenceNumber** for External name, **Fund sequence number** for Description, and click **Save**.
 
 22. Click **(+)** and select **Output** again.
 
-23. Enter **FundingStatus** for Variable name, **FundingStatus** for
-    External name, **Funding status** for Description, and click
-    **Save**.
+23. Enter **FundingStatus** for Variable name, select **Text** for Data type, **FundingStatus** for External name, **Funding status** for Description, and click **Save**.
 
-24. You should now have **11** total arguments 7 inputs and 4 outputs.
+24. You should now have **11** total variables 7 inputs and 4 outputs.
 
 25. Click **Save** and wait for the flow to be saved.
 
@@ -502,7 +495,7 @@ output variable indicating that the funding was denied.
 > alt="open the item as described" />
 
 14. Click on the **UI element** dropdown and select **Draw denied
-    contact back** and click **Select**.
+    contact bank** and click **Select**.
 
 > <img src="../L02/media/image37.png" style="width:5.30107in;height:3.24153in"
 > alt="from the dropdown select the item as described" />
@@ -550,57 +543,55 @@ output variable indicating that the funding was denied.
 
 ## Task \#7: Add Close of app and Test Run
 
-1.  In the **Actions** pane, expand the **System** group. Drag **Terminate process** and drop it after the last action.
+1.  In the **Actions** pane, search for **close**. Drag **Close window** and drop it after the last action.
 
-2.  Change **Specify process by** to **Process ID**.
+2.  Select **Windows 'Request Funds Draw'** for Window and then click **Select**.
 
-3.  For **Process ID**, type in %AppProcessId% or click the {x} and select **AppProcessId**.  
+3.  Click **Save** on the Close window step.
 
-4.  Click **Save** on the Terminate process step.
+4.  Click **Save** and wait for the flow to be saved.
 
-5.  Click **Save** and wait for the flow to be saved.
+5.  **Close** the funding manager app if it is still running.
 
-6.  **Close** the funding manager app if it is still running.
-
-7.  Click **Run**. Do not interact with the VM until the run
+6.  Click **Run**. Do not interact with the VM until the run
     completes. 
 
 > <img src="../L02/media/image42.png" style="width:5.88468in;height:0.96863in"
 > alt="run the flow" />
 
-8.  The flow should run successfully. Review the output variables and
+7.  The flow should run successfully. Review the output variables and
     make sure the **FundingStatus** is set to **Approved**.
 
 > <img src="../L02/media/image43.png" style="width:3.81202in;height:2.12473in"
 > alt="review the output" />
 
-9.  Locate the **RiskScore** variable and double click on it.
+8.  Locate the **RiskScore** variable and double click on it.
 
 > <img src="../L02/media/image44.png" style="width:3.43707in;height:1.6248in"
 > alt="locate risk score" />
 
-10. Change the **Default value** to **85** and click **Save**.
+9. Change the **Default value** to **85** and click **Save**.
 
 > <img src="../L02/media/image45.png" style="width:5.59207in;height:4.03609in"
 > alt="update the default value" />
 
-11. Click **Run** again. Do not interact with the VM until the
+10. Click **Run** again. Do not interact with the VM until the
     run completes.
 
-12. The flow should run successfully. Review the output variables and
+11. The flow should run successfully. Review the output variables and
     make sure the **FundingStatus** is set to **Draw denied contact
     bank**. 
 
 > <img src="../L02/media/image46.png" style="width:3.90576in;height:2.33304in"
 > alt="review the output" />
 
-13. Locate the **RiskScore** variable and double click on it. 
+12. Locate the **RiskScore** variable and double click on it. 
 
-14. Change the **Default value** to **65** and click **Save**. 
+13. Change the **Default value** to **65** and click **Save**. 
 
-15. Click **Save** and wait for the flow to be saved. 
+14. Click **Save** and wait for the flow to be saved. 
 
-16. You may close the desktop flow. 
+15. You may close the desktop flow. 
 
 
 # Exercise \#2: Automate Inspection web site
@@ -723,7 +714,7 @@ record the steps using the **Inspection** web app.
     
     xii. Go back to the recorder and click **Done**.
     
-    <!-- -->
+  
 
 16. Click **Record** and perform the steps.
 
@@ -745,37 +736,27 @@ will be used to return data to that flow.
 
 1.  Open the **Variables** pane, click the plus button **(+)** and select **Input**. 
 
-2.  Enter **InspectionAccountNumber** for Variable name, **Jane Doe**
-    for Default value, **InspectionAccountNumber** for External name,
-    **Inspection account number** for Description, and click **Save**. 
+2.  Enter **InspectionAccountNumber** for Variable name, select **Text** for Data type, **Jane Doe** for Default value, **InspectionAccountNumber** for External name, **Inspection account number** for Description, and click **Save**. 
 
 3.  Click **(+)** and select **Input** again. 
 
-4.  Enter **PropertyAddress** for Variable name, **123 Main Street** for
-    Default value, **PropertyAddress** for External name, **Property
-    address** for Description, and click **Save**. 
+4.  Enter **PropertyAddress** for Variable name, select **Text** for Data type, **123 Main Street** for Default value, **PropertyAddress** for External name, **Property address** for Description, and click **Save**. 
 
 5.  Click **(+)** and select **Input** one more time. 
 
-6.  Enter **WorkToInspect** for Variable name, **Test work item** for
-    Default value, **WorkToInspect** for External name, **Work to
-    inspect** for Description, and click **Save**. 
+6.  Enter **WorkToInspect** for Variable name, select **Text** for Data type, **Test work item** for Default value, **WorkToInspect** for External name, **Work to inspect** for Description, and click **Save**. 
 
 7.  Click **(+)** and select **Output**. 
 
-8.  Enter **InspectionStatus** for Variable name, **InspectionStatus**
-    for External name, **Inspection status** for Description, and click
-    **Save**. 
+8.  Enter **InspectionStatus** for Variable name, select **Text** for Data type, **InspectionStatus** for External name, **Inspection status** for Description, and click **Save**. 
 
 9.  Click **(+)** and select **Output** again. 
 
-10. Enter **SitePhotos** for Variable name, **SitePhotos** for External
-    name, **Site photos** for Description, and click **Save**. 
+10. Enter **SitePhotos** for Variable name, select **Text** for Data type, **SitePhotos** for External name, **Site photos** for Description, and click **Save**. 
 
 11. Click **(+)** and select **Output** one more time. 
 
-12. Enter **JobNumber** for Variable name, **JobNumber** for External
-    name, **Job number** for Description, and click **Save**. 
+12. Enter **JobNumber** for Variable name, select **Text** for Data type, **JobNumber** for External name, **Job number** for Description, and click **Save**. 
 
 13. You should now have three input and three output variables. 
 
@@ -804,7 +785,7 @@ variables you just defined.
 5.  Go to the Populate text field on web page for the property address
     and double click on it.
 
-> <img src="../L02/media/image58.png" style="width:5.90547in;height:1.73442in"
+> <img src="../L02/media/image58.png" style="width:5.90547in;height:1.3in"
 > alt="select item as noted" />
 
 6.  Clear the Text value and click on the **{x}** select variable
@@ -817,7 +798,7 @@ variables you just defined.
 9.  Go to the Populate text field on web page for the work to inspect
     and double click on it.
 
-> <img src="../L02/media/image59.png" style="width:5.83347in;height:1.6171in"
+> <img src="../L02/media/image59.png" style="width:5.83347in;height:1.in"
 > alt="select item as noted" />
 
 10. Clear the Text value and click on the **{x}** select variable
@@ -842,7 +823,7 @@ variables you just defined.
 15. Go to the Populate text field on web page for the second account
     number and double click on it.
 
-> <img src="../L02/media/image62.png" style="width:6.5in;height:0.86319in"
+> <img src="../L02/media/image62.png" style="width:5.5in;height:1.2in"
 > alt="select the item as described" />
 
 16. Clear the Text value and click on the **{x}** select variable
@@ -855,7 +836,7 @@ variables you just defined.
 19. Go to the last Populate text field on web page and double click on
     it.
 
-> <img src="../L02/media/image63.png" style="width:5.77456in;height:1.52446in"
+> <img src="../L02/media/image63.png" style="width:6in;height:1.in"
 > alt="select the item as described" />
     
 20. Clear the Text value and click on the **{x}** select variable
@@ -884,14 +865,43 @@ variables you just defined.
 > <img src="../L02/media/image65.png" style="width:5.60109in;height:1.68691in"
 > alt="order items as described" />
 
-28. Click **Run** and wait for the run to complete. 
+28. Click **Run** and wait for the run to complete.
 
-29. After the run completes, the variables should like the image below. 
+29. You should get an error similar to the one below. You see this error because the job number will be different for each run, but the flow is trying to match it with job number generated during the recording.
 
-> <img src="../L02/media/image66.png" style="width:3.59154in;height:5.1763in"
+> <img src="../L02/media/image66_1.png" style="width:7.45in;height:2in"
+> alt="job number error" />
+
+30. Go the **UI elements** tab and double click on the **Table data cell 'xxxxx'** UI.
+
+> <img src="../L02/media/image66_2.png" style="width:3.7;height:4in"
+> alt="Table data cell" />
+
+31. Select the last element form the **Elements** list **Table data cell 'xxxxx'**, uncheck the **Text** attribute, check the **Ordinal** attribute, change the value or the Ordinal from 0 to **1**, and click **Save**. We are telling the flow to use the value in the second cell of the table, the table cells are zero based where 0 is the first cell and 1 is the second cell.
+
+> <img src="../L02/media/image66_3.png" style="width:6in;height:4in"
+> alt="UI element editor" />
+
+32. We will do the same thing for the inspection status. Duble click on the **Table data cell 'In progress'** UI.
+
+> <img src="../L02/media/image66_4.png" style="width:3.7;height:4in"
+> alt="Table data cell" />
+
+33. Select the **Table row 'Job Status: In progress** element, check the **Ordinal** attribute checkbox, enter 1 for the Ordinal value, and then select **Table data cell 'In progress'**. You are selectecting the row first and then moving to edit the cell.
+
+> <img src="../L02/media/image66_5.png" style="width:3.7;height:4in"
+> alt="Table data row" />
+
+34. Uncheck the **Text** attribute, check the **Ordinal** attribute, change the value or the Ordinal from 0 to **1**, and click **Save**.
+
+32. Run the flow again.
+
+33. The flow run should now succeed, and the variables should look like the image below. 
+
+> <img src="../L02/media/image66.png" style="width:4in;height:5.1763in"
 > alt="review the results" />
 
-30.  Click **Save** and wait for the flow to be saved. 
+34.  Click **Save** and wait for the flow to be saved. 
 
 
 ## Task \#5: Add loop condition and wait control
@@ -904,7 +914,7 @@ before checking again.
     before Populate text field on a web page for the second
     InspectionAccountNumber action.
 
-> <img src="../L02/media/image67.png" style="width:5.99844in;height:3.26774in"
+> <img src="../L02/media/image67.png" style="width:5.99844in;height:3.2in"
 > alt="drag the item as described" />
 
 2.  Click on the **{x}** select variable button of the First operand.
@@ -923,19 +933,19 @@ before checking again.
 5.  Select the four actions after the loop and move them inside the loop
     by drag and drop.
 
-> <img src="../L02/media/image70.png" style="width:5.00698in;height:2.23817in"
+> <img src="../L02/media/image70.png" style="width:6in;height:3.1in"
 > alt="move the items as described" />
 
 6.  Expand the **Flow control** group, drag **Wait** action and drop it
     before the **End** loop.
 
-> <img src="../L02/media/image71.png" style="width:5.65362in;height:3.11009in"
+> <img src="../L02/media/image71.png" style="width:6.7in;height:3.2in"
 > alt="drag the item as described" />
 
 7.  Enter **10** seconds and click **Save**.
 
 8.  Click **Run** and wait for the flow to complete. The flow should go
-    through the loop until the inspection status changes to Completed.
+    through the loop until the inspection status changes to **Completed**.
 
 > <img src="../L02/media/image72.png" style="width:5.6958in;height:2.59293in"
 > alt="review the results" />
@@ -1034,6 +1044,7 @@ to populate the output variable.
     in the JavaScript function field, expand the **Variables produced**
     section, click on the **{x}** select variable button.
 
+```js
 function ExecuteScript()
 
 {
@@ -1065,6 +1076,7 @@ console.log(JSON.stringify(sitephotolist))
 return JSON.stringify(sitephotolist);
 
 }
+```
 
 > <img src="../L02/media/image80.png" style="width:3.84062in;height:2.70721in"
 > alt="review the results of the script you added" />
