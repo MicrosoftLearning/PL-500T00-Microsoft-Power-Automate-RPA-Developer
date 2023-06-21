@@ -882,7 +882,7 @@ variables you just defined.
 > <img src="../L02/media/image66_3.png" style="width:6in;height:4in"
 > alt="UI element editor" />
 
-32. We will do the same thing for the inspection status. Duble click on the **Table data cell 'In progress'** UI.
+32. We will do the same thing for the inspection status. Double click on the **Table data cell 'In progress'** UI.
 
 > <img src="../L02/media/image66_4.png" style="width:3.7;height:4in"
 > alt="Table data cell" />
