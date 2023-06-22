@@ -95,9 +95,7 @@ that you will do the majority of your lab work in.
 
 10.  The **Test** environment should now show in the list of Environments. 
 
-    > Note: The environment may take a few minutes to provision. Refresh the
-    Environments list if needed. When your environment shows as 'Ready', select
-    the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
+        > Note: The environment may take a few minutes to provision. Refresh the Environments list if needed. When your environment shows as 'Ready', select the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
 
 11.  Explore the different areas in **Settings** that you may be interested
     in but do not make any changes yet. 
