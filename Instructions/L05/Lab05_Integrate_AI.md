@@ -46,105 +46,103 @@ the funding request form.
 4.  Navigate to <https://make.powerapps.com/> and make sure you are in
     the Dev environment.
 
-5.  Expand **AI Builder** and select **Models**.
+5.  Click **... More** and select **AI models**.
 
 > <img src="../L05/media/image3.png"
 > alt="select AI Builder models" />
 
-6.  Click **Start free trial**.
+6.  Click **+ New a model**.
 
-7.  Click **+ Build a model**.
-
-8.  Select **Extract custom information from documents**.
+7.  Select **Extract custom information from documents**.
 
 > <img src="../L05/media/image4.png" style="width:5.04074in;height:2.34098in"
 > alt="Choose document processing" />
 
-9.  Click **Get started**.
+8.  Click **Create custom model**.
 
-10. Select **Structured documents** and click
+9. Select **Structured documents** and click
     **Next**.
 
-> <img src="../L05/media/image5.png" style="width:5.85245in;height:2.13777in"
+> <img src="../L05/media/image5.png" style="width:5.85245in;height:5.13777in"
 > alt="select as described" />
 
-11. Do not navigate away from this page.
+10. Do not navigate away from this page.
 
-12. Go to the **Jim Glynn** pdf fie, you will create fields and a table
+11. Go to the **Jim Glynn** pdf fie, you will create fields and a table
     in the model that match the fields and the table in this document.
 
 > <img src="../L05/media/image6.png" style="width:5.25333in;height:3.38548in"
 > alt="select as described" />
 
-13. Go back to the model. Click the chevron button on the **+ Add**
-    button and select **Field**.
+12. Go back to the model. Click the chevron button on the **+ Add**
+    button and select **Text field**.
 
 > <img src="../L05/media/image7.png" style="width:5.89728in;height:1.93804in"
 > alt="select as described" />
 
-14. Enter **Owner Name** and click **Done**.
+13. Enter **Owner Name** and click **Done**.
 
 > <img src="../L05/media/image8.png" style="width:3.56616in;height:2.20454in"
 > alt="enter details as described" />
 
-15. Select the **+ Add** button and select
-    **Field** again.
+14. Select the **+ Add** button and select
+    **Text field** again.
 
-16. Enter **Property Address** and click **Done**.
+15. Enter **Property Address** and click **Done**.
 
-17. Select the **+ Add** button and select
-    **Field**.
+16. Select the **+ Add** button and select
+    **Text field**.
 
-18. Enter **Builder Name** and click **Done**.
+17. Enter **Builder Name** and click **Done**.
 
-19. Select the **+ Add** button and select
-    **Field**.
+18. Select the **+ Add** button and select
+    **Text field**.
 
-20. Enter **Draw Amount** and click **Done**.
+19. Enter **Draw Amount** and click **Done**.
 
-21. Select the **+ Add** button and select
-    **Field** one more time.
+20. Select the **+ Add** button and select
+    **Text field** one more time.
 
-22. Enter **Loan Number** and click **Done**.
+21. Enter **Loan Number** and click **Done**.
 
-23. You should now have five fields added.
+22. You should now have five text fields added.
 
 > <img src="../L05/media/image9.png" style="width:5.40839in;height:3.09711in"
 > alt="review the resulting screen" />
 
-24. You will now add the table details. Click the chevron button on the
+23. You will now add the table details. Click the chevron button on the
     **+ Add** button and select **Table**.
 
-> <img src="../L05/media/image10.png" style="width:5.47537in;height:2.27614in"
+> <img src="../L05/media/image10.png" style="width:5in;height:2.2in"
 > alt="select as described" />
 
-25. Enter **Budget Items** for Table name.
+24. Enter **Budget Items** for Table name.
 
-26. Click on **Column 1** and select **Rename column**.
+25. Click on **Column 1** and select **Edit column**.
 
 > <img src="../L05/media/image11.png" style="width:4.02554in;height:1.65193in"
 > alt="select as described" />
 
-27. Enter **Budget Category** and click **Rename**.
+26. Enter **Budget Category** and click **Comfirm**.
 
 > <img src="../L05/media/image12.png" style="width:4.11431in;height:1.90902in"
 > alt="enter details as described" />
 
-28. Click **+** **New column**.
+27. Click **+ New column**.
 
 > <img src="../L05/media/image13.png" style="width:4.72788in;height:1.15066in"
 > alt="select as described" />
 
-29. Enter **Amount** and click **Add**.
+28. Enter **Amount** for Name and click **Add**.
 
-30. Your table should now have 2 columns. Click **Done**.
+29. Your table should now have 2 columns. Click **Done**.
 
 > <img src="../L05/media/image14.png" style="width:4.83007in;height:2.8067in"
 > alt="review the results" />
 
-31. Click **Next**.
+30. Click **Next**.
 
-32. Do not navigate away from this page.
+31. Do not navigate away from this page.
 
 ## Task \#2: Add sample documents
 
@@ -181,21 +179,21 @@ the funding request form.
 
 ## Task \#3: Tag documents
 
-1.  Click on the name of the owner and select **Owner Name** as field.
+1.  Click on the name of the owner and select **Owner Name** as text field.
 
 > <img src="../L05/media/image19.png" style="width:5.38996in;height:1.89858in"
 > alt="select as described" />
 
-2.  Select on the address and select **Property Address** as field.
+2.  Select on the address and select **Property Address** as text field.
 
 > <img src="../L05/media/image20.png" style="width:5.57969in;height:1.92547in"
 > alt="select as described" />
 
-3.  Select on the builder name and select **Builder Name** as field.
+3.  Select on the builder name and select **Builder Name** as text field.
 
-4.  Select on the draw amount and select **Draw Amount** as field.
+4.  Select on the draw amount and select **Draw Amount** as text field.
 
-5.  Select on the loan number and select **Loan Number** as field.
+5.  Select on the loan number and select **Loan Number** as text field.
 
 6.  All your fields should now be tagged.
 
@@ -212,9 +210,9 @@ the funding request form.
 > <img src="../L05/media/image23.png" style="width:5.8628in;height:1.39353in"
 > alt="select as described" />
 
-9.  Click to select the first cell.
+9.  Click to and select the first cell.
 
-> <img src="../L05/media/image24.png" style="width:5.05462in;height:2.15163in"
+> <img src="../L05/media/image24.png" style="width:3in;height:2.9in"
 > alt="select as described" />
 
 10. Go to the document and select the first budget category item name.
@@ -248,7 +246,7 @@ the funding request form.
 
 16. Tag the fields and for the second document.
 
-> <img src="../L05/media/image30.png" style="width:5.62225in;height:1.85126in"
+> <img src="../L05/media/image30.png" style="width:5.62225in;height:2.3in"
 > alt="select as described" />
 
 17. Select table area of the document and select **Budget Items** table.
@@ -262,7 +260,7 @@ the funding request form.
 
 20. You should now have two documents tagged.
 
-> <img src="../L05/media/image32.png" style="width:4.04329in;height:4.08393in"
+> <img src="../L05/media/image32.png" style="width:2.8in;height:4.08393in"
 > alt="select as described" />
 
 21. Tag the rest of the documents.
@@ -270,7 +268,7 @@ the funding request form.
 22. Click **Next**. You won’t be able to advance to the next step until
     you have finished tagging all the documents.
 
-> <img src="../L05/media/image33.png" style="width:5.34603in;height:2.23779in"
+> <img src="../L05/media/image33.png" style="width:5.34603in;height:3in"
 > alt="select as described" />
 
 23. Click **Train** and wait for the training to complete.
@@ -389,7 +387,7 @@ the funding request form.
 
 23. Click **+** insert a new step and select **Add an action**.
 
-> <img src="../L05/media/image44.png" style="width:5.82458in;height:2.14564in"
+> <img src="../L05/media/image44.png" style="width:6.3in;height:2.5in"
 > alt="add an action to the no branch" />
 
 24. Select the **Get attachment (V2)** action from the **Office 365 Outlook** connector.
@@ -429,7 +427,7 @@ triggerOutputs()?['body/attachments']?[0]['id']
 33. Click on the **Form** field and select **Content Bytes** form the
     dynamic content pane.
 
-> <img src="../L05/media/image48.png" style="width:5.39587in;height:2.27365in"
+> <img src="../L05/media/image48.png" style="width:5.39587in;height:3in"
 > alt="select as described" />
 
 34. Click on the **+** Insert a new step button below the **Extract
@@ -555,10 +553,10 @@ string(replace(,'$',''))
 > <img src="../L05/media/image62.png" style="width:3.68729in;height:4.88898in"
 > alt="review the output" />
 
-58. Expand the **Run inspection process** and review the **Work** input.
+9. Expand the **Run inspection process** and review the **Work** input.
 
 > <img src="../L05/media/image63.png" style="width:3.50885in;height:2.4807in"
 > alt="review the output" />
 
-59. Review the rest of the steps and make sure the flow produced the
+10. Review the rest of the steps and make sure the flow produced the
     expected outcome.
