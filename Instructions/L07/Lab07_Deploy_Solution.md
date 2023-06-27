@@ -56,10 +56,7 @@ In this exercise, you will configure the Virtual Machine.
 > <img src="../L07/media/image4b.png" style="width:2.40817in"
 > alt="Select My Library from the three dots menu" />
 
-7. Locate **Power Automate** in the list and select **Update**. 
-
-> <img src="../L07/media/image4c.png"
-> alt="Find Power Automate and select Open" />
+7. Locate **Power Automate** in the list and select **Open**. 
 
 8. **Wait** while any updates are installed. 
 
@@ -214,7 +211,7 @@ In this exercise, you will create a Key Vault.
 
 21. Click **+ Add** and select **Add role assignment** again.
 
-22. Select **Key Vault User** and then **Members** tab.
+22. Select **Key Vault Secret User** and then **Members** tab.
 
 23. Click **+ select members**.
 
