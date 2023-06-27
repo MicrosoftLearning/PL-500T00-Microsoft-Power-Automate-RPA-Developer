@@ -61,7 +61,7 @@ that you will do the majority of your lab work in.
     select **Existing user? Add a dev environment**, log in with your Microsoft
     365 credentials if prompted again. 
     
-2.  Select **Accept**. 
+2.  Select **Sign up for a community plan**. 
 
 3.  Your **Dev** environment should now show in the list of
     Environments. This typically is named **MOD Administrator’s
@@ -81,12 +81,13 @@ that you will do the majority of your lab work in.
 
 4.  For **Type**, select **Trial**. 
 
-5.  Change the toggle on **Create a database for this
-    environment?** to **Yes**. 
+5.  Change the toggle on **Add a Dataverse data store?** to **Yes**. 
 
 6.  Leave all other selections as default and select **Next**. 
 
-7.  On the next tab, leave all selections to default and select **Save**. 
+7.  On the **Add Dataverse** tab, in the **Security** section, use the **+ Select** button to configure **Open Access** > **None** and select **Done**. 
+
+8.  Select **Save**.
 
 8.  The **Test** environment should now show in the list of Environments. 
 
