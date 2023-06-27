@@ -239,8 +239,7 @@ will be used to return data to that flow.
 
 11. Click **(+)** and select **Input** again.
 
-12. Enter **BorrowerApproved** for Variable name, select **Text** for Data type, **123** for Default
-    value, **Yes** for Default
+12. Enter **BorrowerApproved** for Variable name, select **Text** for Data type, **123**, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
     for Description, and click **Save**.
 
@@ -453,7 +452,7 @@ output variable indicating that the funding was denied.
 > <img src="../L02/media/image30.png" style="width:4.80332in;height:1.82998in"
 > alt="drag the action as described" />
 
-5.  Click the UI element dropdown and then click Add UI element. 
+5.  Click the UI element dropdown and then click **Add UI element**. 
 
 6.  Hold the Ctrl key and Click on the text **Draw denied contact bank**. 
 
@@ -784,9 +783,6 @@ variables you just defined.
 
 5.  Go to the Populate text field on web page for the property address
     and double click on it.
-
-> <img src="../L02/media/image58.png" style="width:5.90547in;height:1.3in"
-> alt="select item as noted" />
 
 6.  Clear the Text value and click on the **{x}** select variable
     button.
