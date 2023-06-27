@@ -170,7 +170,7 @@ process data and review the analytics.
 > <img src="../L01/media/image9.png" style="width:5.62985in;height:4.01007in"
 > alt="drill into mapping for review" />
 
-3.  Go to the **Paths > Frequency** chart and select the bar with the
+3.  Go to the **Variants > Frequency** chart and select the bar with the
     highest frequencies. This is the most common path the process takes;
     in our case this is the **Draw Approved** path.
 
@@ -188,11 +188,7 @@ process data and review the analytics.
 > <img src="../L01/media/image12.png" style="width:6.09172in;height:4.48874in"
 > alt="additional data to review" />
 
-6.  Switch the **Overview** drop-down to **Time Analysis**. This page shows information including
-    how much time is spent on each activity, on each variant, and more.
 
-> <img src="../L01/media/image13.png" style="width:6.271in;height:3.99039in"
-> alt="review time analysis data" />
 
 > Note: These Power BI charts allow drilling down on a specific data point and filtering. 
 
