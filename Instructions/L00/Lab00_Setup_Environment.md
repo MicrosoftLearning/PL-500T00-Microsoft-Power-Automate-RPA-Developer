@@ -108,7 +108,7 @@ In this excercise, you will be configure Power Automate Desktop and accompanying
 
 ### Task 1 - Configure Power Automate Desktop 
 
-Power Automate Desktop is installed by default on Windows 11, but you will need to signin and configure the environment. 
+Power Automate Desktop is installed by default on Windows 11, but you will need to sign in and configure the environment. 
 
 1.  Open  **Power Automate Desktop**. 
 
