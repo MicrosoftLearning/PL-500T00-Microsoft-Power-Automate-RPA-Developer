@@ -103,12 +103,12 @@ that you will do the majority of your lab work in.
 
 ## Exercise 3 - Power Automate Software 
 
-In this excercise, you will be configure Power Automate Desktop and accompanying applications.
+In this excercise, you will be configuring Power Automate Desktop and accompanying applications.
 
 
 ### Task 1 - Configure Power Automate Desktop 
 
-Power Automate Desktop is installed by default on Windows 11, but you will need to signin and configure the environment. 
+Power Automate Desktop is installed by default on Windows 11, but you will need to sign in and configure the environment. 
 
 1.  Open  **Power Automate Desktop**. 
 
@@ -125,9 +125,11 @@ To run attended and unattended flows across cloud and desktop environments, the 
 
 6.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings, select **Open machine settings**. 
 
-11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". If you get an error stating a premium license is required, in the message select the Get Premium option and start a trial.
+11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
 
-12. Once it's connected, you can close the **Power Automate machine runtime** window. Notice the app will continue running in the system tray. 
+    **Note:** If you get an error stating a premium license is required, in the message select the Get Premium option and start a trial.
+
+12. Once it's connected, you can close the **Power Automate machine runtime** window.  
 
 
 ## Exercise 4 - Azure account setup
@@ -151,12 +153,12 @@ After the account setup completes, setup the following Virtual Machine.
 4.  Select **Create** Virtual Machine. 
 
     <img src="../L00/media/image1.png" style="width:5.17644in;height:1.88518in"
-alt="Screenshot showing Virtual Machine Azure resource with red rectangle around the create button" />
+    alt="Screenshot showing Virtual Machine Azure resource with red rectangle around the create button" />
 
 5.  Select **Create new resource** group. 
 
     <img src="../L00/media/image2.png" style="width:6.5in;height:1.61667in"
-alt="Screenshot showing the create resource dialog with a red rectangle around the create resource group button" />
+    alt="Screenshot showing the create resource dialog with a red rectangle around the create resource group button" />
 
 6.  Enter `Funding` for **Name** and select **OK**. 
 
@@ -166,16 +168,16 @@ alt="Screenshot showing the create resource dialog with a red rectangle around t
 
 9.  Enter `Funding` for Username.
 
-10. Create a secure password and write it down.
+10. Create a secure password and make a note of it.
 
 11. Confirm the Password. 
 
-12. Check the box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under *Licensing*.
+12. Check the box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under **Licensing**.
 
 13. Select **Review + create**. 
 
     <img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
-alt="Screenshot showing the create new virtual machine resource dialog" />
+    alt="Screenshot showing the create new virtual machine resource dialog" />
 
 14. Select **Create**. 
 
