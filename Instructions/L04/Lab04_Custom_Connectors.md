@@ -114,9 +114,6 @@ API.
 
 18. Click **Upload** logo.
 
-> <img src="../L04/media/image11.png" style="width:5.32586in;height:2.37501in"
-> alt="upload the logo you saved" />
-
 19. Select the logo you downloaded and click **Open**.
 
 20. Enter **Builder risk service** for Description, enter

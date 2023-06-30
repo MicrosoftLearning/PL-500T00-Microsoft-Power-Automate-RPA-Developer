@@ -61,7 +61,7 @@ In this exercise, you will monitor desktop flows.
 
 9.  You should see all the actions in the flow run.
 
-> <img src="../L06/media/image6.png" style="width:4.79802in;height:3.96964in"
+> <img src="../L06/media/image6.png" style="width:6in"
 > alt="review the screen" />
 
 10. Click to open the **Set variable** action.
@@ -152,7 +152,7 @@ In this exercise, you will monitor desktop flows.
 6.  Add a breakpoint on the first press button action. Clicking to the
     left of the line number will add a breakpoint.
 
-> <img src="../L06/media/image19.png" style="width:5.34411in;height:1.61408in"
+> <img src="../L06/media/image19.png" style="width:6.34411in"
 > alt="add the breakpoint" />
 
 7.  Edit the property address and change the default value to **456 Main Street**.
@@ -196,14 +196,14 @@ In this exercise, you will monitor desktop flows.
 5.  The subflow should now have one wait action. Select the **Main**
     tab.
 
-> <img src="../L06/media/image25.png" style="width:5.07641in;height:1.65421in"
+> <img src="../L06/media/image25.png" style="width:5..5in;height:1.8in"
 > alt="select and complete as described" />
 
 6.  Go to the **Actions** pane, search for **error**, drag **On block
     error** action, and place it after the **Get details of element on
     web page** for the **JobNumber** action.
 
-> <img src="../L06/media/image26.png" style="width:4.89113in;height:2.68698in"
+> <img src="../L06/media/image26.png" 
 > alt="select and complete as described" />
 
 7.  Enter **RetryOnError** for Name, click **+ New rule**, and select
@@ -255,5 +255,5 @@ In this exercise, you will monitor desktop flows.
 
 4.  The process should complete successfully.
 
-> <img src="../L06/media/image34.png" style="width:4.93641in;height:2.10114in"
+> <img src="../L06/media/image34.png" style="width:61in"
 > alt="review completed flow run" />

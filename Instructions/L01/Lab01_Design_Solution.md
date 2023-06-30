@@ -103,8 +103,7 @@ process data and review the analytics.
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Loan Funding - Data** for Process name, select **Data (preview)**, and
-    click **Create**.
+3.  Enter **Loan Funding - Data** for Process name, select **import data**, and click **Continue**.
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
 > alt="Select data to create the process" />
@@ -171,14 +170,14 @@ process data and review the analytics.
 > <img src="../L01/media/image9.png" style="width:5.62985in;height:4.01007in"
 > alt="drill into mapping for review" />
 
-3.  Go to the **Paths > Frequency** chart and select the bar with the
+3.  Go to the **Variants > Frequency** chart and select the bar with the
     highest frequencies. This is the most common path the process takes;
     in our case this is the **Draw Approved** path.
 
 > <img src="../L01/media/image10.png" style="width:5.26922in;height:3.95698in"
 > alt="process data to review" />
 
-4.  Go to the **Paths > Frequency** chart and select the second bar.
+4.  Go to the **Variants > Frequency** chart and select the second bar.
     This is the frequency for the approved draw path.
 
 > <img src="../L01/media/image11.png" style="width:4.75935in;height:3.50951in"
@@ -189,11 +188,7 @@ process data and review the analytics.
 > <img src="../L01/media/image12.png" style="width:6.09172in;height:4.48874in"
 > alt="additional data to review" />
 
-6.  Switch the **Overview** drop-down to **Time Analysis**. This page shows information including
-    how much time is spent on each activity, on each variant, and more.
 
-> <img src="../L01/media/image13.png" style="width:6.271in;height:3.99039in"
-> alt="review time analysis data" />
 
 > Note: These Power BI charts allow drilling down on a specific data point and filtering. 
 
@@ -215,7 +210,7 @@ analyze it.
 > alt="start process advisor" />
 
 3.  Enter **Loan Funding - Recording** for Process name, select
-    **Recordings**, and click **Create**.
+    **Recordings**, and click **Continue**.
 
 > <img src="../L01/media/image14.png" style="width:5.6828in;height:3.78611in"
 > alt="select recording option" />

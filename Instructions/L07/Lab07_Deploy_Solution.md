@@ -31,46 +31,42 @@ In this exercise, you will configure the Virtual Machine.
 
 ## Task \#1: Configure VM
 
-1.  Go to your Azure portal <https://portal.azure.com/> and open the **Funding** virtual machine
-    (VM).
+1.  Go to your Azure portal <https://portal.azure.com/>, go to Virtual machines and and open the **Funding** virtual machine.
 
-> <img src="../L07/media/image1.png" style="width:4.5in;height:0.89in"
+> <img src="../L07/media/image1.png" style="width:4.5in;"
 > alt="select the vm described" />
 
-2.  From the **Connect** menu, select **RDP**.
+2.  Click the **Connect** button.
 
 > <img src="../L07/media/image2.png" style="width:5.15905in;height:1.42677in"
-> alt="copy the key" />
+> alt="connect button" />
 
 3.  Select **Download RDP File**. Select **Keep** to download the file and launch the remote desktop connection file.
 
-4.  Click **More choices** if needed. Otherwise, go to next step to enter username and password.
+4.  Select **Use a different account** if needed, enter **Funding** for Username,
+    enter the password you created in lab00, and click **OK**.
 
-> <img src="../L07/media/image4.png" style="width:3.39625in;height:3.11259in"
-> alt="select as described" /> 
+> <img src="../L07/media/image4.png" style="width:3.39625in"
+> alt="Sing in to VM" /> 
 
-6.  Select **Use a different account** if needed, enter **Funding** for Username,
-    enter the password you created in lab00, and click **OK**. If prompted, click **Yes** to connect anyway and complete the setup.
+5. If prompted, click **Yes** to connect anyway and complete the setup.
 
-7.  On the VM, open the **Microsoft Store** app and go to **My Library** from the three dots ... menu.
+6.  On the VM, open the **Microsoft Store** app and go to **Library**.
 
-> <img src="../L07/media/image4b.png"
+> <img src="../L07/media/image4b.png" style="width:2.40817in"
 > alt="Select My Library from the three dots menu" />
 
-8. Select the **Installed** section and find **Power Automate** in the list and select **Open**. 
+7. Locate **Power Automate** in the list and select **Open**. 
 
-> <img src="../L07/media/image4c.png"
-> alt="Find Power Automate and select Open" />
+8. **Wait** while any updates are installed. 
 
-9. **Wait** while any updates are installed. 
+9.  Launch **Power Automate** provide your Power Platform admin login credentials and **Sign in** to Power Automate Desktop. 
 
-12. Provide your Power Platform admin login credentials and **Sign in** to Power Automate Desktop. 
+10. Go to **Settings** and under **Machine settings** select **Open machine settings**. 
 
-12. Go to **Settings** and under **Machine settings** select **Open machine settings**. 
+11. Select the **Install app** button. 
 
-15. Select the **Install app** button. 
-
-16. On the installer, check the box to agree to the terms of use then select the **Install** button. 
+12. On the installer, check the box to agree to the terms of use then select the **Install** button. 
 
 17. Select **Launch app**. 
 
@@ -139,9 +135,8 @@ In this exercise, you will configure the Virtual Machine.
 > <img src="../L07/media/image13.png" style="width:5.67248in;height:1.65993in"
 > alt="select as described" />
 
-32. Click **Get**.
+32. Click **Get** or turn it on if already installed.
 
-33. Click **Add extension**.
 
 # Exercise \#2: Key Vault
 
@@ -158,7 +153,7 @@ In this exercise, you will create a Key Vault.
 
 3.  Open the subscription.
 
-4. Select Resource providers.
+4. Select **Resource providers**.
 
 4.  Search for **Microsoft.PowerPlatform** and select it.
 
@@ -178,7 +173,7 @@ In this exercise, you will create a Key Vault.
 
 9.  Click **Create**.
 
-10. Select Funding for Resource group, type **FundingFL** (Replace FL
+10. Select **Funding** for Resource group, type **FundingFL** (Replace FL
     with your initials) for Key vault name and select **Review +
     create**.
 
@@ -194,70 +189,54 @@ In this exercise, you will create a Key Vault.
 > <img src="../L07/media/image18.png" style="width:5.71619in;height:2.12403in"
 > alt="select as described" />
 
-14. Select **Secrets** and then **+ Generate/Import**.
+14. Select **Access controm (IAM)**.
+
+15. Click **+ Add** and select **Add role assignment**.
+
+> <img src="../L07/media/image18a.png" style="width:5.71619in;height:2.12403in"
+> alt="Add role assignment" />
+
+16. Select **Key Vault Administrator** and then **Members** tab.
+
+> <img src="../L07/media/image18b.png" style="width:5.71619in"
+> alt="Members tab" />
+
+17. Click **+ select members**
+
+18. Select your username and then click **Select**.
+
+19. Click **Review + assign**
+
+20. Click **Review + assign** again.
+
+21. Click **+ Add** and select **Add role assignment** again.
+
+22. Select **Key Vault Secret User** and then **Members** tab.
+
+23. Click **+ select members**.
+
+24. Search for dataverse and select **Dataverse**.
+
+> <img src="../L07/media/image22.png" style="width:5.17868in"
+> alt="Dataverse"/>
+
+25. Click **Select**.
+
+26. Click **Review + assign**.
+
+27. Click **Review + assign** again.
+
+28. Select **Secrets** and then **+ Generate/Import**.
 
 > <img src="../L07/media/image19.png" style="width:5.52461in;height:2.85556in"
 > alt="select as described" />
 
-15. Enter **FundingPassword** for Name, enter **pass@word1** for Value,
+29. Enter **FundingPassword** for Name, enter **pass@word1** for Value,
     and select **Create**.
 
 > <img src="../L07/media/image20.png" style="width:5.27637in;height:2.66863in"
 > alt="select and complete as described" />
 
-16. Select **Access policies** and click **+ Create**.
-
-> <img src="../L07/media/image21.png" style="width:6.17868in;height:1.72026in"
-> alt="select as described" />
-
-17. On the **Permissions** tab, under the **Secret permissions** heading; select **Get**, then click **Next**.
-
-> <img src="../L07/media/image22.png"
-> alt="select as described" />
-
-18. On the **Principal** tab select the **Dataverse** with the
-    **00000007-0000-0000-c000-000000000000** identity, and click
-    **Next**.
-
-> <img src="../L07/media/image23.png" style="width:5.47366in;height:1.70526in"
-> alt="select as described" />
-
-19. On the **Application (optional)** tab, select **Next**.
-
-> <img src="../L07/media/image24.png" style="width:5.19505in;height:1.9648in"
-> alt="select as described" />
-
-20. Click **Create**.
-
-21. **Access policies** should now show one Application and one User entry.
-
-22. Select **Access control (IAM),** click **+ Add**, and select **Add role
-    assignment**.
-
-> <img src="../L07/media/image25.png" style="width:5.48472in;height:1.646in"
-> alt="select as described" />
-
-23. Select **Reader** and click **Next**.
-
-> <img src="../L07/media/image26.png" style="width:5.57618in;height:1.81881in"
-> alt="select as described" />
-
-24. Click **+ Select members**.
-
-> <img src="../L07/media/image27.png" style="width:5.57645in;height:2.30803in"
-> alt="select as described" />
-
-25. Select your user and click **Select**
-
-> <img src="../L07/media/image28.png" style="width:3.32512in;height:3.4509in"
-> alt="select as described" />
-
-26. Click **Review + assign**.
-
-> <img src="../L07/media/image29.png" style="width:4.61019in;height:1.0096in"
-> alt="select as described" />
-
-27. Click **Review + assign** again.
 
 
 # Exercise \#3: Environment Variables
@@ -548,7 +527,7 @@ Funding solutions and test the flows.
 
 25. Enter **Funding** for Domain and username, enter the password you created in lab00, and click **Create**.
 
-> <img src="../L07/media/image52.png" style="width:2.75in;height:2.98in"
+> <img src="../L07/media/image52.png" style="width:4in;height:3.2in"
 > alt="select as described" />
 
 26. Close the connections browser tab or window.
@@ -604,20 +583,24 @@ Funding solutions and test the flows.
 > <img src="../L07/media/image57.png" style="width:5.18967in;height:1.57983in"
 > alt="select as described" />
 
-40. Click to open the **Construction Funding** solution.
+40. **Publish all customizations** and wait for the publishing to complete.
 
-41. Select Cloud flows and open the **Create Test Data** flow.
+41. Click to open the **Construction Funding** solution.
+
+42. Select Cloud flows and open the **Create Test Data** flow.
 
 > <img src="../L07/media/image58.png" style="width:5.58397in;height:2.55693in"
 > alt="select as described" />
 
-42. Click **Run**.
+43. Click **Run**.
 
-43. Click **Run flow**.
+44. Click **Run flow**.
 
-44. Click **Done**.
+45. Click **Done**.
 
-45. Wait for the run to complete.
+46. Wait for the run to complete.
+
+47. Select the **Process Construction Funding Request** cloud flow and turn it on if it not already turned on.
 
 ## Task \#2: Test
 

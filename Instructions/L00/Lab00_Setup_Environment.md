@@ -40,13 +40,15 @@ of the course.
 
 5.  Enter the password provided by the Authorized Lab Hoster. 
 
-6.  Select **Yes** to stay signed in. Enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
+6.  Select **Yes** to stay signed in. 
 
-7.  To confirm the details, select **Get started** again. 
+7. If prompted to register, enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
 
-8.  PowerApps will load in a new tab. On the **Contact information** panel, enter 0123456789 as Phone number and select **Submit**. 
+8.  To confirm the details, select **Get started** again. 
 
-9.  Following the Welcome prompts, select **Next**, **Next** and **Let's go**. 
+9.  PowerApps will load in a new tab.
+
+10. Following the Welcome prompts.
 
 
 ## Exercise 2 - Create your environments
@@ -81,66 +83,49 @@ that you will do the majority of your lab work in.
 
 4.  For **Type**, select **Trial**. 
 
-5.  Change the toggle on **Create a database for this
-    environment?** to **Yes**. 
+5.  Change the toggle on **Add a Dataverse data store?** to **Yes**. 
 
 6.  Leave all other selections as default and select **Next**. 
 
-7.  On the next tab, leave all selections to default and select **Save**. 
+7.  On the next tab, selet the **+ Select** button under Security group.
 
-8.  The **Test** environment should now show in the list of Environments. 
+8.  Select **None** and then select **Done**.
 
-    > Note: The environment may take a few minutes to provision. Refresh the
-    Environments list if needed. When your environment shows as 'Ready', select
-    the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
+9.  Select **Save**. 
 
-9.  Explore the different areas in **Settings** that you may be interested
+10.  The **Test** environment should now show in the list of Environments. 
+
+        > Note: The environment may take a few minutes to provision. Refresh the Environments list if needed. When your environment shows as 'Ready', select the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
+
+11.  Explore the different areas in **Settings** that you may be interested
     in but do not make any changes yet. 
 
 
 ## Exercise 3 - Power Automate Software 
 
-In this excercise, you will be updating and installing Power Automate Desktop and accompanying applications.
+In this excercise, you will be configure Power Automate Desktop and accompanying applications.
 
 
-### Task 1 - Updating Power Automate Desktop 
+### Task 1 - Configure Power Automate Desktop 
 
-Power Automate Desktop is installed by default on Windows 11, but it will need to be updated to the latest version before it can be used. 
+Power Automate Desktop is installed by default on Windows 11, but you will need to signin and configure the environment. 
 
-1.  Open the **Microsoft Store** and select **Library** from the left-hand navigation. 
+1.  Open  **Power Automate Desktop**. 
 
-2.  Search for Power Automate and select **Update**. 
-
-3.  When the update is finished, select **Open**. 
-
-    > **Note:** Further updates may be required. If needed, refresh the Power Automate page in the **Microsoft Store** and select **Update** again. 
-    >
-    > In some cases, the Microsoft Store itself may also need to be updated. Update **Microsoft Store** and reboot the machine. 
-
-4.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Select **Next** and **Get started**. 
+2.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Select **Next** and **Get started**. 
 
     > Optional: Select **Start tour** and go through the welcome prompts to get a feel for the application. 
 
-5.  From the **Environments** list, select your **Dev** environment. 
+3.  From the **Environments** list, select your **Dev** environment. 
 
 
-### Task 2 - Installing the Power Automate Machine-Runtime App 
+### Task 2 - Configure the Power Automate Machine-Runtime App 
 
-To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be installed. 
+To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be configured. 
 
 6.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings, select **Open machine settings**. 
 
-7.  Select **Install app**. 
-
-8.  Check the box to accept Microsoft's terms of use. Select **Install**. System Administrator privileges are required for the install. Select **Yes** on the User Account Control dialogue box. 
-  
-    > Power Automate Desktop will restart during the installation of the machine-runtime app. 
-
-9.  Following the steps to enable the bundled browser extension, select **Microsoft Edge**. Select **Turn on extension** and minimize the browser window. 
-
-10. Select **Launch app**. 
-
-11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". If you get an error stating a premium license is required, in the message select the Get Premium option and start a trial.
 
 12. Once it's connected, you can close the **Power Automate machine runtime** window. Notice the app will continue running in the system tray. 
 
