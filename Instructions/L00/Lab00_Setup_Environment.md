@@ -75,7 +75,7 @@ that you will do the majority of your lab work in.
 
 ### Task 2 – Create a Test environment 
 
-1.  Open a new tab, navigate to `https://aka.ms/ppac` and log in with your Microsoft 365 credentials if prompted again. 
+1.  Open a new tab, navigate to `https://aka.ms/ppac` and log in with your Microsoft 365 credentials if prompted again and select **Get Started**.
 
 2.  Select **Environments** and select **+ New** from the command bar. 
 
@@ -87,18 +87,15 @@ that you will do the majority of your lab work in.
 
 6.  Leave all other selections as default and select **Next**. 
 
-7.  On the next tab, selet the **+ Select** button under Security group.
+7.  On the **Add Dataverse** tab, using the **+ Select** button under **Security group**, select **None** and then select **Done**.
 
-8.  Select **None** and then select **Done**.
+8.  Select **Save**. 
 
-9.  Select **Save**. 
+9.  The **Test** environment should now show in the list of Environments. 
 
-10.  The **Test** environment should now show in the list of Environments. 
+    > **Note:** The environment may take a few minutes to provision. Refresh the **Environments** list if needed. When your environment shows as 'Ready', select the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
 
-        > Note: The environment may take a few minutes to provision. Refresh the Environments list if needed. When your environment shows as 'Ready', select the **Test** environment by selecting the ellipses menu and selecting **Settings**. 
-
-11.  Explore the different areas in **Settings** that you may be interested
-    in but do not make any changes yet. 
+10. Explore the different areas available in **Settings** but do not make any changes yet. 
 
 
 ## Exercise 3 - Power Automate Software 
@@ -110,7 +107,7 @@ In this excercise, you will be configuring Power Automate Desktop and accompanyi
 
 Power Automate Desktop is installed by default on Windows 11, but you will need to sign in and configure the environment. 
 
-1.  Open  **Power Automate Desktop**. 
+1.  Search the **Start** menu for `Power Automate` and open the **Power Automate** app. 
 
 2.  When Power Automate Desktop opens, sign in using your Office 365 Tenant credentials. Select **Next** and **Get started**. 
 
@@ -123,13 +120,13 @@ Power Automate Desktop is installed by default on Windows 11, but you will need 
 
 To run attended and unattended flows across cloud and desktop environments, the **machine-runtime app** needs to be configured. 
 
-6.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings, select **Open machine settings**. 
+1.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings, select **Open machine settings**. 
 
-11. On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
+2.  On the **Machine settings** screen, select your **Dev** environment. The machine-runtime app will register the machine in the Dev environment's Dataverse database. You should see a success notification "Your machine XXXXYYX has been registered". 
 
     **Note:** If you get an error stating a premium license is required, in the message select the Get Premium option and start a trial.
 
-12. Once it's connected, you can close the **Power Automate machine runtime** window.  
+3.  Once it's connected, you can close the **Power Automate machine runtime** window.  
 
 
 ## Exercise 4 - Azure account setup
@@ -148,38 +145,40 @@ using in the labs.
 
 After the account setup completes, setup the following Virtual Machine.
 
-3.  Navigate to <https://portal.azure.com>. Select **+ Create a resource**.
+3.  Navigate to `https://portal.azure.com`
 
-4.  Select **Create** Virtual Machine. 
+4.  Select **+ Create a resource**.
+
+5.  Select **Create** Virtual Machine. 
 
     <img src="../L00/media/image1.png" style="width:5.17644in;height:1.88518in"
     alt="Screenshot showing Virtual Machine Azure resource with red rectangle around the create button" />
 
-5.  Select **Create new resource** group. 
+6.  Select **Create new resource** group. 
 
     <img src="../L00/media/image2.png" style="width:6.5in;height:1.61667in"
     alt="Screenshot showing the create resource dialog with a red rectangle around the create resource group button" />
 
-6.  Enter `Funding` for **Name** and select **OK**. 
+7.  Enter `Funding` for **Name** and select **OK**. 
 
-7.  Enter `Funding` for virtual machine name.
+8.  Enter `Funding` for virtual machine name.
 
-8.  Select **Windows 11** Image.
+9.  Select **Windows 11** Image.
 
-9.  Enter `Funding` for Username.
+10. Enter `Funding` for Username.
 
-10. Create a secure password and make a note of it.
+11. Create a secure password and make a note of it.
 
-11. Confirm the Password. 
+12. Confirm the Password. 
 
-12. Check the box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under **Licensing**.
+13. Check the box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under **Licensing**.
 
-13. Select **Review + create**. 
+14. Select **Review + create**. 
 
     <img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
     alt="Screenshot showing the create new virtual machine resource dialog" />
 
-14. Select **Create**. 
+15. Select **Create**. 
 
 
 ## Exercise 5 – Copy Lab Resources
@@ -209,4 +208,5 @@ After the account setup completes, setup the following Virtual Machine.
     <img src="../L00/media/image8.png" alt="Screenshot showing the Woodgrove Bank Funding Manager.exe file" />
 
 9.  The app should launch. **Close** the application. 
+
 
