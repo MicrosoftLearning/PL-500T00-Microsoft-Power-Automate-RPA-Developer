@@ -239,7 +239,7 @@ will be used to return data to that flow.
 
 11. Click **(+)** and select **Input** again.
 
-12. Enter **BorrowerApproved** for Variable name, select **Text** for Data type, **123**, **Yes** for Default
+12. Enter **BorrowerApproved** for Variable name, select **Text** for Data type, **Yes** for Default
     value, **BorrowerApproved** for External name, **Borrower approved**
     for Description, and click **Save**.
 
