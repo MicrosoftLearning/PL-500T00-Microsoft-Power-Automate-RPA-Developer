@@ -30,26 +30,56 @@ of the course.
 
 ## Exercise 1 - Acquire your Power Platform trial tenant
 
-1.  Copy your **Microsoft 365 credentials** from the Authorized Lab Hoster. 
+In this exercise, you will add a Power Apps trial to the tenant and assign licenses to users.
 
-2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**. 
+### Task 1.1 – Acquire your Power Platform trial tenant
 
-3.  Enter the email address from your Microsoft 365 credentials. 
+1.  Verify that you have your **Microsoft 365 credentials** from the Authorized Lab Host available. 
 
-4.  You see a prompt that you have an existing account with Microsoft. Select **Sign in**. 
+2.  In a new browser tab, navigate to `https://powerapps.microsoft.com` and select **Start free**. 
 
-5.  Enter the password provided by the Authorized Lab Hoster. 
+3.  Enter the `email address` provided by the Authorized Lab Host. 
 
-6.  Select **Yes** to stay signed in. 
+4.  Select **Sign in**. 
 
-7. If prompted to register, enter 0123456789 as Business phone number and complete the sign up process by selecting **Get Started**. 
+5.  Enter the `password` provided by the Authorized Lab Host. 
 
-8.  To confirm the details, select **Get started** again. 
+6.  Select **Yes** to stay signed in. 
 
-9.  PowerApps will load in a new tab.
+7.  The Power Apps maker portal will load in a new tab. 
 
-10. Following the Welcome prompts.
 
+### Task 1.2 – Verify your Power Apps license has been assigned
+
+1.  In a new browser tab, navigate to `https://admin.microsoft.com`
+
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
+
+1.  Select your user **MOD Administrator** to open the user details panel and select the **Licenses and apps** tab. ![Mod Administrator licenses.](../L00/media/mod-administrator.png)
+
+1.  Verify an appropriate **Power Apps** license is selected. If not, retry Task 1.1.
+
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+
+1.  Select the **X** in the top right of the pane to close the panel. 
+
+### Task 1.3 – Assign Power Apps licenses to other users
+
+1.  In the left-hand navigation, expand **Users** and select **Active users**.
+
+1.  Check the boxes next to the other users, select the **ellipses (...**) menu in the action bar, and select **Manage product licenses**.
+
+    ![Select other users.](../L00/media/select-users.png)
+
+1.  Select **Assign more** and select an appropriate **Power Apps** license.
+
+    > **Note:** Find out more about Power Apps licensing on [Microsoft Learn](https://learn.microsoft.com/en-us/power-platform/admin/signup-for-powerapps-admin).
+
+    ![Add more licenses.](../L00/media/add-licenses.png)
+
+1.  Select **Save changes**.
+
+1.  Select **Done**.
 
 ## Exercise 2 - Create your environments
 
@@ -59,6 +89,7 @@ that you will do the majority of your lab work in.
 
 ### Task 1 – Create Development environment
 
+A developer environment might already exit in your account, if not:
 1.  Open a new tab, navigate to `https://powerapps.microsoft.com/en-us/developerplan` and
     select **Existing user? Add a dev environment**, log in with your Microsoft
     365 credentials if prompted again. 
