@@ -63,6 +63,7 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Select the **X** in the top right of the pane to close the panel. 
 
+
 ### Task 1.3 – Assign Power Apps licenses to other users
 
 1.  In the left-hand navigation, expand **Users** and select **Active users**.
@@ -81,15 +82,16 @@ In this exercise, you will add a Power Apps trial to the tenant and assign licen
 
 1.  Select **Done**.
 
+
 ## Exercise 2 - Create your environments
 
 In this exercise, you will create your Development and Test environments
 that you will do the majority of your lab work in. 
 
-
 ### Task 1 – Create Development environment
 
-A developer environment might already exit in your account, if not:
+A developer environment might already exist in your Microsoft tenant, if not:
+
 1.  Open a new tab, navigate to `https://powerapps.microsoft.com/en-us/developerplan` and
     select **Existing user? Add a dev environment**, log in with your Microsoft
     365 credentials if prompted again. 
