@@ -53,6 +53,13 @@ In this exercise, you will verify access to the Power Apps Maker portal in a Dev
     > **Note:** For the rest of this course when it says Dev environment, it will be referring to this **Dev One** environment. This is where you will do most of the development steps for this course.
 
 
+### Task 2 - Intialize OneDrive for Business
+
+1.  Select the **App launcher** menu from the top left and under **Apps**, select **OneDrive**. A new tab will load.
+
+2.  **Wait** while Microsoft initializes your OneDrive. Select **Your OneDrive is ready**. **Close** the tab.
+
+
 ## Exercise 2 - Create a Test environment
 
 In this exercise, you will create a Test environment for deploying your work to later on.
