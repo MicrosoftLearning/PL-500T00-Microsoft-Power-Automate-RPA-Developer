@@ -46,11 +46,11 @@ In this exercise, you will verify access to the Power Apps Maker portal in a Dev
 
 6.  Optionally, select **Yes** to stay signed in.
 
-7.  If prompted, enter `0123456789` for **Business phone number**.
+7.  If prompted, enter `0123456789` for **Phone number** and select **Submit**.
 
-8.  **Refresh** the page and verify the **Dev One** environment is selected in the environment selector at the top right. This is where you will do most of the development steps for this course.
+8.  **Refresh** the tab and verify the **Dev One** environment is selected under **Environment** in the top right. 
 
-    > **Note:** For the rest of this course when it says Dev environment, it will be referring to this **Dev One** environment.
+    > **Note:** For the rest of this course when it says Dev environment, it will be referring to this **Dev One** environment. This is where you will do most of the development steps for this course.
 
 
 ## Exercise 2 - Create a Test environment
@@ -67,15 +67,17 @@ In this exercise, you will create a Test environment for deploying your work to 
 
 4.  In the **New environment** pane, enter `Test Two` for **Name**.
 
-5.  Change **Type** to **Developer**.
+5.  Change the **Type** drop-down to **Developer**.
 
 6.  Select **Next** and select **Save**.
 
     > Note: It may take a couple of minutes for the new environment to be provisioned and become available in the list of the environments.
 
-7.  Refresh the **Environments** list if needed. When your environment shows as 'Ready', select the **Test** environment by selecting the ellipsis (...) menu and selecting **Settings**. 
+7.  Refresh the **Environments** list.
 
-8.  Explore the different areas available in **Settings** but do not make any changes yet. 
+8.  When your environment shows as 'Ready', select the **Test** environment by selecting the ellipsis (...) menu and selecting **Settings**. 
+
+9.  Explore the different areas available in **Settings** but do not make any changes yet. 
 
 
 ## Exercise 3 - Power Automate Software 
