@@ -95,15 +95,16 @@ process data and review the analytics.
 
 ## Task 1: Create process advisor
 
-1.  Navigate to <https://make.powerautomate.com> and make sure you are
-    in the **Dev** environment you created.
+1.  Navigate to `https://make.powerautomate.com` and select **Get started** to dismiss the welcome prompt, if necessary.
 
-2.  Select **Process advisor** from the left-hand navigation pane and click **+ Start here**.
+2.  Select the **Dev One** environment from the **Environment** drop-down. 
+
+3.  Select **Process minijng** from the left navigation pane and select **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
 
-3.  Enter **Loan Funding - Data** for Process name, select **import data**, and click **Continue**.
+3.  Enter `Loan Funding - Data` for **Process name** and select **Continue**. 
 
 > <img src="../L01/media/image2.png" style="width:5.35328in;height:3.57457in"
 > alt="Select data to create the process" />
@@ -118,7 +119,7 @@ process data and review the analytics.
 6.  Select the **ExistingProcessData.xlsx** file located in the lab
     resources folder and click **Open**.
 
-7.  Click **Sign in**.
+7.  Select **Sign in**.
 
 > <img src="../L01/media/image4.png" style="width:4.59253in;height:3.74206in"
 > alt="select the file location and then sign in" />
@@ -127,43 +128,42 @@ process data and review the analytics.
 
 8.  Provide your credentials and sign in.
 
-9.  Click **Next**.
+9.  Select **Next**.
 
 > <img src="../L01/media/image5.png" style="width:5.56189in;height:2.38519in"
 > alt="confirm credentials and select next" />
 
-10. Select the **ConstructionFunding** item and click **Next**.
+10. Select the **ConstructionFunding** item and select **Next**.
 
 > <img src="../L01/media/image6.png" style="width:6.02368in;height:2.3715in"
 > alt="select the data and choose next" />
 
-11. Click **Next**.
+11. Select **Next**.
 
 > <img src="../L01/media/image7.png" style="width:976px"
 > alt="Click Next" />
 
 12. Map the mandatory fields. For each **Event Level Attribute** drop-down, select as follows: 
 
-    - ActivityName: **Activity** 
-    - CaseId: **Case ID** 
     - StartTimestamp: **Event Start** 
+    - CaseId: **Case ID** 
+    - ActivityName: **Activity**
 
 > <img src="../L01/media/image56.png" alt="Map your data">
 
-13. Click **Save and analyze**. 
+13. Select **Save and analyze**. 
 
-14. Wait for the analyzing to complete. 
+14. **Wait** for the analyzing to complete. 
 
-15. Do not navigate away from this page. 
 
 ## Task 2: Review analytics
 
-1.  The produced process map should look like the image below.
+1.  The produced process map should look similar to the image below.
 
 > <img src="../L01/media/image8.png" style="width:5.93409in;height:3.52052in"
 > alt="process map for review" />
 
-2.  Zoom in and go to the Request Funding activity. Notice there is a
+2.  Zoom in to find the **Request Funding** activity. Notice there is a
     path or variant for approved draw and a different one for denied
     draw.
 
@@ -188,12 +188,10 @@ process data and review the analytics.
 > <img src="../L01/media/image12.png" style="width:6.09172in;height:4.48874in"
 > alt="additional data to review" />
 
+    > **Note:** These Power BI charts allow drilling down on a specific data point and filtering. 
 
 
-> Note: These Power BI charts allow drilling down on a specific data point and filtering. 
-
-
-# Exercise \# 3 – Use Process Advisor with Recording
+# Exercise \# 3 – Use Process Mining with Recording
 
 In this exercise, you will perform task analysis by recording using the
 Woodgrove Bank Funding Manager application, add activities, and then
@@ -202,67 +200,68 @@ analyze it.
 ## Task 1: Create process advisor
 
 1.  Navigate to <https://make.powerautomate.com> and make sure you are
-    in the dev environment.
+    in the **Dev** environment.
 
-2.  Select **Process advisor** and click **+ Start here**.
+2.  Select **Process mining** and select **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="start process advisor" />
 
 3.  Enter **Loan Funding - Recording** for Process name, select
-    **Recordings**, and click **Continue**.
+    **Recordings**, and select **Continue**.
 
 > <img src="../L01/media/image14.png" style="width:5.6828in;height:3.78611in"
 > alt="select recording option" />
 
-4.  Click **Add a recording**.
+4.  Select **Add a recording**.
 
 > <img src="../L01/media/image15.png" style="width:4.90703in;height:3.16493in"
 > alt="choose add a recording" />
 
-5.  Power Automate desktop should launch. The browser may prompt "This site is trying to open Power Automate Designer", **Click Open**.
+5.  Power Automate desktop should launch. The browser may prompt "This site is trying to open Power Automate Designer", select **Open**.
 
 6.  Do not start recording yet.
+
 
 ## Task 2: Record process
 
 Before you start recording, you should familiarize yourself with the
 application, so the recording goes smoothly.
 
-1.  Minimize or close all but Power Automate desktop.
+1.  Minimize or close all windows except Power Automate Desktop.
 
-2.  Go to the Start menu and launch the Woodgrove Bank Funding Manager
+2.  Go to the Start menu and launch the **Woodgrove Bank Funding Manager**
     application. If not displayed, go to the lab resources folder (C:\Labs\Resources\Funding manager app) and launch from there.
 
 > <img src="../L01/media/image16.png" style="width:6.29428in;height:2.82973in"
 > alt="Find and open the app" />
 
-1.  Enter your name for username, **pass@word1** for password and
-    click **Login**.
+1.  Enter your name for username, `pass@word1` for password and
+    select **Login**.
 
 > <img src="../L01/media/image17.png" style="width:4.98676in;height:1.79651in"
 > alt="Follow login prompts" />
 
-4.  Enter **JG7165** for Loan number and click **Lookup**.
+4.  Enter **JG7165** for Loan number and select **Lookup**.
 
-5.  Click **Draw Funds**.
+5.  Select **Draw Funds**.
 
 > <img src="../L01/media/image18.png" style="width:6.5in;height:3.33056in"
 > alt="review and click draw funds" />
 
-6.  Enter **100000** for Amount, **12345** for Inspection job number,
-    **65** for Risk Score, check the Borrower Approved Draw checkbox,
-    and click **Draw Funds**.
+6.  Enter `100000` for **Amount**, `12345` for **Inspection job number**,
+    `65` for **Risk Score**, check the **Borrower Approved Draw** checkbox,
+    and select **Draw Funds**.
 
 > <img src="../L01/media/image19.png" style="width:4.99145in;height:2.61413in"
 > alt="Fill out listed details and select draw funds" />
 
-7.  Click **OK**.
+7.  Select **OK**.
 
 8.  Repeat steps **4 to 7** a few more times or until you feel comfortable
     with using the funding application.
 
-9.  You are now ready to record. Go to the recorder and click
+9.  You are now ready to record. Go to the recorder and select
     **Record**.
 
 > <img src="../L01/media/image20.png" style="width:4.11181in;height:2.35972in"
@@ -270,9 +269,9 @@ application, so the recording goes smoothly.
 
 10. Go to the funding application and repeat steps **4 to 7**.
 
-11. Go to the recorder and click **Finish**.
+11. On the recorder, select **Finish**.
 
-12. Click **Got it** and return to Power Automate web portal to click **View recording**.
+12. Select **Got it** and return to Power Automate web portal, select **View recording**.
 
 > <img src="../L01/media/image21.png" style="width:3.1742in;height:2.07355in"
 > alt="click View recording" />
@@ -283,12 +282,12 @@ application, so the recording goes smoothly.
 > <img src="../L01/media/image22.png" style="width:5.31358in;height:2.82313in"
 > alt="image of recorded steps" />
 
-14. Click on each action and examine the action details.
+14. Select each action and examine the action details.
 
 > <img src="../L01/media/image23.png" style="width:5.33109in;height:2.05555in"
 > alt="review the resulting steps" />
 
-15. Notice the auto created activities.
+15. Notice the auto-created activities.
 
 > <img src="../L01/media/image24.png" style="width:5.77369in;height:3.02317in"
 > alt="review auto-created steps" />
@@ -297,6 +296,7 @@ application, so the recording goes smoothly.
     the next task.
 
 17. Do not navigate away from this page.
+
 
 ## Task 3: Create activities
 
@@ -307,62 +307,62 @@ In this task, you will group actions into activities.
 > <img src="../L01/media/image25.png" style="width:6.5in;height:1.79514in"
 > alt="navigate to the process definition" />
 
-2.  Click **Create activity names**.
+2.  Select **Create activity names**.
 
 > <img src="../L01/media/image26.png" style="width:6.5in;height:1.65903in"
 > alt="select create activities" />
 
-3.  Click **+ New name**.
+3.  Select **+ New name**.
 
-4.  Enter **Lookup** and click **+ New name** again.
+4.  Enter **Lookup** and select **+ New name** again.
 
 > <img src="../L01/media/image27.png" style="width:3.21835in;height:2.65592in"
 > alt="create listed activities" />
 
-5.  Enter **Draw Request** and click **+ New name** again.
+5.  Enter `Draw Request` and select **+ New name** again.
 
-6.  Enter **Approve** and click **+ New name** one more time.
+6.  Enter `Approve` and select **+ New name** one more time.
 
-7.  Enter **Fund** and click **Save**.
+7.  Enter `Fund` and select **Save**.
 
 > <img src="../L01/media/image28.png" style="width:2.64612in;height:3.50272in"
 > alt="create listed activities" />
 
-8.  Close the create activity names pane.
+8.  **Close** the create activity names pane.
 
-9.  Go to the **Recordings** section and click to open the recording.
+9.  Go to the **Recordings** section and select to open the recording.
 
 > <img src="../L01/media/image29.png" style="width:5.24006in;height:2.43104in"
 > alt="open the recording" />
 
-10. Click **Delete all activities**.
+10. Select **Delete all activities**.
 
 > <img src="../L01/media/image30.png" style="width:6.38462in;height:1.26026in"
 > alt="delete activities that were auto created" />
 
-11. Click **Delete**.
+11. Select **Delete**.
 
-12. Click **+ Add activity**.
+12. Select **+ Add activity**.
 
 > <img src="../L01/media/image31.png" style="width:5.52014in;height:0.99988in"
 > alt="add activities you created" />
 
-13. Click on the Name dropdown and select **Lookup**.
+13. Select the **Name** drop-down and choose **Lookup**.
 
 > <img src="../L01/media/image32.png" style="width:4.8789in;height:2.99755in"
 > alt="select the lookup activity" />
 
 14. The Lookup activity will be added.
 
-15. Click **+ Add activity** again.
+15. Select **+ Add activity** again.
 
-16. Click on the Name dropdown and select **Draw Request**.
+16. Select the **Name** drop-down and choose **Draw Request**.
 
 17. The Draw Request activity will be added.
 
-18. Click **+ Add activity** again and add **Approve**.
+18. Select **+ Add activity** again and add **Approve**.
 
-19. Click **+ Add activity** one more time and add **Fund**.
+19. Select **+ Add activity** one more time and add **Fund**.
 
 20. You should now have 4 activities added.
 
@@ -376,9 +376,9 @@ In this task, you will group actions into activities.
 > <img src="../L01/media/image34.png" style="width:6.5in;height:2.62014in"
 > alt="order items into the activities" />
 
-19. Drag the **Fund** activity and place it below the Draw Funds action.
+19. Drag the **Fund** activity and place it below the **Draw Funds** action.
 
-20. Drag the **Approve** activity and place it below the Draw Funds 2
+20. Drag the **Approve** activity and place it below the **Draw Funds 2**
     action.
 
 21. The activities should now look like the image below.
@@ -386,15 +386,16 @@ In this task, you will group actions into activities.
 > <img src="../L01/media/image35.png" style="width:5.74356in;height:3.98428in"
 > alt="all activities and actions should be organized" />
 
-22. Click **Save and analyze**.
+22. Select **Save and analyze**.
 
-23. Wait for the process to be analyzed.
+23. **Wait** for the process to be analyzed.
 
 24. Do not navigate away from this page.
 
+
 ## Task 4: Review analytics
 
-1.  Click **View analytics**.
+1.  Select **View analytics**.
 
 > <img src="../L01/media/image36.png" style="width:4.20781in;height:1.10403in"
 > alt="select to view the analytics" />
@@ -404,10 +405,11 @@ In this task, you will group actions into activities.
 > <img src="../L01/media/image37.png" style="width:6.3191in;height:3.9994in"
 > alt="review the process" />
 
-3.  Select the Application tab and review it.
+3.  Select the **Application** tab and review it.
 
 > <img src="../L01/media/image38.png" style="width:6.31553in;height:3.54776in"
 > alt="review the charts" />
+
 
 # Exercise \# 4 – Evaluate Automation Options
 
@@ -418,7 +420,8 @@ an app and what should use an API.
 
 ## Task 1: Review and make notes of what should use an app and what should be a connector
 
-A discovery process has been completed by the project team. The following is the original scenario with our notes from the discovery added
+A discovery process has been completed by the project team. The following
+is the original scenario with our notes from the discovery added.
 
 Woodgrove Bank does construction loans to builders to build homes.
 Woodgrove does not give all the loan money to the builders on initial
@@ -446,6 +449,7 @@ the app in the future*.
 
 Today Relecloud does each process step manually. You have been asked if
 you can improve the process by automating some of the process.
+
 
 # Exercise \# 5 – Design the automation
 
@@ -489,15 +493,15 @@ the solution.
 
 ## Task 1: Import solution
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the Dev environment.
+1.  Navigate to `https://make.powerapps.com` and make sure you are in
+    the **Dev** environment.
 
-2.  Select **Solutions** and click **Import solution**.
+2.  Select **Solutions** and select **Import solution**.
 
 > <img src="../L01/media/image40.png" style="width:6.5in;height:1.19306in"
 > alt="Import the provided solution" />
 
-3.  Click **Browse**.
+3.  Select **Browse**.
 
 4.  Select the **ConstructionFunding** solution file located in the lab
     resources folder and click **Open**.
@@ -505,35 +509,20 @@ the solution.
 > <img src="../L01/media/image41.png" style="width:6.5in;height:1.47569in"
 > alt="select the solution provided" />
 
-5.  Click **Next**.
+5.  Select **Next**.
 
-6.  Click **Next** again.
+6.  Select **Next** again.
 
-7.  Click on the Select a connection dropdown and select **+ New
-    connection**.
+7.  Wait for the listed connection to sign in automatically and show a green check. 
 
-> <img src="../L01/media/image42.png" style="width:5.36601in;height:2.19725in"
-> alt="map the connection" />
+8.  Select **Import** and wait for the import to complete.
 
-8.  Click **Create**.
-
-9.  Provide your credentials.
-
-10. Close the connections browser tab.
-
-11. Click **Refresh**.
-
-> <img src="../L01/media/image43.png" style="width:4.18698in;height:2.18723in"
-> alt="refresh for importing" />
-
-12. Click **Import** and wait for the import to complete.
-
-13. You will get a message when the import completes.
+9.  You will get a notification when the import completes.
 
 > <img src="../L01/media/image44.png" style="width:6.5in;height:0.89653in"
 > alt="success message" />
 
-14. Click **Publish all customizations** and wait for the publishing to
+14. Select **Publish all customizations** and wait for the publishing to
     complete.
 
 > <img src="../L01/media/image45.png" style="width:6.5in;height:0.89653in"
@@ -541,9 +530,10 @@ the solution.
 
 15. Do not navigate away from this page.
 
+
 ## Task 2: Review components
 
-1.  Click to open the **Construction Funding** solution you imported.
+1.  Open the recently imported **Construction Funding** solution.
 
 > <img src="../L01/media/image46.png" style="width:5.34734in;height:1.54993in"
 > alt="review solution components" />
@@ -562,13 +552,13 @@ the solution.
 
 6.  Review the columns for this **Loan Draw** table.
 
-7.  Select **Cloud flows** and click to open the **Create Test Data**
+7.  Select **Cloud flows** and open the **Create Test Data**
     cloud flow.
 
 > <img src="../L01/media/image48.png" style="width:6.2357in;height:1.79942in"
 > alt="select cloud flow to run" />
 
-8.  Click **Edit**.
+8.  Select **Edit**.
 
 > <img src="../L01/media/image49.png" style="width:6.5in;height:2.53264in"
 > alt="select edit" />
@@ -579,47 +569,49 @@ the solution.
 > <img src="../L01/media/image50.png" style="width:4.69494in;height:4.44765in"
 > alt="expanded parse JSON step" />
 
-10. Click on the back button.
+10. Select the back button.
 
 11. Do not navigate away from this page.
 
+
 ## Task 3: Run flow
 
-1.  Select **Cloud flows** and click Details to open the **Create Test Data**
+1.  Select **Cloud flows** and select **Details** to open the **Create Test Data**
     cloud flow.
 
 > <img src="../L01/media/image48.png" style="width:6.2357in;height:1.79942in"
 > alt="select the flow to run" />
 
-1.  Click **Run**.
+1.  Select **Run**.
 
 > <img src="../L01/media/image51.png" style="width:6.5in;height:1.16319in"
 > alt="run the flow" />
 
-2.  Click **Run flow**.
+2.  Select **Run flow**.
 
-3.  Click **Done**.
+3.  Select **Done**.
 
-4.  Wait for the flow run to complete.
+4.  **Wait** for the flow run to complete.
 
-5.  Click on the refresh button until you see the success message.
+5.  Select the refresh button until you see the success message.
 
 > <img src="../L01/media/image52.png" style="width:6.5in;height:1.46042in"
 > alt="flow successed" />
 
+
 ## Task 4: Run loan manager app
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in
-    the Dev environment.
+1.  Navigate to `https://make.powerapps.com` and make sure you are in
+    the **Dev** environment.
 
-2.  Select **Apps** and click to launch the **Loan Manager**
+2.  Select **Apps** and launch the **Loan Manager**
     application.
 
 > <img src="../L01/media/image53.png" style="width:6.5in;height:1.85972in"
 > alt="start the app" />
 
-3.  You should see the data added by the cloud flow. Click to open one
-    of the loans.
+3.  You should see the data added by the cloud flow. Open one
+    of the loan records.
 
 > <img src="../L01/media/image54.png" style="width:6.5in;height:1.40833in"
 > alt="review data" />
@@ -628,3 +620,5 @@ the solution.
 
 > <img src="../L01/media/image55.png" style="width:6.5in;height:3.99792in"
 > alt="review load record" />
+
+
