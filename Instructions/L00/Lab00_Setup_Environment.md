@@ -66,7 +66,7 @@ In this exercise, you will create a Test environment for deploying your work to 
 
 ### Task 1 – Create a Test environment
 
-1.  In a new browser tab, navigate to `https://aka.ms/paac`
+1.  In a new browser tab, navigate to `https://aka.ms/ppac`
 
 2.  Select **Get Started** and select **Environments** from the left navigation.
 
