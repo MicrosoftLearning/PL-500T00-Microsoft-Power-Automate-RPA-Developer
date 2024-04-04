@@ -882,6 +882,8 @@ variables you just defined.
 
 32. We will do the same thing for the inspection status. Double click on the **Table data cell 'In progress'** UI.
 
+> Note: Depending on the recording previously, this might be **Table data cell 'Completed'**.
+
 > <img src="../L02/media/image66_4.png" style="width:3.7;height:4in"
 > alt="Table data cell" />
 
