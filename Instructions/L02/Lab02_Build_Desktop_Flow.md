@@ -696,7 +696,7 @@ record the steps using the **Inspection** web app.
     v.  Click on the **Request Inspection** button.
     
     vi.  Right click on the **Job Number** and select **Extract element value
-        \| Text: (“*your job number here*”)**. Remember the Job number.
+        \| Text: ('*your job number here*')**. Remember the Job number.
     
     vii.  Navigate to the Inspection Results page.
     
