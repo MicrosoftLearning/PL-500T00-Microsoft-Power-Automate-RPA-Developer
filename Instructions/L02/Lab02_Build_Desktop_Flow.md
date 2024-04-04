@@ -710,6 +710,8 @@ record the steps using the **Inspection** web app.
     
 > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in" 
 > alt="enter details as described" />
+
+> Note: Depending on your speed, the Job Status may already be **Completed**. In this case select corresponding option **Extract element value | Text: ('In progress')**.
     
     xii. Go back to the recorder and click **Done**.
     
