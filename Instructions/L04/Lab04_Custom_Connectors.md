@@ -112,11 +112,11 @@ API.
 > <img src="../L04/media/image10.png" style="width:2.95238in;height:2.321in"
 > alt="Import the file" />
 
-18. Click **Upload** logo.
+18. Click **Upload** under the logo.
 
 19. Select the logo you downloaded and click **Open**.
 
-20. Enter **Builder risk service** for Description, enter
+20. Enter **Service for evaluating builder risk** for Description, enter
 
     **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** from the breadcrumb navigation bar at the top of the screen.
 
