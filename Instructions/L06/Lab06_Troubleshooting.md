@@ -160,7 +160,7 @@ In this exercise, you will monitor desktop flows.
 > <img src="../L06/media/image19.png" style="width:6.34411in"
 > alt="add the breakpoint" />
 
-7.  Edit the property address and change the default value to **456 Main Street**.
+7.  Edit the property address variable and change the default value to **456 Main Street**.
 
 8.  Click **Run**.
 
