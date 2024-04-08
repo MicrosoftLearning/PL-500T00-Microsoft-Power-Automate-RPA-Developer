@@ -98,7 +98,7 @@ In this exercise, you will monitor desktop flows.
 > <img src="../L06/media/image10.png" style="width:5.54165in;height:0.91236in"
 > alt="select as described" />
 
-3.  Click on the **Monitoring/Notification** dropdown, select **Flow
+3.  Click on the **Monitoring/Notifications** dropdown, select **Flow
     monitoring window**, and click **Save**.
 
 > <img src="../L06/media/image11.png" style="width:3.01474in;height:3.66762in"
