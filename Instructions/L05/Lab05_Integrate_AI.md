@@ -56,98 +56,96 @@ the funding request form.
 > <img src="../L05/media/image64.png"
 > alt="Select AI models" />
 
-7.  Click **+ New a model**.
-
-8.  Select **Extract custom information from documents**.
+7.  Select **Extract custom information from documents**.
 
 > <img src="../L05/media/image4.png" style="width:5.04074in;height:2.34098in"
 > alt="Choose document processing" />
 
-9.  Click **Create custom model**.
+8.  Click **Create custom model**.
 
-10. Select **Structured documents** and click
+9. Select **Structured documents** and click
     **Next**.
 
 > <img src="../L05/media/image5.png" style="width:5.85245in;height:5.13777in"
 > alt="select as described" />
 
-11. Do not navigate away from this page.
+10. Do not navigate away from this page.
 
-12. Go to the **Jim Glynn** pdf fie, you will create fields and a table
+11. Go to the **Jim Glynn** pdf fie, you will create fields and a table
     in the model that match the fields and the table in this document.
 
 > <img src="../L05/media/image6.png" style="width:5.25333in;height:3.38548in"
 > alt="select as described" />
 
-13. Go back to the model. Click the chevron button on the **+ Add**
+12. Go back to the model. Click the chevron button on the **+ Add**
     button and select **Text field**.
 
 > <img src="../L05/media/image7.png" style="width:5.89728in;height:1.93804in"
 > alt="select as described" />
 
-14. Enter **Owner Name** and click **Done**.
+13. Enter **Owner Name** and click **Done**.
 
 > <img src="../L05/media/image8.png" style="width:3.56616in;height:2.20454in"
 > alt="enter details as described" />
 
-15. Select the **+ Add** button and select
+14. Select the **+ Add** button and select
     **Text field** again.
 
-16. Enter **Property Address** and click **Done**.
+15. Enter **Property Address** and click **Done**.
 
-17. Select the **+ Add** button and select
+16. Select the **+ Add** button and select
     **Text field**.
 
-18. Enter **Builder Name** and click **Done**.
+17. Enter **Builder Name** and click **Done**.
 
-19. Select the **+ Add** button and select
+18. Select the **+ Add** button and select
     **Text field**.
 
-20. Enter **Draw Amount** and click **Done**.
+19. Enter **Draw Amount** and click **Done**.
 
-21. Select the **+ Add** button and select
+20. Select the **+ Add** button and select
     **Text field** one more time.
 
-22. Enter **Loan Number** and click **Done**.
+21. Enter **Loan Number** and click **Done**.
 
-23. You should now have five text fields added.
+22. You should now have five text fields added.
 
 > <img src="../L05/media/image9.png" style="width:5.40839in;height:3.09711in"
 > alt="review the resulting screen" />
 
-24. You will now add the table details. Click the chevron button on the
+23. You will now add the table details. Click the chevron button on the
     **+ Add** button and select **Table**.
 
 > <img src="../L05/media/image10.png" style="width:5in;height:2.2in"
 > alt="select as described" />
 
-25. Enter **Budget Items** for Table name.
+24. Enter **Budget Items** for Table name.
 
-26. Click on **Column 1** and select **Edit column**.
+25. Click on **Column 1** and select **Edit column**.
 
 > <img src="../L05/media/image11.png" style="width:4.02554in;height:1.65193in"
 > alt="select as described" />
 
-27. Enter **Budget Category** and click **Comfirm**.
+26. Enter **Budget Category** and click **Comfirm**.
 
 > <img src="../L05/media/image12.png" style="width:4.11431in;height:1.90902in"
 > alt="enter details as described" />
 
-28. Click **+ New column**.
+27. Click **+ New column**.
 
 > <img src="../L05/media/image13.png" style="width:4.72788in;height:1.15066in"
 > alt="select as described" />
 
-29. Enter **Amount** for Name and click **Add**.
+28. Enter **Amount** for Name and click **Add**.
 
-30. Your table should now have 2 columns. Click **Done**.
+29. Your table should now have 2 columns. Click **Done**.
 
 > <img src="../L05/media/image14.png" style="width:4.83007in;height:2.8067in"
 > alt="review the results" />
 
-31. Click **Next**.
+30. Click **Next**.
 
-32. Do not navigate away from this page.
+31. Do not navigate away from this page.
 
 ## Task \#2: Add sample documents
 
