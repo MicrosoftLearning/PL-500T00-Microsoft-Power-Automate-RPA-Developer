@@ -86,50 +86,55 @@ API.
 11. Navigate to <https://make.powerautomate.com/> and make sure you are in
     the Dev environment.
 
-12. Expand **Data** and select **Custom Connectors**.
+12. Click **More** and select **Discover all**.
 
-> <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
-> alt="Expand to the custom connector list" />
+> <img src="../L04/media/image8.png" 
+> alt="Expand more option in navifation" />
 
-13. Click on the **…** more actions button of the **Builder Risk
+13. Scroll down and select **Custom connectors** under data.
+
+> <img src="../L04/media/image7.png" 
+> alt="Find custom connectors" />
+
+14. Click on the **…** more actions button of the **Builder Risk
     Service** custom connector and select **Update from OpenAPI file**.
 
 > <img src="../L04/media/image9.png" style="width:5.71908in;height:1.82937in"
 > alt="locate and update the OpenAPI file" />
 
-14. Click **Import**.
+15. Click **Import**.
 
-15. Select the **swagger.json** file you saved to your machine and click
+16. Select the **swagger.json** file you saved to your machine and click
     **Open**.
 
-16. Click **Continue**.
+17. Click **Continue**.
 
 > <img src="../L04/media/image10.png" style="width:2.95238in;height:2.321in"
 > alt="Import the file" />
 
-17. Click **Upload** logo.
+18. Click **Upload** logo.
 
-18. Select the logo you downloaded and click **Open**.
+19. Select the logo you downloaded and click **Open**.
 
-19. Enter **Builder risk service** for Description, enter
+20. Enter **Builder risk service** for Description, enter
 
     **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** from the breadcrumb navigation bar at the top of the screen.
 
 > <img src="../L04/media/image12.png" style="width:5.20134in;height:3.60426in"
 > alt="enter details as described" />
 
-20. Select **Definition** from the breadcrumb navigation bar at the top of the screen and see the operation imported.
+21. Select **Definition** from the breadcrumb navigation bar at the top of the screen and see the operation imported.
 
-21. Turn on **Swagger Editor**.
+22. Turn on **Swagger Editor**.
 
 > <img src="../L04/media/image13.png" style="width:6.09335in;height:2.71987in"
 > alt="toggle swagger editor" />
 
-22. Have a look at the Swagger Editor and then turn off the **Swagger Editor**.
+23. Have a look at the Swagger Editor and then turn off the **Swagger Editor**.
 
-23. Select **Update connector** and wait for the connector to be updated.
+24. Select **Update connector** and wait for the connector to be updated.
 
-24. Do not navigate away from this page.
+25. Do not navigate away from this page.
 
 ## Task \#4: Test connector
 
