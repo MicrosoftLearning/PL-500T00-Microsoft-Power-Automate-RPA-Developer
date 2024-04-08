@@ -47,7 +47,7 @@ API.
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
 
-3.  Enter **Builder risk service** for Description, enter
+3.  Enter **Service for evaluating builder risk** for Description, enter
     **adatumbuilderrisktest.azurewebsites.net** for Host, and click
     **Create connector**.
 
