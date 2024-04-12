@@ -99,7 +99,7 @@ process data and review the analytics.
 
 2.  Select the **Dev One** environment from the **Environment** drop-down. 
 
-3.  Select **Process minijng** from the left navigation pane and select **+ Start here**.
+3.  Select **Process mining** from the left navigation pane and select **+ Start here**.
 
 > <img src="../L01/media/image1.png" style="width:6.03239in;height:2.62757in"
 > alt="Select process advisor" />
