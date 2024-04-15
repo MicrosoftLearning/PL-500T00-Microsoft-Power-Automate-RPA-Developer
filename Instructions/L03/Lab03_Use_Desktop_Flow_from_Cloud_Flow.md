@@ -775,33 +775,35 @@ outputs('List_rows')?\['body/value'\]\[0\]\['rc_loanid'\]
 > <img src="../L03/media/image87.png" style="width:4.88767in;height:1.89032in"
 > alt="select exchange" />
 
-3.  Click **+ Add a shared mailbox**.
+3.  In the left side menu under **Recipients** select **Mailboxes**.
+
+4.  Click **+ Add a shared mailbox**.
 
 > <img src="../L03/media/image88.png" style="width:5.002in;height:1.97622in"
 > alt="add a shared mailbox" />
 
-4.  Enter **Funding** for Display name, **Funding** for Email address,
+5.  Enter **Funding** for Display name, **Funding** for Email address,
     select your domain, and click **Create**.
 
 > <img src="../L03/media/image89.png" style="width:4.57794in;height:3.60036in"
 > alt="enter details as described" />
 
-5.  Click **Add users to this mailbox**.
+6.  Click **Add users to this mailbox**.
 
 > <img src="../L03/media/image90.png" style="width:4.6562in;height:2.98125in"
 > alt="add users to mailbox" />
 
-6.  Click **+ Add members**.
+7.  Click **+ Add members**.
 
-7.  Select your user and click **Save**. You may add other users to the
+8.  Select your user and click **Save**. You may add other users to the
     shared mailbox.
 
 > <img src="../L03/media/image91.png" style="width:4.73624in;height:3.36454in"
 > alt="manage mailbox members" />
 
-8.  Click **Confirm**.
+9.  Click **Confirm**.
 
-9.  Close the shared mailbox pane.
+10. Close the shared mailbox pane.
 
 
 ## Task \#2: Create flow

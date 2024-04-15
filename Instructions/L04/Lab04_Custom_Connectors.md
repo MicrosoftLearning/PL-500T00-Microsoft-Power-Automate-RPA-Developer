@@ -47,7 +47,7 @@ API.
 > <img src="../L04/media/image3.png" style="width:5.67783in;height:1.08522in"
 > alt="name the connector" />
 
-3.  Enter **Builder risk service** for Description, enter
+3.  Enter **Service for evaluating builder risk** for Description, enter
     **adatumbuilderrisktest.azurewebsites.net** for Host, and click
     **Create connector**.
 
@@ -81,20 +81,20 @@ API.
 > <img src="../L04/media/image6.png" style="width:4.04345in;height:3.0922in"
 > alt="click to review definition" />
 
-10. Right click and select **Save as**.
+10. On your keyboard press **CTRL + S** and select **Save**. Now the file is saved on your machine.
 
-> <img src="../L04/media/image7.png" style="width:5.4423in;height:2.52055in"
-> alt="save file" />
-
-11. Save the file on your machine.
-
-12. Navigate to <https://make.powerautomate.com/> and make sure you are in
+11. Navigate to <https://make.powerautomate.com/> and make sure you are in
     the Dev environment.
 
-13. Expand **Data** and select **Custom Connectors**.
+12. Click **More** and select **Discover all**.
 
-> <img src="../L04/media/image8.png" style="width:5.09775in;height:2.56794in"
-> alt="Expand to the custom connector list" />
+> <img src="../L04/media/image8.png" 
+> alt="Expand more option in navifation" />
+
+13. Scroll down and select **Custom connectors** under data.
+
+> <img src="../L04/media/image7.png" 
+> alt="Find custom connectors" />
 
 14. Click on the **…** more actions button of the **Builder Risk
     Service** custom connector and select **Update from OpenAPI file**.
@@ -112,11 +112,11 @@ API.
 > <img src="../L04/media/image10.png" style="width:2.95238in;height:2.321in"
 > alt="Import the file" />
 
-18. Click **Upload** logo.
+18. Click **Upload** under the logo.
 
 19. Select the logo you downloaded and click **Open**.
 
-20. Enter **Builder risk service** for Description, enter
+20. Enter **Service for evaluating builder risk** for Description, enter
 
     **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security** from the breadcrumb navigation bar at the top of the screen.
 

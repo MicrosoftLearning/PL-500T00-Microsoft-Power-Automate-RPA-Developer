@@ -46,12 +46,15 @@ the funding request form.
 4.  Navigate to <https://make.powerapps.com/> and make sure you are in
     the Dev environment.
 
-5.  Click **... More** and select **AI models**.
+5.  Click **... More** and select **Discover all**.
 
 > <img src="../L05/media/image3.png"
-> alt="select AI Builder models" />
+> alt="Select discover all" />
 
-6.  Click **+ New a model**.
+6.  Under AI select **Ai models**.
+
+> <img src="../L05/media/image64.png"
+> alt="Select AI models" />
 
 7.  Select **Extract custom information from documents**.
 
@@ -464,7 +467,7 @@ triggerOutputs()?['body/attachments']?[0]['id']
 > <img src="../L05/media/image53.png" style="width:4.35486in;height:3.74403in"
 > alt="select and complete as described" />
 
-42. Add a **comma and space** after the value.
+42. Add a **comma and space** after the value in the **Append to string variable** action.
 
 > <img src="../L05/media/image54.png" style="width:4.89526in;height:2.45193in"
 > alt="select and complete as described" />

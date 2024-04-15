@@ -696,7 +696,7 @@ record the steps using the **Inspection** web app.
     v.  Click on the **Request Inspection** button.
     
     vi.  Right click on the **Job Number** and select **Extract element value
-        \| Text: (“*your job number here*”)**. Remember the Job number.
+        \| Text: ('*your job number here*')**. Remember the Job number.
     
     vii.  Navigate to the Inspection Results page.
     
@@ -710,6 +710,8 @@ record the steps using the **Inspection** web app.
     
 > <img src="../L02/media/image54.png" style="width:5.18299in;height:2.19114in" 
 > alt="enter details as described" />
+
+> Note: Depending on your speed, the Job Status may already be **Completed**. In this case select corresponding option **Extract element value | Text: ('In progress')**.
     
     xii. Go back to the recorder and click **Done**.
     
@@ -879,6 +881,8 @@ variables you just defined.
 > alt="UI element editor" />
 
 32. We will do the same thing for the inspection status. Double click on the **Table data cell 'In progress'** UI.
+
+> Note: Depending on the recording previously, this might be **Table data cell 'Completed'**.
 
 > <img src="../L02/media/image66_4.png" style="width:3.7;height:4in"
 > alt="Table data cell" />

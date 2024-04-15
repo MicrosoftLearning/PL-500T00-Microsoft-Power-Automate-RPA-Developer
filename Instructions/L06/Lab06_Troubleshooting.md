@@ -27,61 +27,66 @@ In this exercise, you will monitor desktop flows.
 1.  Navigate to <https://make.powerautomate.com/> and make sure you are
     in your dev environment.
 
-2.  Expand **Monitor** and select **Desktop flows** **runs**.
+2.  Click on **More** and select **Discover all**.
 
 > <img src="../L06/media/image1.png" style="width:4.03825in;height:2.19688in"
-> alt="select monitor-desktop flow runs" />
+> alt="Select more and discover all" />
 
-3.  If you don’t see anything, make sure you are in your Dev
+3.  Under **Monitor** select **Desktop flow runs**.
+
+> <img src="../L06/media/image35.png" style="width:4.03825in;height:2.19688in"
+> alt="Select more and discover all" />
+
+4.  If you don’t see anything, make sure you are in your Dev
     environment.
 
-4.  Turn on **Auto refresh**.
+5.  Turn on **Auto refresh**.
 
 > <img src="../L06/media/image2.png" style="width:3.09336in;height:1.12486in"
 > alt="enable auto-refresh" />
 
-5.  Click on the **…** More command button of one the **Woodgrove
-    Funding Manager Draw** run and select **See parent flow runs**.
+6.  Click on the ellipses of one the **Woodgrove
+    Funding Manager Draw** run and select **See parent flow run**.
 
 > <img src="../L06/media/image3.png" style="width:5.65652in;height:1.84381in"
 > alt="select and complete as described" />
 
-6.  You should see the parent cloud flow run (CF Manage Woodgrove
+7.  You should see the parent cloud flow run (CF Manage Woodgrove
     Funding Process).
 
 > <img src="../L06/media/image4.png" style="width:5.55648in;height:2.80377in"
 > alt="review the screen" />
 
-7.  Click on the browser back button.
+8.  Click on the browser back button.
 
-8.  Click to open the **Woodgrove Funding Manager Draw** run.
+9.  Click to open the **Woodgrove Funding Manager Draw** run.
 
 > <img src="../L06/media/image5.png" style="width:5.55876in;height:1.56667in"
 > alt="select as described" />
 
-9.  You should see all the actions in the flow run.
+10.  You should see all the actions in the flow run.
 
 > <img src="../L06/media/image6.png" style="width:6in"
 > alt="review the screen" />
 
-10. Click to open the **Set variable** action.
+11. Click on the start timestamp to open the **Set variable** action.
 
 > <img src="../L06/media/image7.png" style="width:5.40955in;height:1.59108in"
 > alt="select as described" />
 
-11. Go to the **Action Details** pane and click **See output details**.
+12. Go to the **Action Details** pane and click **See output details**.
 
 > <img src="../L06/media/image8.png" style="width:5.90681in;height:2.16141in"
 > alt="select as described" />
 
-12. You should see details of the variable.
+13. You should see details of the variable.
 
 > <img src="../L06/media/image9.png" style="width:5.44663in;height:1.52401in"
 > alt="review the details" />
 
-13. Close the **Outputs** pane.
+14. Close the **Outputs** pane.
 
-14. You may wish to review the other actions.
+15. You may wish to review the other actions.
 
 ## Task \#2: Flow monitor
 
@@ -93,7 +98,7 @@ In this exercise, you will monitor desktop flows.
 > <img src="../L06/media/image10.png" style="width:5.54165in;height:0.91236in"
 > alt="select as described" />
 
-3.  Click on the **Monitoring/Notification** dropdown, select **Flow
+3.  Click on the **Monitoring/Notifications** dropdown, select **Flow
     monitoring window**, and click **Save**.
 
 > <img src="../L06/media/image11.png" style="width:3.01474in;height:3.66762in"
@@ -155,7 +160,7 @@ In this exercise, you will monitor desktop flows.
 > <img src="../L06/media/image19.png" style="width:6.34411in"
 > alt="add the breakpoint" />
 
-7.  Edit the property address and change the default value to **456 Main Street**.
+7.  Edit the property address variable and change the default value to **456 Main Street**.
 
 8.  Click **Run**.
 
