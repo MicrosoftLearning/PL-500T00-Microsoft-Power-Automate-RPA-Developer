@@ -117,59 +117,8 @@ To run attended and unattended flows across cloud and desktop environments, the 
 3.  Once it has connected, you can close the **Power Automate machine runtime** window. 
 
 
-## Exercise 4 - Azure account setup 
 
-In this exercise, you will create your Azure account that you will be
-using in the labs.
-
-1.  Get a new Azure Pass (valid for 30-days) from the instructor or
-    other source.
-
-2.  Use a private browser session, go to `Microsoftazurepass.com` to
-    redeem your Azure Pass using the Microsoft 365 credentials provided
-    to you). [Redeem a Microsoft Azure
-    Pass](https://www.microsoftazurepass.com/Home/HowTo?Length=5) Follow
-    the instructions for redemption.
-
-    After the account setup completes, setup the following Virtual Machine:
-
-3.  Navigate to `https://portal.azure.com`
-
-4.  Select **+ Create a resource**.
-
-5.  Select **Create** Virtual Machine. 
-
-    <img src="../L00/media/image1.png" style="width:5.17644in;height:1.88518in"
-    alt="Screenshot showing Virtual Machine Azure resource with red rectangle around the create button" />
-
-6.  Select **Create new resource** group. 
-
-    <img src="../L00/media/image2.png" style="width:6.5in;height:1.61667in"
-    alt="Screenshot showing the create resource dialog with a red rectangle around the create resource group button" />
-
-7.  Enter `Funding` for **Name** and select **OK**. 
-
-8.  Enter `Funding` for virtual machine name.
-
-9.  Select **Windows 11** Image.
-
-10. Enter `Funding` for Username.
-
-11. Create a secure password and make a note of it.
-
-12. Confirm the Password. 
-
-13. Check the box for *I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.* under **Licensing**.
-
-14. Select **Review + create**. 
-
-    <img src="../L00/media/image3.png" style="width:5.04419in;height:4.23637in"
-    alt="Screenshot showing the create new virtual machine resource dialog" />
-
-15. Select **Create**. 
-
-
-## Exercise 5 – Copy Lab Resources 
+## Exercise 4 – Copy Lab Resources 
 
 1.  Create a folder **Labs** on the **C:** drive, if you don't already have that folder.
 
