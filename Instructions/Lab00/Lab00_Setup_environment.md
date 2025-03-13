@@ -86,12 +86,12 @@ later on.
 Note: It may take a couple of minutes for the new environment to be provisioned
 and become available in the list of the environments.
 
-1.  Refresh the **Environments** list.
+7.  Refresh the **Environments** list.
 
-2.  When your environment shows as 'Ready', select the **Test** environment by
+8.  When your environment shows as 'Ready', select the **Test** environment by
     selecting the ellipsis (...) menu and selecting **Settings**.
 
-3.  Explore the different areas available in **Settings** but do not make any
+9.  Explore the different areas available in **Settings** but do not make any
     changes yet.
 
 **Exercise 3 - Power Automate Software**
@@ -113,7 +113,7 @@ to sign in and configure the environment.
 Optional: Select **Start tour** and go through the welcome prompts to get a feel
 for the application.
 
-1.  From the **Environments** list, select the **Dev One** environment.
+3.  From the **Environments** list, select the **Dev One** environment.
 
 **Task 2 - Configure the Power Automate Machine-Runtime App**
 
@@ -132,5 +132,21 @@ To run attended and unattended flows across cloud and desktop environments, the
 notification, select the **💎 Go premium** button and select **Start trial**
 then dismiss the notification.
 
-1.  Once it has connected, you can close the **Power Automate machine runtime**
+3.  Once it has connected, you can close the **Power Automate machine runtime**
     window.
+
+**Exercise 4 - Copy Lab Resources**
+
+1.  Ensure that the lab resources are downloaded from GitHub.
+
+2.  Navigate to **C:\Lab Resources\Funding manager app** and double-click on the **setup.exe** to start installation.
+
+3.  In the **Woodgrove Bank Funding Manager Setup** popup, select **Install**, then check the taskbar for any newly highlighted popup window.
+
+4.  Select **Yes** on **User Account Control** popup and wait for the installation to complete.
+
+5. Select **OK** on the **Cannot Start Application** popup message.
+
+6.  Once installed, browse to **C:\Labs\Resources\Funding manager app** and double-click on the **Woodgrove Bank Funding Manager.exe** executable.
+
+7.  The app should launch successfully. **Close** the application.
