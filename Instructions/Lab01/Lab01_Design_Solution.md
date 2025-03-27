@@ -27,9 +27,9 @@ The following companies or people are involved in the process you will be
 automating.
 
 | **Company or people** | **Description**                                                                                                                             |
-|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Borrower              | Borrows money from bank to build a house.                                                                                                   |
-| Builder               | Has an agreement to build a house for the Borrower and gets paid as the house is built by Loan Draws from the borrower’s loan.                    |
+| Builder               | Has an agreement to build a house for the Borrower and gets paid as the house is built by Loan Draws from the borrower’s loan.              |
 | Woodgrove Bank        | Loans borrower money to build house, hires Relecloud to manage the construction loan draw funding as the house is built by the builder.     |
 | Relecloud             | Escrow company that manages the process for the bank. They do all the manual work today and this is who you are automating the process for. |
 | Fabrikam Inspections  | An inspection company that goes on site to verify and provide proof of work completed.                                                      |
@@ -37,19 +37,19 @@ automating.
 
 The following describes the current manual process:
 
-- Woodgrove Bank does construction loans to builders to build homes. Woodgrove
-does not give all the loan money to the builders on initial approval; they only
-give it as construction progresses. Each month, builders can request loan funds
-(a draw) for the progress made and funds spent during the last month.
-- Woodgrove is too busy to manage the process, so they hired Relecloud to manage
-it. Each month builders email forms requesting funds to Relecloud. After review,
-Relecloud requests Fabrikam Inspections via their website to do an onsite
-inspection to verify the work stated was actually done.
-- Once the inspection is completed, Relecloud does a risk check using a website A
-Datum has that confirms that the builder hasn’t become high risk. After these
-checks, Relecloud uses a Windows form app provided by Woodgrove to request
-funding. Someone from Relecloud checks the app each day for any completed
-requests and then they notify of funding completed.
+-   Woodgrove Bank does construction loans to builders to build homes. Woodgrove
+    does not give all the loan money to the builders on initial approval; they only
+    give it as construction progresses. Each month, builders can request loan funds
+    (a draw) for the progress made and funds spent during the last month.
+-   Woodgrove is too busy to manage the process, so they hired Relecloud to manage
+    it. Each month builders email forms requesting funds to Relecloud. After review,
+    Relecloud requests Fabrikam Inspections via their website to do an onsite
+    inspection to verify the work stated was actually done.
+-   Once the inspection is completed, Relecloud does a risk check using a website A
+    Datum has that confirms that the builder hasn’t become high risk. After these
+    checks, Relecloud uses a Windows form app provided by Woodgrove to request
+    funding. Someone from Relecloud checks the app each day for any completed
+    requests and then they notify of funding completed.
 
 Today Relecloud does each process step manually. You have been asked if you can
 improve the process by automating some of the steps.
@@ -89,17 +89,17 @@ give it as construction progresses. Each month, builders can request loan funds
 Woodgrove is too busy to manage the process, so they hired Relecloud to manage
 it. Each month builders email forms requesting funds to Relecloud. After review,
 Relecloud requests Fabrikam Inspections via their website to do an onsite
-inspection to verify the work stated was actually done. *During discovery we
-learned that Fabrikam has no plans to offer an API*.
+inspection to verify the work stated was actually done. _During discovery we
+learned that Fabrikam has no plans to offer an API_.
 
 Once the inspection is completed, Relecloud does a risk check using a website A
-Datum has that confirm that the builder hasn’t become high risk. *During
-discovery we learned A Datum has a RESTful API for the risk check*.
+Datum has that confirm that the builder hasn’t become high risk. _During
+discovery we learned A Datum has a RESTful API for the risk check_.
 
 After these checks, Relecloud uses a Windows form app provided by Woodgrove to
 request funding. Someone from Relecloud checks the app each day for any
-completed requests and then they notify of funding completed. *During discovery
-we learned that Woodgrove plans to modernize the app in the future*.
+completed requests and then they notify of funding completed. _During discovery
+we learned that Woodgrove plans to modernize the app in the future_.
 
 Today Relecloud does each process step manually. You have been asked if you can
 improve the process by automating some of the process.
@@ -121,7 +121,7 @@ of this course, you will be building out this automation.
 
 -   Child flows will be used for Lookup, Inspection and Funding to keep the main cloud flow maintainable.
 
--   The process involving the Inspection website will be automated with an unattended  desktop flow, which will include a JSON array of work site photos.
+-   The process involving the Inspection website will be automated with an unattended desktop flow, which will include a JSON array of work site photos.
 
 -   The inspection child flow will run the inspection desktop flow and then download and persist the work site photos to the Dataverse table.
 
@@ -141,13 +141,13 @@ environment, and run the loan manager app included in the solution.
 
 2.  Select **Solutions** and select **Import solution**.
 
-![Import the provided solution](media/a915db97dbe754debafa74f02c8bbf9a.png)
+    ![Import the provided solution](media/a915db97dbe754debafa74f02c8bbf9a.png)
 
 3.  Select **Browse**.
 
 4.  Select the **ConstructionFunding** solution file located in the lab resources folder and click **Open**.
 
-![select the solution provided](media/0a98d33dbb9eb8f3e73da61cfd16dc45.png)
+    ![select the solution provided](media/0a98d33dbb9eb8f3e73da61cfd16dc45.png)
 
 5.  Select **Next**.
 
@@ -159,19 +159,19 @@ environment, and run the loan manager app included in the solution.
 
 9.  You will get a notification when the import completes.
 
-![success message](media/0deaa0bb30a3a1c85449ccc44c60e2f4.png)
+    ![success message](media/0deaa0bb30a3a1c85449ccc44c60e2f4.png)
 
-10.  Select **Publish all customizations** and wait for the publishing to complete.
+10. Select **Publish all customizations** and wait for the publishing to complete.
 
-![publish customizations from imported solution](media/c6a0dee6b49f3983e899397433d679ad.png)
+    ![publish customizations from imported solution](media/c6a0dee6b49f3983e899397433d679ad.png)
 
-11.  Do not navigate away from this page.
+11. Do not navigate away from this page.
 
 ### Task 2: Review components
 
 1.  Open the recently imported **Construction Funding** solution.
 
-![review solution components](media/267c327653d35762f04898450ffe7500.png)
+    ![review solution components](media/267c327653d35762f04898450ffe7500.png)
 
 2.  The solution should have several components including 1 application, 1 cloud flow, 1 connection reference, 1 sitemap, and 3 tables.
 
@@ -179,7 +179,7 @@ environment, and run the loan manager app included in the solution.
 
 4.  Review the columns for this **Loan** table.
 
-![solution contains tables](media/526cfdd35421e061d17da5e1f269acc5.png)
+    ![solution contains tables](media/526cfdd35421e061d17da5e1f269acc5.png)
 
 5.  Expand the **Loan Draw** table and select **Columns**.
 
@@ -187,29 +187,29 @@ environment, and run the loan manager app included in the solution.
 
 7.  Select **Cloud flows** and open the **Create Test Data** cloud flow.
 
-![select cloud flow to run](media/a72e54ed3dbc96a09705f8cd2d806ae7.png)
+    ![select cloud flow to run](media/a72e54ed3dbc96a09705f8cd2d806ae7.png)
 
 8.  Select **Edit**.
 
-![select edit](media/1529d83046dcf544e9b8647822f57871.png)
+    ![select edit](media/1529d83046dcf544e9b8647822f57871.png)
 
 9.  Expand the **Parse JSON** step and review the data that will be added to your environment.
 
-![expanded parse JSON step](media/ce09b84f22ae831a38a1331fb18c5d15.png)
+    ![expanded parse JSON step](media/ce09b84f22ae831a38a1331fb18c5d15.png)
 
-10.  Select the back button.
+10. Select the back button.
 
-11.  Do not navigate away from this page.
+11. Do not navigate away from this page.
 
 ### Task 3: Run flow
 
 1.  Select **Cloud flows** and select **Details** to open the **Create Test Data** cloud flow.
 
-![select the flow to run](media/a72e54ed3dbc96a09705f8cd2d806ae7.png)
+    ![select the flow to run](media/a72e54ed3dbc96a09705f8cd2d806ae7.png)
 
 2.  Select **Run**.
 
-![run the flow](media/f4518a3c9e2224891f862ebf2d42e75f.png)
+    ![run the flow](media/f4518a3c9e2224891f862ebf2d42e75f.png)
 
 3.  Select **Run flow**.
 
@@ -217,7 +217,7 @@ environment, and run the loan manager app included in the solution.
 
 5.  **Wait** for the flow run to complete. You can select the refresh button until you see the success message.
 
-![flow successed](media/5bb0703fee4a165f9f9e33d72d9e51d5.png)
+    ![flow successed](media/5bb0703fee4a165f9f9e33d72d9e51d5.png)
 
 ### Task 4: Run loan manager app
 
@@ -226,12 +226,12 @@ environment, and run the loan manager app included in the solution.
 
 2.  Select **Apps** and launch the **Loan Manager** application by clicking on the **Play** button when you hover over the app name:
 
-![start the app](media/52dbfbd920d573add672f2dd66da8d73.png)
+    ![start the app](media/52dbfbd920d573add672f2dd66da8d73.png)
 
 3.  You should see the data added by the cloud flow. Open one of the loan records.
 
-![review data](media/4c364674993d88f1d1ff212637f6a9d9.png)
+    ![review data](media/4c364674993d88f1d1ff212637f6a9d9.png)
 
 4.  Review the loan.
 
-![review load record](media/a91e8235e2efd2bec19bd2e865b2887c.png)
+    ![review load record](media/a91e8235e2efd2bec19bd2e865b2887c.png)
