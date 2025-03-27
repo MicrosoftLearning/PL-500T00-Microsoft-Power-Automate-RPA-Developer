@@ -92,17 +92,19 @@ available](media/7dbe6eec4e251774813ecfa27d65767f.png)
 
 1.  The application should start, and the flow should complete.
 
-2.  Do not close the application.
+1.  Do not close the application.
 
-3.  Go to the desktop flow and click **Recorder**.
+1.  Go to the desktop flow and click **Recorder**.
 
-4.  Do not start recording yet. Close or minimize all but the funding manager
+1.  Click **Record** and then **Next**.
+
+1.  Do not start recording yet. Close or minimize all but the funding manager
     application. You will be recording steps and modifying steps. Make sure to
     follow the directions here, and only click Finish when we tell you to.
 
-5.  Remember, you will provide the values below once you start recording.
+1.  Remember, you will provide the values below once you start recording.
 
-Username: your username.
+Username: your name.
 
 Password: **pass@word1**
 
@@ -166,8 +168,7 @@ needed](media/cfa838f9af6f1fb6932a661b90a90094.png)
 
 **Task \#3: Add Input and output variables**
 
-In this task, you will define the input and output variables that you'll use to
-replace the hard coded values recorded. The input variables will be used to pass
+In this task, you will define the input and output variables that you'll use toreplace the hard coded values recorded. The input variables will be used to pass
 data from the calling cloud flow. The output variables will be used to return
 data to that flow.
 
@@ -279,10 +280,9 @@ variables you just defined.
 
 1.  Remove the current value and click on the **{x}** select variable button.
 
-![click on the variable button as
-shown](media/72ff19b35b9d3cc9019998d22918998e.png)
+![click on the variable button as shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
-1.  Select **Username** for variable and click **Select**.
+1.  Double click **Username** to select it.
 
 ![select user name variable](media/c79c48d2c72a7790ed4fe8ed34889a8e.png)
 
@@ -299,7 +299,7 @@ shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
 1.  Click on the **{x}** select variable button.
 
-2.  Select **Password** for variable and click **Select**.
+2.  Double click **Password** to select it.
 
 3.  Click **Save**.
 
@@ -307,7 +307,7 @@ shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
 5.  Remove the current value and click on the **{x}** select variable button.
 
-6.  Select **LoanNumber** for variable and click **Select**.
+6.  Double click **LoanNumber** to select it.
 
 7.  Click **Save**.
 
@@ -315,7 +315,7 @@ shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
 9.  Remove the current value and click on the **{x}** select variable button.
 
-10. Select **RequestedAmount** for variable and click **Select**.
+10. Double click **RequestedAmount** to select it.
 
 11. Click **Save**.
 
@@ -323,7 +323,7 @@ shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
 13. Remove the current value and click on the **{x}** select variable button.
 
-14. Select **InspectionJobNumber** for variable and click **Select**.
+14. Double click **InspectionJobNumber** to select it.
 
 15. Click **Save**.
 
@@ -331,7 +331,7 @@ shown](media/72ff19b35b9d3cc9019998d22918998e.png)
 
 17. Remove the current value and click on the **{x}** select variable button.
 
-18. Select **RiskScore** for variable and click **Select**.
+18. Double click **RiskScore** to select it.
 
 19. Click **Save**.
 
@@ -352,8 +352,7 @@ variables you just defined.
 
 ![select item described](media/ca8fedce4adecd6db5dfc8cd1f73d2e8.png)
 
-1.  Expand the **Variables produced section** and click on the **{x}** select
-    variable button.
+1.  Expand the **Variables produced section** and click on **AttributeValue** and then select **{x}** variable button.
 
 ![select variable button](media/14c812352b4789ef1c6c9d865a401b38.png)
 
@@ -368,8 +367,7 @@ variables you just defined.
 
 ![locate the item described](media/2f31137d519d52396abf988d78afbe56.png)
 
-1.  Expand the **Variables produced section** and click on the **{x}** select
-    variable button.
+1.  Expand the **Variables produced section** and click on **AttributeValue_2** and then select **{x}** variable button.
 
 2.  Select **FundTransferNumber**.
 
@@ -389,8 +387,7 @@ variables you just defined.
 
 4.  You should now have three output variables populated.
 
-![summary of work recently
-completed](media/f315f7c60a249dfcd878961aec041a48.png)
+![summary of work recently completed](media/f315f7c60a249dfcd878961aec041a48.png)
 
 1.  Click Save and wait for the flow to be saved.
 
@@ -464,11 +461,9 @@ Risk score: 90
 1.  Click on the **UI element** dropdown and select **Draw denied contact bank**
     and click **Select**.
 
-![from the dropdown select the item as
-described](media/d994597ac9a41cc97eb3c0d9e522b8b9.png)
+![from the dropdown select the item as described](media/d994597ac9a41cc97eb3c0d9e522b8b9.png)
 
-1.  Expand the **Variables produced** and click on the **{x}** select variable
-    button.
+1.  Expand the **Variables produced** and click on the **FundedAmount** variable and then **{x}** select variable button.
 
 2.  Select **FundingStatus**.
 
@@ -496,7 +491,7 @@ described](media/d994597ac9a41cc97eb3c0d9e522b8b9.png)
 
 ![drag the item as described](media/3d46af3755a35348fbc61a47518ee116.png)
 
-1.  Click **{x}** select variable select **FundingStatus**.
+1.  Select **NewVar** and then select variable **{x}**. Select **FundingStatus**.
 
 ![select the variable as described](media/9cc31bfb18f04cb7b0d05410808ed532.png)
 
@@ -611,7 +606,7 @@ the steps using the **Inspection** web app.
 
 ![enter details as described](media/2589270f87f474e268f012fc80189634.png)
 
-1.  DO NOT start recording yet.
+1.  **DO NOT** start recording yet.
 
 2.  Minimize or close all but desktop flow application.
 
@@ -621,19 +616,19 @@ the steps using the **Inspection** web app.
 
 1.  Microsoft Edge should load and navigate to the URL you provided.
 
-2.  DO NOT close this Browser session.
+2.  **DO NOT** close this Browser session.
 
 3.  Go back to the desktop flow and click **Recorder**.
 
 4.  The recorder pane should come to view.
 
-5.  DO NOT start recording. Once you’ve reviewed the steps below, start
+5.  **DO NOT** start recording. Once you’ve reviewed the steps below, start
     recording. When you start recording you will repeat the steps you went
     through during the practice as outlined below.
 
 i. Go to the **Request Inspection** page.
 
-ii. Enter your name for Inspection Account \#
+ii. Enter your name for **Inspection Account**
 
 iii. Enter **123 Main Street** for Property Address.
 
@@ -661,9 +656,9 @@ Note: Depending on your speed, the Job Status may already be **Completed**. In
 this case select corresponding option **Extract element value \| Text: ('In
 progress')**.
 
-xii. Go back to the recorder and click \*\*Done\*\*.
+xii. Go back to the recorder and click **Done**.
 
-1.  Click **Record** and perform the steps.
+1.  Select **Record**, **Next** and then **Record** and perform the steps.
 
 2.  After you finish recording, your recorder actions should look like the image
     below.
@@ -683,7 +678,7 @@ data to that flow.
     **Input**.
 
 2.  Enter **InspectionAccountNumber** for Variable name, select **Text** for
-    Data type, **Jane Doe** for Default value, **InspectionAccountNumber** for
+    Data type, **JaneDoe** for Default value, **InspectionAccountNumber** for
     External name, **Inspection account number** for Description, and click
     **Save**.
 
@@ -731,10 +726,9 @@ variables you just defined.
 
 1.  Clear the Text value and click on the **{x}** select variable button.
 
-![clear the value and select variable
-button](media/51d57b873da366800a8cd85a22de6847.png)
+![clear the value and select variable button](media/51d57b873da366800a8cd85a22de6847.png)
 
-1.  Select **InspectionAccountNumber** and click **Select**.
+1.  Double click **InspectionAccountNumber** to select it.
 
 2.  Click **Save**.
 
@@ -743,7 +737,7 @@ button](media/51d57b873da366800a8cd85a22de6847.png)
 
 4.  Clear the Text value and click on the **{x}** select variable button.
 
-5.  Select **PropertyAddress** and click **Select**.
+5.  Double click **PropertyAddress** to select it.
 
 6.  Click **Save**.
 
@@ -868,7 +862,7 @@ again.
 
 ![select variable as noted](media/be77ba0da8c098db07e9b7acee09ee47.png)
 
-1.  Select **InspectionStatus** and click **Select**.
+1.  Double click **InspectionStatus** to select it.
 
 2.  Select **Not equal to (\<\>)** for Operation, enter **Completed** for the
     Second operand, and click **Save**.
@@ -936,47 +930,47 @@ variable.
 
 2.  var table = document.getElementById("sitephotostable");
 
-3.  
+3.
 
 4.  var sitephotolist = { images:[] }
 
-5.  
+5.
 
 6.  for (var i = 0; i \< table.rows.length; i++) {
 
-7.  
+7.
 
 8.  row = table.rows[i];
 
-9.  
+9.
 
 10. namecol = row.cells[0];
 
-11. 
+11.
 
 12. imgcol = row.cells[1];
 
-13. 
+13.
 
 14. var imgtags = imgcol.getElementsByTagName('img');
 
-15. 
+15.
 
 16. var imgsource = imgtags[0]['src'];
 
-17. 
+17.
 
 18. console.log(imgsource)
 
-19. 
+19.
 
 20. sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
 
-21. 
+21.
 
 22. }
 
-23. 
+23.
 
 console.log(JSON.stringify(sitephotolist))
 
@@ -995,8 +989,7 @@ console.log(JSON.stringify(sitephotolist))
 ![drag item as described](media/8bb6ee853fb082e3f03495b822257ecf.png)
 
 1.  Select **%Browser%** for Web browser instance, paste the script below in the
-    JavaScript function field, expand the **Variables produced** section, click
-    on the **{x}** select variable button.
+    JavaScript function field, expand the **Variables produced** section, select **Result** and then select the **{x}** select variable button.
 
 function ExecuteScript()
 
@@ -1030,8 +1023,7 @@ return JSON.stringify(sitephotolist);
 
 }
 
-![review the results of the script you
-added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
+![review the results of the script you added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
 
 1.  Select **SitePhotos**.
 
