@@ -17,7 +17,7 @@ Funding process that is currently manually tracked by Relecloud staff.
 
 -   Import and review the starter solution
 
-## Exercise \# 1 – Discover Current Process
+## Exercise 1 – Discover Current Process
 
 In this exercise you are going to get to know the current manual process.
 
@@ -70,7 +70,7 @@ improve the process by automating some of the steps.
 
 3.  Relecloud staff creates one of these worksheet files for each loan and uses it to track the draws on the loan.
 
-## Exercise \# 2 – Evaluate Automation Options
+## Exercise 2 – Evaluate Automation Options
 
 When you automate a process, you want to use the most efficient and reliable
 means of automation possible. In this exercise you will re-review what you know
@@ -104,7 +104,7 @@ we learned that Woodgrove plans to modernize the app in the future_.
 Today Relecloud does each process step manually. You have been asked if you can
 improve the process by automating some of the process.
 
-## Exercise \# 3 – Design the automation
+## Exercise 3 – Design the automation
 
 In this exercise, you will review the design the team came up with. In the rest
 of this course, you will be building out this automation.
@@ -129,7 +129,7 @@ of this course, you will be building out this automation.
 
 -   The Woodgrove Funding Manager Windows app will be automated with a desktop flow.
 
-## Exercise \# 4 – Import starting solution
+## Exercise 4 – Import starting solution
 
 In this exercise, you will import a solution into your Dev environment, review
 the components in the solution, run a cloud flow that will add test data to your
