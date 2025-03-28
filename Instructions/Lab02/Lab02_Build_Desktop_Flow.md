@@ -1020,10 +1020,8 @@ return JSON.stringify(sitephotolist);
 
 }
 ```    
-
-
-    ![review the results of the script you
-    added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
+![review the results of the script you
+added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
 
 15.  Select **SitePhotos**.
 
@@ -1032,7 +1030,7 @@ return JSON.stringify(sitephotolist);
 17.  Expand the **Browser automation** group, drag **Close web browser** action,
     and drop it to the bottom of the recorded actions.
 
-    ![drag the item as described](media/ab371f1d6af8cee5cfedac5e556511e5.png)
+        ![drag the item as described](media/ab371f1d6af8cee5cfedac5e556511e5.png)
 
 18.  Select **%Browser%** for web browser instance and click **Save**.
 
