@@ -62,7 +62,7 @@ Dataverse](media/74fb1c354d46359f4c425bbceff61cd7.png)
 
     ![enter details listed](media/527d6b2e80ebda324d6fb289dedb960c.png)
 
-    [!alert] If you do not see the **Dynamic Content & Expression** pop-up, increase
+     If you do not see the **Dynamic Content & Expression** pop-up, increase
 your browser width or zoom out slightly to reveal it (Keyboard shortcut: Ctrl +
 \-).
 
