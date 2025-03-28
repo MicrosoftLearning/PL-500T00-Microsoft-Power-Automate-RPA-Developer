@@ -1,11 +1,17 @@
-**Setup the lab environment**
+---
+lab:
+    title: 'Lab 0 - Setup and environment preparation'
+    module: 'Module 0 - Setup'
+---
+
+# Setup the lab environment
 
 **⏱️ The estimated time to complete this lab is 30 minutes.**
 
 Attention to MCTs: Please make sure you are familiar with the TrainerPrepGuide
 for this course, especially the teaching tips and recommendations.
 
-**WWL Tenants - Terms of Use**
+## WWL Tenants - Terms of Use
 
 If you are being provided with a tenant as a part of an instructor-led training
 delivery, please note that the tenant is made available for the purpose of
@@ -17,7 +23,7 @@ subscription. Tenants obtained as a part of this course remain the property of
 Microsoft Corporation and we reserve the right to obtain access and repossess at
 any time.
 
-**Introduction**
+## Introduction
 
 Let's get started. In this first lab, you will ensure you have access to a Power
 Platform trial tenant and access the Power Platform admin center. In the admin
@@ -27,12 +33,12 @@ You will also see the Power Automate Desktop application and install .NET and
 Browser extension pre-requisities which are required for the remainder of the
 course.
 
-**Exercise 1 - Verify your Power Platform trial tenant**
+## Exercise 1 - Verify your Power Platform trial tenant
 
 In this exercise, you will verify access to the Power Apps Maker portal in a Dev
 environment.
 
-**Task 1 – Acquire your Power Platform trial tenant**
+### Task 1 – Acquire your Power Platform trial tenant
 
 1.  Verify that you have your **Microsoft 365 credentials** from the Authorized
     Lab Host available.
@@ -56,7 +62,7 @@ environment.
 referring to this **Dev One** environment. This is where you will do most of the
 development steps for this course.
 
-**Task 2 - Intialize OneDrive for Business**
+### Task 2 - Intialize OneDrive for Business
 
 1.  Select the **App launcher** menu from the top left and under **Apps**,
     select **OneDrive**. A new tab will load.
@@ -64,12 +70,12 @@ development steps for this course.
 2.  **Wait** while Microsoft initializes your OneDrive. Select **Your OneDrive
     is ready**. **Close** the tab.
 
-**Exercise 2 - Create a Test environment**
+## Exercise 2 - Create a Test environment
 
 In this exercise, you will create a Test environment for deploying your work to
 later on.
 
-**Task 1 – Create a Test environment**
+### Task 1 – Create a Test environment
 
 1.  In a new browser tab, navigate to https://aka.ms/ppac
 
@@ -83,7 +89,7 @@ later on.
 
 6.  Select **Next** and select **Save**.
 
-Note: It may take a couple of minutes for the new environment to be provisioned
+**Note**: It may take a couple of minutes for the new environment to be provisioned
 and become available in the list of the environments.
 
 7.  Refresh the **Environments** list.
@@ -94,12 +100,12 @@ and become available in the list of the environments.
 9.  Explore the different areas available in **Settings** but do not make any
     changes yet.
 
-**Exercise 3 - Power Automate Software**
+## Exercise 3 - Power Automate Software
 
 In this excercise, you will be configuring Power Automate Desktop and
 accompanying applications.
 
-**Task 1 - Configure Power Automate Desktop**
+### Task 1 - Configure Power Automate Desktop
 
 Power Automate Desktop is installed by default on Windows 11, but you will need
 to sign in and configure the environment.
@@ -110,12 +116,12 @@ to sign in and configure the environment.
 2.  When Power Automate Desktop opens, sign in using your Office 365 Tenant
     credentials. Select **Next** and **Get started**.
 
-Optional: Select **Start tour** and go through the welcome prompts to get a feel
+**Optional**: Select **Start tour** and go through the welcome prompts to get a feel
 for the application.
 
 3.  From the **Environments** list, select the **Dev One** environment.
 
-**Task 2 - Configure the Power Automate Machine-Runtime App**
+### Task 2 - Configure the Power Automate Machine-Runtime App
 
 To run attended and unattended flows across cloud and desktop environments, the
 **machine-runtime app** needs to be configured.
@@ -135,7 +141,7 @@ then dismiss the notification.
 3.  Once it has connected, you can close the **Power Automate machine runtime**
     window.
 
-**Exercise 4 - Copy Lab Resources**
+## Exercise 4 - Copy Lab Resources
 
 1.  Ensure that the lab resources are downloaded from GitHub.
 
