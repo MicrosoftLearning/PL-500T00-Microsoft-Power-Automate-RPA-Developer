@@ -79,9 +79,9 @@ your browser width or zoom out slightly to reveal it (Keyboard shortcut: Ctrl +
 
 1.  Paste the expression below and click **OK**. This checks if any rows were
     returned.
-
+    '''
     empty(outputs('List_rows')?['body/value'])
-
+    '''
     ![paste the expression listed](media/6e38a01ee8548edede0979ce18abb9ec.png)
 
 1.  Select **is equal to** for condition.
@@ -167,9 +167,9 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 1.  Paste the expression below and click *OK*. This gets the ID from the first
     row.
-
-    outputs('List_rows')?['body/value'][0]['rc_loanid']
-
+    '''
+    first(outputs('List_rows')?['body/value'])?['rc_loanid']
+    '''
     ![paste the expression as directed](media/0a2db53893bda42099db6138cad1b0cf.png)
 
 1.  Click on the … more actions button and select **Rename**.
@@ -627,10 +627,10 @@ pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
     select the **Expression** tab.
 
 1.  Paste the expression below and click **OK**.
-
+    '''
     replace(outputs('Run_a_flow_built_with_Power_Automate_for_desktop')?['body/FundedAmount'],
-'\$','')
-
+'$','')
+    '''
     ![paste the expression](media/4d6f9860edd9ef4e754562116d70395d.png)
 
 1.  Click on the **Funded On** field, go to the dynamic content pane, and select
