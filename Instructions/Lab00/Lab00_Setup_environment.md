@@ -77,7 +77,7 @@ later on.
 
 3.  Select **+ New**.
 
-4.  In the **New environment** pane, enter **Dev one** for **Name**.
+4.  In the **New environment** pane, enter **Dev** for **Name**.
 
 5.  Change the **Type** drop-down to **Developer**.
 
@@ -88,7 +88,7 @@ and become available in the list of the environments.
 
 7.  Refresh the **Environments** list.
 
-8.  When your environment shows as 'Ready', select the **Dev one** environment by
+8.  When your environment shows as 'Ready', select the **Dev** environment by
     selecting the ellipsis (...) menu and selecting **Settings**.
 
 9.  Explore the different areas available in **Settings** but do not make any
