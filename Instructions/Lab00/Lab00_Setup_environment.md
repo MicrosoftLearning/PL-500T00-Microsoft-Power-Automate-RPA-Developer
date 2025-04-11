@@ -55,12 +55,6 @@ environment.
 
 7.  If prompted, enter 0123456789 for **Phone number** and select **Submit**.
 
-8.  **Refresh** the tab and verify the **Dev One** environment is selected under
-    **Environment** in the top right.
-
-**Note:** For the rest of this course when it says Dev environment, it will be
-referring to this **Dev One** environment. This is where you will do most of the
-development steps for this course.
 
 ### Task 2 - Intialize OneDrive for Business
 
@@ -70,9 +64,9 @@ development steps for this course.
 2.  **Wait** while Microsoft initializes your OneDrive. Select **Your OneDrive
     is ready**. **Close** the tab.
 
-## Exercise 2 - Create a Test environment
+## Exercise 2 - Create a Dev environment
 
-In this exercise, you will create a Test environment for deploying your work to
+In this exercise, you will create a Dev environment for deploying your work to
 later on.
 
 ### Task 1 – Create a Test environment
@@ -83,7 +77,7 @@ later on.
 
 3.  Select **+ New**.
 
-4.  In the **New environment** pane, enter Test Two for **Name**.
+4.  In the **New environment** pane, enter **Dev one** for **Name**.
 
 5.  Change the **Type** drop-down to **Developer**.
 
@@ -94,7 +88,7 @@ and become available in the list of the environments.
 
 7.  Refresh the **Environments** list.
 
-8.  When your environment shows as 'Ready', select the **Test** environment by
+8.  When your environment shows as 'Ready', select the **Dev one** environment by
     selecting the ellipsis (...) menu and selecting **Settings**.
 
 9.  Explore the different areas available in **Settings** but do not make any
