@@ -16,9 +16,9 @@ In this lab, you will build cloud flows which integrate with the desktop flows.
 
 -   Use desktop flows from cloud flow
 
-## Exercise \#1: Lookup Loan Child flow
+## Exercise 1: Lookup Loan Child flow
 
-### Task \#1: Create child flow
+### Task 1: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -55,7 +55,7 @@ Dataverse](media/74fb1c354d46359f4c425bbceff61cd7.png)
 
 1.  Select **Loans** for Table name and click **Show advanced options**.
 
-    ![Show advanced options](media/c491f2c1969bf5f491df72a4b0ef5d2b.png)
+    ![Show advanced options](media/Loan_showadvancedoption.png)
 
 1.  Enter **rc_loannumber eq** for Filter rows and select **LoanNumber** from
     the dynamic content pane.
@@ -200,9 +200,9 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 1.  You may close the flow
 
-## Exercise \#2: Inspection Child flow
+## Exercise 2: Inspection Child flow
 
-### Task \#1: Setup Machine connection
+### Task 1: Setup Machine connection
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -214,7 +214,7 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
     ![in the solution select new connection
 reference](media/71674a96b84d726cb7477be4399b6d28.png)
 
-1.  Enter Desktop Flows for Display name, select Desktop flows for Connector,
+1.  Enter **Desktop Flows** for Display name, select **Desktop flows** for Connector,
     click on the Connection dropdown and select **+ New connection**.
 
     ![select new connection](media/7a65d3b69202924ab6b77996677f907b.png)
@@ -241,7 +241,7 @@ flow](media/da15e5177fe8a3534c36e4d0572fc1de.png)
 
     ![select create](media/3e59930f39709f70a8c99c55da3ddc48.png)
 
-### Task \#2: Create child flow
+### Task 2: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -520,9 +520,9 @@ described](media/75161237e002948e264661953147ee6a.png)
     ![Review the photos created by the
 flow](media/1ca014f80497723503c72b5f0ab029c3.png)
 
-## Exercise \#3: Funding Child flow
+## Exercise 3: Funding Child flow
 
-### Task \#1: Create child flow
+### Task 1: Create child flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -704,14 +704,14 @@ action](media/2a49f75f5dae33f58690f239f5f35556.png)
     for InspectionJobID, enter **50** for RiskScrore, and click **Run flow**.
 
     ![run the flow with the provided
-details](media/dc027ac00907533066cc4fbb2af45e22.png)
+details](media/runaflow_cf_manage_woodgrove.png)
 
 1.  **Wait** for the flow run to complete, the flow run should succeed. Click
     **Done** to review the flow run history.
 
-## Exercise \#4: Build Overall Process Flow
+## Exercise 4: Build Overall Process Flow
 
-### Task \#1: Create a shared mailbox
+### Task 1: Create a shared mailbox
 
 1.  Navigate to <https://admin.microsoft.com/> and click **Show all**.
 
@@ -748,7 +748,7 @@ all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
 
 1.  Close the shared mailbox pane.
 
-## Task \#2: Create flow
+## Task 2: Create flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -997,7 +997,7 @@ step](media/607f9fb11ca05f2673f213a231ebf410.png)
 
     ![save the flow](media/d7f69a2991886dc3abea49f7244ea49d.png)
 
-### Task \#3: Test flow
+### Task 3: Test flow
 
 1.  Click **Test**.
 

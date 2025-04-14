@@ -18,11 +18,11 @@ In this lab, you will learn how to monitor and debug desktop flows.
 
 -   Add retry to desktop flow
 
-## Exercise \#1: Monitor flows
+## Exercise 1: Monitor flows
 
 In this exercise, you will monitor desktop flows.
 
-### Task \#1: Monitor desktop flows
+### Task 1: Monitor desktop flows
 
 1.  Navigate to <https://make.powerautomate.com/> and make sure you are in your
     dev environment.
@@ -49,7 +49,7 @@ In this exercise, you will monitor desktop flows.
 1.  You should see the parent cloud flow run (CF Manage Woodgrove Funding
     Process).
 
-    ![review the screen](media/4daad9c869696ba08592a4d5c29c76dd.png)
+    ![review the screen](media/parent_cloud_flow_run.png)
 
 1.  Click on the browser back button.
 
@@ -77,7 +77,7 @@ In this exercise, you will monitor desktop flows.
 
 1.  You may wish to review the other actions.
 
-### Task \#2: Flow monitor
+### Task 2: Flow monitor
 
 1.  Launch **Power Automate for desktop**, make sure your dev environment is
     selected.
@@ -111,9 +111,9 @@ In this exercise, you will monitor desktop flows.
 
 1.  Click **Stop**. The flow should stop, and the monitor should disappear.
 
-## Exercise \#2: Debug flows
+## Exercise 2: Debug flows
 
-### Task \#1: Debug flow
+### Task 1: Debug flow
 
 1.  Go to Power Automate desktop flow and run the **Perform Site Inspection**
     flow again.
@@ -153,7 +153,7 @@ In this exercise, you will monitor desktop flows.
 
     ![select and complete as described](media/ee239859a57deac83217c70c2502a2ab.png)
 
-### Task \#2: Add retry
+### Task 2: Add retry
 
 1.  Click **Subflows** and select + New subflow.
 
@@ -210,7 +210,7 @@ In this exercise, you will monitor desktop flows.
 
 1.  Click **Save** and wait for the flow to be saved.
 
-### Task \#3: Test
+### Task 3: Test
 
 1.  Remove the breakpoint and Click **Run**.
 

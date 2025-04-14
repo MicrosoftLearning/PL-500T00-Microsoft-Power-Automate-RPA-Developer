@@ -16,9 +16,9 @@ In this lab, you will build a custom connector for A Datum’s Risk Score API.
 
 -   Modify the cloud flow to use the connector
 
-## Exercise \#1: Create a custom connector
+## Exercise 1: Create a custom connector
 
-### Task \#1: Create a new solution
+### Task 1: Create a new solution
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -30,10 +30,9 @@ In this lab, you will build a custom connector for A Datum’s Risk Score API.
 3.  Enter **Builder Risk Service** for Display name, select **Relecloud** for
     Publisher, and click **Create**.
 
-    ![create your new solution as
-described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
+    ![create your new solution as described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 
-### Task \#2: Create custom connector
+### Task 2: Create custom connector
 
 1.  Click **+ New** and select **Automation \| Custom connector**.
 
@@ -49,7 +48,7 @@ described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 
     ![create the connector](media/a62b7f8add7df202bf0ec9fb50fe84f3.png)
 
-### Task \#3: Import Open API
+### Task 3: Import Open API
 
 1.  Navigate to <https://adatumbuilderrisktest.azurewebsites.net/>
 
@@ -90,8 +89,7 @@ described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 1.  Click on the **…** more actions button of the **Builder Risk Service**
     custom connector and select **Update from OpenAPI file**.
 
-    ![locate and update the OpenAPI
-file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
+    ![locate and update the OpenAPI file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Click **Import**.
 
@@ -126,7 +124,7 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Do not navigate away from this page.
 
-### Task \#4: Test connector
+### Task 4: Test connector
 
 1.  Select **Test** from the breadcrumb navigation bar at the top of the screen
     and click **+ New connection**.
@@ -152,9 +150,9 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Click **Close** to return to the list of Custom connectors.
 
-## Exercise \#2: Modify cloud flow to use connector
+## Exercise 2: Modify cloud flow to use connector
 
-### Task \#1: Use custom connector in flow
+### Task 1: Use custom connector in flow
 
 1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
     environment.
@@ -262,7 +260,7 @@ provided](media/57477ad2de26ea5c48a791af16abbb63.png)
 
 1.  Click **Save** and wait for the flow to be saved.
 
-### Task \#2: Test the flow
+### Task 2: Test the flow
 
 1.  Click **Test**.
 
