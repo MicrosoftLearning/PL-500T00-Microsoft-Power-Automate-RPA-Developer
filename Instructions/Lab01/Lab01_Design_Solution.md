@@ -64,7 +64,7 @@ improve the process by automating some of the steps.
 
 ### Task 3: Review the loan tracking Excel file
 
-1.  Go to the lab resources folder and open the **LoanTracking-MC3747.xlsx** file.
+1.  Go to the lab resources folder and open the **LoanTracking-MC3747.pdf** file.
 
 2.  Review the loan tracking file.
 
@@ -221,7 +221,7 @@ environment, and run the loan manager app included in the solution.
 
 ### Task 4: Run loan manager app
 
-1.  Navigate to https://make.powerapps.com and make sure you are in the **Dev**
+1.  Navigate to `https://make.powerapps.com` and make sure you are in the **Dev**
     environment.
 
 2.  Select **Apps** and launch the **Loan Manager** application by clicking on the **Play** button when you hover over the app name:

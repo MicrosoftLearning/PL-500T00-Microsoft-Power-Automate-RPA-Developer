@@ -39,14 +39,14 @@ funding request form.
 
     ![review the document](media/350b676210cd8c18a068ed9daad5ae2c.png)
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Click **... More** and select **Discover all**.
 
     ![Select discover all](media/c510f3d64df649bdd98db8c4dc576d5b.png)
 
-1.  Under AI select **Ai models**.
+1.  Under AI select **AI models**.
 
     ![Select AI models](media/7c02d33f0ea540be17d9a8dbeb250f97.png)
 
@@ -72,25 +72,25 @@ funding request form.
 
     ![select as described](media/ea41ee12ac015323e85b2bee5db22fd0.png)
 
-1.  Enter **Owner Name** and click **Done**.
+1.  Enter `Owner Name` and click **Done**.
 
     ![enter details as described](media/ede072b9cbacfba26ce7400ba08ff2c2.png)
 
 1.  Select the **+ Add** button and select **Text field** again.
 
-1.  Enter **Property Address** and click **Done**.
+1.  Enter `Property Address` and click **Done**.
 
 1.  Select the **+ Add** button and select **Text field**.
 
-1.  Enter **Builder Name** and click **Done**.
+1.  Enter `Builder Name` and click **Done**.
 
 1.  Select the **+ Add** button and select **Text field**.
 
-1.  Enter **Draw Amount** and click **Done**.
+1.  Enter `Draw Amount` and click **Done**.
 
 1.  Select the **+ Add** button and select **Text field** one more time.
 
-1.  Enter **Loan Number** and click **Done**.
+1.  Enter `Loan Number` and click **Done**.
 
 1.  You should now have five text fields added.
 
@@ -101,13 +101,13 @@ funding request form.
 
     ![select as described](media/e7a2cfdb84ad0bd80b24c1969c06c1c5.png)
 
-1.  Enter **Budget Items** for Table name.
+1.  Enter `Budget Items` for Table name.
 
 1.  Click on **Column 1** and select **Edit column**.
 
     ![select as described](media/50e594f0d5d4eb73184cb4308f4587be.png)
 
-1.  Enter **Budget Category** and click **Comfirm**.
+1.  Enter `Budget Category` and click **Comfirm**.
 
     ![enter details as described](media/9e256794d83516b994cf807705a4ed42.png)
 
@@ -115,7 +115,7 @@ funding request form.
 
     ![select as described](media/ea0cfa38dbdc8a0dd2a49b72babfda68.png)
 
-1.  Enter **Amount** for Name and click **Add**.
+1.  Enter `Amount` for Name and click **Add**.
 
 1.  Your table should now have 2 columns. Click **Done**.
 
@@ -131,7 +131,7 @@ funding request form.
 
     ![select as described](media/4c8adb8fe3a7a08c80a75c2c9b4b4c9d.png)
 
-1.  Enter **Sample documents** for collection name and click **+** add.
+1.  Enter `Sample documents` for collection name and click **+** add.
 
     ![select as described](media/74736ea2860367f68dd7589328661bad.png)
 
@@ -277,14 +277,14 @@ funding request form.
 
 ### Task 1: Use AI Builder
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
 
 1.  Click **Add Existing | AI Model**.
 
-1.  Select your Document Processing model and click **Add**.
+1.  Select your **Document Processing** model and click **Add**.
 
 1.  Select **Cloud flows**, select **Process Construction Funding Request** flow
     and click **Edit**.
@@ -324,9 +324,9 @@ funding request form.
 
 1.  Click on the **To** field and select **From** in the dynamic content pane.
 
-1.  Enter **No attachment found** for **Subject**.
+1.  Enter `No attachment found` for **Subject**.
 
-1.  Enter **Email has no attachment** in the **Body**.
+1.  Enter `Email has no attachment` in the **Body**.
 
 1.  Rename the step **Send no attachment email**.
 
@@ -387,7 +387,7 @@ funding request form.
 
     ![select as described](media/0143d256e811b652adeff8ac0c1b1ed5.png)
 
-1.  Enter **Work items** for Name and select **String** for Type.
+1.  Enter `Work items` for Name and select **String** for Type.
 
 1.  Rename the step **var work items** and click **+** and select **Add an
     action**.

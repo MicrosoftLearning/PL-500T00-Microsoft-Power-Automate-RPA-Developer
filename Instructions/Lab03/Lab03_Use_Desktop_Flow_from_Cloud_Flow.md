@@ -20,7 +20,7 @@ In this lab, you will build cloud flows which integrate with the desktop flows.
 
 ### Task 1: Create child flow
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
@@ -29,11 +29,10 @@ In this lab, you will build cloud flows which integrate with the desktop flows.
 
     ![Select new instant flow](media/31a6dc86c4a9153b5c7a346a755a5117.png)
 
-1.  Enter **CF Lookup Loan** for Flow name, select **Manually trigger a flow**,
+1.  Enter `CF Lookup Loan` for Flow name, select **Manually trigger a flow**,
     and click **Create**.
 
-    ![Name the flow and select manual
-trigger](media/4a5adb7e114267266a0e4eae524091d1.png)
+    ![Name the flow and select manual trigger](media/4a5adb7e114267266a0e4eae524091d1.png)
 
 1.  Expand the trigger by clicking on **Manually trigger a flow**.
 
@@ -43,21 +42,19 @@ trigger](media/4a5adb7e114267266a0e4eae524091d1.png)
 
 1.  Select **Text**.
 
-1.  Enter **LoanNumber** and click **+ New step**.
+1.  Enter `LoanNumber` and click **+ New step**.
 
-    ![add LoanNumber and select new
-step](media/eb3f11c6bdfabfca5b4bad9d21b66f5c.png)
+    ![add LoanNumber and select new step](media/eb3f11c6bdfabfca5b4bad9d21b66f5c.png)
 
 1.  Search for list rows and select **List rows Microsoft Dataverse**.
 
-    ![search for and select List rows for Microsoft
-Dataverse](media/74fb1c354d46359f4c425bbceff61cd7.png)
+    ![search for and select List rows for Microsoft Dataverse](media/74fb1c354d46359f4c425bbceff61cd7.png)
 
 1.  Select **Loans** for Table name and click **Show advanced options**.
 
     ![Show advanced options](media/Loan_showadvancedoption.png)
 
-1.  Enter **rc_loannumber eq** for Filter rows and select **LoanNumber** from
+1.  Enter `rc_loannumber eq` for Filter rows and select **LoanNumber** from
     the dynamic content pane.
 
     ![enter details listed](media/527d6b2e80ebda324d6fb289dedb960c.png)
@@ -99,8 +96,7 @@ your browser width or zoom out slightly to reveal it (Keyboard shortcut: Ctrl +
 
 1.  Select **Respond to a PowerApp or flow**.
 
-    ![search for and select the Respond to a PowerApp or flow
-action](media/e7594839c52a95d2191d466a68f9a00a.png)
+    ![search for and select the Respond to a PowerApp or flow action](media/e7594839c52a95d2191d466a68f9a00a.png)
 
 1.  Click **+ Add an output**.
 
@@ -108,31 +104,29 @@ action](media/e7594839c52a95d2191d466a68f9a00a.png)
 
 1.  Select **Yes/No**.
 
-1.  Enter **LoanFound** for title and click to select the value field.
+1.  Enter `LoanFound` for title and click to select the value field.
 
 1.  Go to the Dynamic content pane and select the **Expression tab**.
 
 1.  Type **false** and click **OK**.
 
-    ![type false for the function and select
-ok](media/76e07ff3a7c8d3aba23f7f9a0b39d120.png)
+    ![type false for the function and select ok](media/76e07ff3a7c8d3aba23f7f9a0b39d120.png)
 
 1.  Click **+ Add an output** again.
 
 1.  Select **Text**.
 
-1.  Enter **LoanID** for title.
+1.  Enter `LoanID` for title.
 
 1.  Click on the value field, add an empty space.
 
-    ![place your curser in the empty space as
-described](media/c65b9c37b51edcca41addefa2b9a169b.png)
+    ![place your curser in the empty space as described](media/c65b9c37b51edcca41addefa2b9a169b.png)
 
 1.  Click on the **…** more actions button and select **Rename**.
 
     ![in more actions, select rename](media/1dbbae3e15fbe49aecbd5f3ca356a23b.png)
 
-1.  Rename the step **Not found response**.
+1.  Rename the step `Not found response`.
 
 1.  Go to the **If no** branch and click **Add an action**.
 
@@ -140,27 +134,25 @@ described](media/c65b9c37b51edcca41addefa2b9a169b.png)
 
 1.  Select **Respond to a PowerApp or flow**.
 
-    ![search for and select respond to a PowerApp of flow
-action](media/e7594839c52a95d2191d466a68f9a00a.png)
+    ![search for and select respond to a PowerApp of flow action](media/e7594839c52a95d2191d466a68f9a00a.png)
 
 1.  Click **+ Add an output**.
 
 1.  Select **Yes/No**.
 
-1.  Enter **LoanFound** for title and click to select the value field.
+1.  Enter `LoanFound` for title and click to select the value field.
 
 1.  Go to the dynamic content pane and select the **Expression tab**.
 
 1.  Type **true** and click **OK**.
 
-    ![enter the value true for the
-function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
+    ![enter the value true for the function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 1.  Click **+ Add an output** again.
 
 1.  Select **Text**.
 
-1.  Enter **LoanID** for title.
+1.  Enter `LoanID` for title.
 
 1.  Click to select the value field, go to the dynamic content pane, and select
     the **Expression** tab.
@@ -174,7 +166,7 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 1.  Click on the … more actions button and select **Rename**.
 
-1.  Rename the step **Found response**.
+1.  Rename the step `Found response`.
 
 1.  Click **Save** to save the flow.
 
@@ -186,7 +178,7 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 1.  Select **Manually** and click **Test**.
 
-1.  Enter **MC3747** for LoanNumber and click **Run flow**.
+1.  Enter `MC3747` for LoanNumber and click **Run flow**.
 
     ![give the load number MC3747](media/8c00408424f03051f3076257b848e219.png)
 
@@ -204,17 +196,16 @@ function](media/8194136ead3b19b2dbcef80ab6e0caea.png)
 
 ### Task 1: Setup Machine connection
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
 
 1.  Click **+ New** and select **More \| Connection Reference**.
 
-    ![in the solution select new connection
-reference](media/71674a96b84d726cb7477be4399b6d28.png)
+    ![in the solution select new connection reference](media/71674a96b84d726cb7477be4399b6d28.png)
 
-1.  Enter **Desktop Flows** for Display name, select **Desktop flows** for Connector,
+1.  Enter `Desktop Flows` for Display name, select **Desktop flows** for Connector,
     click on the Connection dropdown and select **+ New connection**.
 
     ![select new connection](media/7a65d3b69202924ab6b77996677f907b.png)
@@ -223,8 +214,7 @@ reference](media/71674a96b84d726cb7477be4399b6d28.png)
     desktop. If you don’t see your desktop here, go to desktop flow machine
     settings and make sure you have the Dev environment selected.
 
-    ![set the connections for the desktop
-flow](media/da15e5177fe8a3534c36e4d0572fc1de.png)
+    ![set the connections for the desktop flow](media/da15e5177fe8a3534c36e4d0572fc1de.png)
 
 1.  Provide your username, password, and click **Create**. If your username
     doesn’t work try admin as the username.
@@ -243,42 +233,40 @@ flow](media/da15e5177fe8a3534c36e4d0572fc1de.png)
 
 ### Task 2: Create child flow
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
 
 1.  Click **+ New** and select **Automation \| Cloud flow \| Instant**.
 
-    ![add a new instant flow automation to the
-solution](media/0cb928da96f8fd274bc056e952146085.png)
+    ![add a new instant flow automation to the solution](media/0cb928da96f8fd274bc056e952146085.png)
 
-1.  Enter **CF Manage Inspection Process** for Flow name, select **Manually
+1.  Enter `CF Manage Inspection Process` for Flow name, select **Manually
     trigger a flow**, and click **Create**.
 
 1.  Expand the trigger and click **+ Add an input**.
 
 1.  Select **Text**.
 
-1.  Enter **PropertyAddress** and click **+ Add an input** again.
+1.  Enter `PropertyAddress` and click **+ Add an input** again.
 
     ![enter details as listed](media/6e20fb341d44a0687ab9adcb97aca4a5.png)
 
 1.  Select **Text**.
 
-1.  Enter **LoanDrawID** and click **+ Add an input** one more time.
+1.  Enter `LoanDrawID` and click **+ Add an input** one more time.
 
 1.  Select **Text**.
 
-1.  Enter **Work**. You should now have three input parameters. Click + New
+1.  Enter `Work`. You should now have three input parameters. Click + New
     step.
 
     ![enter details as listed](media/4ced57e4f25dc925a24d32c3d115062b.png)
 
 1.  Select **Run a flow built with Power Automate for desktop**.
 
-    ![search for and select Run a flow built with Power Automate for
-desktop](media/193cffad3ac95dc5989b473cea694a8b.png)
+    ![search for and select Run a flow built with Power Automate for desktop](media/193cffad3ac95dc5989b473cea694a8b.png)
 
 1.  Select **Perform Site Inspection** for Desktop flow and select **Attended**
     for Run Mode.
@@ -286,8 +274,7 @@ desktop](media/193cffad3ac95dc5989b473cea694a8b.png)
 1.  Click on the **WorkToInspect** field and select **Work** from the dynamic
     content pane.
 
-    ![select work from the dynamic content
-pane](media/c05b976be9b1525c64cb2a5e35a468d5.png)
+    ![select work from the dynamic content pane](media/c05b976be9b1525c64cb2a5e35a468d5.png)
 
 1.  Click on the **PropertyAddress** and select **PropertyAddress** from the
     dynamic content pane.
@@ -306,8 +293,7 @@ pane](media/c05b976be9b1525c64cb2a5e35a468d5.png)
 1.  Click on the **Content** field and select **SitePhotos** from dynamic
     content pane.
 
-    ![select SitePhotos from dynamic content
-pane](media/07ffd505279418b1be6f6d5d4f87b12d.png)
+    ![select SitePhotos from dynamic content pane](media/07ffd505279418b1be6f6d5d4f87b12d.png)
 
 1.  Paste the JSON schema below in the **Schema** field and click **+ New
     step**. Typically, you would generate this from a sample of the data
@@ -344,8 +330,7 @@ pane](media/07ffd505279418b1be6f6d5d4f87b12d.png)
 
 1.  Select the **HTTP** action.
 
-    ![A screenshot of a computer Description automatically
-generated](media/d70573a85eba227f52d75485a5365592.png)
+    ![A screenshot of a computer Description automatically generated](media/d70573a85eba227f52d75485a5365592.png)
 
 1.  Select **GET** for Method, click on the **URI** field, and select **url**
     from the dynamic content pane.
@@ -357,27 +342,24 @@ generated](media/d70573a85eba227f52d75485a5365592.png)
 
 1.  Click **Add an action**.
 
-    ![select add an action from the apply to each image
-step](media/0d6e2127a79af494545e1e42908012d0.png)
+    ![select add an action from the apply to each image step](media/0d6e2127a79af494545e1e42908012d0.png)
 
 1.  Select the **Add a new row** action from the **Microsoft Dataverse**
     connector.
 
-    ![search for and select Add a new row
-action](media/65995cfb9c9dd8cb3b42509f18ad06b7.png)
+    ![search for and select Add a new row action](media/65995cfb9c9dd8cb3b42509f18ad06b7.png)
 
 1.  Select **Inspection Photos** for Table name, click on the **Name** field,
     and select **name** from the dynamic content pane.
 
-    ![choose Inspection Photo and enter the
-details](media/416894dc73d22d4f0a83a656a3ea7fe7.png)
+    ![choose Inspection Photo and enter the details](media/416894dc73d22d4f0a83a656a3ea7fe7.png)
 
-1.  Rename the "Add a new row" step to **Add inspection photo** and click **Show
+1.  Rename the Add a new row step to **Add inspection photo** and click **Show
     advanced options**.
 
     ![rename the step](media/465946d44f7b4800b294065ea4a7d048.png)
 
-1.  Enter **rc_loandraws()** for Loan Draw, place your cursor inside the
+1.  Enter `rc_loandraws()` for Loan Draw, place your cursor inside the
     parentheses, and select **LoanDrawID** from the dynamic content pane.
 
     ![enter details shown](media/94d07caa42a94430882151eb9906f69e.png)
@@ -387,7 +369,7 @@ details](media/416894dc73d22d4f0a83a656a3ea7fe7.png)
 
 1.  Paste the expression below and click **OK**.
 
-    base64(body('HTTP'))
+    `base64(body('HTTP'))`
 
     ![enter details shown](media/eb65ad30d8c787e2986f85fbce694c25.png)
 
@@ -398,8 +380,7 @@ details](media/416894dc73d22d4f0a83a656a3ea7fe7.png)
 1.  Select the **Update a row** action from the **Microsoft Dataverse**
     connector.
 
-    ![search for an select Update a row Microsoft
-Dataverse](media/2b97189790a555470e1045ca726e029e.png)
+    ![search for an select Update a row Microsoft Dataverse](media/2b97189790a555470e1045ca726e029e.png)
 
 1.  Select **Loan Draws** for Table name, click on the **Row ID** field and
     select **LoanDrawID** from the dynamic content pane.
@@ -421,22 +402,20 @@ Dataverse](media/2b97189790a555470e1045ca726e029e.png)
 1.  Select **Inspection Completed** for Status Reason and click **Hide advanced
     options**.
 
-    ![input status reason and hide advanced
-options](media/8380a989e711f5ae72787c33e19b4be8.png)
+    ![input status reason and hide advanced options](media/8380a989e711f5ae72787c33e19b4be8.png)
 
 1.  Rename the step **Update loan draw** and click **+ New step**.
 
 1.  Select the **Respond to PowerApp or flow** action from the **PowerApps**
     connector.
 
-    ![search for and select Respond to PowerApp or
-flow](media/b4bf7a3d4d0438cda6621781a04a0024.png)
+    ![search for and select Respond to PowerApp or flow](media/b4bf7a3d4d0438cda6621781a04a0024.png)
 
 1.  Click **+ Add an output**.
 
 1.  Select **Text**.
 
-1.  Enter **InspectionStatus**, click on the value field and select
+1.  Enter `InspectionStatus`, click on the value field and select
     **InspectionStatus** from the dynamic content pane.
 
     ![enter details as described](media/59177ca95f2f487ac4c418ea8328f02b.png)
@@ -445,7 +424,7 @@ flow](media/b4bf7a3d4d0438cda6621781a04a0024.png)
 
 1.  Select **Text**.
 
-1.  Enter **JobNumber**, click on the value field and select **JobNumber** from
+1.  Enter `JobNumber`, click on the value field and select **JobNumber** from
     the dynamic content pane.
 
     ![enter details as described](media/e51276a6978f59b36e463384518f2320.png)
@@ -481,22 +460,21 @@ flow](media/b4bf7a3d4d0438cda6621781a04a0024.png)
 
 1.  Click **Related** and select **Loan Draws**.
 
-    ![drill into record details as
-described](media/75161237e002948e264661953147ee6a.png)
+    ![drill into record details as described](media/75161237e002948e264661953147ee6a.png)
 
 1.  Click **+ New Loan Draw**.
 
     ![add a new loan draw](media/b6b770c3e589323334d9cd4e915ed1ad.png)
 
-1.  Enter **Test Draw** for Name and click **Save**.
+1.  Enter `Test Draw` for Name and click **Save**.
 
 1.  Go to the URL and copy the **id** GUID. Paste this id into Notepad, you will
     need it in future steps.
 
     ![get the url id as described](media/6a800d728a8597239b81341ffe9280db.png)
 
-1.  Go back to the Cloud Flow and enter **123 Main Street** for PropertyAddress,
-    paste the id you copied in the LoanDrawID field, type **Test work item** for
+1.  Go back to the Cloud Flow and enter `123 Main Street` for PropertyAddress,
+    paste the id you copied in the LoanDrawID field, type `Test work item` for
     Work, and click **Run flow**.
 
     ![follow the steps to run the flow](media/34461abf8954b9e607a962cb99d4fb7c.png)
@@ -517,21 +495,20 @@ described](media/75161237e002948e264661953147ee6a.png)
 
 1.  You should see the inspection photos created by the flow.
 
-    ![Review the photos created by the
-flow](media/1ca014f80497723503c72b5f0ab029c3.png)
+    ![Review the photos created by the flow](media/1ca014f80497723503c72b5f0ab029c3.png)
 
 ## Exercise 3: Funding Child flow
 
 ### Task 1: Create child flow
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
 
 1.  Click **+ New** and select **Automation \| Cloud flow \| Instant**.
 
-1.  Enter **CF Manage Woodgrove Funding Process** for Flow name, select
+1.  Enter `CF Manage Woodgrove Funding Process` for Flow name, select
     **Manually trigger a flow**, and click **Create**.
 
     ![name your new flow](media/f2aeb022cdb810c1f27410796e609160.png)
@@ -542,33 +519,31 @@ flow](media/1ca014f80497723503c72b5f0ab029c3.png)
 
 1.  Select **Text**.
 
-1.  Enter **LoanNumber** and click **+ Add an input** again.
+1.  Enter `LoanNumber` and click **+ Add an input** again.
 
 1.  Select **Text**.
 
-1.  Enter **LoanDrawID** and click **+ Add an input** again.
+1.  Enter `LoanDrawID` and click **+ Add an input** again.
 
 1.  Select **Text**.
 
-1.  Enter **RequestedAmount** and click **+ Add an input** again.
+1.  Enter `RequestedAmount` and click **+ Add an input** again.
 
 1.  Select **Text**.
 
-1.  Enter **InspectionJobID** and click **+ Add an input** again.
+1.  Enter `InspectionJobID` and click **+ Add an input** again.
 
 1.  Select **Number**.
 
-1. Enter **RiskScore**.
+1. Enter `RiskScore`.
 
 1. You should now have five inputs. Click **+ New step**.
 
-    ![review the steps and select new
-step](media/1b915f0e63e2f032ec554ba3ff241eda.png)
+    ![review the steps and select new step](media/1b915f0e63e2f032ec554ba3ff241eda.png)
 
 1.  Select the **Run a flow built with Power Automate for desktop** action.
 
-    ![Search for and select the Run a flow built with Power Automate for desktop
-action](media/883f4f95c9b5b2e4c6bf560bc4edb4b5.png)
+    ![Search for and select the Run a flow built with Power Automate for desktop action](media/883f4f95c9b5b2e4c6bf560bc4edb4b5.png)
 
 1.  Select **Woodgrove Funding Manager Draw** for Desktop flow and select
     **Attended** for Run Mode.
@@ -576,8 +551,7 @@ action](media/883f4f95c9b5b2e4c6bf560bc4edb4b5.png)
 1.  Click on the **LoanNumber** field and select **LoanNumber** from the dynamic
     content pane.
 
-    ![follow the steps for using the dynamic content
-pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
+    ![follow the steps for using the dynamic content pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
 
 1.  Click on the **RequestedAmount** field and select **RequestedAmount** from
     the dynamic content pane.
@@ -590,7 +564,7 @@ pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
 1.  Click on the **RiskScore** field and select **RiskScore** from the dynamic
     content pane.
 
-1.  Enter your name for Username, **pass@word1** for Password.
+1.  Enter your name for Username, `pass@word1` for Password.
 
 1.  The run desktop flow should now look like the image below. Click **+ New
     step**.
@@ -604,7 +578,7 @@ pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
 
     ![add details to the funding step](media/c895effc56789b1d07ebc1bfb3dc2e83.png)
 
-1.  Select **is equal to** for operator and enter **Approved** for the second
+1.  Select **is equal to** for operator and enter `Approved` for the second
     operand.
 
 1.  Go to the **If yes** branch and click **Add an action**.
@@ -628,8 +602,7 @@ pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
 
 1.  Paste the expression below and click **OK**.
     ```
-    replace(outputs('Run_a_flow_built_with_Power_Automate_for_desktop')?['body/FundedAmount'],
-'$','')
+    replace(outputs('Run_a_flow_built_with_Power_Automate_for_desktop')?['body/FundedAmount'],'$','')
     ```
     ![paste the expression](media/4d6f9860edd9ef4e754562116d70395d.png)
 
@@ -679,14 +652,13 @@ pane](media/ccf427cdd940bcdbc46c38770cac7c46.png)
 1.  Select the **Respond to PowerApps or flow** action from the **PowerApps**
     connector.
 
-    ![select respond to PowerApp or flow
-action](media/2a49f75f5dae33f58690f239f5f35556.png)
+    ![select respond to PowerApp or flow action](media/2a49f75f5dae33f58690f239f5f35556.png)
 
 1.  Click **+ Add an output**.
 
 1.  Select **Text**.
 
-1.  Enter **FundingStatus**, click on the value field and select
+1.  Enter `FundingStatus`, click on the value field and select
     **FundingStatus** from the dynamic content pane.
 
     ![enter details as described](media/732f3352b8f02a78511c4b31dce21408.png)
@@ -699,12 +671,11 @@ action](media/2a49f75f5dae33f58690f239f5f35556.png)
 
 1.  Click **Continue**.
 
-1.  Enter **JG7165** for LoanNumber, paste the id you copied in the previous
-    exercise for LoanDrawID, enter **80000** for RequestedAmount, enter **123**
-    for InspectionJobID, enter **50** for RiskScrore, and click **Run flow**.
+1.  Enter `JG7165` for LoanNumber, paste the id you copied in the previous
+    exercise for LoanDrawID, enter `80000` for RequestedAmount, enter `123`
+    for InspectionJobID, enter `50` for RiskScrore, and click **Run flow**.
 
-    ![run the flow with the provided
-details](media/runaflow_cf_manage_woodgrove.png)
+    ![run the flow with the provided details](media/runaflow_cf_manage_woodgrove.png)
 
 1.  **Wait** for the flow run to complete, the flow run should succeed. Click
     **Done** to review the flow run history.
@@ -713,7 +684,7 @@ details](media/runaflow_cf_manage_woodgrove.png)
 
 ### Task 1: Create a shared mailbox
 
-1.  Navigate to <https://admin.microsoft.com/> and click **Show all**.
+1.  Navigate to `https://admin.microsoft.com/` and click **Show all**.
 
     ![in the admin portal, select show
 all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
@@ -728,7 +699,7 @@ all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
 
     ![add a shared mailbox](media/03c1b9ec7dadcbdf132ffca9d87ac366.png)
 
-1.  Enter **Funding** for Display name, **Funding** for Email address, select
+1.  Enter `Funding` for Display name, **Funding** for Email address, select
     your domain, and click **Create**.
 
     ![enter details as described](media/74f774357b9f8c0db5a18a5adabbbd41.png)
@@ -750,7 +721,7 @@ all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
 
 ## Task 2: Create flow
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
@@ -787,7 +758,7 @@ all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
 
     ![select automated](media/e1a3a64eaba280cb401a9576d4bf72be.png)
 
-1.  Enter **Process Construction Funding Request** for Flow name, select the
+1.  Enter `Process Construction Funding Request` for Flow name, select the
     **When a new email arrives in a shared mailbox** trigger, and click
     **Create**.
 
@@ -839,8 +810,7 @@ all](media/deed82ec8c0efea0fb41c7f21be2ec8e.png)
 1.  Select the **Send an email from a shared mailbox (V2)** action from the
     **Office 365 Outlook** connector.
 
-    ![select send email from shared mailbox
-v2](media/9751f336fda9c92572379fb93e86e9cc.png)
+    ![select send email from shared mailbox v2](media/9751f336fda9c92572379fb93e86e9cc.png)
 
 1.  Click on the **Original mailbox Address**, click **Add dynamic content** and
     select **To** from the dynamic content pane.
@@ -850,13 +820,13 @@ v2](media/9751f336fda9c92572379fb93e86e9cc.png)
 1.  Click on the **To** field, click **Add dynamics content** and select
     **From** from the dynamic content pane.
 
-1.  Type **Loan number not found** for Subject.
+1.  Type `Loan number not found` for Subject.
 
-1.  Type **Loan \#** Body and select **Subject** from the dynamic content pane.
+1.  Type `Loan \#` Body and select **Subject** from the dynamic content pane.
 
     ![enter details as described](media/42004a70cc560c10b729d949fb0ec55c.png)
 
-1.  Add **not found, contact your bank.** to the body.
+1.  Add `not found, contact your bank.` to the body.
 
 1.  Rename the reply **Send loan not found email** and click **Add an action**.
 
@@ -883,7 +853,7 @@ v2](media/9751f336fda9c92572379fb93e86e9cc.png)
 
     ![enter details as described](media/04b847fc231a060c86f153e9d699fa63.png)
 
-1.  Enter **80000** for Amount Requested.
+1.  Enter `80000` for Amount Requested.
 
 1.  Type **rc_loans()** for Loan (Loans), place your cursor inside the
     parentheses, and select **LoanID** from the dynamic content pane.
@@ -898,19 +868,18 @@ v2](media/9751f336fda9c92572379fb93e86e9cc.png)
 
 1.  Select **CF Manage Inspection Process** for Child flow.
 
-1.  Enter **123 Main Street** for PropertyAddress.
+1.  Enter `123 Main Street` for PropertyAddress.
 
 1.  Click on the **LoanDrawID** field and select **Loan Draw** from the dynamic
     content pane.
 
     ![enter details as described](media/3795b1d1da9b36ba5867f52c2c2336e2.png)
 
-1.  Enter **Test work item** for Work.
+1.  Enter `Test work item` for Work.
 
 1.  Rename the child flow **Run inspection process** and click **+ New step**.
 
-    ![rename the flow and select add new
-step](media/607f9fb11ca05f2673f213a231ebf410.png)
+    ![rename the flow and select add new step](media/607f9fb11ca05f2673f213a231ebf410.png)
 
 1.  Select the **Run a Child Flow** action from the **Flows** connector.
 
@@ -922,12 +891,12 @@ step](media/607f9fb11ca05f2673f213a231ebf410.png)
 1.  Click on the **LoanDrawID** field and select **Loan Draw** from the dynamic
     content pane.
 
-1.  Enter **80000** for RequestedAmount.
+1.  Enter `80000` for RequestedAmount.
 
 1.  Click on the **InspectionJobID** field and select **JobNumber** from the
     dynamic content pane.
 
-1.  Enter **55** for **RiskScore**.
+1.  Enter `55` for **RiskScore**.
 
 1.  Rename the child flow **Run funding process**. Click **Save**.
 
@@ -960,14 +929,14 @@ step](media/607f9fb11ca05f2673f213a231ebf410.png)
 1.  Click on the **To** field, click **Add dynamics content** and select
     **From** from the dynamic content pane.
 
-1.  Enter **Draw Approved** for Subject.
+1.  Enter `Draw Approved` for Subject.
 
-1.  Type **Your draw for** in the Body and select **Amount Funded** from the
+1.  Type `Your draw for` in the Body and select **Amount Funded** from the
     dynamic content pane.
 
     ![enter details as described](media/ba48a6e9f575b1444399956487be9f1a.png)
 
-1.  Add **was approved** to the body.
+1.  Add `was approved` to the body.
 
 1.  Rename the step **Send approved draw email**.
 
@@ -984,12 +953,12 @@ step](media/607f9fb11ca05f2673f213a231ebf410.png)
 1.  Click on the **To** field, click **Add dynamic content** and select **From**
     from the dynamic content pane.
 
-1.  Enter **Draw was not approved** for Subject.
+1.  Enter `Draw was not approved` for Subject.
 
-1.  Type **Your draw for** in the Body and select **Amount Funded** from the
+1.  Type `Your draw for` in the Body and select **Amount Funded** from the
     dynamic content pane.
 
-1.  Add **was not approved, please contact bank.** to the body.
+1.  Add `was not approved, please contact bank.` to the body.
 
 1.  Rename the step **Send draw not approved email**.
 

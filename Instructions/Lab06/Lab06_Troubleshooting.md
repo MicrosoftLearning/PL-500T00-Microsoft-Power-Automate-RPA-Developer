@@ -24,7 +24,7 @@ In this exercise, you will monitor desktop flows.
 
 ### Task 1: Monitor desktop flows
 
-1.  Navigate to <https://make.powerautomate.com/> and make sure you are in your
+1.  Navigate to `https://make.powerautomate.com/` and make sure you are in your
     dev environment.
 
 2.  Click on **More** and select **Discover all**.
@@ -118,7 +118,7 @@ In this exercise, you will monitor desktop flows.
 1.  Go to Power Automate desktop flow and run the **Perform Site Inspection**
     flow again.
 
-1.  Enter **456 Main Street** for Address and click **OK**.
+1.  Enter `456 Main Street` for Address and click **OK**.
 
     ![select and complete as described](media/01543e6950e233c2aa51050089ffe854.png)
 
@@ -159,14 +159,14 @@ In this exercise, you will monitor desktop flows.
 
     ![select and complete as described](media/1b907a6febdde8dea4c486546d4bca54.png)
 
-1.  Enter **WaitFlow** for name and click **Save**.
+1.  Enter `WaitFlow` for name and click **Save**.
 
 1.  Go to the **Actions** pane, search for **wait** and double click on the
     **Wait** action.
 
     ![select and complete as described](media/2f8229bc5d24f9d2ba893508856e1998.png)
 
-1.  Enter **60** and click **Save**.
+1.  Enter `60` and click **Save**.
 
     ![select and complete as described](media/14bdfcf4576ec25b2b2b7b2a0472f931.png)
 
@@ -180,8 +180,7 @@ In this exercise, you will monitor desktop flows.
 
     ![select and complete as described](media/7818d7c97e433ad759a7ced7a0e82855.png)
 
-1.  Enter **RetryOnError** for Name, click **+ New rule**, and select **Run
-    subflow**.
+1.  Enter `RetryOnError` for Name, click **+ New rule**, and select **Run subflow**.
 
     ![select and complete as described](media/6818fb875b17deec40cf47a440d78769.png)
 

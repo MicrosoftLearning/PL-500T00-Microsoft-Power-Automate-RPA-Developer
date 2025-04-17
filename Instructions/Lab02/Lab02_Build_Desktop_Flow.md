@@ -37,14 +37,14 @@ steps from being recorded.
     ![Screenshot showing the Woodgrove Bank Funding Manager.exe
     file](media/6b775655e69ec67e1cdbcd4645cb2967.png)
 
-1.  Enter your username for Username, **pass@word1** as Password, and click
+1.  Enter **your username** for Username, `pass@word1` as Password, and click
     **Login**.
 
-1.  Enter **MC3747** for Loan number and click **Lookup**.
+1.  Enter `MC3747` for Loan number and click **Lookup**.
 
 1.  Click **Draw Funds**.
 
-1.  Enter **100000** for Amount, **123** for Inspection Job \#, **30** for Risk
+1.  Enter `100000` for Amount, `123` for Inspection Job #, `30` for Risk
     Score, check the Borrower Approved Draw checkbox, and click **Draw Funds**.
 
     ![enter details as described](media/e5316c6d25c4b8aaba0c2710ef7b1dc3.png)
@@ -60,7 +60,7 @@ steps from being recorded.
 Create a new desktop flow in the **Construction Funding** solution and record
 the steps using the **Woodgrove Funding Manager** application.
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you have the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you have the Dev
     environment selected.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
@@ -69,7 +69,7 @@ the steps using the **Woodgrove Funding Manager** application.
 
     ![Select +New, Automation - Desktop flow](media/f01b3b585de41552517c81747a4cbb2e.png)
 
-1.  Enter **Woodgrove Funding Manager Draw** for Flow name and click **Launch
+1.  Enter `Woodgrove Funding Manager Draw` for Flow name and click **Launch
     app**.
 
 1.  Power Automate Desktop should launch.
@@ -81,10 +81,10 @@ the steps using the **Woodgrove Funding Manager** application.
 
 1.  Click on the **Select file** button of the Application path.
 
-    ![select file](media/2c41da8a82b2843eccf766115e34f4f3.png)
+    ![select file](media/Desktopflow_selectfile.png)
 
 1.  Select the **Woodgrove Bank Funding Manager.exe** file located in the lab
-    folder **C:\\Labs\\Resources\\Funding manager app** and click **Open**.
+    folder **C:\\Labs Resources\\Funding manager app** and click **Open**.
 
     ![select the exe file](media/988ee9bb1421ff9964da7c37a4624c30.png)
 
@@ -106,22 +106,22 @@ the steps using the **Woodgrove Funding Manager** application.
 
 1.  Remember, you will provide the values below once you start recording.
 
-    Username: your username.
-
-    Password: **pass@word1**
-
-    Loan number: MC3747
-
-    Amount: 100000
-
-    Inspection job \#: 123
-
-    Risk score: 30
+    > Username: **your username**.
+    >
+    > Password: `pass@word1`
+    >
+    > Loan number: `MC3747`
+    >
+    > Amount: `100000`
+    >
+    > Inspection job #: `123`
+    >    
+    > Risk score: `30`
 
     
     **DO NOT** click the **OK** button on the Draw Confirmation screen.
 
-1.  Click **Record**.
+1.  Click **Record** and select **Next**. On Recorder Pane, click on **Record**.
 
     ![click record](media/30fff4dfe9d7c719d1d316885ee8f15c.png)
 
@@ -182,15 +182,15 @@ data to that flow.
 
 1.  Configure the variable as follows:
 
-    > Variable name: Username
+    > Variable name: `Username`
     >
     > Data  type: Text
     >
     > Default value: **Your Username**
     >
-    > External name: Username
+    > External name: `Username`
     >
-    > Description: Username.
+    > Description: `Username`
 
     Mark the variable as sensitive, and click **Save**.
 
@@ -200,39 +200,35 @@ data to that flow.
 
     ![add another input](media/c46b834409127cd306a94dfd0deaeced.png)
 
-1.  Enter **Password** for Variable name, select **Text** for Data type,
-    **pass@word1** for Default value, **Password** for External name,
-    **Password** for Description, mark the variable as sensitive, and click
+1.  Enter `Password` for Variable name, select **Text** for Data type,
+    `pass@word1` for Default value, `Password` for External name,
+    `Password` for Description, mark the variable as sensitive, and click
     **Save**.
 
 1.  Click **(+)** and select **Input** again.
 
-1.  Enter **LoanNumber** for Variable name, select **Text** for Data type,
-    **MC3747** for Default value, **LoanNumber** for External name, **Loan
-    number** for Description, and click **Save**.
+1.  Enter `LoanNumber` for Variable name, select **Text** for Data type, `MC3747` for Default value, `LoanNumber` for External name, `Loan number` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Input** again.
 
-1.  Enter **RequestedAmount** for Variable name, select **Text** for Data type,
-    **100000** for Default value, **RequestedAmount** for External name,
-    **Requested amount** for Description, and click **Save**.
+1.  Enter `RequestedAmount` for Variable name, select **Text** for Data type,
+    `100000` for Default value, `RequestedAmount` for External name,
+    `Requested amount` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Input** again.
 
-1.  Enter **InspectionJobNumber** for Variable name, select **Text** for Data
-    type, **123** for Default value, **InspectionJobNumber** for External name,
-    **Inspection job number** for Description, and click **Save**.
+1.  Enter `InspectionJobNumber` for Variable name, select **Text** for Data
+    type, `123` for Default value, `InspectionJobNumber` for External name,
+    `Inspection job number` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Input** again.
 
-1.  Enter **BorrowerApproved** for Variable name, select **Text** for Data type,
-    **Yes** for Default value, **BorrowerApproved** for External name,
-    **Borrower approved** for Description, and click **Save**.
+1.  Enter `BorrowerApproved` for Variable name, select **Text** for Data type, `Yes` for Default value, `BorrowerApproved` for External name,
+    `Borrower approved` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Input** again.
 
-1.  Enter **RiskScore** for Variable name, select **Text** for Data type, **30**
-    for Default value, **RiskScore** for External name, **Risk score** for
+1.  Enter `RiskScore` for Variable name, select **Text** for Data type, `30` for Default value, `RiskScore` for External name, `Risk score` for
     Description, and click **Save**.
 
 1.  You should now have 7 input arguments. They're displayed in alphabetical order.
@@ -243,29 +239,25 @@ data to that flow.
 
     ![add output variable](media/ab586e011bfa38c2e47dee1e35e17ff2.png)
 
-1.  Enter **FundedAmount** for Variable name, select **Text** for Data type,
-    **FundedAmount** for External name, **Funded amount** for Description, and
+1.  Enter `FundedAmount` for Variable name, select **Text** for Data type,
+    `FundedAmount` for External name, `Funded amount` for Description, and
     click **Save**.
 
     ![enter details as described](media/4fa1afb6cd8700ac74e63ab7e987e9c5.png)
 
 1.  Click **(+)** and select **Output** again.
 
-1.  Enter **FundTransferNumber** for Variable name, select **Text** for Data
-    type, **FundTransferNumber** for External name, **Fund transfer number** for
-    Description, and click **Save**.
+1.  Enter `FundTransferNumber` for Variable name, select **Text** for Data
+    type, `FundTransferNumber` for External name, `Fund transfer number` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Output** again.
 
-1.  Enter **FundSequenceNumber** for Variable name, select **Text** for Data
-    type, **FundSequenceNumber** for External name, **Fund sequence number** for
-    Description, and click **Save**.
+1.  Enter `FundSequenceNumber` for Variable name, select **Text** for Data
+    type, `FundSequenceNumber` for External name, `Fund sequence number` for Description, and click **Save**.
 
 1.  Click **(+)** and select **Output** again.
 
-1.  Enter **FundingStatus** for Variable name, select **Text** for Data type,
-    **FundingStatus** for External name, **Funding status** for Description, and
-    click **Save**.
+1.  Enter `FundingStatus` for Variable name, select **Text** for Data type, `FundingStatus` for External name, `Funding status` for Description, and click **Save**.
 
 1.  You should now have **11** total variables 7 inputs and 4 outputs.
 
@@ -321,7 +313,7 @@ variables you just defined.
 
 1. Click **Save**.
 
-1. Go to the populate inspection job \# action and double click on it.
+1. Go to the populate inspection job # action and double click on it.
 
 1. Remove the current value and click on the **{x}** select variable button.
 
@@ -329,7 +321,7 @@ variables you just defined.
 
 1. Click **Save**.
 
-1. Go to the populate risk score \# action and double click on it.
+1. Go to the populate risk score action and double click on it.
 
 1. Remove the current value and click on the **{x}** select variable button.
 
@@ -339,8 +331,7 @@ variables you just defined.
 
 1. The actions you changed should now look like the image below.
 
-    ![summary view of work just
-completed](media/6b9d8384f6480b853e05ac2395fd3362.png)
+    ![summary view of work just completed](media/6b9d8384f6480b853e05ac2395fd3362.png)
 
 1.  Click **Save** and wait for the flow to be saved.
 
@@ -357,7 +348,7 @@ variables you just defined.
 1.  Expand the **Variables produced section** and click on the **{x}** select
     variable button.
 
-    ![select variable button](media/14c812352b4789ef1c6c9d865a401b38.png)
+    ![select variable button](media/variablesproducedsection.png)
 
 1.  Select **FundedAmount**.
 
@@ -405,17 +396,17 @@ that the funding was denied.
 1.  Open the Woodgrove Bank Funding Manager application and go through the steps
     with the following parameters to get the denied message.
 
-    > Username: your username.
+    > Username: **your username**.
     >
-    > Password: **pass@word1**
+    > Password: `pass@word1`
     >
-    > Loan number: MC3747
+    > Loan number: `MC3747`
     >
-    > Amount: 100000
+    > Amount: `100000`
     >
-    > Inspection job \#: 123
+    > Inspection job #: `123`
     >
-    > Risk score: 90
+    > Risk score: `90`
 
 1.  Leave the denied message and don’t click OK.
 
@@ -500,7 +491,7 @@ that the funding was denied.
 
     ![select the variable as described](media/9cc31bfb18f04cb7b0d05410808ed532.png)
 
-1.  Type **Approved** for Value and click **Save**.
+1.  Type `Approved` for Value and click **Save**.
 
 ### Task 7: Add Close of app and Test Run
 
@@ -555,12 +546,11 @@ that the funding was denied.
 In preparation for recording practice using the app to help eliminate accidental
 steps from being recorded.
 
-1.  Navigate to <https://fabrikaminspectionstest.azurewebsites.net/>
+1.  Navigate to `https://fabrikaminspectionstest.azurewebsites.net/`
 
 1.  Navigate to the **Request Inspection** page.
 
-1.  Enter your name for Inspection Account\#, enter **123 Main Street** for
-    Property Address, enter **Test work item** for Work to Inspect, and then
+1.  Enter your name for Inspection Account\#, enter `123 Main Street` for Property Address, enter `Test work item` for Work to Inspect, and then
     click **Request Inspection**.
 
     ![enter details as described](media/a8c27884da8c60e0cce79c7297390e5e.png)
@@ -588,7 +578,7 @@ steps from being recorded.
 Create a new desktop flow in the **Construction Funding** solution and record
 the steps using the **Inspection** web app.
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you have the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you have the Dev
     environment selected.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
@@ -597,7 +587,7 @@ the steps using the **Inspection** web app.
 
     ![new desktop flow](media/056cd93d8bdf1d1028edaa189a2f3bd0.png)
 
-1.  Enter **Perform Site Inspection** for Flow name and click **Launch app**.
+1.  Enter `Perform Site Inspection` for Flow name and click **Launch app**.
 
 1.  Power Automate Desktop flow designer should launch. You may need to click
     **Open** on the browser to permit the action.
@@ -633,9 +623,9 @@ the steps using the **Inspection** web app.
 
     ii. Enter your name for **Inspection Account**
 
-    iii. Enter **123 Main Street** for Property Address.
+    iii. Enter `123 Main Street` for Property Address.
 
-    iv. Enter **Test work item** for Work to Inspect.
+    iv. Enter `Test work item` for Work to Inspect.
 
     v. Click on the **Request Inspection** button.
 
@@ -655,7 +645,7 @@ the steps using the **Inspection** web app.
 
     ![enter details as described](media/62ca14d1bd7106701ae97472ff5025ca.png)
 
-    Note: Depending on your speed, the Job Status may already be **Completed**. In
+    **Note**: Depending on your speed, the Job Status may already be **Completed**. In
     this case select corresponding option **Extract element value \| Text: ('In
     progress')**.
 
@@ -680,39 +670,39 @@ data to that flow.
 1.  Open the **Variables** pane, click the plus button **(+)** and select
     **Input**.
 
-2.  Enter **InspectionAccountNumber** for Variable name, select **Text** for
-    Data type, **Jane Doe** for Default value, **InspectionAccountNumber** for
-    External name, **Inspection account number** for Description, and click
+2.  Enter `InspectionAccountNumber` for Variable name, select **Text** for
+    Data type, `Jane Doe` for Default value, `InspectionAccountNumber` for
+    External name, `Inspection account number` for Description, and click
     **Save**.
 
 3.  Click **(+)** and select **Input** again.
 
-4.  Enter **PropertyAddress** for Variable name, select **Text** for Data type,
-    **123 Main Street** for Default value, **PropertyAddress** for External
-    name, **Property address** for Description, and click **Save**.
+4.  Enter `PropertyAddress` for Variable name, select **Text** for Data type,
+    `123 Main Street` for Default value, `PropertyAddress` for External
+    name, `Property address` for Description, and click **Save**.
 
 5.  Click **(+)** and select **Input** one more time.
 
-6.  Enter **WorkToInspect** for Variable name, select **Text** for Data type,
-    **Test work item** for Default value, **WorkToInspect** for External name,
-    **Work to inspect** for Description, and click **Save**.
+6.  Enter `WorkToInspect` for Variable name, select **Text** for Data type,
+    `Test work item` for Default value, `WorkToInspect` for External name,
+    `Work to inspect` for Description, and click **Save**.
 
 7.  Click **(+)** and select **Output**.
 
-8.  Enter **InspectionStatus** for Variable name, select **Text** for Data type,
-    **InspectionStatus** for External name, **Inspection status** for
+8.  Enter `InspectionStatus` for Variable name, select **Text** for Data type,
+    `InspectionStatus` for External name, `Inspection status` for
     Description, and click **Save**.
 
 9.  Click **(+)** and select **Output** again.
 
-10. Enter **SitePhotos** for Variable name, select **Text** for Data type,
-    **SitePhotos** for External name, **Site photos** for Description, and click
+10. Enter `SitePhotos` for Variable name, select **Text** for Data type,
+    `SitePhotos` for External name, `Site photos` for Description, and click
     **Save**.
 
 11. Click **(+)** and select **Output** one more time.
 
-12. Enter **JobNumber** for Variable name, select **Text** for Data type,
-    **JobNumber** for External name, **Job number** for Description, and click
+12. Enter `JobNumber` for Variable name, select **Text** for Data type,
+    `JobNumber` for External name, `Job number` for Description, and click
     **Save**.
 
 13. You should now have three input and three output variables.
@@ -977,41 +967,40 @@ variable.
     JavaScript function field, expand the **Variables produced** section, click
     on the **{x}** select variable button.
 
-```js
-function ExecuteScript()
+    ```js
+    function ExecuteScript()
 
-{
+    {
 
-var table = document.getElementById("sitephotostable");
+    var table = document.getElementById("sitephotostable");
 
-var sitephotolist = { images:[] }
+    var sitephotolist = { images:[] }
 
-for (var i = 0; i < table.rows.length; i++) {
+    for (var i = 0; i < table.rows.length; i++) {
 
-row = table.rows[i];
+    row = table.rows[i];
 
-namecol = row.cells[0];
+    namecol = row.cells[0];
 
-imgcol = row.cells[1];
+    imgcol = row.cells[1];
 
-var imgtags = imgcol.getElementsByTagName('img');
+    var imgtags = imgcol.getElementsByTagName('img');
 
-var imgsource = imgtags[0]['src'];
+    var imgsource = imgtags[0]['src'];
 
-console.log(imgsource)
+    console.log(imgsource)
 
-sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
+    sitephotolist.images.push({"name":namecol.innerText, "url":imgsource})
 
-}
+    }
 
-console.log(JSON.stringify(sitephotolist))
+    console.log(JSON.stringify(sitephotolist))
 
-return JSON.stringify(sitephotolist);
+    return JSON.stringify(sitephotolist);
 
-}
-```    
-![review the results of the script you
-added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
+    }
+    ```    
+    ![review the results of the script you added](media/dfbf01fcb86af2caf8574737a7ebf3a9.png)
 
 15.  Select **SitePhotos**.
 
