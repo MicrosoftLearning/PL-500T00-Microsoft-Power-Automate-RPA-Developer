@@ -33,17 +33,17 @@ You will also see the Power Automate Desktop application and install .NET and
 Browser extension pre-requisities which are required for the remainder of the
 course.
 
-## Exercise 1 - Verify your Power Platform trial tenant
+## Exercise 1: Verify your Power Platform trial tenant
 
 In this exercise, you will verify access to the Power Apps Maker portal in a Dev
 environment.
 
-### Task 1 – Acquire your Power Platform trial tenant
+### Task 1: Acquire your Power Platform trial tenant
 
 1.  Verify that you have your **Microsoft 365 credentials** from the Authorized
     Lab Host available.
 
-2.  In a new browser tab, navigate to https://make.powerapps.com
+2.  In a new browser tab, navigate to `https://make.powerapps.com`
 
 3.  Enter the email address provided by the Authorized Lab Host.
 
@@ -56,7 +56,7 @@ environment.
 7.  If prompted, enter 0123456789 for **Phone number** and select **Submit**.
 
 
-### Task 2 - Intialize OneDrive for Business
+### Task 2: Intialize OneDrive for Business
 
 1.  Select the **App launcher** menu from the top left and under **Apps**,
     select **OneDrive**. A new tab will load.
@@ -64,16 +64,16 @@ environment.
 2.  **Wait** while Microsoft initializes your OneDrive. Select **Your OneDrive
     is ready**. **Close** the tab.
 
-## Exercise 2 - Create a Dev environment
+## Exercise 2: Create a Dev environment
 
 In this exercise, you will create a Dev environment for deploying your work to
 later on.
 
-### Task 1 – Create a Test environment
+### Task 1: Create a Test environment
 
-1.  In a new browser tab, navigate to https://aka.ms/ppac
+1.  In a new browser tab, navigate to `https://aka.ms/ppac`
 
-2.  Select **Get Started** and select **Environments** from the left navigation.
+2.  Select **Environments** from the left navigation.
 
 3.  Select **+ New**.
 
@@ -83,8 +83,7 @@ later on.
 
 6.  Select **Next** and select **Save**.
 
-**Note**: It may take a couple of minutes for the new environment to be provisioned
-and become available in the list of the environments.
+     **Note**: It may take a couple of minutes for the new environment to be provisioned and become available in the list of the environments.
 
 7.  Refresh the **Environments** list.
 
@@ -94,12 +93,12 @@ and become available in the list of the environments.
 9.  Explore the different areas available in **Settings** but do not make any
     changes yet.
 
-## Exercise 3 - Power Automate Software
+## Exercise 3: Power Automate Software
 
 In this excercise, you will be configuring Power Automate Desktop and
 accompanying applications.
 
-### Task 1 - Configure Power Automate Desktop
+### Task 1: Configure Power Automate Desktop
 
 Power Automate Desktop is installed by default on Windows 11, but you will need
 to sign in and configure the environment.
@@ -107,15 +106,18 @@ to sign in and configure the environment.
 1.  Search the **Start** menu for Power Automate and open the **Power Automate**
     app.
 
-2.  When Power Automate Desktop opens, sign in using your Office 365 Tenant
-    credentials. Select **Next** and **Get started**.
+1.  When Power Automate Desktop opens, sign in using your Office 365 Tenant
+    credentials. 
 
-**Optional**: Select **Start tour** and go through the welcome prompts to get a feel
-for the application.
+1.  If prompted with **Automatically sign in to all desktop apps and websites on the device?**, select **No, this app only**.
+    
+1.  Select **Next** and **Get started**.
 
-3.  From the **Environments** list, select the **Dev One** environment.
+    **Optional**: Select **Start tour** and go through the welcome prompts to get a feel for the application.
 
-### Task 2 - Configure the Power Automate Machine-Runtime App
+3.  From the **Environments** list, select the **Dev** environment.
+
+### Task 2: Configure the Power Automate Machine-Runtime App
 
 To run attended and unattended flows across cloud and desktop environments, the
 **machine-runtime app** needs to be configured.
@@ -123,19 +125,17 @@ To run attended and unattended flows across cloud and desktop environments, the
 1.  In Power Automate Desktop, select **⚙️ Settings**. Under Machine settings,
     select **Open machine settings**.
 
-2.  On the **Machine settings** screen, select the **Dev One** environment. The
+2.  On the **Machine settings** screen, select the **Dev** environment. The
     machine-runtime app will register the machine in the Dev environment's
     Dataverse database. You should see a success notification "Your machine
     XXXXYYX has been registered".
 
-**Note:** If you get an error stating a premium license is required; in the
-notification, select the **💎 Go premium** button and select **Start trial**
-then dismiss the notification.
+    **Note:** If you get an error stating a premium license is required; in the notification, select the **💎 Go premium** button and select **Start trial** then dismiss the notification.
 
 3.  Once it has connected, you can close the **Power Automate machine runtime**
     window.
 
-## Exercise 4 - Copy Lab Resources
+## Exercise 4: Copy Lab Resources
 
 1.  Ensure that the lab resources are downloaded from GitHub.
 

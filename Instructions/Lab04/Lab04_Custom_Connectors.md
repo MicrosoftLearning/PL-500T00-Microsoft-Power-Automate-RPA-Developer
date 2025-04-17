@@ -16,42 +16,41 @@ In this lab, you will build a custom connector for A Datum’s Risk Score API.
 
 -   Modify the cloud flow to use the connector
 
-## Exercise \#1: Create a custom connector
+## Exercise 1: Create a custom connector
 
-### Task \#1: Create a new solution
+### Task 1: Create a new solution
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 2.  Select **Solutions** and click **+ New solution**. We are creating a new
     solution to keep the custom connector separate from the flow that uses it
     which is the current requirement of using a custom connector.
 
-3.  Enter **Builder Risk Service** for Display name, select **Relecloud** for
+3.  Enter `Builder Risk Service` for Display name, select **Relecloud** for
     Publisher, and click **Create**.
 
-    ![create your new solution as
-described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
+    ![create your new solution as described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 
-### Task \#2: Create custom connector
+### Task 2: Create custom connector
 
 1.  Click **+ New** and select **Automation \| Custom connector**.
 
     ![add a new custom connector](media/3f5ddeb21f6f7f1c71d8c7a9927230fc.png)
 
-1.  Enter **Builder Risk Service** for Connector Name.
+1.  Enter `Builder Risk Service` for Connector Name.
 
     ![name the connector](media/517c5a289ad72b474d2f2b06a4e87f70.png)
 
-1.  Enter **Service for evaluating builder risk** for Description, enter
-    **adatumbuilderrisktest.azurewebsites.net** for Host, and click **Create
+1.  Enter `Service for evaluating builder risk` for Description, enter
+    `adatumbuilderrisktest.azurewebsites.net` for Host, and click **Create
     connector**.
 
     ![create the connector](media/a62b7f8add7df202bf0ec9fb50fe84f3.png)
 
-### Task \#3: Import Open API
+### Task 3: Import Open API
 
-1.  Navigate to <https://adatumbuilderrisktest.azurewebsites.net/>
+1.  Navigate to `https://adatumbuilderrisktest.azurewebsites.net/`
 
 1.  Click **Download Logo** and save the logo on your machine.
 
@@ -76,7 +75,7 @@ described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 1.  On your keyboard press **CTRL + S** and select **Save**. Now the file is
     saved on your machine.
 
-1.  Navigate to <https://make.powerautomate.com/> and make sure you are in the
+1.  Navigate to `https://make.powerautomate.com/` and make sure you are in the
     Dev environment.
 
 1.  Click **More** and select **Discover all**.
@@ -90,8 +89,7 @@ described](media/fa0ae4cd4ebbb8e39f3d38577afc9584.png)
 1.  Click on the **…** more actions button of the **Builder Risk Service**
     custom connector and select **Update from OpenAPI file**.
 
-    ![locate and update the OpenAPI
-file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
+    ![locate and update the OpenAPI file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Click **Import**.
 
@@ -106,9 +104,9 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Select the logo you downloaded and click **Open**.
 
-1.  Enter **Service for evaluating builder risk** for Description, enter
+1.  Enter `Service for evaluating builder risk` for Description, enter
 
-    **adatumbuilderrisktest.azurewebsites.net** for Host, and select **Security**
+    `adatumbuilderrisktest.azurewebsites.net` for Host, and select **Security**
     from the breadcrumb navigation bar at the top of the screen.
 
     ![enter details as described](media/1106c5673216d09af787c713b880d0b0.png)
@@ -126,7 +124,7 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Do not navigate away from this page.
 
-### Task \#4: Test connector
+### Task 4: Test connector
 
 1.  Select **Test** from the breadcrumb navigation bar at the top of the screen
     and click **+ New connection**.
@@ -138,9 +136,9 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 1.  Click the **Refresh connections** button, on the right. The connection you
     just created should be the **Selected connection**.
 
-1.  Under CalcRiskScore, enter **Contoso** for builderName, **7165 Brock Lane
-    Renton, WA 61795 U.S.** for propertyAddress, **JG7165** for loanNumber,
-    **645000** for loanAmount, **500000** for creditAvailable, **100000** for
+1.  Under CalcRiskScore, enter `Contoso` for builderName, `7165 Brock Lane
+    Renton, WA 61795 U.S.` for propertyAddress, `JG7165` for loanNumber,
+    `645000` for loanAmount, `500000` for creditAvailable, `100000` for
     drawAmount, and click **Test operation**.
 
     ![Enter details as described](media/9837ea1ae2abfeb49cb5f5db0aa0f7d9.png)
@@ -152,11 +150,11 @@ file](media/b58deb8548a5758fa5b3f08c4ca900e0.png)
 
 1.  Click **Close** to return to the list of Custom connectors.
 
-## Exercise \#2: Modify cloud flow to use connector
+## Exercise 2: Modify cloud flow to use connector
 
-### Task \#1: Use custom connector in flow
+### Task 1: Use custom connector in flow
 
-1.  Navigate to <https://make.powerapps.com/> and make sure you are in the Dev
+1.  Navigate to `https://make.powerapps.com/` and make sure you are in the Dev
     environment.
 
 1.  Select **Solutions** and open the **Construction Funding** solution.
@@ -194,7 +192,7 @@ provided](media/57477ad2de26ea5c48a791af16abbb63.png)
 
 1.  Select the **Calculate Risk Score** action.
 
-1.  Enter **Risk Service** for Connection name, paste the API Key you copied
+1.  Enter `Risk Service` for Connection name, paste the API Key you copied
     earlier, and click **Create**.
 
     ![enter details as described](media/8b200aa53e536ab933713e78250c284d.png)
@@ -219,7 +217,7 @@ provided](media/57477ad2de26ea5c48a791af16abbb63.png)
 1.  Click on the **creditAvailable** field and select **Credit Available** from
     the dynamic content pane.
 
-1.  Enter **80000** for drawAmount.
+1.  Enter `80000` for drawAmount.
 
 1.  The calculate risk score step should now look like the image below.
 
@@ -262,7 +260,7 @@ provided](media/57477ad2de26ea5c48a791af16abbb63.png)
 
 1.  Click **Save** and wait for the flow to be saved.
 
-### Task \#2: Test the flow
+### Task 2: Test the flow
 
 1.  Click **Test**.
 
