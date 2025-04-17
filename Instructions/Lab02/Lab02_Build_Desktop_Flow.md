@@ -545,6 +545,8 @@ that the funding was denied.
 
 In preparation for recording practice using the app to help eliminate accidental
 steps from being recorded.
+    
+ **Note**: Before running this desktop flow from Power Automate Desktop, please ensure to enable **Power Automate Extension** in your Web browser.
 
 1.  Navigate to `https://fabrikaminspectionstest.azurewebsites.net/`
 

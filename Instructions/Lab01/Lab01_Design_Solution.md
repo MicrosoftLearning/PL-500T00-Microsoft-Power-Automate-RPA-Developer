@@ -62,9 +62,9 @@ improve the process by automating some of the steps.
 
 3.  This form is completed for each draw by the builder and emailed to Relecloud.
 
-### Task 3: Review the loan tracking Excel file
+### Task 3: Review the loan tracking file
 
-1.  Go to the lab resources folder and open the **LoanTracking-MC3747.pdf** file.
+1.  Go to the lab resources folder and open the **LoanTracking-MC3747.png** file.
 
 2.  Review the loan tracking file.
 
