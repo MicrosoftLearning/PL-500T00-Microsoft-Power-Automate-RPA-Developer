@@ -54,6 +54,8 @@ funding request form.
 
     ![Choose document processing](media/01afc012e03f58e58c0085c4888a3f58.png)
 
+   **Note:** If you get an error select **Start trial** at the top of the **AI models** page.
+
 1.  Click **Create custom model**.
 
 1.  Select **Fixed template documents** and click **Next**.
@@ -367,7 +369,7 @@ funding request form.
 1.  Click on the **+** Insert a new step button below the **Get email
     attachment** step and select **Add an action**.
 
-1.  Select the **Extract information from documents** action from the **AI
+1.  Select the **Process documents** action from the **AI
     Builder** connector.
 
     ![select extract information from form aciton](media/3f094550d57f427eb584511d81c16c3a.png)
@@ -486,7 +488,7 @@ funding request form.
 1.  The flow test should succeed, and you should get an email with subject line
     **Draw Approved**.
 
-1.  Expand the **Extract Information from documents** step and review the
+1.  Expand the **Process documents** step and review the
     **Outputs**.
 
     ![review the output](media/e6fa11b0eb253a1dde8c21aa1725cbcd.png)
