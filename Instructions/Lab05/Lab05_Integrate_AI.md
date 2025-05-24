@@ -54,6 +54,8 @@ funding request form.
 
     ![Choose document processing](media/01afc012e03f58e58c0085c4888a3f58.png)
 
+   **Note:** If you get an error select **Start trial** at the top of the **AI models** page.
+
 1.  Click **Create custom model**.
 
 1.  Select **Fixed template documents** and click **Next**.
