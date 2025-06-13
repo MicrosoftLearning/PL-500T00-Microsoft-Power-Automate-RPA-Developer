@@ -216,8 +216,7 @@ your browser width or zoom out slightly to reveal it (Keyboard shortcut: Ctrl +
 
     ![set the connections for the desktop flow](media/da15e5177fe8a3534c36e4d0572fc1de.png)
 
-1.  Provide your username, password, and click **Create**. If your username
-    doesn’t work try admin as the username.
+1.  Provide your Machine/VM admin username and password, and click **Create**.
 
     ![provide user information](media/0321ff34a66de83c0127f1b61f1338cc.png)
 
