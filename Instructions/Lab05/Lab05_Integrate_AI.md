@@ -312,7 +312,7 @@ funding request form.
 
     ![select as described](media/490923b617dd993d4cb9d42aa0aaa9c8.png)
 
-1.  Rename the condition **Check if email has attachment**.
+1.  Rename the condition `Check if email has attachment`.
 
 1.  Go to the **If no** branch and click **Add an action**.
 
@@ -328,7 +328,7 @@ funding request form.
 
 1.  Enter `Email has no attachment` in the **Body**.
 
-1.  Rename the step **Send no attachment email**.
+1.  Rename the step `Send no attachment email`.
 
 1.  Click **Add an action**.
 
@@ -355,58 +355,57 @@ funding request form.
 
 1.  Paste the expression below and click **OK**.
 
-    triggerOutputs()?['body/attachments']?[0]['id']
+    `triggerOutputs()?['body/attachments']?[0]['id']`
 
     ![paste the expression](media/a1d3ccd055cfe5d09e12924a607d057a.png)
 
 1.  Click on the **Original Mailbox Address** and select **To** from the dynamic
     content pane.
 
-1.  Rename the step **Get email attachment**.
+1.  Rename the step `Get email attachment`.
 
 1.  Click on the **+** Insert a new step button below the **Get email
     attachment** step and select **Add an action**.
 
-1.  Select the **Extract information from documents** action from the **AI
+1.  Select the **Process documents** action from the **AI
     Builder** connector.
 
-    ![select extract information from form aciton](media/3f094550d57f427eb584511d81c16c3a.png)
+    ![select extract information from form aciton](media/processdocuments.png)
 
-1.  Select the **Document Processing** you created for AI Model and select **PDF
-    Document** for Form type.
+1.  Select the **Document Processing** you created for **AI Model** and select **PDF
+    Document** for **Form type**.
 
 1.  Click on the **Form** field and select **Content Bytes** form the dynamic
     content pane.
 
-    ![select as described](media/46b68f4664a0b1d8ec0f60dbd72d8fdb.png)
+    ![select as described](media/contentbyte.png)
 
-1.  Click on the **+** Insert a new step button below the **Extract information
-    from documents** step and select **Add an action**.
+1.  Click on the **+** Insert a new step button below the **Process documents** step and select **Add an action**.
 
 1.  Select the **Initialize variable** action from the **Variable** connector.
 
     ![select as described](media/0143d256e811b652adeff8ac0c1b1ed5.png)
 
-1.  Enter `Work items` for Name and select **String** for Type.
+1.  Enter `Work items` for **Name** and select **String** for **Type**.
 
-1.  Rename the step **var work items** and click **+** and select **Add an
+1.  Rename the step `var work items` and click **+** and select **Add an
     action**.
 
-    ![select and complete as described](media/e9f23c293f2e993e24957a5ce6b6f1af.png)
+    ![select and complete as described](media/addanaction.png)
 
 1.  Select the **Append to string variable** action from the **Variable**
     connector.
 
     ![select and complete as described](media/11d252a40af48d09445495ffaa63d79e.png)
 
-1.  Select **Work items** for Name, click on the **Value** field and select
+1.  Select `Work items` for **Name**, click on the **Value** field and select
     **Budget Items Budget Category value** from the dynamic content pane.
 
     ![select and complete as described](media/3f103055f39107e08ada4137dd21d7b3.png)
 
 1.  Notice the **Apply to each** control will be added automatically.
 
-1.  Rename the apply to each control **Apply to each work item**.
+1.  Rename the apply to each control `Apply to each work item`.
 
     ![select and complete as described](media/972b8e644df30d5293c54bbdb6ce6792.png)
 
@@ -486,7 +485,7 @@ funding request form.
 1.  The flow test should succeed, and you should get an email with subject line
     **Draw Approved**.
 
-1.  Expand the **Extract Information from documents** step and review the
+1.  Expand the **process documents** step and review the
     **Outputs**.
 
     ![review the output](media/e6fa11b0eb253a1dde8c21aa1725cbcd.png)
