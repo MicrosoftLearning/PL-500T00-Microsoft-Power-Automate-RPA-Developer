@@ -73,7 +73,7 @@ later on.
 
 1.  In a new browser tab, navigate to `https://aka.ms/ppac`
 
-2.  Select **Environments** from the left navigation.
+2.  Select **Manage** and then select **Environments** from the left navigation.
 
 3.  Select **+ New**.
 
